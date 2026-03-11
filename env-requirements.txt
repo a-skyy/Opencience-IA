@@ -1,0 +1,45 @@
+REPRODUCIBLE ENVIRONMENT SETUP
+Sistema recomendado: Ubuntu 22.04 o superior
+Trabajar en un entorno Linux
+Verificar el sistema Linux:
+uname -a
+lsb_release -a
+Actualizar el sistema antes de instalar dependencias:
+sudo apt update
+sudo apt upgrade -y
+
+Instalar OpenJDK 17:
+sudo apt install -y openjdk-17-jdk
+Verificar instalación:
+java -version
+javac -version
+
+Instalar Python 3 y pip:
+sudo apt install -y python3 python3-pip python3-venv
+Verificar instalación:
+python3 --version
+pip3 --version
+
+Instalar Docker:
+sudo apt install -y docker-ce docker-ce-cli containerd.io \
+docker-buildx-plugin docker-compose-plugin
+Verificar instalación:
+docker --version
+Probar Docker:
+sudo docker run hello-world
+
+Crear entorno virtual:
+python3 -m venv venv
+Activar entorno:
+source venv/bin/activate
+Instalar las librerías necesarias para el proyecto:
+pip install beautifulsoup4
+pip install lxml
+pip install wordcloud
+pip install matplotlib
+Verificar que las librerías funcionan:
+python3 -c "from bs4 import BeautifulSoup; import wordcloud; import matplotlib; print('Environment ready')"
+
+
+
+Una vez completados estos pasos el entorno estará listo para ejecutar los scripts del proyecto.
