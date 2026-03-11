@@ -1,0 +1,15 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Análisis de papers con Grobid",
+  "version": "v1.0",
+  "description": "Scripts para generar nubes de palabras, gráficos de figuras y listas de links a partir de papers PDF usando Grobid.",
+  "author": {
+    "@type": "Person",
+    "givenName": "Andrés",
+    "familyName": "Voronovskyy",
+  },
+  "license": "MIT",
+  "codeRepository": "https://github.com/a-skyy/Opencience-IA",
+  "datePublished": "2026-03-11"
+}
