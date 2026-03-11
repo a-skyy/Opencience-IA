@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 
 
-xml_folder = "./"  
+xml_folder = "./data/"  
 
 article_names = []
 figures_count = []

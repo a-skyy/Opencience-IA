@@ -4,7 +4,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 
-xml_folder = "./" 
+xml_folder = "./data/" 
 
 output_image = "keyword_cloud.png"
 

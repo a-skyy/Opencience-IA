@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 
-xml_folder = "./"
+xml_folder = "./data/"
 output_file = "links_per_article.txt"
 
 links_dict = {}
