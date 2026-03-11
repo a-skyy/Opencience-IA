@@ -1,10 +1,11 @@
 import os
 from bs4 import BeautifulSoup
 
-
-xml_folder = "./"  
+xml_folder = "./"
+output_file = "links_per_article.txt"
 
 links_dict = {}
+
 for filename in os.listdir(xml_folder):
     if filename.endswith(".xml"):
         xml_path = os.path.join(xml_folder, filename)
@@ -13,23 +14,18 @@ for filename in os.listdir(xml_folder):
             soup = BeautifulSoup(f, "lxml-xml")
             
             refs = soup.find_all("ref")
-            links = [r.get("target") for r in refs if r.get("target")]
+            links = [r.get("target") for r in refs if r.get("target") and r.get("target").startswith("http")]
             
             links_dict[filename.replace(".xml","")] = links
 
-for paper, links in links_dict.items():
-    print(f"\n{paper}:")
-    if links:
-        for l in links:
-            print(f" - {l}")
-    else:
-        print("No se encontraron links.")
-import csv
-with open("links_per_article.csv", "w", newline="", encoding="utf-8") as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(["Article", "Link"])
+with open(output_file, "w", encoding="utf-8") as f:
     for paper, links in links_dict.items():
-        for link in links:
-            writer.writerow([paper, link])
+        f.write(f"{paper}:\n")
+        if links:
+            for link in links:
+                f.write(f"{link}\n")
+        else:
+            f.write("No se encontraron links.\n")
+        f.write("\n")
 
-print("\n Links guardados en links_per_article.csv")
+print(f"Todos los links válidos se han guardado en {output_file}")
