@@ -1,0 +1,3303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Resources, Environment and Sustainability</title>
+				<funder ref="#_62cSYpY">
+					<orgName type="full">National Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_bAvrKhU">
+					<orgName type="full">Science Foundation for Young Scientists Jiangsu Province, China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-03-24">24 March 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yumei</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Environment</orgName>
+								<orgName type="department" key="dep2">College of Architecture and Environment</orgName>
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<postCode>610065</postCode>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of the Environment</orgName>
+								<orgName type="laboratory">State Key Laboratory of Pollution Control and Resource Reuse</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<postCode>210023</postCode>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zengwei</forename><surname>Yuan</surname></persName>
+							<email>yuanzw@nju.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="department">School of the Environment</orgName>
+								<orgName type="laboratory">State Key Laboratory of Pollution Control and Resource Reuse</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<postCode>210023</postCode>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ya</forename><surname>Tang</surname></persName>
+							<email>tangya@scu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Environment</orgName>
+								<orgName type="department" key="dep2">College of Architecture and Environment</orgName>
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<postCode>610065</postCode>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">State Key Laboratory of Hydraulics and Mountain River Engineering</orgName>
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<postCode>610065</postCode>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="laboratory">State Key Laboratory of Hydraulics and Mountain River Engineering</orgName>
+								<orgName type="institution">Sichuan University</orgName>
+								<address>
+									<postCode>610065</postCode>
+									<settlement>Chengdu</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Resources, Environment and Sustainability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-03-24">24 March 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1CFFA0D0EAF1FA6C425D95E0859B9067</idno>
+					<idno type="DOI">10.1016/j.resenv.2021.100023</idno>
+					<note type="submission">Received 26 November 2020; Received in revised form 22 February 2021; Accepted 18 March 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Food loss and waste Food security Environmental sustainability Circular economy Life-cycle nutrient management</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Food loss and waste (FLW) occurs at each and every stage of the food supply chain. The current linear model of FLW management (incineration and landfill) creates a linear path of nutrients utilization, which threatens food security and environmental sustainability in the long run. Circular economy model has been proposed as an efficient strategy to reduce and recycle FLW. Although many literature reviews were conducted to realize the transition from linear model to circular economy, a more focused and rigorous assessment of FLW reduction and recycling is currently not available. A lot of work remains in order to translate this ''circular model'' into an actionable plan. By reviewing the recent progress in the FLW management in the literature, this paper highlights their pros and cons to provide a deep and comprehensive understanding about the ''circular model''. This review can provide a deeper analysis of ''circular'' solutions to existing linear pathways, which play an important role in enhancing food security and environmental sustainability in future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>About one-third of the global edible food [1.3 metric billion tons (MT)] is wasted annually <ref type="bibr" target="#b35">(Gustavsson et al., 2011;</ref><ref type="bibr" target="#b36">HLPE, 2014)</ref>. Although the exact quantity of food loss and waste [FLW, list of abbreviation is presented in the supporting information (SI)] is still not well established due to inconsistent definitions and measurement methods <ref type="bibr" target="#b8">(Bellemare et al., 2017)</ref>, there is a common concern that FLW might threaten food security because of its huge amount. Approximately 795 million people across the world (just over one in every nine) were believed to be undernourished during the period of <ref type="bibr">2014</ref><ref type="bibr">-2016</ref><ref type="bibr" target="#b28">(FAO et al., 2015))</ref>. This situation represents the inequality between wasted practices and food poverty and deteriorates food security <ref type="bibr" target="#b74">(Papargyropoulou et al., 2014)</ref>. Moreover, the current FLW treatment methods might threaten environmental sustainability <ref type="bibr" target="#b6">(Awasthi et al., 2021;</ref><ref type="bibr" target="#b31">Foley et al., 2011;</ref><ref type="bibr" target="#b93">Shafiee-Jood and Cai, 2016)</ref>. According to <ref type="bibr" target="#b101">Thi et al. (2015)</ref>, the current prevalent method is dump or landfill in developing countries, with an over 90% usage for FLW treatment, while the usage rates of composting and anaerobic digestion (AD) are only 1%-6% and under 0.6%, respectively. Greenhouse gases (GHGs) emitted in landfills, especially methane and carbon dioxide, account for approximately 3% of the total global GHGs emissions <ref type="bibr" target="#b74">(Papargyropoulou et al., 2014)</ref>.</p><p>Circular economy has been proposed as a new strategy to tackle FLW, which tries to close the material loop with reducing, reusing, existing FLW management technologies have two major gaps. First, many technologies such as gasification, pyrolysis, etc., are still in the laboratory stage or economically infeasible. Giving the urgency of food security and environment sustainability <ref type="bibr" target="#b7">(Bai et al., 2020;</ref><ref type="bibr" target="#b12">Birkin et al., 2021;</ref><ref type="bibr" target="#b53">Kuiper and Cui, 2020)</ref>, a focus assessment on technologies with commercial potentials are much needed. Second, some widely used technologies, including landfill and incineration, might provide negative impacts on both food security and sustainability. Therefore, a more focused and rigorous assessment on recent progresses of FLW management strategies with commercial potentials and on the relationship between strategies and circular economy should be conducted. The present review is aimed to fill these gaps.</p><p>In this review, a deep analysis of ''circular'' solutions to existing linear pathways is provided by focused on food waste reduction and recycling to enhance food security and environmental sustainability. This review has been organized based on the following structure. First, the definitions of FLW and circular model are discussed. Then the extent of global FLW is tracked. Next, the existing FLW management strategies are reviewed to examine recent changes and highlight the drawbacks. After that, the impact of achieving this transformation on food security, climate change and resource recovery are discussed. In the final section, the main findings of the review are summarized and an outlook for the future is provided.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Literature selection</head><p>To review the FLW management technologies, we searched the articles using Web of Science Core Collection with the combinations of the following terms in subject: (food loss OR food waste OR food loss and waste) AND (''management'' OR ''treatment technology'' OR ''circular economy''). Then the articles generated from the initial search were checked by reading through the title, keywords and abstract. Technologies like gasification, pyrolysis, hydrothermal carbonization, hydrothermal gasification, hydrogen fermentation, biodiesel production, ethanol fermentation and insect farming, are not covered in this review, as they are still in the laboratory stage or economically infeasible. Finally, six widely used FLW management technologies were distinguished and further categorized as linear model or circular model (Fig. <ref type="figure" target="#fig_1">2</ref>). Subsequently, the snowballing technique (e.g., checking the references of the current studies) was used to further replenish the literatures, food security, climate change and resource recovery <ref type="bibr" target="#b89">(Schanes et al., 2018)</ref>. Besides, important gray literature such as research reports, government documents and urban plans, was also included in this review. Finally, we got 110 publications on which the systematic literature review is based.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Definitions of FLW and circular model</head><p>There is not a consistent definition for FLW, and terminologies for food waste (FW) and food loss (FL). Fig. <ref type="figure" target="#fig_0">1a</ref> depicts two main definition approaches of FLW under different perspectives. The food-focused approach considers the FLW as the edible food that is originally meant to human consumption but which fortuity gets out the human food chain. The edible food available for human consumption is supposed to refer to the edible food grown. However, some literature excludes losses at agriculture stage, such as losses due to natural causes and crops left unharvested <ref type="bibr" target="#b95">(Spang et al., 2019)</ref>. Then the edible food equals to food harvested, which has the advantage of being easy to relate to existing statistics. The second approach, the waste focused approach, considers FLW as the part of waste, which includes both edible and inedible parts of produce <ref type="bibr" target="#b36">(HLPE, 2014)</ref>. Non-food use parts such as animal feed, energy production and seed are not included in FLW concept <ref type="bibr" target="#b8">(Bellemare et al., 2017)</ref>. There is not a consistent definition on FL and FW either <ref type="bibr" target="#b82">(Roodhuyzen et al., 2017)</ref>. Most researches distinct them according to the food supply chain, including agriculture production, postharvest handling and storage, processing and packaging, distribution and consumption stage (Fig. <ref type="figure" target="#fig_0">1b</ref>) <ref type="bibr" target="#b8">(Bellemare et al., 2017;</ref><ref type="bibr" target="#b95">Spang et al., 2019)</ref>. FL occurs at the earlier stages of the food supply chain, and FW at the end of food chain (the distribution and consumption stages) <ref type="bibr" target="#b35">(Gustavsson et al., 2011;</ref><ref type="bibr" target="#b36">HLPE, 2014)</ref>. And some researches distinguish them based on the cause of losses or waste, namely, voluntary (FW food waste) or involuntary (FL) <ref type="bibr" target="#b95">(Spang et al., 2019)</ref>. But it is hard to apply, as it is not easy to determine whether a particular discard of food is voluntary or not <ref type="bibr" target="#b35">(Gustavsson et al., 2011;</ref><ref type="bibr" target="#b36">HLPE, 2014)</ref>. In this paper, we adopted the former definition as shown in Fig. <ref type="figure" target="#fig_0">1b</ref>.</p><p>In the linear economy, or so-called ''take-make-use-disposal'' model, natural resources follow a ''cradle-to-grave'' flow <ref type="bibr" target="#b4">(Andrews, 2015)</ref>. Since huge amount of materials that could be reused or recycled gets lost along this flow, it is considered as an unsustainable production and consumption habit <ref type="bibr" target="#b4">(Andrews, 2015)</ref>. The circular economy is proposed as an alternative model, in which waste is reduced, reused, and recycled based on the principle ''waste = resource'' <ref type="bibr" target="#b13">(Bonciu, 2014;</ref><ref type="bibr" target="#b15">Borrello et al., 2017;</ref><ref type="bibr" target="#b20">Dahiya et al., 2018)</ref>. FLW is one of the materials through which consumers could participate in circular economy. Circular economy in food system, which implies reducing the amount of FLW, reuse of food, utilization of by-products and food waste, and nutrient recycling <ref type="bibr" target="#b45">(Jurgilevich et al., 2016)</ref>. In this paper, we distinguished six widely used FLW management technologies and further categorized them as linear model or circular model to improve our understanding about circular economy in food system (Fig. <ref type="figure" target="#fig_1">2</ref>). What needs to note is that incineration, which has been regarded as a waste to energy option by a previous review <ref type="bibr" target="#b54">(Kumar and Samadder, 2017)</ref>, is considered as a part of linear model in this paper, because FW alone is ill-suited for incineration due to high moisture contents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Extent and causes of global food loss and waste</head><p>A good understanding of the FLW data is a prerequisite for tracking the progress of reduction targets, and exploring mitigation strategies for FLW. Globally, 1.3 billion MT of edible food is lost or wasted every year, accounting for one-third of total food produced for human consumption (3.9 billion MT) <ref type="bibr" target="#b35">(Gustavsson et al., 2011)</ref>. The extent of FLW varies greatly by regions (Table <ref type="table" target="#tab_2">S2</ref>). As shown in Fig. <ref type="figure" target="#fig_2">3a</ref>, the total amount of FLW in developed and developing countries is similar, at 671 million metric tons (MMT) and 623 MMT, respectively, but varies greatly in per capita FLW, much higher in developed countries, indicating that higher living standards could result in greater FLW generation. For example, per-capital FLW peaks at 281 and 296 kg/cap/y in EUR and NAO, and amounts to 126 and 167 kg/cap/y in SSE and SSA, respectively. A similar positive relationship between per capital GDP and per capita FLW is also found in previous studies <ref type="bibr" target="#b101">(Thi et al., 2015;</ref><ref type="bibr" target="#b110">Xue et al., 2017)</ref>. Fig. <ref type="figure" target="#fig_2">3b</ref> illustrates that fruits &amp; vegetables are the most-wasted products, followed by cereals, roots &amp; tubers, which account for their higher than required amount of production. However, existing studies have shown no observable differences amongst regions with the only significant difference being that the loss of roots &amp; tubers in SSA has a larger share compared to other regions. The composition of FLW along food supply chain is also different across regions (Fig. <ref type="figure" target="#fig_2">3c</ref>). In developing countries, a large portion of FLW is lost during production and post-harvest steps, while in developed countries it usually occurs during the distribution and consumption stages of the food supply chain. For example, FLW during handling and storage accounts for 12.7% in SSA but only 3.5% in NAO, and FLW generated during the consumption stage in NAO is 12.6% but only 1.3% in SSA. Studies have shown that the amount of household FLW represents more than 50% of the total FLW in Europe <ref type="bibr" target="#b55">(Kummu et al., 2012)</ref>, and up to 60% in the USA <ref type="bibr" target="#b34">(Griffin et al., 2009)</ref>. In addition, the amount of FLW also varies by products.</p><p>Identifying causes of FLW generation is primordial to manage them. FLW generation mechanisms show significant differences between developed and developing countries (Table <ref type="table">1</ref>). It is found that FLW in developing countries is caused by limited harvesting techniques, lack of modern and appropriate rural infrastructure, humid climatic conditions and insufficient post-production systems <ref type="bibr" target="#b36">(HLPE, 2014;</ref><ref type="bibr" target="#b91">Scialabba et al., 2013)</ref>. However, FLW in developed countries is primarily related to the behavior of consumers, retailers, as well as the lack of communication in the food supply chain <ref type="bibr" target="#b37">(Hodges et al., 2010;</ref><ref type="bibr" target="#b79">Raak et al., 2017;</ref><ref type="bibr" target="#b101">Thi et al., 2015)</ref>. Fresh products and baked products make up the largest share of retailing FLW in developed countries due to factors such as market ''cosmetics'' (blemishes, misshapen, etc.), expired sell-by dates, product damage, quality issues, and improper stock rotation <ref type="bibr" target="#b110">(Xue et al., 2017)</ref>. However, in developing countries, FLW is primarily owed to the deterioration of perishable crops in the warm and humid. For example, in Rwanda, Ghana, Benin and India, farmers lose about 30%-80% of the value of their harvested produce prior to reaching the final consumer due to high temperatures, poor quality packages, poor field sanitation and long time required to reach the market <ref type="bibr" target="#b51">(Kitinoja and AlHassan, 2010)</ref>. Cereal FLW is also dominant in low-income regions, primarily due to poor agronomic practices and the lack of drying, winnowing and storage facilities. <ref type="bibr" target="#b58">Liu (2014)</ref> found that storage facilities contribute the most to grain postharvest losses in China. Another research estimated that 49%, 30%, and 21% of China's grain loss during storage is caused by rodents, fungi, and insects respectively <ref type="bibr" target="#b85">(SAG and NDRC, 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Strategies and barriers for food loss and waste management</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">FLW reduction</head><p>Significant differences of causes between developed and developing countries (Table <ref type="table">1</ref>) call for different solutions for reducing FLW along the food supply chain (Table <ref type="table" target="#tab_1">2</ref>). A key FLW mitigation mechanism is  <ref type="table" target="#tab_2">S2</ref>.</p><p>to develop infrastructure along the whole food supply chain including handling, storage, processing, transport, cold chain and market facilities.</p><p>Reduction strategies and barriers in developing countries. Firstly, it is a potential solution to strengthen food processing and cold chain management in perishable foods supply chains. Introduction of modern storage technologies such as hermetic storage technology and organophosphate insecticides of low toxicity for mammalians, grain bags, metal silos, and collective storage are both effective and adaptable solutions for small scale farmers in developing countries <ref type="bibr" target="#b36">(HLPE, 2014)</ref>. For example, FLW in Afghanistan has been significantly decreasing since an FAO project provided simple yet effective sealed storage drums for grain farmers <ref type="bibr" target="#b75">(Parfitt et al., 2010)</ref>. However, its effectiveness depends on the existence of local institutions, cooperatives or relevant organizations. Secondly, capacity development for all participants along the food chain is also a key way in reducing FL, especially amongst farmers. Introducing good agricultural and veterinary practices can reduce FL at production stage by protecting food from pests, insects, pathogenic bacteria or viruses. Last but not least, information technology also plays an important role in FL reduction. Short-term weather forecast can provide useful information for farmers to better schedule their harvesting and drying, while market forecasts help suppliers avoid the pressure of overplanting to meet buyers' demand <ref type="bibr" target="#b46">(Kaipia et al., 2013)</ref>.</p><p>There are three main barriers with regard to the reduction strategies in developing countries. Firstly, the cost and energy limitations hinder expansion, implementation of necessary facilities, and adoption of new technologies in developing countries (Shafiee-Jood and Cai, 2016). HLPE (2014) pointed out that these solutions need to be adapted to local circumstances such as level of infrastructure, economic and human resources. For example, deployment of techniques utilizing cold storage might not be feasible in situations where there is risk of energy supply or transportation is unreliable. <ref type="bibr" target="#b0">Affognon et al. (2015)</ref> revealed that high initial cost and lack of rewarding markets hindered the adaptation of storage technologies in sub-Saharan Africa. Usually, simple and inexpensive solutions in transport, processing and packaging can be quite effective in reducing the FL in developing countries <ref type="bibr" target="#b36">(HLPE, 2014)</ref>. Secondly, although educational programs and training activities on the topic of postharvest are increasing, there is often a lack of followthrough and support post-training. Thus, farmers tend to abandon such postharvest practices when facilities, equipment or handling systems break down and spare parts are not readily available <ref type="bibr" target="#b0">(Affognon et al., 2015)</ref>. In addition, several researchers have demonstrated that gender inequality hinders women from benefiting from training opportunities <ref type="bibr" target="#b0">(Affognon et al., 2015;</ref><ref type="bibr" target="#b2">Amin et al., 2009)</ref>. Special attention should be paid to women in rural areas, since women play a key role in postharvest handling and most of them lack knowledge of and access to good processing practices and efficient processing tools <ref type="bibr" target="#b42">(Jaji et al., 2014)</ref>. Finally, farmers might face some potential barriers when using weather and market forecasts, including forecast uncertainty, limited information delivering channels, and farmers' behavior and capability to use the forecasts (Shafiee-Jood and Cai, 2016).</p><p>Reduction strategies and barriers in developed countries. Reduction strategies in developed countries primarily encourage better management in retail and target consumers' behavior, since retail and consumption stage are the major contribution to FLW in developed countries (Fig. <ref type="figure" target="#fig_2">3</ref>). For FL generated in the retail stage, the European Commission approved in 2008 the phasing out of regulations on marketing standards on the size and shapes of fruit and vegetables to prevent fruits and vegetables with slight aesthetic abnormalities from being thrown away <ref type="bibr">(European Commission, 2018)</ref>. Developing markets for ''sub-standard'' products are also a potential strategy that brings more choices to consumers. However, FW generation in consumption stage is regarded as a multi-sectoral issue and a holistic solution framework is proposed in Table <ref type="table" target="#tab_1">2</ref> including a set of policy measures, possible actions for households, research and development and hospitality sector as well as mobile applications <ref type="bibr" target="#b89">(Schanes et al., 2018)</ref>. For example, from a household perspective, several studies have proposed numerous detailed measures including better awareness of the terms ''use by'' and ''best before''; avoiding impulse purchases; better storage practices and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p>Causes of food loss and waste along the food supply chain in developed and developing countries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Processes</head><p>Agriculture production Postharvest handling and storage</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Processing and packaging Distribution Consumption Reference</head><p>Developed countries</p><p>• Unharvested food because of failure to meet certain quality standards;</p><p>• Failure to harvest due to low market price and high labor cost;</p><p>• Mechanical damage during harvest;</p><p>• Mechanized harvests unable retrieve the entire item or unable to discriminate between immature and ripe products;</p><p>• Overproduce to ensure delivery of agreed quantities;</p><p>• Breakdown of refrigeration systems;</p><p>• Temperature abuse resulting in freezing or chilling injury;</p><p>• Poor management of conditions leading to deterioration or contamination;</p><p>• Trimming to ensure end product is in right shape and size;</p><p>• Processing errors leading to defective end products;</p><p>• High ''appearance quality standards'';</p><p>• Cooling system malfunctioning during transport;</p><p>• Logistics-related risks of meat food during transportation;</p><p>• Replenishing regularly to fill the shelves;</p><p>•Improper stock rotation or overstock;</p><p>• Marketing and sales strategies and rejected shipments;</p><p>• ''Rule of the one-third'' practice among food businesses.</p><p>• Excess purchase or pool purchase;</p><p>• Poor storage management at home;</p><p>• Excess portions prepared and not eaten; • Confusion over understanding labeling such as ''sell-by'' dates and ''use-by'' dates; • Simply discarding food; • Simply affording to waste food; (Gustavsson et al., 2011; HLPE, 2014) Developing countries • Poor agronomic practices such as poor water and nutrient management; • Unfavorable weather conditions such as heavy precipitation; • Premature harvest due to food deficiency or the desperate need for cash; • Overmature leading to a short shelf life; • Poor sanitation during milking; • Poor temperature management for perishable produce after harvest; • Lack facilities for threshing, drying, winnowing and storage; • Spoilage, pest damage, fungal growth during storage; • Fish discard due to unselective harvest methods; • Unregulated chemical leading to unsafe food; • Lack of processing facilities for milk, fruit and vegetable production; • Contamination during processing; • Poor cooling systems for dairy products; • poor quality packages; • Lack of proper transportation vehicles, poor road; • Transport fresh foods at improper temperature; • Simple package leading to compression damage during transport; • Inadequate market system; • Poverty makes it unacceptable to waste food; (Gustavsson et al., 2011; HLPE, 2014; Kitinoja and AlHassan, 2010; Liu, 2014) • Develop good manufacturing practices and hygienic practices;</p><p>• Clarify food date labels; Policy solutions: <ref type="bibr" target="#b35">(Gustavsson et al., 2011;</ref><ref type="bibr" target="#b36">HLPE, 2014;</ref><ref type="bibr" target="#b89">Schanes et al., 2018;</ref><ref type="bibr">Wakefield and Axon, 2020)</ref> • Communication and cooperation between farmers to reduce risk of overproduction;</p><p>• Provide different package sizes;</p><p>• Increase capacity in specialized staffs for operating, maintaining and repairing machinery;</p><p>• Implement the volume-or weight-based fee system ''Pay-As-You-Throw'';</p><p>• Less packaging on perishable food;</p><p>• Change the regulations on marketing standards on the size and shapes of foods;</p><p>• Set waste reduction targets;</p><p>• Organize information and education campaigns</p><p>• Develop markets for ''sub-standard'' products;</p><p>Households solutions:</p><p>• Change customers' individual initiatives such as improve meal planning and purchasing skills; better storage practices and stock management at home; better knowledge on how to use the leftovers;</p><p>• Extending the delivery date;</p><p>• Raise awareness;</p><p>(continued on next page) • Improve handling and storage infrastructure;</p><p>• Develop food processing;</p><p>• Improve cold chain facilities;</p><p>Research and development solutions: <ref type="bibr" target="#b0">(Affognon et al., 2015;</ref><ref type="bibr" target="#b35">Gustavsson et al., 2011;</ref><ref type="bibr" target="#b36">HLPE, 2014;</ref><ref type="bibr" target="#b46">Kaipia et al., 2013;</ref><ref type="bibr" target="#b104">Vilariño et al., 2017)</ref> • Organize small farmers in groups to receive credit from agriculture financial institutions;</p><p>• Use weather forecasts;</p><p>• Develop modern packaging;</p><p>• Improve energy facilities;</p><p>• Measure and track the amount, type of and the reason for FLW;</p><p>• Use weather forecasts and market forecast;</p><p>• Introduce modern storage technologies such as hermetic storage technology;</p><p>• Sales closer to consumers;</p><p>• Transport in the evening hours;</p><p>• Improve market facilities;</p><p>• Collective storage;</p><p>• Governments improve the infrastructure for roads;</p><p>• Research and develop smart fridges;</p><p>• Unleash the crucial role of women;</p><p>• Improve availability of FLW data;</p><p>Hospitality sector solutions:</p><p>• ''pay by weight'' restaurant;</p><p>• ''doggy bag'' practice;</p><p>Business solutions:</p><p>• Develop mobile applications that list food inventory;</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Barriers and enablers</head><p>• Forecast uncertainty, limited information channels, farmers' capability to use the forecasts;</p><p>• The high cost, availability and access to storage technology;</p><p>•Technological challenges;</p><p>• Lack of energy supply; Barriers: <ref type="bibr" target="#b35">(Gustavsson et al., 2011;</ref><ref type="bibr" target="#b36">HLPE, 2014;</ref><ref type="bibr">Wakefield and Axon, 2020)</ref> • Tradeoff between field efficiency and increased yields;</p><p>• Access to information on how to use storage technology;</p><p>• Depend on market demands and forecasts;</p><p>• Unreliable transport;</p><p>• Change consumers' behavior;</p><p>• Lack of follow-through and support after training;</p><p>• The availability of electricity sources;</p><p>• Unadoptable to the new package technology;</p><p>• Lack of integrated cold-chain infrastructures;</p><p>• Improve consumers' awareness;</p><p>• ''face culture'': trade-offs between conflicting goals that may rise because of safety concerns, convenience orientation, and the desire to be a good host or food provider;</p><p>Enablers:</p><p>• Moral obligations of protecting the environment;</p><p>• Encouraged by the press and online;</p><p>• Feel guilt for wasteful consumption;</p><p>• Social pressures, for example feeling guilt when passing by a homeless person; stock management at home; better evaluation of food to be prepared and better knowledge on how to use the leftovers <ref type="bibr" target="#b5">(Aschemann-Witzel et al., 2015;</ref><ref type="bibr" target="#b36">HLPE, 2014;</ref><ref type="bibr" target="#b75">Parfitt et al., 2010;</ref><ref type="bibr" target="#b81">Rohm et al., 2017)</ref>. Policy presents one of the most widespread solutions used for FLW reduction.</p><p>In recent years, many countries and initiatives have focused on raising consumers' awareness about the importance of FLW reduction, such as ''Love Food Hate Waste'' in the United Kingdom, ''Food Battle'' in the Netherlands and ''Stop wasting food'' in Denmark. In April 2019, the USA launched the Winning on Reducing Food Waste Initiativea collaborative effort by the U.S. Department of Agriculture (USDA), the U.S. Environmental Protection Agency (EPA) and Food and Drug Administration (FDA) to educate consumers, engage key stakeholders, and develop and evaluate solutions to reduces FW (The White House, 2019). Food service industry reduces FW by offering takeaway boxes or ''doggy bags'' to customers <ref type="bibr">(Wakefield and Axon, 2020)</ref>. Although significant efforts have been made to tackle the food waste in households, changing consumers' behavior is still difficult since the behavior patterns are complex and sometimes controversial in developed countries <ref type="bibr" target="#b78">(Quested et al., 2013)</ref>. It was found that the weak relationship between the intention to reduce FW and the action, termed as ''attitude-behavior'' gap, is the major barrier to sustainable consumption patterns <ref type="bibr" target="#b103">(Vermeir and Verbeke, 2006)</ref>. Many researchers have identified factors that might motivate consumers to minimize household food waste <ref type="bibr" target="#b29">(Farr-Wharton et al., 2014;</ref><ref type="bibr" target="#b78">Quested et al., 2013;</ref><ref type="bibr" target="#b92">Secondi et al., 2015;</ref><ref type="bibr" target="#b97">Stancu et al., 2016;</ref><ref type="bibr" target="#b98">Stefan et al., 2013)</ref>. A number of enablers of sustainable food waste practices such as social pressers, encouraged by media and moral obligations had been identified by focus group method <ref type="bibr">(Wakefield and Axon, 2020)</ref>. <ref type="bibr" target="#b97">Stancu et al. (2016)</ref> found that awareness of economic consequences was to a large extent related to food-related routines, in comparison to awareness of environmental and social impact. However, <ref type="bibr" target="#b98">Stefan et al. (2013)</ref> stressed that in order to change consumers' food waste behavior, efforts should be directed towards providing consumers with skills and tools to deal with their food-related activities. Another result showed that consumers' motivation to avoid food waste, their management skills of food provisioning and food handling and their trade-offs between priorities have an extensive influence on their food waste behaviors <ref type="bibr" target="#b5">(Aschemann-Witzel et al., 2015)</ref>. Further research is required to focus on exploring specific food waste contexts and more in-depth interactions. Moreover, a move from analyzing the current situation to experimenting with new approaches and solutions is warranted as the next step, particularly by intervention studies <ref type="bibr" target="#b5">(Aschemann-Witzel et al., 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">FLW recycle</head><p>Animal feed. Food waste-based animal feed has been a practice for a long history since it is highly profitable <ref type="bibr" target="#b106">(Westendorf, 2000)</ref>. However, due to the cheap grains and high production efficiencies of grain-and soybean-based diets, the popularity of swill feeding decreased in the late 20th century <ref type="bibr" target="#b119">(Zu Ermgassen et al., 2016)</ref>. And in 2001, the food and mouth disease outbreak in the UK, owing to illegal feeding of uncooked food waste to pigs, cost the UK economy £8 billion. Thus, food waste-based animal feed was banned in the UK in 2001 and extended across EU in 2002. Similarly, due to the concern over mad cow disease, food waste containing mammalian proteins was also prohibited in US <ref type="bibr" target="#b24">(Dou et al., 2018)</ref>. Nowadays, although the ban does not apply to food waste materials that is proven to pose no risk of contamination with meat, fish, or other animal products (such as manufacturing byproducts), those materials represent only a small proportion of EU food waste. At present, only about 3 MMT manufacturing byproducts are recovered for animal feed in the EU, while 102 million tones food wastes are being generated annually. Only a few countries such as Japan and South Korea still actively promote waste-based pig feed, and they recycled 35.9% and 42.5% of their food waste as animal feed respectively during <ref type="bibr">2006</ref><ref type="bibr" target="#b106">-2007</ref><ref type="bibr">, respectively (Zu Ermgassen et al., 2016)</ref>.</p><p>Anaerobic digestion. Anaerobic digestion (AD) is a process in which organic materials are converted into biogas (consisting of 50%-75% methane and 25%-50% carbon dioxide) and digestate by anaerobic microorganisms in absence of oxygen. Methane can be captured and converted into various energy vectors including electricity, heat, transport fuel, and gas injection into gas grid, therefore it is valued in renewable energy. The produced digestate can be used as a soil conditioner in agricultural field. Therefore, AD can bring many environmental benefits including production of renewable energy, possibility of nutrient recycling, and reduction of waste volumes <ref type="bibr" target="#b76">(Pham et al., 2015)</ref>.</p><p>The methane potential of FLW is high, which is in a range of 0.3-1.1 m 3 CH 4 /kg volatile solids (273.15 K, 1 atm) <ref type="bibr" target="#b66">(Mao et al., 2015)</ref>. The specific potential is related to characteristics of food wastes. For example, food wastes rich in lipids and carbohydrates such as restaurant food waste have higher methane potentials than those with a high lignocellulosic fraction such as fruit and vegetable residues. This is because the methane potential of lipids is much higher and carbohydrates have higher hydrolysis rates than those of lignocellulose. Extensive efforts have been devoted to produce methane from FLW as a bioenergy. However, it is still facing some challenges such as technical, economic, and social viability. One common technical challenge is that harmful intermediate compounds, such as volatile fatty acids (VFAs) and free ammonia (NH 3 ), can reduce system stability, or cause low methane yield or foaming. Many studies suggested that co-digestion of food waste with animal manures, sewage sludge, or lignocellulosic biomass could reduce high NH 3 concentrations and increase the biogas yield <ref type="bibr" target="#b3">(Andre et al., 2018;</ref><ref type="bibr" target="#b47">Kangle et al., 2012;</ref><ref type="bibr" target="#b68">Mata-Alvarez et al., 2014;</ref><ref type="bibr" target="#b94">Siddique and Wahid, 2018;</ref><ref type="bibr" target="#b109">Xu et al., 2018)</ref>. For example, <ref type="bibr" target="#b118">Zhang et al. (2013)</ref> found that under the optimum food wastes to cattle manure ratio, the methane production was enhanced by 41.1%. <ref type="bibr" target="#b115">Zhang et al. (2011)</ref>, by evaluating feasibility of co-digestion of food wastes and piggery wastewater, indicated that co-digestion showed a significant improvement of biogas productivity and process stability due to the high concentrations of trace elements in piggery wastewater. Another effective strategy is improving design of digesters. Many two-stage systems have achieved a 10%-20% increase in methane yield or chemical oxygen demand removal in comparison to the single-stage digesters <ref type="bibr" target="#b19">(Coderoni and Perito, 2020;</ref><ref type="bibr" target="#b32">Fuess et al., 2017;</ref><ref type="bibr" target="#b107">Wu et al., 2015;</ref><ref type="bibr" target="#b116">Zhang et al., 2017)</ref>. <ref type="bibr" target="#b116">Zhang et al. (2017)</ref> developed a novel compact threestage digester, in which hydrolysis and acidogenesis chambers operated as high solids digesters, while methanogenesis chamber operated under wet AD conditions. In comparison to traditional systems, there was an increase of 11%-23% in methane yield and presented the highest rate of 71% in volatile solids reduction in the new system. To combat the foaming issue, various strategies such as application of antifoam additives, optimization of mixing or avoidance of foam-forming substrates have been developed <ref type="bibr" target="#b52">(Kougias et al., 2014)</ref>. However, <ref type="bibr" target="#b109">Xu et al. (2018)</ref> pointed that for digesters with long-term foaming issues, application of commercial antifoam agents is costly. Cost effectiveness is the key for biogas managers whilst applying these strategies. Finally, it is also a big challenge to obtain high quality feedstock, especially household food wastes. Many AD projects lasted less than 2 years in India due to lack of organic waste inputs <ref type="bibr" target="#b14">(Boonrod et al., 2015)</ref>. It was also found that the final system was highly contaminated with non-degradation wastes. European legislation prohibited the use of sludge as a fertilizer, due to the presence of undesirable materials in feedstock <ref type="bibr" target="#b16">(Browne et al., 2014)</ref>.</p><p>Composting. Composting is based on biological degradation of organic matter and occurs under aerobic conditions. It involves mineralization of organic matter to CO 2 , NH 3 , H 2 O and partial humification leading to a stabilized final product <ref type="bibr" target="#b73">(Onwosi et al., 2017)</ref>. The final product can be utilized for agricultural purposes, which can contribute to improvement of the soil structure and lead to a more suitable soil equilibrium <ref type="bibr" target="#b87">(Sanchez et al., 2017)</ref>. Therefore, composting is a reliable waste treatment option for recycling mineral nutrients (nitrogen, phosphorus and potassium) back to agricultural production.</p><p>The effectiveness of composting process is strongly influenced by characteristics of feedstock. Adjustment of food waste to give a carbonto-nitrogen (C/N) ratio of 25-30:1 is ultimate for active composting <ref type="bibr" target="#b73">(Onwosi et al., 2017)</ref>. At higher C/N ratios, the amount of N will be limited thus leading to the slow decomposition of the available C. While at lower C/N ratios, N will be available in excess and would be lost as ammonia gas. Moisture content and pH level are both critical parameters in the composting process. The optimal moisture content for effective composting should be at 50%-60%, and the pH level in a range of 7-8 is optimum <ref type="bibr" target="#b73">(Onwosi et al., 2017)</ref>. Bulking agents (such as rice husk, wood chip, and sawdust) are generally added to food wastes to adjust the initial characteristics. Four major barriers associated with composting include emission of odors, lack of uniformity of compost maturity index and leachate production. Firstly, odors are inherent by-products of composting process regardless of the initial organic material characteristics, which might be a nuisance to the surrounding residents and thus result in composting plant closure. Great effort has been made in identifying and quantifying the emitted odorants. The major odor components are volatile organic compounds (VOCs), NH 3 , and H 2 S. Although these emissions are not considered to cause health problems directly, they might result in negative health effects due to psychological effects <ref type="bibr" target="#b21">(Dalton, 2003)</ref>. Optimizing the composting process and installing gas treatment units are common strategies to mitigate the emissions. Secondly, maturity and stability are both important parameters for compost quality assessment. Only the compost with a high degree of stability or maturity can be safely implied into the soil. Maturity is associated with plant-growth potential or phytotoxicity, whereas stability is often related to the compost's microbial activity <ref type="bibr" target="#b9">(Bernal et al., 2009)</ref>. Maturity cannot describe by a single property and is best assessed by measuring two or more parameters of compost. <ref type="bibr" target="#b9">Bernal et al. (2009)</ref> reviewed a number of parameters that can be used to test compost maturity. They can be classified into physical (odor, color, temperature etc.), chemical (C/N ratio, cation exchange capacity, NH 4 -N content etc.) and biological criteria [respiration, enzyme activity, adenosine triphosphate (ATP) content etc.]. Currently, there is a need for harmonization of such criteria at the international level. Lastly, compost might generate leachate (containing nutrients, heavy metals, chlorinated organic and inorganic salts), which might lead to environmental problems. For example, the quality of groundwater bodies may be seriously affected by the trace metals <ref type="bibr" target="#b48">(Kaschl et al., 2002)</ref>. Leachate is rich in nutrients such as nitrate and phosphorus which might lead to algal bloom. Therefore, caution should be exercised when leachate is applied in agriculture <ref type="bibr" target="#b17">(Chatterjee et al., 2013)</ref>.</p><p>Lack of high quality feedstocks is a common barrier for FLW recycling. FLW might contain some impurities such as plastic, glass and metal objects, which would have negative effects on recycling. For example, Huerta-Pujol et al. ( <ref type="formula">2011</ref>) pointed out that food waste obtained from source-sorted collection is more appropriate for composting than that mechanically separated from mass-collected municipal solid wastes. Source-separated collection of household food waste is an effective method to get high quality food waste. It was found that the dominant barriers of participation source-separated collection were the lack of awareness of separation, inconvenience and insufficient separation facility <ref type="bibr" target="#b113">(Zeng et al., 2016)</ref>. Therefore, public education and providing collection service are two suggestions for implementing the pilot programs of food waste separation at source.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">FLW disposal</head><p>Incineration. Initially, incineration was only used for hygiene and volume reduction, not for energy recovery. Nowadays, incineration is a mature technology that involves the combustion and conversion of waste into heat and energy <ref type="bibr">(WHO, 2007)</ref>. Incinerators are able to reduce the waste mass and volume by 70% and 90%, respectively <ref type="bibr" target="#b54">(Kumar and Samadder, 2017)</ref>. At the same time, heat and energy can be generated through the conventional Rankine cycle with combined heat and power or combined steam and power <ref type="bibr" target="#b65">(Makarichi et al., 2018)</ref>. Owing to those significant advantages of incineration, incineration has been one of the most popular techniques to deal with municipal solid waste in developed countries (such as US, Japan and European countries). However, it is still not fully accepted by some European member states due to dioxins and heavy metal laden toxic air emissions <ref type="bibr" target="#b30">(Floret et al., 2003)</ref>. <ref type="bibr" target="#b54">Kumar and Samadder (2017)</ref> reported that developing countries are facing several challenges in waste incineration. They are the high capital, operating and maintenance costs, unfavorable characteristics and composition of wastes, lack of technical expertise in the field, and availability of land for waste disposal.</p><p>Food waste alone is ill-suited for incineration due to high moisture contents. Typically, FW is discarded into the general flow of municipal solid waste, then disposed by incineration. The moisture affects the self-sustained combustibility and calorific value of municipal solid waste. High moisture contents could lead to low calorific value due to the latent heat of water, thus affect the performance of incinerators. According to International Energy Agency, the average calorific value of municipal solid waste must be greater than 1900 kcal/kg for an effective incineration operation with energy recovery <ref type="bibr" target="#b69">(Melikoglu, 2013)</ref>.</p><p>Landfilling. Landfills are a common final disposal site for waste across the world including open dumping, controlled dumping, controlled landfilling, and sanitary landfilling <ref type="bibr" target="#b38">(Hoornweg and Bhada-Tata, 2012)</ref>. Globally, 69.7% of waste is currently disposed of in landfills <ref type="bibr" target="#b49">(Kaza et al., 2018)</ref>. However, only 8% of waste is disposed of in sanitary landfills with landfill gas (LFG) collection systems. Open dumping accounts for about 33% of wastes <ref type="bibr" target="#b49">(Kaza et al., 2018)</ref>. Unsanitary landfilling might cause a series of problems such as health impact, land degradation, groundwater contamination and climate change. Therefore, landfilling is considered as the worst option and developed countries have constituted stringent regulations to discourage landfilling of waste <ref type="bibr" target="#b54">(Kumar and Samadder, 2017)</ref>.</p><p>FW can be degraded slowly into LFG in landfills, which contains methane (55%-60%) and carbon dioxide (40%-45%) <ref type="bibr" target="#b90">(Scheutz et al., 2009)</ref>. Methane has a Global Warming Potential 28 times greater than carbon dioxide <ref type="bibr" target="#b41">(IPCC, 2013)</ref>. The CH 4 emission from the landfill accounts for about 18% of the global anthropogenic CH 4 emission globally <ref type="bibr" target="#b88">(Sathaye et al., 2007)</ref>. Hence, landfills often get publicly criticized and landfill managers have to deal with the challenge of handling LFG emissions <ref type="bibr" target="#b60">(Lou and Nair, 2009)</ref>. Several technologies advancements such as energy recovery from LFG recovery, aerobic landfilling, pre-composting of waste prior to landfilling and compost capping are being made to tackle this challenge <ref type="bibr" target="#b72">(Norbu et al., 2005)</ref>. The most common mitigation strategy is LFG capture. The captured LFG usually has two fates: the biogas is flared or combusted to generate electricity. Recovery efficiency of LFG depends on a variety of factors and varies greatly depending on the operating conditions, the age of the waste, etc. Previous researchers reported that the recovery rate of LFG is 35% to 90% <ref type="bibr" target="#b77">(Purmessur and Surroop, 2019;</ref><ref type="bibr" target="#b96">Spokas et al., 2006)</ref>. Waste streams with high food waste fraction will result in higher methane generation under anaerobic conditions. Food waste can also lead to the generation of leachate. Leachates are the aqueous effluent generated as a consequence of biochemical processes occurring within the food waste and the inherent water content of food waste itself, which can pollute the nearby surface water and groundwater. With stricter environmental regulations with regard to ground and surface water, the treatment of landfill leachate has become a subject of interest in recent years. Traditional leachates treatment technologies include leachate transfer, biological techniques (including aerobic and anaerobic process), chemical and physical methods (such as chemical oxidation, adsorption, chemical precipitation, coagulation/flocculation, sedimentation/flotation and air stripping). For example, <ref type="bibr" target="#b62">Maehlum (1995)</ref> presented the combination with the use of anaerobic-aerobic lagoons and constructed wetlands, and the overall removal of organic matter, nitrogen, phosphorus, Fe and pathogens was found to be promising (70%-95%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Consequences of food loss and waste management</head><p>FLW management and food security. FLW can have an impact on food security by mainly two ways. Firstly, FLW reduction has a positive impact on the access to food by decrease food prices. There is a lack of quantitative researches to describe the relationships between the amount of food wasted and the price of food. However, some theoretical studies about economic theory shows that higher FLW might lead to higher food prices <ref type="bibr" target="#b36">(HLPE, 2014)</ref>. In developed countries, economic losses caused by FLW at the consumer level do not necessarily impact their livelihood. However, in developing countries, FLW can have a disproportionate impact since food cost represents a significant portion of the average domestic budget <ref type="bibr" target="#b36">(HLPE, 2014)</ref>. There has been a heated discussion about the impact of reduction on food security. Previous study pointed that although reduction strategies will help improve food security, it is not clear if FLW reduction can outperform other strategies such as diet shift and yield increase (Shafiee-Jood and Cai, 2016). <ref type="bibr" target="#b31">Foley et al. (2011)</ref> estimated that the contribution of FLW reduction is of the same magnitude as the redistribution of nutrients and water, so as to close the yield gap. <ref type="bibr" target="#b83">Rutten et al. (2013)</ref> found that diet changes outperform FLW reduction, both in terms of gross domestic product (GDP) and land use saved in the European Union. <ref type="bibr" target="#b43">Jalava et al. (2016)</ref> found that these two strategies have a synergistic effect on water saving. However, there can be no doubt that FLW reduction should be taken as a necessary complementary solution to address the issue of food security along with other solutions such as yield increase and diet shift in future <ref type="bibr" target="#b33">(Godfray et al., 2010)</ref>. Secondly, composting and AD can produce valuable soil amendment, which would have a longer-term effect on food security. The beneficial effects of compost application include physical, chemical and microbiological aspects <ref type="bibr" target="#b87">(Sanchez et al., 2017)</ref>. For example, compost can facilitate water retention and air exchange in the soil; Compost containing beneficial microorganisms can control plant pathogens <ref type="bibr" target="#b87">(Sanchez et al., 2017)</ref>. Those benefits can help soil to reach a long-time equilibrium, and then enhance food security by increase food production. In contrast to circular model, linear model might threat food security due to their negative environmental impact. The existing studies demonstrate that landfill consumes significant amount of land resource, causes air and water pollution, bring about impacts on human health <ref type="bibr" target="#b60">(Lou and Nair, 2009;</ref><ref type="bibr" target="#b80">Renou et al., 2008)</ref>. Incineration, while generating electricity from burning waste, discharges toxic air pollutants (Dioxin) <ref type="bibr" target="#b57">(Li et al., 2015)</ref>. Its fly ash contains a high degree of harmful substance and, if not managed well, might cause land pollution.</p><p>FLW management and resource sustainability. FLW reduction can contribute to higher efficiency and productive utilization of resources. <ref type="bibr" target="#b55">Kummu et al. (2012)</ref> estimated the resources used to produce global FLW and found that the production of the lost and wasted foods accounted for 24% of total freshwater resources used in food crop production (27 m 3 /cap/y), 23% of total global cropland area (31×10 -3 ha/cap/y), and 23% of total global fertilizer used (4.3 kg/cap/y). Researches on water-energy-food nexus show a link between food and the depletion of resources <ref type="bibr" target="#b18">(Chen et al., 2020;</ref><ref type="bibr" target="#b22">Del Borghi et al., 2020)</ref>. Therefore, FLW reduction is of paramount importance in regions such as North Africa, West and Central Asia, where water and land are scarce <ref type="bibr" target="#b93">(Shafiee-Jood and Cai, 2016)</ref>. Animal feed reduce resource consumption related to feed production. Composting and AD recycle mineral nutrients back into the soil <ref type="bibr" target="#b15">(Borrello et al., 2017)</ref>, which can promote resource sustainability, especially when non-renewable resources are considered. For example, phosphorous security and shortage in future has already raised concerns due to the present trends in population growth and diet preference <ref type="bibr" target="#b44">(Jiang et al., 2019;</ref><ref type="bibr" target="#b59">Liu et al., 2016;</ref><ref type="bibr" target="#b108">Wu et al., 2016)</ref>. Recovery and reuse of phosphorous from FLW will be a key factor whilst ensuring resource sustainability and food security <ref type="bibr" target="#b111">(Yuan et al., 2018)</ref>. However, linear model wastes the nutrients in FLW, thus is unsustainable with regard to resources. Incineration and landfill can only generate limited energy due to low calorific value of FLW and low recovery efficiency of LFG.</p><p>FLW management and climate change mitigation. Climate change is a global problem and requires collective efforts to mitigate it. The large amount of GHG emitted from FLW have been a source of great concern in the scientific community. According to <ref type="bibr" target="#b88">Sathaye et al. (2007)</ref>, the CH 4 emission from waste sector accounts for about 18% of the global anthropogenic CH 4 emission globally. In this part, we aim to compare the GHG emissions across different FLW management strategies.</p><p>Table <ref type="table" target="#tab_3">3</ref> illustrates descriptive statistics for the climate change impact reported in literature. Reducing FLW is the most environmentally favorable management option due to the resources saved by not producing the prevented food commodities. It was estimated that prevention of FLW can save the GHG emissions ranging from 800 to 4400 kg CO 2 equivalent per ton food waste (Bernstad Saraiva <ref type="bibr" target="#b10">Schott and Cánovas, 2015;</ref><ref type="bibr" target="#b86">Salemdeeb et al., 2017)</ref>. However, Martinez-Sanchez et al. ( <ref type="formula">2016</ref>) found prevention might be environmentally worse than other alternative technologies when including the indirect effects (such as income effect and indirect land-use changes). This situation happens when the monetary savings from unpurchased food commodities were used for goods/services whose production has larger environmental impacts than those of the prevented food. Another study found that GHG emissions of FLW prevention (-888 to -700 kg carbon dioxide equivalents per ton FLW) are relatively lower than others due to the inclusion of the rebound effect, which reduces GHG benefits by up to 59% <ref type="bibr" target="#b86">(Salemdeeb et al., 2017)</ref>. Therefore, FLW reduction are suggested to be coupled with reductions in GHG emissions across the economy to effectively deliver GHG reductions. Animal feed and composting have all been proved to be effective solutions when considering the reduction of emissions of GHG (Table <ref type="table" target="#tab_3">3</ref>). AD, incineration and landfill can reduce GHG emissions and mitigate the climate change by generating energy. Table <ref type="table" target="#tab_3">3</ref> demonstrates that, with the exception of FLW reduction, there is no configuration, in which a treatment technology always ranks worse than another. <ref type="bibr" target="#b25">Eriksson et al. (2015)</ref> performed a life cycle assessment (LCA) for six food waste management technologies including landfill, incineration, composting, AD, animal feed, and found that the greatest potential for reducing emissions of GHG was AD (-670 to -47 kg CO 2 equivalent per ton food waste), followed by animal feed (-130 to 5 kg CO 2 equivalent per ton food waste). However, <ref type="bibr" target="#b102">Vandermeersch et al. (2014)</ref> found that animal feed could be more environmentally beneficial in comparison to AD when environmental impact categories regarding land use are considered. <ref type="bibr" target="#b70">Morris et al. (2017)</ref> investigated the harmonization of LCA results with regard to waste management through meta-analysis and found that AD is the most environmentally friendly solution (-200 kg CO 2 equivalent per ton food waste), composting was also found to bring a negative climate change impact (-100 kg CO 2 equivalent per ton food waste), and landfill was found to be the worst-performing technology (380 kg CO 2 equivalent per ton food waste). Landfills are usually considered as the worst technology since food waste generates methane after anaerobic fermentation, and landfills usually have a low landfill gas capture rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Perspectives and outlook</head><p>The present paper examined the extent of global FLW, the existing FLW management strategies and their implications for food security, climate change and resource recovery. The amount of per capita FLW is positively correlated with per capital GDP, and the fruits &amp; vegetables are the most-wasted products. Also, it is noticeable that the FLW generation mechanisms show significant differences between developed and developing countries. As highlighted by various studies, the current linear model of FLW treatment (landfill or incineration) consumes significant amount of land resource, causes air and water pollution, bring about impacts on human health and wastes the nutrients in FLW. Therefore, the ''circular model'' of FLW management is proposed to enhance responsible consumption and production, which includes reduction on food consumption and food loss, and recycling of food However, various challenges need to be overcome and a lot of work remains to translate this circular model into an actionable plan. To make a shift towards circular model, we highlight the following directions for future study. FLW Reduction. There are three key issues that remain to be solved to facilitate FLW reduction. First, FLW reduction should focus more on developed regions and some food types such as milk &amp; egg, cereals, meat and fruits &amp; vegetables (Section 3). Second, deeper analysis about consumers' behavior change should be conducted. Our review finds although growing efforts has been paid on changing consumers' behavior, most of researches focused on analyzing the current situation rather than solutions. Further emphasis should be put on experiments or interventions to provide more effective solutions. At last, rebound effect should be given more attention in future life-cycle assessment (LCA) researches, since it can largely reduce the GHG benefits of FLW reduction. Applying new LCA approaches with rebound effect can effectively deliver GHG reductions across the economy.</p><p>Animal feed. Food safety and policy restrictions are two main problems hampering the development of animal feed. Previous research suggested that systematic sample collection, comprehensive nutrient analysis, strict food safety detection and quantitative assessment to link feed grain replacement with environmental benefits are needed in future <ref type="bibr" target="#b24">(Dou et al., 2018)</ref>. Such information would bring new understanding to policy makers, scientific communities, and the public, which is crucial to break down cultural and psychological barriers. Once break down those barriers, governments should step up guidance and supervision instead of ''one-size-fits-all'' policy to create a good environment for animal feed.</p><p>Composting and AD. Technical barriers are the main challenges for this two recycle technologies such as order problem, low methane yield and low system stability. We highlighted several newest technical developments directions to overcome those challenges in Section 4, such as adjusting reactor conditions (pH, moisture and aeration rate), installing gas treatment units, co-digestion and improving the design of digesters, which should continue in future. However, most of current researches have still been confined to the laboratory scale, it is suggested that the future work should be expanded to larger scale to provide more scientific guidance for the engineering practice <ref type="bibr" target="#b114">(Zeng et al., 2018)</ref>. Another main barrier is hard to obtain source-separated organics. Public perceptions and determinants need to be investigated for future implementation of source-separated collection of food waste. In addition, public education should be taken as soon as possible to raise public concerns on environmental awareness and behaviors. Overcoming obstacles will be challenging, giving it will require multidisciplinary approaches integrating engineering, environmental, and sociocultural methods to achieve.</p><p>Disposal. Disposal is supposed to be the last choice for FLW management in circular model, but it becomes the mainstream treatment method across the world. Previous researches identified that the traditional flat levying fee system in China, paying fee regardless of the use of the service, is one of the main reasons for the current treatment situation <ref type="bibr" target="#b40">(Hui et al., 2006;</ref><ref type="bibr" target="#b99">Tai et al., 2011)</ref>. Since it is contrary to the ''polluter pays'' principle and cannot create economic incentives for stakeholders to apply circular model such as reduction and composting. A weight volume-based Pay-As-You-Throw system has been raised and will be helpful in making a shift towards circular model by providing financial support <ref type="bibr" target="#b117">(Zhang et al., 2010)</ref>. This is because that financial problem is a common obstacle for all the technologies in circular model. There is a great need for comparative research to critically assess all social costs of disposal of FLW in future, which will help to decide the level of waste disposal fees.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Definition on the terminology of FLW, FL and FW (a) Two main definition approaches of FLW. (b) Definition of FL and FW in this review. Note that the total food losses and waste are the combined amount of FL and FW.</figDesc><graphic coords="2,84.25,55.79,426.83,178.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Linear and circular model in FLW management.</figDesc><graphic coords="3,82.25,55.77,382.61,254.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Extent of global FLW. (a) Total food production, total FLW (MMT) and FLW per capita per year (kg/capital/year). (b) Regional FLW by food categories (MMT). (c) Contribution of each food supply chain stage to total food production (%). Data sources were provided in Tables S3, S4 and S5. Statistical analyses and data visualization were performed by e!Sankey 5 (ifu Hamburg, Germany) and Excel 2017 (Microsoft, USA). Developed regions include Europe (EUR), Industrialized Asia (INA), and North America &amp; Oceania (NAO); Developing regions include South &amp; Southeast Asia (SSE), Latin America (LAM), North Africa, West &amp; Central Asia (NAW), and Sub-Saharan Africa (SSA). Sub-regions of each region are shown in TableS2.</figDesc><graphic coords="4,99.47,55.79,396.35,255.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Food loss and waste reduction along the food supply chain: Strategies, barriers and enablers.</figDesc><table><row><cell>Processes</cell><cell>Agriculture production</cell><cell>Postharvest handling and</cell><cell>Processing and packaging</cell><cell>Distribution</cell><cell>Consumption</cell><cell>Reference</cell></row><row><cell></cell><cell></cell><cell>storage</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Reduce</cell><cell>• Gleaning efforts;</cell><cell>• Increase capacity in</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>strategies in</cell><cell></cell><cell>workers for appropriate</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>developed</cell><cell></cell><cell>product handling;</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>countries</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>(continued).</figDesc><table><row><cell>Processes</cell><cell>Agriculture production</cell><cell>Postharvest handling and</cell><cell>Processing and packaging</cell><cell>Distribution</cell><cell>Consumption</cell><cell>Reference</cell></row><row><cell></cell><cell></cell><cell>storage</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Reduce</cell><cell>• Training for good agriculture</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>strategies in</cell><cell>practices and veterinary</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>developing</cell><cell>practices;</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>countries</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>Climate change impacts of different FLW management strategies (kilogram carbon dioxide equivalents per ton FLW).Reducing FW generated at the consumption stage plays an important role in achieving circular model. Our analysis shows that it is regarded as a multi-sectoral issue and needs a holistic solution framework including policy, households, research and development, hospitality sector and business measures. FLW recycling can recycle mineral nutrients back into the soil and mitigate the climate change.</figDesc><table><row><cell></cell><cell></cell><cell>Emissions (kg CO 2</cell><cell>Reference</cell></row><row><cell></cell><cell></cell><cell>equivalent per ton FLW)</cell><cell></cell></row><row><cell></cell><cell>Reducing FLW</cell><cell>-4400 to -800</cell><cell>Bernstad Saraiva Schott and Cánovas (2015),</cell></row><row><cell>Circular model</cell><cell></cell><cell></cell><cell>Salemdeeb et al. (2017)</cell></row><row><cell></cell><cell>Animal feed</cell><cell>-130 to 5</cell><cell>Eriksson et al. (2015)</cell></row><row><cell></cell><cell>Composting</cell><cell>-760 to 279</cell><cell>Morris et al. (2013, 2017), Bernstad</cell></row><row><cell>Linear model</cell><cell>Anaerobic digestion Incineration</cell><cell>-740 to 200 -240 to 630</cell><cell>Saraiva Schott et al. (2016), Saer et al. (2013), Kim and Kim (2010), Evangelisti et al. (2017), Lundie and Peters (2005), Lee</cell></row><row><cell></cell><cell>Landfilling</cell><cell>-310 to 1000</cell><cell>et al. (2007), Diggelman and Ham (2003)</cell></row><row><cell>waste.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was financially supported by the <rs type="funder">National Science Foundation of China</rs> (#<rs type="grantNumber">41871214</rs>) and the <rs type="funder">Science Foundation for Young Scientists Jiangsu Province, China</rs> (<rs type="grantNumber">BK20200113</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_62cSYpY">
+					<idno type="grant-number">41871214</idno>
+				</org>
+				<org type="funding" xml:id="_bAvrKhU">
+					<idno type="grant-number">BK20200113</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary material related to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.resenv.2021.100023">https://doi.org/10.1016/j.resenv.2021.100023</ref>. Given his role as Editor in Chief, Zengwei Yuan had no involvement in the peer-review of this article and has no access to information regarding its peer-review. Full responsibility for the editorial process for this article was delegated to Yi Yang.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resources, Environment and Sustainability</head><p>(3) Understanding consumers' behavior intention of recycling mobile phone through formal channels in China: The effect of privacy concern Ling Zhang, Wenchun Ran, Songyan Jiang, Huijun Wu, Zengwei Yuan Volume 5, September 2021, 100027 <ref type="url" target="https://doi.org/10.1016/j.resenv.2021.100027">https://doi.org/10.1016/j.resenv.2021.100027</ref> Given his role as Editor in Chief, Zengwei Yuan had no involvement in the peer-review of this article and has no access to information regarding its peer-review. Full responsibility for the editorial process for this article was delegated to Meisam Tabatabaei. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Unpacking postharvest losses in sub-Saharan Africa: A meta-analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Affognon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mutungi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sanginga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Borgemeister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Dev</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="49" to="68" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Food waste in Italian households during the Covid-19 pandemic: a self-reporting approach</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Amicarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bux</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Participation level of rural women in agricultural activities</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Zafar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pak. J. Agric. Sci</title>
+		<imprint>
+			<biblScope unit="page" from="294" to="301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Solid anaerobic digestion: State-of-art, scientific and technological hurdles</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pauss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ribeiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page" from="1027" to="1037" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The circular economy, design thinking and education for sustainability</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Andrews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Local Economy</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="305" to="315" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Consumer-related food waste: Causes and potential for action</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aschemann-Witzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Hooge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Amani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bech-Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oostindjer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="6457" to="6477" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Zero waste approach towards a sustainable waste management</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Awasthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Sankar Cheela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Iacovidou</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iacovidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rafizul Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Environ. Sustain</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A food system revolution for china in the post-pandemic world</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Guido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Environ. Sustain</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On the measurement of food waste</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Bellemare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Çakir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Novak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rudi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Agric. Econ</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1148" to="1158" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Composting of animal manures and chemical criteria for compost maturity assessment. A review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Bernal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Alburquerque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="5444" to="5453" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Current practice, challenges and potential methodological improvements in environmental evaluations of food waste prevention -A discussion paper</title>
+		<author>
+			<persName><forename type="first">Bernstad Saraiva</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cánovas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="132" to="142" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Identification of decisive factors for greenhouse gas emissions in comparative life cycle assessments of food waste management -an analytical review</title>
+		<author>
+			<persName><forename type="first">Bernstad Saraiva</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wenzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>La Cour Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Chinese environmental accountability: ancient beliefs, science and sustainability</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Birkin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Margerison</surname></persName>
+		</author>
+		<author>
+			<persName><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Monkhouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Environ. Sustain</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The European economy: From a linear to a circular economy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bonciu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Romanian J. Eur. Aff</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="78" to="91" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Enhancing organic waste separation at the source behavior: A case study of the application of motivation mechanisms in communities in Thailand</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boonrod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Towprayoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tripetchkul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="77" to="90" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Consumers&apos; perspective on circular economy strategy for reducing food waste</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Borrello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caracciolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pascucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cembalo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Assessing the variability in biomethane production from the organic fraction of municipal solid waste in batch and continuous operation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Murphy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="307" to="314" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Chemical and Physical Characteristics of Compost Leachates</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Cogger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Washington State Department of Transportation</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Assessing the risk of the food-energywater nexus of urban metabolism: A case study of Kinmen Island</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Taiwan. Ecol. Indic</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">105861</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Sustainable consumption in the circular economy. An analysis of consumers&apos; purchase intentions for waste-to-value food</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coderoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Perito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">252</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Food waste biorefinery: Sustainable strategy for circular bioeconomy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dahiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shanthi Sravan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Mohan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="page" from="2" to="12" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Pt A</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">How people sense, perceive and react to odors</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dalton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioCycle</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="26" to="29" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Circular economy approach to reduce water-energy-food nexus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Del Borghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moreschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gallo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Environ. Sustain</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="23" to="28" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Household food waste to wastewater or to solid waste? That is the question</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Diggelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Ham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="501" to="514" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Food waste for livestock feeding: Feasibility, safety, and sustainability implications</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Toth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Westendorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Food Sec</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="154" to="161" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Carbon footprint of food waste management options in the waste hierarchy -a Swedish case study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Strid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-A</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="115" to="125" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Directive (EU) 2018/851 amending directive 2008/98/EC on waste Brussels</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>European Commission</publisher>
+			<pubPlace>Belgium</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A life cycle assessment of distributed energy production from organic waste: Two case studies in Europe</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Evangelisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clift</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tagliaferri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lettieri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="371" to="385" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The state of food insecurity in the world</title>
+		<author>
+			<persName><forename type="first">Ifad</forename><surname>Fao</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wfp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Meeting the 2015 International Hunger Targets: Taking Stock of Uneven Progress. Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Identifying factors that promote consumer behaviours causing expired domestic food waste</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Farr-Wharton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Foth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Consum. Behav</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="393" to="402" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Dioxin emissions from a solid waste incinerator and risk of non-Hodgkin lymphoma</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Floret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mauny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Challier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arveux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Cahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Viel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="392" to="398" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Solutions for a cultivated planet</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ramankutty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Brauman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Balzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Monfreda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Polasky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rockstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tilman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Zaks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">478</biblScope>
+			<biblScope unit="issue">7369</biblScope>
+			<biblScope unit="page" from="337" to="342" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Thermophilic two-phase anaerobic digestion using an innovative fixed-bed reactor for enhanced organic matter removal and bioenergy recovery from sugarcane vinasse</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Fuess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S M</forename><surname>Kiyuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D N</forename><surname>Ferraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Persinoti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Squina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zaiat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="480" to="491" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Complete</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Food security: the challenge of feeding 9 billion people</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Godfray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Beddington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Crute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Muir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pretty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Toulmin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="issue">5967</biblScope>
+			<biblScope unit="page" from="812" to="818" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">An analysis of a community food waste stream</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sobal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Lyson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Hum. Values</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="67" to="81" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gustavsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cederberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Sonesson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Otterdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meybeck</surname></persName>
+		</author>
+		<title level="m">Global Food Losses and Food Waste: Extent, Causes and Prevention. Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Food Losses and Waste in the Context of Sustainable Food Systems</title>
+		<author>
+			<persName><surname>Hlpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">High Level Panel of Experts on Food Security and Nutrition of the Committee on World Food Security</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Postharvest losses and waste in developed and less developed countries: opportunities to improve resource use</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agric. Sci</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="issue">S1</biblScope>
+			<biblScope unit="page" from="37" to="45" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">What a Waste a Global Review of Solid Waste Management</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hoornweg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bhada-Tata</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>World Bank</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of collection system on mineral content of biowaste</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Huerta-Pujol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gallart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Soliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Martínez-Farré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>López</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1095" to="1099" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Urban solid waste management in Chongqing: challenges and opportunities</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li'ao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fenwei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1052" to="1062" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<author>
+			<persName><surname>Ipcc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">P S</forename><surname>Basis</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Assessment of constraints of women in fish processing and accessibility to extension activities in Lagos state</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Jaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adegbuyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Yusuf-Oshoala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nigeria. Soc. Sci. Electron. Publ</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="61" to="70" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Diet change and food loss reduction: What is their combined impact on global water use and scarcity?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jalava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H A</forename><surname>Guillaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kummu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porkka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Varis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth&apos;s Future</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="62" to="78" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Phosphorus footprint in China over the 1961-2050 period: Historical perspective and future prospect</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Jarvie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">650</biblScope>
+			<biblScope unit="page" from="687" to="695" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Transition towards circular economy in the food system</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jurgilevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Birge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kentala-Lehtonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Korhonen-Kurki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pietikäinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saikku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schösler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Creating sustainable fresh food supply chains through waste reduction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaipia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dukovska-Popovska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Loikkanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Phys. Distrib. Logist. Manag</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="262" to="276" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Recent trends in anaerobic codigestion: a review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kangle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Univers. J. Environ. Res. Technol</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The influence of soluble organic matter from municipal solid waste compost on trace metal leaching in calcareous soils</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaschl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Römheld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="57" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">What a Waste 2.0: A Global Snapshot of Solid Waste Management to 2050</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaza</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lisayao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bhada-Tata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Woerden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>The World Bank</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Comparison through a LCA evaluation analysis of food waste disposal options from the perspective of global warming and resource recovery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">408</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="3998" to="4006" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Identification of appropriate postharvest technologies for improving market access and incomes for small horticultural farmers in sub-Saharan Africa and South Asia</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitinoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Alhassan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Hortic</title>
+		<imprint>
+			<biblScope unit="volume">934</biblScope>
+			<biblScope unit="page" from="31" to="41" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Foam suppression in overloaded manure-based biogas reactors using antifoaming agents</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Kougias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tsapekos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Angelidaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="198" to="205" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Using food loss reduction to reach food security and environmental objectives -A search for promising leverage points</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuiper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Cui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Policy</title>
+		<imprint>
+			<date type="published" when="2020">2020. 101915</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A review on technological options of waste to energy for effective management of municipal solid waste</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Samadder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="407" to="422" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Lost food, wasted resources: global food supply chain losses and their impacts on freshwater, cropland, and fertiliser use</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kummu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>De Moel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porkka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Varis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">438</biblScope>
+			<biblScope unit="page" from="477" to="489" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Evaluation of environmental burdens caused by changes of food waste management systems in Seoul, Korea</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Osako</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="42" to="53" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Waste incineration industry and development policies in China</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="234" to="241" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Food Losses and Food Waste in China: A First Estimate, OECD Food, Agriculture and Fisheries Papers</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>OECD Publishing</publisher>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Intensification of phosphorus cycling in China since the 1600s</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Elser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2609" to="2614" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The impact of landfilling and composting on greenhouse gas emissions-a review</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="3792" to="3798" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of food waste management options</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Peters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="275" to="286" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Treatment of landfill leachate in on-site lagoons and constructed wetlands</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maehlum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Water Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A roadmap towards a circular and sustainable bioeconomy through waste valorization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kachrimanidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koutinas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Green Sustain. Chem</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="18" to="23" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Sustainable food waste management towards circular bioeconomy: Policy review, limitations and opportunities</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M W</forename><surname>Mak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C W</forename><surname>Tsang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Poon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page">122497</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The evolution of waste-to-energy incineration: A review</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Makarichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jutidamrongphan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Techato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kazmerski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew. Sust. Energ. Rev</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="812" to="821" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Review on research achievements of biogas from anaerobic digestion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew. Sust. Energ. Rev</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="540" to="555" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Life-cycle costing of food waste management in Denmark: Importance of indirect effects</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Martinez-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tonini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Moller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Astrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4513" to="4523" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">A critical review on anaerobic co-digestion achievements between</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mata-Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Romero-Güiza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fonoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peces</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Astals</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew. Sust. Energ. Rev</title>
+		<imprint>
+			<biblScope unit="page" from="412" to="427" />
+			<date type="published" when="2010">2014. 2010. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Vision 2023: Assessing the feasibility of electricity and biogas production from municipal solid waste in Turkey</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Melikoglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew. Sust. Energ. Rev</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="52" to="63" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Life-cycle assessment harmonization and soil science ranking results on food-waste management methods</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cotton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="5360" to="5367" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Review and meta-analysis of 82 studies on end-of-life management methods for source separated organics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Scott Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Morawski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="545" to="551" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Pretreatment of municipal solid waste prior to landfilling</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Norbu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visvanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Basnayake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="997" to="1003" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Composting technology in waste stabilization: On the methods, challenges and future prospects</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Onwosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Igbokwe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Odimba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Eke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Nwankwoala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Iroh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Ezeogu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="140" to="157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The food waste hierarchy as a framework for the management of food surplus and food waste</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papargyropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Steinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ujang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="106" to="115" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Food waste within food supply chains: quantification and potential for change to 2050</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barthel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macnaughton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. London [Biol.]</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="3065" to="3081" />
+			<date type="published" when="1554">2010. 1554</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Food waste-to-energy conversion technologies: current status and future directions</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaushik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Parshetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mahmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Balasubramanian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="399" to="408" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Power generation using landfill gas generated from new cell at the existing landfill site</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Purmessur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Surroop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Chem. Eng</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">103060</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Spaghetti soup: The complex world of food waste behaviours</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Quested</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stunell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Parry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recy</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="43" to="51" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Processingand product-related causes for food waste and implications for the food supply chain</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Raak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Symmank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aschemann-Witzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rohm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="461" to="472" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Landfill leachate treatment: Review and opportunity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Renou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Givaudan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poulain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dirassouyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Moulin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hazard Mater</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="468" to="493" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m" type="main">Consumers in a sustainable food supply chain (COSUS): Understanding consumer behavior to encourage food waste reduction</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oostindjer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aschemann-Witzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Symmank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>De Hooge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Normann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karantininis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Putting together the puzzle of consumer food waste: Towards an integral perspective</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M A</forename><surname>Roodhuyzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Luning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fogliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P A</forename><surname>Steenbekkers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Food Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="7" to="50" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Reducing Food Waste By Households and in Retail in the EU</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rutten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nowicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-J</forename><surname>Bogaardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aramyan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>LEI Wageningen UR</publisher>
+			<pubPlace>The Hague</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of a food waste composting system: environmental impact hotspots</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lansing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Davitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Graves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="234" to="244" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<author>
+			<persName><forename type="first">Ndrc</forename><surname>Sag</surname></persName>
+		</author>
+		<title level="m">Special Programme for Construction of Scientific Grain Storage in Rural Households in the 12th Five Year</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">A O</forename><surname>Grain</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><forename type="middle">D A R</forename><surname>Committee</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Beijing, China</addrLine></address></meeting>
+		<imprint>
+			<publisher>Plan</publisher>
+			<date type="published" when="2011">2011. 2011-2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">A holistic approach to the environmental evaluation of food waste prevention</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salemdeeb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Font</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vivanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Tabbaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zu Ermgassen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="442" to="450" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Compost supplementation with nutrients and microorganisms in composting process</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Ospina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Montoya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="136" to="153" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Sustainable development and mitigation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sathaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Najam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cocklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mitigation. Contribution of Working Group III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Food waste matters -A systematic review of household food waste practices and their policy implications</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dobernig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goezet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="978" to="991" />
+			<date type="published" when="2018-05-01">2018. May 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Microbial methane oxidation processes and technologies for mitigation of landfill gas emissions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scheutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kjeldsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bogner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Visscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Hilger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huber-Humer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Spokas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="409" to="455" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Scialabba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-H</forename><surname>Turbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hoogeveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tubiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N</forename></persName>
+		</author>
+		<title level="m">Food Wastage Footprint: Impacts on Natural Resources. Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Household food waste behaviour in EU-27 countries: A multilevel analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Principato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Laureti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Policy</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="25" to="40" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Reducing food loss and waste to enhance food security and environmental sustainability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shafiee-Jood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="8432" to="8443" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Achievements and perspectives of anaerobic co-digestion: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N I</forename><surname>Siddique</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Wahid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="page" from="359" to="371" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Food loss and waste: Measurement, drivers, and solutions</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Spang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Achmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Donis-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Gosliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Jablonski-Sheffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Momin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Quested</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Winans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Tomich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Environ. Resour</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="117" to="156" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Methane mass balance at three landfill sites: what is the efficiency of capture by gas collection systems?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Spokas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bogner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Chanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morcet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Graff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Golvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="516" to="525" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Determinants of consumer food waste behaviour: Two routes to food waste</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stancu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haugaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lahteenmaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appetite</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="7" to="17" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Avoiding food waste by Romanian consumers: The importance of planning and shopping routines</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stefan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Herpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Tudoran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lähteenmäki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food. Qual. Prefer</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="375" to="381" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Municipal solid waste source-separated collection in China: A comparative analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1673" to="1682" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<title level="m" type="main">Presidential Message for Winning on Reducing Food Waste Month</title>
+		<author>
+			<persName><forename type="first">The</forename><forename type="middle">White</forename><surname>House</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Washington</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">An overview of food waste management in developing countries: Current status and future perspective</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Thi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="220" to="229" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Environmental sustainability assessment of food waste valorization options</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vandermeersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A F</forename><surname>Alvarenga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ragaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dewulf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Sustainable food consumption: Exploring the consumer attitude -Behavioral intention gap</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vermeir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Verbeke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agric. Environ. Ethics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="169" to="194" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Food loss and waste reduction as an integral part of a circular economy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Vilariño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quarrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">2020. I&apos;m a bit of a waster: Identifying the enablers of, and barriers to, sustainable food waste practices</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wakefield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Axon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Food Waste to Animal Feed</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Westendorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Population, Health and Waste Management: Scientific Data and Policy Options</title>
+		<meeting><address><addrLine>Ames. WHO; Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Health Organization Regional Office for Europe</publisher>
+			<date type="published" when="2000">2000. 2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Comparison of single-stage and temperature-phased two-stage anaerobic digestion of oily food waste</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Convers. Manag</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1174" to="1182" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">A review of phosphorus management through the food system: identifying the roadmap to ecological agriculture</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Anaerobic digestion of food wastechallenges and opportunities</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page" from="1047" to="1058" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Missing food, missing data? A critical review of global food losses and food waste data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Herpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stenmarck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ostergren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="6618" to="6633" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Human perturbation of the global phosphorus cycle: Changes and consequences</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2438" to="2450" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Food waste valorization advocating Circular Bioeconomy -A critical review of potentialities and perspectives of spent coffee grounds biorefinery</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zabaniotou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kamaterou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="1553" to="1566" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Public perceptions and economic values of source-separated collection of rural solid waste: A pilot study in China</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="166" to="173" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Effect of aeration interval on oxygen consumption and GHG emission during pig manure composting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="214" to="220" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Anaerobic co-digestion of food waste and piggery wastewater: Focusing on the role of trace elements</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jahng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="5048" to="5059" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title level="a" type="main">Three-stage anaerobic co-digestion of food waste and horse manure</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wah Tong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1269</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Municipal solid waste management in China: status, problems and challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Gersberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1623" to="1633" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">The anaerobic co-digestion of food waste and cattle manure</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="170" to="176" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Reducing the land use of EU pork production: where there&apos;s swill, there&apos;s a way</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Zu Ermgassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Phalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balmford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Policy</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="35" to="48" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

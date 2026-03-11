@@ -1,0 +1,2986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Environmental Technology &amp; Innovation</title>
+				<funder>
+					<orgName type="full">Indonesia Education Scholarship (BPI)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Indonesia Endowment Funds for Education (LPDP)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-06-21">21 June 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Aulia</forename><forename type="middle">Ulfah</forename><surname>Farahdiba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia, Sukolilo</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution">Universitas Pembangunan Nasional &apos;&apos;Veteran&apos;&apos; Jawa Timur</orgName>
+								<address>
+									<addrLine>Jalan Raya Gunung Anyar</addrLine>
+									<postCode>60294</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><forename type="middle">D A A</forename><surname>Warmadewanthi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia, Sukolilo</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Research Center for Sustainable Infrastructure and Environment</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia, Sukolilo</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yunus</forename><surname>Fransiscus</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia, Sukolilo</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemical Engineering</orgName>
+								<orgName type="institution">University of Surabaya</orgName>
+								<address>
+									<addrLine>Jalan Raya Kalirungkut</addrLine>
+									<postCode>60293</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elsa</forename><surname>Rosyidah</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Universitas Nahdlatul Ulama Sidoarjo</orgName>
+								<orgName type="institution" key="instit2">Jalan Lingkar Timur Rangkah Kidul</orgName>
+								<address>
+									<postCode>61234</postCode>
+									<settlement>Sidoarjo East Java</settlement>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joni</forename><surname>Hermana</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia, Sukolilo</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adhi</forename><surname>Yuniarto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia, Sukolilo</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Environmental Engineering</orgName>
+								<orgName type="institution" key="instit1">Institut Teknologi Sepuluh Nopember</orgName>
+								<orgName type="institution" key="instit2">Jalan Teknik Kimia</orgName>
+								<address>
+									<postCode>60111</postCode>
+									<settlement>Sukolilo East Java</settlement>
+									<region>Surabaya</region>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Environmental Technology &amp; Innovation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-06-21">21 June 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F106EBEA88F84F1260169DD07665E2D9</idno>
+					<idno type="DOI">10.1016/j.eti.2023.103256</idno>
+					<note type="submission">Received 26 February 2023 Received in revised form 12 June 2023 Accepted 14 June 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Food waste Treatment Indonesia Regulation</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Domestic waste is dominated by food waste (FW) in Indonesia. Indonesia has committed to advancing FW management based on The National Strategy Policy Guidelines (Presidential Regulation 97/2017), aiming for a 30% reduction and 70% waste handling by 2025. However, the current FW regulations and treatments are insufficient to reach these targets. This paper aims to quantify the potential FW generation and provide integrated government regulation and technical recommendations on the current technology to enhance the applicability of FW treatment in Indonesia. The proposed treatment technology is discussed within the context of technical, economic, and environmental concerns. The current practical FW treatments include composting and landfill, with landfill having the highest environmental impact. Black soldier flies and thermal treatments are new technologies considered promising by Indonesia's Waste to Energy regulations. However, FW treatment technical considerations are expected to developing on different scales. Therefore, the environmental impact of current treatments must be considered. It is crucial to analyze specific FW treatment recommendations in terms of product and residuals to improve environmental impact assessment quality.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The global population is expected to grow to 9.3 billion by 2050, creating a 50%-70% increase in food demand. Approximately one-third of the edible food produced for human consumption is lost or wasted yearly, which equals around 1.3 billion tons <ref type="bibr" target="#b7">(Bond et al., 2013;</ref><ref type="bibr" target="#b24">FAO, 2020</ref><ref type="bibr" target="#b20">FAO, , 2011))</ref>. Food waste (FW) contributes to the food crisis as an increased amount of food needs to be produced to feed the global population. If FW is reduced, food will be more accessible, and access to nutrition will increase for individuals.</p><p>Economic resources could be saved by reducing FW by decreasing operational food costs and improving reliability and resistance to other factors, such as climate change. Furthermore, reducing FW will increase incomes due to a more stable food supply and provide adequate nutrient-rich food for consumption, particularly in developing countries <ref type="bibr" target="#b22">(FAO, 2014;</ref><ref type="bibr" target="#b63">Mzumara et al., 2018;</ref><ref type="bibr" target="#b93">Thyberg and Tonjes, 2016)</ref>. FW significantly impacts the environment, generating 4.4 GtCO 2 eq annually, or approximately 8% of the total anthropogenic GHG emissions based on carbon footprints <ref type="bibr" target="#b23">(FAO, 2015)</ref>. Therefore, reducing FW could significantly alleviate hunger, increase incomes, climate change reduction, and enhance food security.</p><p>Indonesia is the second-largest FW producer globally, estimated to create 300 kg of FW per capita per year. Indonesia also has the third-highest incidence of stunted children at 36.4%, followed by Nigeria at 32.9% (The Economist Intelligence Unit, 2017). To improve and secure food security in Indonesia, it is essential to reduce the amount of FW generated by the system. The potential impact on global warming resulting from FW in Indonesia over the last 20 years is estimated at 1,702.9 Mton CO 2 -Ek, equivalent to 7.29% of the average GHG emissions in Indonesia for the last 20 years (Ministry of National Development Planning of the Republic of Indonesia, 2021a).</p><p>Previous studies have not properly analyzed Indonesia's current FW treatment, regulations, technical terms, and environmental impacts (see supplementary material). The National Strategy Policy Guidelines (Presidential Regulation 97/2017), which is abbreviated as Jakstranas, has set a 30% waste reduction target from the source and a 70% waste treatment target by 2025. However, achieving the waste treatment target remains distant. In 2022, Indonesia achieved 25.3% waste reduction and 49.2% waste treatment (Ministry of Environment and Forestry of the Republic of <ref type="bibr">Indonesia, 2022)</ref>. This study focused on accelerating the achievement of the 70% waste treatment target by 2025, analyzing the existing state of FW generation in Indonesia, and forecasting FW treatment through current and future FW treatment implementations.</p><p>The objectives of the present study are (i) to quantify the potential FW generation in Indonesia, (ii) to provide information and recommendations regarding the current government regulations to enhance the implementation of FW treatment, and (iii) to discuss the current and proposed FW treatments in Indonesia regarding their technical challenges, economic considerations, and environmental impact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Review methodology</head><p>This study analyzed a comprehensive Scopus literature database listing important keywords related to FW literature. The researchers used the Scopus database as it is considered a reliable source of scientific, academic publications. The keyword ''food waste'' in the title, abstract, and authors was used to obtain the necessary data. During the selection round, we assessed the titles and abstracts of FW management and treatment studies conducted in Indonesia.</p><p>Data collected from regulations, annual state and local government reports, and various theses represent the local data and discussions regarding regulations, quantification, and current FW treatment in Indonesia. Solid waste management performance data from Indonesia was obtained from the open-access website SIPSN (National Waste Management Information System). However, several cities had not thoroughly reported the quantity and composition of waste based on the information from SIPSN. Therefore, recent data from 2020 has been approximated using more comprehensive and recent data.</p><p>This review focuses on the current condition and initiatives regarding FW treatment in Indonesia, as shown in Fig. <ref type="figure" target="#fig_0">1</ref>. Section 1 of this review provides an overview of the definition, current situation, and influence factors regarding FW generation. Section 2 discusses and analyses Indonesia's SWM development and regulations. Section 3 analyzes the current and proposed FW treatment systems with technical, economic, and environmental impact consideration (BSF, AD, Composting, Thermal, RDF, landfilling and Hydrothermal) in Indonesia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Food waste and Indonesia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Definition of food loss and waste in Indonesia</head><p>Food loss refers to the reduction in edible food mass that occurs within the supply chain that creates edible food for human consumption. Food loss occurs at the production, post-harvest, and processing stages of the supply chain. Food loss during retail and consumption is referred to as FW <ref type="bibr" target="#b21">(FAO, 2013</ref><ref type="bibr" target="#b20">(FAO, , 2011;;</ref><ref type="bibr" target="#b69">Parfitt et al., 2010)</ref>. In Indonesia, the definition of FW based on regulations Law <ref type="bibr">No. 18 from 2008</ref><ref type="bibr">(Government of Indonesia, 2008)</ref>. FW management in Indonesia focuses on FW generated in the distribution and consumption stages, while food loss is considered appropriate in the context of agro-industrial waste. In this study, the definition of FW is waste involved in the distribution and consumption stages (Ministry of National Development Planning of the Republic of Indonesia, 2021a).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Food waste generation in Indonesia</head><p>Regarding the characteristics of MSW, in 2019-2020, FW generation in Indonesia was approximately 40%, being 40.34% in 2019 and 40.23% in 2020. The three most significant waste contributors are FW, plastic, and wood and paper. Plastics accounted for 15.9% of waste in 2019 and 17.29% in 2020, while wood and paper accounted for approximately 16% in 2019, and ±11% in 2020 (Ministry of Environment and Forestry of the Republic of Indonesia, 2020a). FW is a significant waste contributor in Indonesia. Previous research has found that in Indonesia, solid waste is primarily comprised of FW <ref type="bibr" target="#b15">(Dhokhikah et al., 2015;</ref><ref type="bibr" target="#b41">Khair et al., 2019;</ref><ref type="bibr" target="#b64">Nikmah and Warmadewanthi, 2013;</ref><ref type="bibr" target="#b86">Suhartini et al., 2022)</ref>.</p><p>The percentage of FW in MSW varies across regions, ranging from 11.93-57.08% in 2020, as shown in Fig. <ref type="figure" target="#fig_1">2</ref> (Ministry of Environment and Forestry of the Republic of Indonesia, 2020a). Indonesia has six major islands that comprise several provinces. From West to East, these are Sumatera (10 provinces), Java (6 provinces); Kalimantan/Borneo (9 provinces); Sulawesi (6 provinces); Nusa Tenggara and Bali (3 provinces), and Maluku and Papua (6 provinces). FW is more common in metropolitan cities, such as DKI Jakarta (JKT) and East Java (EJ), which have FW rates of 45.43% at 46.43%, respectively. Several tourist cities, such as DIY Yogyakarta (YG), East Kalimantan (EK), and South Sulawesi (SS), have FW rates of 57.08%, 50%, and 45.37%, respectively. The amount of waste generated in 2020 was 67.8 million tons, and FW is predicted to account for 20.8 million tons/year (Ministry of Environment and Forestry of the Republic of Indonesia, 2020b,a). This is in line with estimates that total FW generation is 23-49 million tons/year, equivalent to 115-184 kg/capita/year (Ministry of National Development Planning of the Republic of Indonesia, 2021a). Most waste is generated in the consumption stage, ranging from 5-19 million tons/year. It is believed that 80% of consumption waste originates from households, with the remaining 20% created in the non-household sector. Leftover edible food accounts for 44% of all FW (Ministry of National Development Planning of the Republic of Indonesia, 2021a). This research employs national-level data, that not consider the socio-cultural nuances of individual regions thus requiring a more specific analysis in detailed stage.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Factors influencing the generation of food waste</head><p>FW generation can be influenced by age, perception, income, number of household members, and children <ref type="bibr" target="#b90">(Szabó-Bódi et al., 2018)</ref>. The variation in the food supply chain and demographic, social, educational, economic, and environmental factors impact FW in Indonesia. Families with fewer members produce more waste per capita than larger households <ref type="bibr" target="#b54">(Mertenat et al., 2019;</ref><ref type="bibr" target="#b85">Sugiyarto, 2021)</ref>. Customer behavior has been thoroughly investigated in FW studies. Human life patterns <ref type="bibr" target="#b106">(Zhang et al., 2019</ref><ref type="bibr">), consumer habits (van Herpen et al., 2019)</ref>, behavior, knowledge <ref type="bibr" target="#b44">(Laso et al., 2021;</ref><ref type="bibr" target="#b46">Lemy et al., 2021)</ref>, and culture <ref type="bibr" target="#b19">(Elimelech et al., 2018;</ref><ref type="bibr" target="#b67">Padeyanda et al., 2016)</ref> all substantially impact FW reduction. Perceptions between employers and domestic household helpers could impact awareness regarding fluctuating FW quantity <ref type="bibr" target="#b46">(Lemy et al., 2021;</ref><ref type="bibr" target="#b83">Soma, 2020</ref><ref type="bibr" target="#b82">Soma, , 2017))</ref>. Without intervention, Indonesia's FW generation is predicted to reach 344 kg/capita/year by 2045. However, this could be reduced to 166 kg/capita/year with the implantation of specific strategies (Ministry of National Development Planning of the Republic of Indonesia, 2021b).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Progress of food waste management and regulation</head><p>The annual population growth in Indonesia is considerably high (1.12%). This will lead to a significant increase in FW generation within 10 years (Central Bureau of Statistics of Indonesia, 2020; World Bank, 2021) Therefore, Indonesia must develop greater FW management, with the President stating during a Plenary Cabinet Meeting on June 20, 2022, that ''Indonesia has to anticipate the threat of food, energy, and financial crises. Therefore, we need the synergy and collaboration of all relevant stakeholders'' (Cabinet Secretariat of the Republic of Indonesia, 2020).</p><p>Indonesia has undergone a paradigm shift in regard to solid waste management (Fig. <ref type="figure" target="#fig_2">3</ref>). Before Law 18 was enacted in 2008, Indonesia was using ''end a pipe solution'' where waste is not a resource and has no natural resource efficiency, and there is a tendency to overexploit natural resources <ref type="bibr">(Government of Indonesia, 2008)</ref>. The enactment of LAW 18/2008 and the 3Rs (Reduce, Recycle, Reuse) <ref type="bibr">(2008)</ref><ref type="bibr">(2009)</ref><ref type="bibr">(2010)</ref><ref type="bibr">(2011)</ref><ref type="bibr">(2012)</ref><ref type="bibr">(2013)</ref><ref type="bibr">(2014)</ref><ref type="bibr">(2015)</ref> have reduced the pollutant load associated with waste by changing behaviors and reducing waste at the source. Since 2015, Indonesia has implemented extended producer responsibility (EPR) and circular economy (CE) initiatives to enforce producer commitments, particularly regarding recycled packaging (Coordinating Ministry for Maritime and Investments Affairs, 2021). EPR refers to the responsibility of producers in regard to packaging management and regulation, particularly for packaging that cannot be recycled (Ministry of Environment and Forestry of the Republic of Indonesia, 2021a). CE implementation in the FW management includes managing packaging, product and materials in use, and regenerating natural systems (KPMG, 2020). In recent years, the Indonesian government has begun to develop technologies that enhance the implementation of CE, such as: AD, BSF, RDF, and composting technologies. This study incorporates a comprehensive analysis of the implementation of CE, that the discussion of each FW processing technology is integrated with technical, economic, and environmental impact considerations.</p><p>The basic framework of waste management and related FW policies was summarized by examining government documents on waste management in Indonesia, as shown in Fig. <ref type="figure" target="#fig_3">4</ref>. Indonesia initiated solid waste management in their Long-Term Development Plan <ref type="bibr">(RPJP 2005</ref><ref type="bibr">-2025</ref><ref type="bibr">), LAW No. 17/2007</ref><ref type="bibr">, and National Medium-Term Development Plan (RPJMN 2020</ref><ref type="bibr">-2024)</ref>. This was followed by government and presidential regulations. The presidential regulation was developed specifically by the Ministry of Environment and Forestry and was related to guidelines, roadmaps, and environmental performance ratings. This regulation is an upstream (top-down) initiative by the government to clarify targets and achievements in solid waste management. Furthermore, the Ministry of Home Affairs stipulated solid retribution regulations, and the Ministry of Public Works provided technical guidelines regarding solid waste management infrastructure. These two regulations are downstream regulations to provide steps for solid waste technical management. As part of this, Indonesia has committed to mainstreaming its SDG goals, targets, and indicators in the RPJMN for 2020-2024. The plan is divided into 5-year medium-term development plans with various development priorities. The RPJMN for 2020-2024 (Presidential regulation 18/2020) has several FW management-related priorities. The third national priority is increasing food consumption availability, access, and quality, while the fifth is improving the national food system governance. The long-term development strategy has led to the creation of the current medium-term development plan.</p><p>The first waste management initiatives in Indonesia were LAW No. 18/2008 (Government of Indonesia, 2008) and government regulation No. 81/2021 (Government of Indonesia, 2021a). They enforce manufacturers to reduce and recycle their waste and/or biodegradable packaging. Furthermore, they stated that producers must minimize waste in their product supply chain. FW is a potential resource that could be utilized as renewable energy and enhance economic value. However, these regulations did not explicitly define the potential of FW resources. Furthermore, the FW reduction targets must be explained further for each supply chain.</p><p>FW minimization was cited in Ministry of Environment and Forestry regulation No. 75/2019, which is a 10-year waste reduction roadmap for producers in Indonesia's food and beverage service industry sector, including manufacturing, food and beverage services, and retail (Government of Indonesia, 2019a). This regulation states that minimization, recycling, and reuse could reduce product and packaging waste across 2020-2029. This regulation is targeted at food packing only, with no mention of minimizing FW products. The Indonesian Government's initiatives to manage FW were expanding to include more industries and companies in the Ministry of Environment and Forestry regulation No. 1/2021 (Goverment of Indonesia, 2021). The importance of solid waste, specifically FW, is significantly related to increasing industry performance.</p><p>The presidential regulation No. 97/2017 (Government of Indonesia, 2017) and the Ministry of Environment and Forestry regulation No. 10/2018 (Government of Indonesia, 2018) form the Jakstranas. It also guides developing regional policies and strategies at the provincial and district levels to explain waste reduction characteristics. FW should be part of the waste reduction from the source target. The Acceleration of Construction of Solid Waste Processing Installations into Electrical Energy Based on Environmentally Sustainable Technology, initiated in presidential regulation No. 35/2018, is a technical initiative to accelerate waste processing into renewable energy (Government of Indonesia, 2018). Waste has been discussed as energy waste; however, waste processing technology only involves thermal processing technology and refused-derived fuel (RDF). FW processing has not been separated as there are no specific terms for managing FW (i.e., food waste treatment). Indonesia has initiated presidential regulation No. 86/2019, which focuses on food safety requirements to meet food safety and quality standards for human consumption; however, it does not mention FW (Government of Indonesia, 2019b).</p><p>The downstream initiatives include the Ministry of Home Affairs regulation No. 7/2021 and Ministry of Public Works regulation No. 3/2013. These initiatives define the solid waste management infrastructure and domestic waste retribution (Government of <ref type="bibr">Indonesia, 2021b</ref><ref type="bibr">Indonesia, , 2013))</ref>. Organic waste management typically involves sorting and composting. FW separation and pre-treatment can increase the efficiency and recovery value of FW (see supplementary material).</p><p>The Indonesian Government is concerned about its waste problem and has explored other options for minimizing FW disposal in landfills. Recognizing the increase in waste generation and the changing composition of waste, the government began to promote 3R in 2008 to increase material recovery and reduce the waste disposed of in landfills. Several regulations have focused on the recovery management of domestic solid waste, including the Waste to Energy (WTE) program, whereby waste is transformed into useful substances or into fuel via RDF or in thermal processing, Presidential regulation No. 35/2018; however, the direct use of FW in this program is not clearly defined <ref type="bibr" target="#b51">(Luthfia et al., 2020;</ref><ref type="bibr" target="#b84">Sudibyo et al., 2017)</ref>. While the government has made significant progress in terms of waste management rules, they are still somewhat antiquated and do not address the present amount of FW output, as they do not directly address minimizing waste management from consumer sources or waste handling.</p><p>Several statements have highlighted the urgency of FW management in regard to its impact on climate change, which has resulted in the adoption of a CE and low-carbon development in Indonesia <ref type="bibr" target="#b51">(Luthfia et al., 2020</ref>; Ministry of National Development Planning of the Republic of Indonesia, 2021a; Suhartini et al., 2022). Indonesia has committed to combating climate change in its long-term visions (Visi Indonesia 2045; Long-Term Strategy on Low Carbon and Climate Resilient Development 2050). Specifically, Indonesia has set a 2050 reduction target of 3.45% regarding the impact of climate change on national GDP. Indonesia aims to achieve this by increasing the resilience of four necessities: food, water, energy, and environmental health. Three target areas and extending the adaptation strategy into the Updated Nationally Determined Contributions (NDC) focus on the contributions of the economy, social and livelihood, ecosystem, and landscape (Government of the Republic of Indonesia, 2021).</p><p>Domestic solid waste is a priority sector for reducing greenhouse gas emissions. Significant amounts of methane gas from landfill waste contribute to the greenhouse gas effect. In addition, open burnings and illegal waste disposals still occur, and no methane utilization is associated with landfills <ref type="bibr" target="#b4">(Auvaria, 2013</ref>; Government of the Republic of Indonesia, 2021; <ref type="bibr" target="#b50">Lumban, 2017;</ref><ref type="bibr" target="#b73">Rachim, 2017)</ref>. Therefore, FW will become the focus of the government's attention in Indonesia's Long-Term Strategy for Low Carbon and Climate Resilience 2050 (Government of the Republic of Indonesia, 2021).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Current food waste treatment technology in Indonesia</head><p>Regarding solid waste management achievements, Indonesia reported 25.3% waste reduction and 49.2% waste handling in 2022 (Ministry of Environment and Forestry of the Republic of Indonesia, 2022). The Indonesian government has introduced several terms for waste processing sites. Waste processing units involved in food waste processing include composting, biodigester, landfill, recycling centers, and thermal treatment units. In this study, composting is specific to the communal compost plant. Biodigester refers to a waste processing digester unit that uses an anaerobic process. Landfills are waste processing units managed by the Indonesian government. In this study, landfills included open dumping, secure landfills, or sanitary landfills. Most landfills in Indonesia are open dumping or controlled landfills (Ministry of Environment and Forestry of the Republic of Indonesia, 2020d).</p><p>Fig. <ref type="figure" target="#fig_4">5</ref> demonstrates the condition of FW treatment in Indonesia in 2020 based on the number (unit) of food waste processing units throughout Indonesia. The composting units are compost plants managed by the government or nongovernmental organizations that focus only on managing organic waste. Recycling centers have a separation process for FW processing that usually involves a manual composting process and black soldier flies (BSFs). Thermal treatment involves incineration, gasification, and pyrolysis. Landfill technology is still used for FW management in Indonesia.</p><p>Surprisingly, some areas only have landfill for waste management, such as Maluku (MU). However, some areas have composting plants, biodigesters, landfill, and recycling centers, such as EJ and Central Java (CJ). Different technologies are distributed in Fig. <ref type="figure" target="#fig_4">5</ref>, where the colors represent FW technology variants in each province. The landfill system is distributed among all Indonesian compared to biodigester, thermal, and recycling centers. This condition shows that FW processing conditions in Indonesia are dominated by composting followed by landfilling. The acceleration of FW processing into energy should accelerate the implementation of processing technology on a small scale from community participation <ref type="bibr" target="#b13">(Colón et al., 2010;</ref><ref type="bibr" target="#b40">Keng et al., 2020)</ref> or large/communal scale from government support <ref type="bibr" target="#b48">(Lokahita et al., 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Black soldier larvae</head><p>The BSF (Hermetia illucens) is widely distributed globally in tropical and warm temperate areas. They are voracious consumers of decomposing plant and animal matter, such as rotting fruits, vegetables, food items, cow and chicken mounds, and other animal waste. These insects' oviposition and larval growth are greatly impacted by several conditions, such as temperature, relative humidity, light sources, and other waste-related characteristics, including moisture content and pH. <ref type="bibr" target="#b33">(Hopkins et al., 2021;</ref><ref type="bibr" target="#b81">Singh and Kumari, 2019</ref>) Substrate characteristics become essential in the decomposition process of BSFs. FW is a suitable material for processing by BSF larvae, including fruit peel mixed with goat manure, agriculture, cafeteria, and domestic waste <ref type="bibr" target="#b27">(Fitriana et al., 2021;</ref><ref type="bibr" target="#b35">Ichwan et al., 2021;</ref><ref type="bibr" target="#b36">Indri et al., 2021;</ref><ref type="bibr" target="#b78">Sanjaya et al., 2019;</ref><ref type="bibr" target="#b101">Widyastuti et al., 2021)</ref>. As a tropical country, Indonesia has an optimum temperature for BSF-related FW processing. However, it is crucial to maintain appropriate circumstances, including meal components, a suitable temperature, humidity, and acidity, for BSF larvae to survive and develop <ref type="bibr" target="#b66">(Ojha et al., 2020)</ref> In the 2020-2021, the Surabaya City government developed four food waste processing units using BSF in Jambangan, Wonorejo, Bratang, and Menur. The Jambangan Recycling Center (PDU) was initiated as a collaboration between the Ministry of Environment and Forestry and the Surabaya City Environment Service (DLH). From 2020-2021, PDU processed 50 tons of household FW, while the Wonorejo BSF processing unit processed 40-50 tonnes of FW from the nearest canteen food waste. The Bratang and Menur units can process 1-7 tons/year of canteen FW. The products produced from this process include maggots (pupae) and compost from the residual process (Environment Berau of Surabaya, 2021). The Jambangan and Wonorejo units have a BSF waste reduction performance of 84% and 54%, respectively <ref type="bibr" target="#b104">(Zahra, 2022)</ref>. Other research indicates that utilizing FW from domestic waste (household) and Cafetaria as a substrate could reduce 70%-75% of waste <ref type="bibr" target="#b12">(Cheng et al., 2017;</ref><ref type="bibr" target="#b27">Fitriana et al., 2021;</ref><ref type="bibr" target="#b34">Ibadurrohman et al., 2020;</ref><ref type="bibr" target="#b71">Priyambada et al., 2021)</ref>. There are several obstacles associated with managing BSF processing units in Indonesia, such as a lack of resources and funds and the collection of FW from households. Not all residents are aware that they need to separate their organic and inorganic wastes, making FW collection more challenging (Environment Berau of Surabaya, 2021).</p><p>BSFs contain a respectable amount of crude protein (40%-54%) and dry fat (15%-49%), and their essential amino acid composition is comparable to fish meal <ref type="bibr" target="#b17">(Ebeneezar et al., 2021)</ref>. BSF research conducted on canteen waste in Indonesia found that the product nutrient composition comprised 45%-50% protein and 24%-50% fat <ref type="bibr" target="#b35">(Ichwan et al., 2021)</ref>. Similar research using FW from cafeterias indicated a product composition that contained 29.1% protein and 11.86% fat within 12 days of bioconversion <ref type="bibr" target="#b34">(Ibadurrohman et al., 2020)</ref>. The residual process of BSF creates a high amino acid product that could produce high-quality compost <ref type="bibr" target="#b42">(Kim et al., 2021;</ref><ref type="bibr" target="#b54">Mertenat et al., 2019;</ref><ref type="bibr" target="#b36">Indri et al., 2021)</ref>. Moreover, BSF technology contributes less to global warming than other conventional composting techniques <ref type="bibr" target="#b76">(Salam et al., 2022)</ref> (see supplementary material).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Anaerobic digestion</head><p>Anaerobic digestion (AD) technology can produce energy from organic materials. AD provides ideal heat-and oxygenfree conditions that enable microorganisms to thrive and decompose organic matter into biogas and nitrogen-rich fertilizers <ref type="bibr" target="#b49">(Lukitawesa et al., 2020;</ref><ref type="bibr" target="#b77">Sandriaty et al., 2018;</ref><ref type="bibr" target="#b88">Sumantri and Hadiyanto, 2020;</ref><ref type="bibr" target="#b105">Zhang et al., 2020)</ref>. AD has several economic and environmental benefits in addition to reducing the waste sent to landfills. According to estimates, large-scale AD applications could deliver operational benefits and efficiency improvements, such as reducing landfill costs and imparting economic benefits through the generation of power, heat, and fertilizer <ref type="bibr" target="#b32">(Hobbs et al., 2021;</ref><ref type="bibr" target="#b95">Tiong et al., 2021;</ref><ref type="bibr" target="#b100">Waris et al., 2021;</ref><ref type="bibr" target="#b105">Zhang et al., 2020)</ref>.</p><p>Previous AD research in Indonesia has involved pilot or laboratory studies. Biogas units in Indonesia typically process waste with the addition of a bacterial starter/inoculum, usually from cow manure, tofu wastewater, or palm oil mill effluent (POME) <ref type="bibr" target="#b95">(Tiong et al., 2021)</ref>. Monitoring anaerobic co-digestion involves using operational control parameters, such as pH, alkalinity, and process performance, which are characterized by volatile solids, biogas production, and methane content. FW utilization from canteens and cafeterias creates volatile solids (VS) with a conversion efficiency of 90%-96% (%WW, on a wet basis) <ref type="bibr" target="#b77">(Sandriaty et al., 2018;</ref><ref type="bibr" target="#b91">Tassakka et al., 2019)</ref>, while the recommended conversion efficiency of organic materials to VS is 83%. These characteristics are crucial because they enable the conversion of FW into useful products, such as energy recovery <ref type="bibr" target="#b31">(Helenas Perin et al., 2020)</ref>. In Indonesia's climate, AD plants have a hydraulic retention time (HRT) of 20-130 days, depending on the substrate, reactor, and operational system <ref type="bibr" target="#b77">(Sandriaty et al., 2018;</ref><ref type="bibr" target="#b80">Saragih et al., 2019;</ref><ref type="bibr" target="#b100">Waris et al., 2021)</ref>. Methane yields could generate 0.30 L CH 4 /g COD removed with POME <ref type="bibr" target="#b95">(Tiong et al., 2021)</ref>.</p><p>Substrates from canteens that use high fat, oil, and grease levels could produce 127 to 485 ± CH 4 /kg of VS per day <ref type="bibr" target="#b91">(Tassakka et al., 2019;</ref><ref type="bibr" target="#b103">Wulansari and Kristanto, 2016)</ref>.</p><p>One of Indonesia's ADs for FW treatment projects is the Integrated Resource Recovery Center (IRRC) in Malang Regency, East Java developed by the United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP) in collaboration with Waste Concern. An IRCC is a plant where 80%-90% of FW can be handled in a decentralized, costeffective manner for small and medium-sized communities. Such plants utilize traditional market waste as a substrate and cow manure as inoculum at a ratio of 1:1. The construction of IRRCs typically includes an AD, sludge drying bed, compostor, and generator <ref type="bibr">(Farahdiba et al., 2021b;</ref><ref type="bibr" target="#b86">Suhartini et al., 2022)</ref>. IRRC Malang District <ref type="bibr">(Farahdiba et al., 2021a)</ref>.</p><p>Biodigester processing has been growing in Indonesia since 2020. In 2020, managed waste reached 300 tons/year and will increase to 3800 tons/year in 2022. This process has produced animal feed, compost, and produce up to 1000 tons of raw energy materials each year (Ministry of Environment and Forestry of the Republic of <ref type="bibr">Indonesia, 2022</ref><ref type="bibr">Indonesia, , 2021b</ref><ref type="bibr">Indonesia, , 2020a))</ref>. However, in the Indonesian national database, the production of specific substrates is not explained in detail.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Composting</head><p>Composting is a method of handling environmental waste that involves the biological decomposition of organic substances <ref type="bibr" target="#b11">(Cai et al., 2022)</ref>. Compost can be created using aerobic windrow composting, which involves stacking long rows of biodegradable materials. This process works well for larger-scale processes when mechanical pile rotation is required and is frequently used in agricultural treatment plants <ref type="bibr" target="#b0">(Abu et al., 2021;</ref><ref type="bibr" target="#b40">Keng et al., 2020;</ref><ref type="bibr" target="#b74">Saer et al., 2013)</ref>. Most communal compost plants in Indonesia involve aerobic composting with manual aeration, where the garbage is stacked and turned manually.</p><p>The Indonesian government and community widely use composting for FW management. In 2021, waste reached 300,000 tons/year, and generated compost products reached 192,000 tons/year with a residual yield of the animal feed product is 38,236 tons/year. Large/communal scale composting applications typically use the open windrow method and are managed by the local government. An example of a composting process in a metropolitan city is Surabaya. Surabaya has 26 compost plants that utilize wooden twig waste from the city parks and food waste from households and traditional markets (see supplementary material) (Environment Berau of Surabaya, 2021). Composting is associated with several environmental issues, such as soil acidification, odor, and ground and surface water contamination from the release of leachate, as well as potential health impacts from drinking contaminated water. Composting can help improve waste disposal conditions and reduce MSW carbon emissions by 20%-25% <ref type="bibr" target="#b75">(Salam et al., 2021)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Thermal treatment</head><p>The process of generating heat from waste material is known as thermal oxidation, which includes incineration. In this process, the steam engine boiler receives the heat. Waste containing hydrocarbons is burned during incineration, converting the hydrocarbons to water, carbon dioxide, and other pollutants. Prior to developing an effective combustion process, it is essential to comprehend a material's fundamental elements to establish its carbon, hydrogen, oxygen, nitrogen, sulfur, and ash makeup <ref type="bibr" target="#b48">(Lokahita et al., 2019)</ref>. Thermal waste processing can reduce large amounts of waste quickly and convert it into electrical energy that can be used by the community <ref type="bibr" target="#b38">(Kadang and Sinaga, 2020)</ref>.</p><p>In February 2016, the Indonesian government released a presidential regulation on the acceleration of WTE development in seven cities. WTE was defined as a power plant that uses thermal processing technology to convert MSW, such as FW, yard waste, and plastic waste, into sustainable energy by gasification, incineration, or pyrolysis. Thermal waste capacity in Indonesia reached 26947,95, 11913,60, and 3160,90 tons/year from 2021-2022, respectively (Ministry of Environment and Forestry of the Republic of Indonesia, 2022) (see supplementary material). It is thought that gasification is more reliable for many areas due to its reduced impact compared to landfilling, incineration, and pyrolysis <ref type="bibr" target="#b8">(Budiono, 2021;</ref><ref type="bibr" target="#b29">Gunamantha, 2010;</ref><ref type="bibr" target="#b62">Muliawati, 2018;</ref><ref type="bibr" target="#b73">Rachim, 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5.">Landfilling</head><p>Disposing of FW in landfills is typically considered the most environmentally damaging option and, therefore, is the lowest method in the FW management hierarchy. This waste management system is often considered the most polluting and significantly contributes to global warming and acidification <ref type="bibr" target="#b50">(Lumban, 2017;</ref><ref type="bibr" target="#b64">Nikmah and Warmadewanthi, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.6.">Refuse-derived fuel</head><p>As organic and plastic materials make up more than 50% of Indonesia's solid waste, there is enormous potential for recovering RDF <ref type="bibr" target="#b48">(Lokahita et al., 2019)</ref>. Indonesia has three RDF project units: Medan City, Depok City, and Cilacap City. The units in Medan City and Cilacap are private partnerships with the local government, while the unit in Depok City is managed by the local government. These three projects are estimated to have processed up to 57,874 tons/year of waste between 2021-2022 (Ministry of Environment and Forestry of the Republic of Indonesia, 2021b). The Cilacap unit has the highest processing capacity, capable of processing 150 tons of waste per day and producing approximately 54.89 tonnes of RDF, or around 36.09% (Goverment of Cilacap District, 2023). RDF technology is associated with refined implementation and is thought to have accelerated the implementation of national strategic projects in line with Indonesia's WTE target <ref type="bibr">(The Government of Indonesia, 2018)</ref>.</p><p>Compared to other biomass conversion technologies, such as pyrolysis and gasification, RDF technology requires a substantial investment, which often limits its utilization in waste management <ref type="bibr" target="#b2">(Anasstasia et al., 2020)</ref>. However, RDF products demonstrate an expense advantage relative to rice husks and satisfy the required minimum calorific value criteria, obtaining technical recognition <ref type="bibr" target="#b68">(Paramita et al., 2018)</ref>. This economic aspect must be analyzed further to clarify the required investment and economic value associated with FW utilization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.7.">Hydrothermal treatment</head><p>The year 2017 marked the commencement of operations of a comprehensive Hydrothermal facility in Indonesia, designed to process non-segregated municipal solid waste. Unsorted, highly organic garbage is fed into the reactor and exposed to steam at a pressure and temperature of 2.5 MPa and 220 • C for 30 min. Hydrochar, a powder-like substance, is one product obtained from this process. It was estimated that the Hydrothermal might use approximately 15% of the powder is utilized as fuel for the boiler during the hydrothermal treatment process and sell the remaining portion as an alternative to coal.</p><p>Data on gas emissions from the boiler demonstrate low air pollution <ref type="bibr" target="#b52">(Marzbali et al., 2021;</ref><ref type="bibr" target="#b79">Saqib et al., 2019)</ref>. Many FW utilizes hydrothermal technology due to the diversity of current research. The applicability of this technology on an industrial scale is promising. However, the current study primarily concentrates on laboratory size <ref type="bibr" target="#b30">(Hantoro et al., 2020;</ref><ref type="bibr" target="#b72">Putra et al., 2021;</ref><ref type="bibr" target="#b87">Sulaeman et al., 2021;</ref><ref type="bibr" target="#b98">Vlaskin et al., 2017)</ref>. According to a sensitivity analysis, the most significant influencing variables are the financial costs associated with material collection and transportation <ref type="bibr" target="#b53">(Mazumder et al., 2022)</ref>. Therefore, the entire system should be assessed from a technological and economic standpoint, given the industrial viability of hydrothermal processing.</p><p>Several technologies can process input waste as wet or dry organics. The efficacy of these treatments depends on specific conditions, including air supply, reaction conditions, volume reduction, and time detention. The product of each technology is considered an advantage for further application and residual as environmental impact potential. The reliability of these technologies is related to the economic consideration and technical feasibility of their small/ large-scale application potential. RDF and Thermal treatment consider in large-scale applications because of the high investment and operational cost. AD, composting, and BSF comprise technology adopted in small/large scales with relatively easy operations and more affordable costs. Hydrothermal treatment is a suitable FW treatment. Nevertheless, considerable capital investment in equipment and infrastructure is required due to the high levels of maintenance required (see supplementary material).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Food waste treatment recommendations in Indonesia</head><p>Fig. <ref type="figure" target="#fig_5">6</ref> details the recommendations for FW processing in Indonesia. The waste reduction target is the main focus for reducing FW generation. FW generated at the waste source is transported to the temporary processing site (TPS) or temporary processing site (TPS3R) or goes straight to landfills. Processed food waste is transported to TPS3R. Transferring the waste source to TPS or TPS3R requires transportation to a communal waste processing site.</p><p>Households or communities manage several regional-scale composting and BSF processing units (on-site systems). Waste can be processed directly by the household or at the nearest processing site. The communal processing sites (offsite system), including TPS3R, can also function as a recycling center with compost processing, BSF, and thermal processing units. FW must be sorted and segregated before entering primary processing, except if entering the thermal processing unit. Any residual FW that cannot be reused can be immediately transported to landfill. Any products from FW processing can be resold or reused.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Technical feasibility</head><p>Collecting FW is a significant problem, requiring extra transportation and microbial growth control (Fig. <ref type="figure" target="#fig_5">6</ref>). Before FW is moved to a centralized treatment facility, bacterial growth is easily encouraged during the separation, collection, and preservation procedures, as bacteria are abundant in water and organic materials. Therefore, the way FW is preserved is crucial for preventing contamination and odor during transit and treatment <ref type="bibr" target="#b28">(Guan et al., 2021)</ref>. Waste must be gathered and sorted in accordance with the specifications of the facility to run effectively. Every home and community requires suitable trash cans, and both urban and rural regions require proper collection and hygienic waste segregation procedures. Furthermore, both skilled operators and laborers are required for the functioning of these plants <ref type="bibr" target="#b39">(Karmakar et al., 2023)</ref>. The large range of target and non-target substances associated with different waste sources and the process costs associated with large-scale commercialization and high productivity could be challenging <ref type="bibr" target="#b0">(Abu et al., 2021;</ref><ref type="bibr" target="#b1">Ahamed et al., 2016;</ref><ref type="bibr" target="#b45">Laurent et al., 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Economic challenges</head><p>Indonesia's average national budget for waste management in 2022 was only 0.51% of the total budget (Ministry of Home Affairs, 2022). Due to insufficient funding for recycling, some developing nations have attempted to introduce a system for managing FW in their legislative frameworks. However, budgeting remains a significant problem in developing countries for handling waste <ref type="bibr" target="#b47">(Lohri et al., 2017;</ref><ref type="bibr" target="#b70">Pham et al., 2015;</ref><ref type="bibr" target="#b86">Suhartini et al., 2022)</ref>.</p><p>Sustainably managing FW has become a significant priority in developing countries. FW is significantly higher during processing, decreasing the use of sophisticated food preservation methods, including inadequate government regulations and immature supply chains. In developing countries, FW is primarily landfilled or utilized as animal feed <ref type="bibr" target="#b47">(Lohri et al., 2017)</ref>. The applicability of FW recycling in developing countries is highly limited due to weak recovery methods. Furthermore, there are no recycling requirements for the general public and no appropriate incentives to encourage individuals to recycle FW in these countries <ref type="bibr" target="#b16">(Dora et al., 2021;</ref><ref type="bibr" target="#b65">Oelofse, 2014)</ref>. The cost of trash collection, transportation, equipment design, operations, and maintenance should be considered when considering FW processing technologies (Fig. <ref type="figure" target="#fig_5">6</ref>). Several techniques are more suitable for low-capacity, significantly polluting treatments with high energy yields that lower the operational cost <ref type="bibr" target="#b99">(Wang et al., 2022)</ref>. Indonesia needs to develop indigenous technologies that can specifically respond to the requirements of Indonesia's FW. Additional technological drawbacks involve elevated operational expenses and the dearth of proficient operators and technicians <ref type="bibr" target="#b39">(Karmakar et al., 2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Environments impacts</head><p>Fig. <ref type="figure" target="#fig_5">6</ref> proposes community-wide home composting and BSF could further reduce the environmental impact associated with FW. On-site systems are very beneficial for managing FW as they do not require resources for transportation and waste storage facilities and minimize the production of hazardous contents, including waste leachate, from FW. Moreover, technology comparison is required by using the life cycle of FW processing. Life cycle assessments can be used to determine the best technology for different processing scenarios <ref type="bibr" target="#b1">(Ahamed et al., 2016;</ref><ref type="bibr" target="#b3">Angelo et al., 2017;</ref><ref type="bibr" target="#b5">Beretta et al., 2017;</ref><ref type="bibr" target="#b18">Edwards et al., 2018;</ref><ref type="bibr" target="#b37">Iswara et al., 2020)</ref>.</p><p>Proper waste management and treatment for FW with high moisture (80%-90%) and organic matter (approximately 90%) content may reduce GHG emissions and enable bioenergy production. AD technology is frequently cited as a more energy-and emission-beneficial treatment technique for FW than the conventional methods of waste disposal <ref type="bibr" target="#b6">(Bernstad and La Cour Jansen, 2012;</ref><ref type="bibr" target="#b61">Mondello et al., 2017;</ref><ref type="bibr" target="#b94">Thyberg and Tonjes, 2017;</ref><ref type="bibr" target="#b105">Zhang et al., 2020)</ref>.</p><p>Previous research on the environmental impact assessment of waste processing units in Indonesia has determined each processing technology's potential for environmental impact across different scenarios. AD can produce high acidification and eutrophication, while composting has the potential for higher eutrophication <ref type="bibr" target="#b96">(Ula et al., 2021)</ref>. Different thermal treatments were analyzed, including incineration, gasification, pyrolysis, and RDF. Most studies reported that gasification is the most appropriate technology due to its lower environmental impact than landfilling, incineration, and pyrolysis <ref type="bibr" target="#b8">(Budiono, 2021;</ref><ref type="bibr" target="#b29">Gunamantha, 2010;</ref><ref type="bibr" target="#b62">Muliawati, 2018;</ref><ref type="bibr" target="#b73">Rachim, 2017)</ref>. RDF is considered to be a more ecologically sustainable alternative to open dumping and incineration <ref type="bibr" target="#b2">(Anasstasia et al., 2020)</ref>, and it can reduce CO 2 emissions by 178-330 times <ref type="bibr" target="#b89">(Suryawan et al., 2021)</ref>. Landfill, which is the most common solid waste treatment in Indonesia, has the highest environmental impact <ref type="bibr" target="#b4">(Auvaria, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Practical applications and future research prospects</head><p>This study has highlighted the importance of analyzing food waste generation data, considering FW treatment in technical feasibility, environmental impact assessment, and economic considerations. The study involves use of national data, moreover further analysis of data at a more detailed stage is necessary to uncover all the complexities of the issue. Environmental impact assessments need to be conducted to identify the environmental effects of food waste management strategies. Life cycle assessments are a useful tool to evaluate the environmental impacts of each FW treatment. Scenarios can assist in identifying the most environmentally friendly alternative by enabling visualize and predict the potential effects of different food waste management systems. The implementation of sustainable food waste management strategies can not only reduce environmental impact and promote sustainability but also create economic opportunities by promoting circular economies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Conclusions</head><p>Approximately 20.8 million tons/year of FW potential in various regions contributes. Indonesia has to accelerate its progress to achieve its 70% waste treatment target by 2025. Acceleration of this target requires integrated regulation, initiatives, and comprehensive FW technology. However, no concrete regulations or incentives exist to accelerate FW reduction and handling. Small and large-scale technology management must be considered from a technical, environmental, and economic standpoint. Application of BSF, AD, composting, thermal treatment, and RDF promise FW treatment technologies with lower environmental impacts. Environmental impact assessments could be made more profound by carrying out integrated assessment studies. E-supplementary data for this work can be found in the e-version of this paper online. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Scope of this study.</figDesc><graphic coords="3,50.96,55.56,442.63,236.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Percentage of Food Waste in total MSW in each province in Indonesia (2020). Source: Adapted from Ministry of Environment and Forestry of the Republic of Indonesia (2020c).</figDesc><graphic coords="4,51.04,55.59,442.32,314.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. The transition of the Solid Waste Paradigm in Indonesia. Source: Adapted from Ministry of Environment and Forestry of the Republic of Indonesia (2021a).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Regulation related to food waste management in Indonesia.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Current food waste treatment in each province in Indonesia (2020) (Ministry of Environment and Forestry of the Republic of Indonesia, 2020d).</figDesc><graphic coords="7,51.04,55.59,442.32,240.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Food waste handling recommendation in Indonesia.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>Conceptualization, Investigation, Resources, Writing -original draft. I.D.A.A. Warmadewanthi: Writing -review &amp; editing. Yunus Fransiscus: Investigation, Writing -review &amp; editing. Elsa Rosyidah: Data curation, Visualization. Joni Hermana: Supervision, Writing -review &amp; editing. Adhi Yuniarto: Supervision, Validation.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by the <rs type="funder">Indonesia Education Scholarship (BPI)</rs> and the <rs type="funder">Indonesia Endowment Funds for Education (LPDP)</rs>, which provides funding support through doctoral degree scholarships.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary material related to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.eti.2023.103256">https://doi.org/10.1016/j.eti.2023.103256</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment analyzing with gabi software for food waste management using windrow and hybrid composting technologies</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ab Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Che</forename><surname>Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Noor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Z</forename><surname>Abd Jalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.11113/jurnalteknologi.v83.17199</idno>
+		<ptr target="http://dx.doi.org/10.11113/jurnalteknologi.v83.17199" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Teknol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="95" to="108" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of the present and proposed food waste management technologies from environmental and economic impact perspectives</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J H</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2016.04.127</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2016.04.127" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="607" to="614" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of refuse derived fuel (RDF) for municipal solid waste (MSW) management: case study area around cement industry</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Anasstasia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lestianingrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Cahyono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Azis</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1757-899X/778/1/012146</idno>
+		<ptr target="http://dx.doi.org/10.1088/1757-899X/778/1/012146" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">778</biblScope>
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Cirebon, Indonesia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment and multi-criteria decision analysis: Selection of a strategy for domestic food waste management in Rio de Janeiro</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C M</forename><surname>Angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Saraiva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C N</forename><surname>Clímaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Infante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Valle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2016.12.049</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2016.12.049" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="744" to="756" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Life Cycle Assessment (LCA) pada Pengelolaan Sampah di TPA Benowo Kota Surabaya</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auvaria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pros. Semin. Nas. Manaj. Teknol</title>
+		<imprint>
+			<biblScope unit="volume">XVII</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Environmental impacts and hotspots of food losses: value chain analysis of Swiss food consumption</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stucki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hellweg</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.6b06179</idno>
+		<ptr target="http://dx.doi.org/10.1021/acs.est.6b06179" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="11165" to="11173" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Review of comparative LCAs of food waste management systems -Current status and potential improvements</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bernstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>La Cour Jansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2012.07.023</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2012.07.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="2439" to="2455" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Food waste within global food systems</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meacham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bhunnoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Benton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Food Secur. Program</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="43" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Life Cycle Assessment (LCA) pengolahan sampah proses termal pada Tempat Pemrosesan Akhir (TPA) Supit Urang Kota Malang 1</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I L</forename><surname>Budiono</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="59" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Cabinet Secretariat of the Republic of Indonesia</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>WWW Document</publisher>
+		</imprint>
+	</monogr>
+	<note>Statement of president of the Republic Indonesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Cabinet</forename><surname>Secr</surname></persName>
+		</author>
+		<ptr target="https://setkab.go.id/sidang-kabinet-paripurna-mengenai-antisipasi-krisis-pangan-dan-energi-di-istana-negara-provinsi-dki-jakarta-20-juni-2022/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Vermicomposting with food processing waste mixtures of soybean meal and sugarcane bagasse</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eti.2022.102699</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.eti.2022.102699" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Technol. Innov</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">102699</biblScope>
+			<date type="published" when="2020">2022. 2020</date>
+			<publisher>Central Bureau of Statistics of Indonesia</publisher>
+		</imprint>
+	</monogr>
+	<note>Population growth rate</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Effects of moisture content of food waste on residue separation, larval growth and larval survival in black soldier fly bioconversion. Waste Manage</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y K</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L H</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M C</forename><surname>Lo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2017.05.046</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2017.05.046" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="315" to="323" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Environmental assessment of home composting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Colón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martínez-Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gabarrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Artola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rieradevall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Font</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2010.01.008</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.resconrec.2010.01.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="893" to="904" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<ptr target="https://maritim.go.id/indonesia-kuatkan-komitmennya-dalam-implementasi-epr/" />
+		<title level="m">Coordinating Ministry for Maritime and Investments Affairs, 2021. Indonesia strengthens iits commitment in EPR implementation [WWW Document</title>
+		<imprint>
+			<date>January 22</date>
+			<biblScope unit="volume">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Community participation in household solid waste reduction in Surabaya</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dhokhikah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Trihadiningrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sunaryo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2015.06.013</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.resconrec.2015.06.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Indonesia. Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="153" to="162" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A system-wide interdisciplinary conceptual framework for food loss and waste mitigation strategies in the supply chain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Choudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Irani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.indmarman.2020.10.013</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.indmarman.2020.10.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Mark. Manag</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="492" to="508" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Nutritional evaluation, bioconversion performance and phylogenetic assessment of black soldier fly ( Hermetia illucens, Linn. 1758 ) larvae valorized from food waste</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ebeneezar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Tejpal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Jeena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Summaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chandrasekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sayooj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vijayagopal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eti.2021.101783</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.eti.2021.101783" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Technol. Innov</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101783</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment to compare the environmental impact of seven contemporary food waste management systems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Othman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Crossin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biortech.2017.06.070</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.biortech.2017.06.070" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol</title>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="page" from="156" to="173" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">What gets measured gets managed: A new method of measuring household food waste. Waste Manage</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elimelech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ayalon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2018.03.031</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2018.03.031" />
+		<imprint>
+			<date type="published" when="2018">2018. 2021</date>
+			<publisher>Black Soldier Larva Performance</publisher>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="68" to="81" />
+			<pubPlace>Surabaya</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Environment Berau of Surabaya</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Global food losses and food waste -Extent, causes and prevention</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<idno type="DOI">10.4337/9781788975391</idno>
+		<ptr target="http://dx.doi.org/10.4337/9781788975391" />
+	</analytic>
+	<monogr>
+		<title level="m">Food Loss and Food Waste: Causes and Solutions. Rome</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<title level="m">Food Wastage Footprint: Impacts on Natural Resources</title>
+		<imprint>
+			<publisher>FAO</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Food Wastage Footprint: Full Cost-Accounting</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>FAO)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<title level="m">Food Wastage Footprint &amp; Climate Change</title>
+		<imprint>
+			<publisher>FAO</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Overcoming water challenges in Agriculture</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<idno type="DOI">10.4060/cb1447en</idno>
+		<ptr target="http://dx.doi.org/10.4060/cb1447en" />
+		<imprint>
+			<date type="published" when="2020">2020. 2020</date>
+			<publisher>Food and Agriculture Organization of the United Nations</publisher>
+		</imprint>
+	</monogr>
+	<note>The State of Food and Agriculture</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">2021a. Study of organic waste composting in Environmental Berau, Malang District</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Farahdiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Apriliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Purifikasi</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="54" to="61" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Pemanfaatan kotoran sapi dan sampah organik menjadi biogas pada IRRC (Integrated Resource Recovery Centers), Malang District</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Farahdiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rubiyatadji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">H</forename><surname>Salamah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kamilalita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fadilah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Ayuningtiyas</surname></persName>
+		</author>
+		<idno type="DOI">10.33005/jatekk.v2i2.42</idno>
+		<ptr target="http://dx.doi.org/10.33005/jatekk.v2i2.42" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Abdimas Tek. Kim</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="34" to="42" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Presidential regulation no. 86 -Food safety. Government of Indonesia, 2021a. Government regulation No. 81/2021-Solid waste management. Government of Indonesia, 2021b. Ministry of home affairs no. 7/-Solid waste retribution. Government of the Republic of Indonesia, 2021. Indonesia long-term strategy for low carbon and climate resilience 2050</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Fitriana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Laconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jayanegara</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/788/1/012051</idno>
+		<ptr target="https://unfccc.int/sites/default/files/resource/Indonesia_LTS-LCCR_2021.pdf" />
+	</analytic>
+	<monogr>
+		<title level="s">Hermetia illucens): A meta-analysis. IOP Conf. Ser. Earth Environ. Sci.</title>
+		<imprint>
+			<biblScope unit="volume">788</biblScope>
+			<date type="published" when="2008">2021. 2023. 23 April 23. 2008. 2013. 2017. 2019</date>
+			<publisher>Government of Indonesia</publisher>
+		</imprint>
+	</monogr>
+	<note>Goverment of Cilacap District Influence of various organic wastes on growth performance and nutrient composition of black soldier fly larvae Minister of the ministry of environment and forestry siti nurbaya observes the RDF TPST in Cilacap [WWW Document Government of Indonesia Law 18-Solid waste management. Government of Indonesia Ministry of public works no. 3-Infrastructure of SWM. Government of Indonesia Goverment of Indonesia, 2021. Ministry of environment and forestry no.1 -Company performance rating program in environmental management (PROPER) Presedential regulation 97-National policy and strategy for management of domestic waste and domestic waste equivalents. Government of Indonesia, 2018. Presidential regulation no. 35-Solid waste to energy. Government of Indonesia, 2019a. Ministry of environment and forestry no. 10 -Guidelines for jakstrada Indonesia LTS-LCCR 2050) | Enhanced reader</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Preliminary determination of antibacterial substances during anaerobic preservation of food waste and their effects on methanogenesis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eti.2021.101813</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.eti.2021.101813" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Technol. Innov</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">101813</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Life Cycle Assessment pilihan pengelolaan sampah : studi kasus</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gunamantha</surname></persName>
+		</author>
+		<idno type="DOI">10.22146/jml.18706</idno>
+		<ptr target="http://dx.doi.org/10.22146/jml.18706" />
+	</analytic>
+	<monogr>
+		<title level="j">Kartamantul Propinsi D.I. Yogyakarta</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="78" to="88" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Hydrochar production through the HTC process: Case study of municipal solid waste samples in East Java</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hantoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Septyaningrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Siswanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Izdiharrudin</surname></persName>
+		</author>
+		<idno type="DOI">10.3103/S036152192006004X</idno>
+		<ptr target="http://dx.doi.org/10.3103/S036152192006004X" />
+	</analytic>
+	<monogr>
+		<title level="j">Indonesia. Solid Fuel Chem</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="418" to="426" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Optimization of methane production parameters during anaerobic co-digestion of food waste and garden waste</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Helenas Perin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Biesdorf Borth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Torrecilhas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Santana Da Cunha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2020.123130</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2020.123130" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page">123130</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of bioplastics and food waste disposal methods</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Barr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Landis</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su13126894</idno>
+		<ptr target="http://dx.doi.org/10.3390/su13126894" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The influence of food waste rearing substrates on black soldier fly larvae protein composition: A systematic review</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Danaher</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/insects12070608</idno>
+		<ptr target="http://dx.doi.org/10.3390/insects12070608" />
+	</analytic>
+	<monogr>
+		<title level="j">Insects</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The potential analysis of food waste management using bioconversion of the organic waste by the black soldier fly (Hermetia illucens) larvae in the cafeteria of the faculty of engineering</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ibadurrohman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gusniani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hartono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Suwartha</surname></persName>
+		</author>
+		<idno type="DOI">10.5109/2740946</idno>
+		<ptr target="http://dx.doi.org/10.5109/2740946" />
+	</analytic>
+	<monogr>
+		<title level="j">universitas Indonesia. Evergreen</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="61" to="66" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The use of BSF (Black Soldier Fly) maggot in mini biopond as a solution for organic waste management on a household scale</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ichwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Z</forename><surname>Siregar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Nasution</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yusni</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/782/3/032032</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/782/3/032032" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">782</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Implication of types of feeds combined goat manure for preference black soldier fly (BSF) : Hermetia illucens L</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Indri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sjam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gassa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Dewi</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/807/2/022085</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/807/2/022085" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">807</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A comparative study of life cycle impact assessment using different software programs</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Iswara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Farahdiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Nadhifatin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pirade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andhikaputra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Muflihah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boedisantoso</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/506/1/012002</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/506/1/012002" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">506</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Pengembangan teknologi konversi sampah untuk efektifitas pengolahan sampah dan energi berkelanjutan 15</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kadang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sinaga</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.7326863</idno>
+		<ptr target="http://dx.doi.org/10.5281/zenodo.7326863" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="33" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A comprehensive insight into Waste to Energy conversion strategies in India and its associated air pollution hazard</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karmakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Daftari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sivagami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rehaan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kiran</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eti.2023.103017</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.eti.2023.103017" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Technol. Innov</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">103017</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Community-scale composting for food waste: A life-cycle assessment-supported case study</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Keng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Ridzuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Supramaniam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Lam</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2020.121220</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2020.121220" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">261</biblScope>
+			<biblScope unit="page">121220</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Analyzing household waste generation and its composition to expand the solid waste bank program in Indonesia: a case study of Medan City</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10163-019-00840-6</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10163-019-00840-6" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Cycles Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1027" to="1037" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Use of black soldier fly larvae for food waste treatment and energy production in asian countries: A review</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chung</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/pr9010161</idno>
+		<ptr target="http://dx.doi.org/10.3390/pr9010161" />
+	</analytic>
+	<monogr>
+		<title level="j">Processes</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Fighting food waste using the circular economy</title>
+		<author>
+			<persName><surname>Kpmg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0262-4079(21)01711-5</idno>
+		<ptr target="http://dx.doi.org/10.1016/S0262-4079(21)01711-5" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Looking for answers to food loss and waste management in spain from a holistic nutritional and economic approach</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Laso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fernández-Ríos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hoehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Del Río</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ruiz-Salmón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cristobal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Quiñones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Amo-Setién</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ortego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Del</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tezanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abajas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fullana-I Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Puig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Margallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aldaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abejón</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su13010125</idno>
+		<ptr target="http://dx.doi.org/10.3390/su13010125" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Review of LCA studies of solid waste management systems -Part I: Lessons learned and perspectives. Waste Manage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clavreul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bernstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gentil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Z</forename><surname>Hauschild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Christensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2013.10.045</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2013.10.045" />
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="573" to="588" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Generation Z awareness on food waste issues (a Study in Tangerang, Indonesia)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lemy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahardja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kilya</surname></persName>
+		</author>
+		<idno type="DOI">10.22334/jbhost.v6i2.255</idno>
+		<ptr target="http://dx.doi.org/10.22334/jbhost.v6i2.255" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Bus. Hosp. Tour</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Treatment technologies for urban solid biowaste to create value products: a review with focus on low-and middle-income settings</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Lohri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Diener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zabaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mertenat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zurbrügg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11157-017-9422-5</idno>
+		<ptr target="http://dx.doi.org/10.1007/s11157-017-9422-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Environ. Sci. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="81" to="130" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Energy recovery potential from excavating municipal solid waste dumpsite in Indonesia</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lokahita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Samudro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Huboyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Takahashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.egypro.2019.01.083</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.egypro.2019.01.083" />
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="243" to="248" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Factors influencing volatile fatty acids production from food wastes via anaerobic digestion</title>
+		<author>
+			<persName><forename type="first">Patinvoh</forename><surname>Lukitawesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Millati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sárvári-Horváth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Taherzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/21655979.2019.1703544</idno>
+		<ptr target="http://dx.doi.org/10.1080/21655979.2019.1703544" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioengineered</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="39" to="52" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Life Cycle pengelolaan sampah pada Tempat Pemrosesan Akhir (TPA) sampah. Studi Kasus : TPA Jabon</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lumban</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Kabupaten Sidoarjo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Luthfia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Sudarwanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N S</forename><surname>Alkhajar</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/5.0000592</idno>
+		<ptr target="http://dx.doi.org/10.1063/5.0000592" />
+		<title level="m">The dynamic of the incineration waste-to-energy power plant policy in Indonesia. AIP Conf. Proc. (2217)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Wet organic waste treatment via hydrothermal processing: A critical review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Marzbali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Halder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Hakeem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Paz-Ferreiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Madapusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Surapaneni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemosphere.2021.130557</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.chemosphere.2021.130557" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page">130557</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Technoeconomic analysis of co-hydrothermal carbonization of coal waste and food waste</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcgaughy</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13399-020-00817-8</idno>
+		<ptr target="http://dx.doi.org/10.1007/s13399-020-00817-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomass Conv. Bioref</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="39" to="49" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Black Soldier Fly biowaste treatment -Assessment of global warming potential. Waste Manage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mertenat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Diener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zurbrügg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2018.11.040</idno>
+		<ptr target="https://www.menlhk.go.id/site/single_post/2753" />
+	</analytic>
+	<monogr>
+		<title level="m">Ministry of Environment and Forestry of the Republic of Indonesia, 2020a. Indonesia enters a new era of waste management</title>
+		<imprint>
+			<publisher>WWW Document</publisher>
+			<date type="published" when="2019-01-19">2019. 19 January 22</date>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="173" to="181" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<ptr target="https://sipsn.menlhk.go.id/sipsn/" />
+		<title level="m">Ministry of Environment and Forestry of the Republic of Indonesia, 2020b. National waste management information system [WWW Document</title>
+		<imprint>
+			<date>January 22</date>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Ministry of Environment and Forestry of the Republic of Indonesia, 2020c. National waste management information system</title>
+		<imprint>
+			<publisher>WWW Document</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<ptr target="https://sipsn.menlhk.go.id/sipsn/public/data/komposisi" />
+		<title level="m">Ministry of Environment and Forestry of the Republic of Indonesia</title>
+		<imprint>
+			<date type="published" when="2020-02-22">2020. February 22</date>
+			<biblScope unit="volume">21</biblScope>
+		</imprint>
+	</monogr>
+	<note>SIPSN -National waste management information system [WWW Document</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">SIPSN -National waste management information system -source of energy -RDF</title>
+		<ptr target="https://sipsn.menlhk.go.id/sipsn/public/data/komposisi" />
+	</analytic>
+	<monogr>
+		<title level="m">Ministry of Environment and Forestry of the Republic of Indonesia, 2021b. Webinar food loss and waste management strategy to support circular economy. Ministry of Environment and Forestry of the Republic of Indonesia, 2022. SIPSN -National waste management information system [WWW Document</title>
+		<imprint>
+			<publisher>WWW Document</publisher>
+			<date type="published" when="2021-04-23">2021. 23 April 23</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Ministry of home affairs encourages capacity building for waste management funding. Ministry of National Development Planning of the Republic of Indonesia, 2021a. Food loss and waste in indonesia supporting the implementation of circular economy and low carbon development</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>Ministry of Home Affairs</publisher>
+			<biblScope unit="page" from="1" to="111" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Laporan kajian food loss and waste di Indonesia: dalam rangka mendukung penerapan ekonomi sirkular dan pembangunan rendah karbon</title>
+		<imprint/>
+	</monogr>
+	<note>Ministry of National Development Planning of the Republic of Indonesia, 2021b</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Comparative LCA of alternative scenarios for waste treatment: The case of food waste production by the mass-retail sector</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mondello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salomone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ioppolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saija</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sparacia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lucchetti</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su9050827</idno>
+		<ptr target="http://dx.doi.org/10.3390/su9050827" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Prediksi dampak lingkungan pengolahan sampah secara termal dengan menggunakan metode Life Cycle Assessment (LCA) studi kasus:TPA Tambakrigadung</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Muliawati</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="251" to="255" />
+			<pubPlace>Lamongan</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Factors associated with stunting among children below five years of age in Zambia: Evidence from the 2014 Zambia demographic and health survey</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mzumara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bwembya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Halwiindi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mugode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banda</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40795-018-0260-9</idno>
+		<ptr target="http://dx.doi.org/10.1186/s40795-018-0260-9" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Nutr</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Prediksi potensi pencemaran pengolahan sampah dengan metode gasifikasi fluidized bed (Studi Kasus: TPA Benowo, Surabaya)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nikmah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D A A</forename><surname>Warmadewanthi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Tek. Pomits</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="14" to="16" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Food waste in South Africa. Understanding the magnitude: water footprint and cost</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H H</forename><surname>Oelofse</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Vis. Zero Waste Handb</publisher>
+			<biblScope unit="page" from="62" to="69" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Food waste valorisation and circular economy concepts in insect production and processing. Waste Manage</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ojha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bu"zler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">K</forename><surname>Schlüter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2020.09.010</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2020.09.010" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="600" to="609" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Evaluation of environmental impacts of food waste management by material flow analysis (MFA) and life cycle assessment (LCA)</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Padeyanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10163-016-0510-3</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10163-016-0510-3" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Cycles Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="493" to="508" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Sustainability of refuse derived fuel potential from municipal solid waste for cement&apos;s alternative fuel in Indonesia (A Case at Jeruklegi Landfill, in Cilacap)</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Paramita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hartono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E B</forename><surname>Soesilo</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/159/1/012027</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/159/1/012027" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Food waste within food supply chains: Quantification and potential for change to 2050</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barthel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macnaughton</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2010.0126</idno>
+		<ptr target="http://dx.doi.org/10.1098/rstb.2010.0126" />
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="3065" to="3081" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">Food waste-to-energy conversion technologies: Current status and future directions. Waste Manage</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P T</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaushik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Parshetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mahmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Balasubramanian</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2014.12.004</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2014.12.004" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="399" to="408" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Optimization of organic waste processing using Black Soldier Fly larvae Case study: Diponegoro university</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Priyambada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sumiyati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Puspita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Wirawan</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/896/1/012017</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/896/1/012017" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">896</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Hydrothermal carbonization kinetics of lignocellulosic municipal solid waste</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Putra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Djaenudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Damanhuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dewi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Pasek</surname></persName>
+		</author>
+		<idno type="DOI">10.12911/22998993/132659</idno>
+		<ptr target="http://dx.doi.org/10.12911/22998993/132659" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Ecol. Eng</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="188" to="198" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Life Cycle Assessment (LCA) Pengolahan Sampah Secara Termal. Studi Kasus:TPA Benowo</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rachim</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Kota Surabaya</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of a food waste composting system: Environmental impact hotspots</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lansing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Davitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Graves</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2013.03.022</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2013.03.022" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="234" to="244" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The role of Black Soldier Fly Larva technology for sustainable management of municipal solid waste in developing countries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dezhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bilal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eti.2021.101934</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.eti.2021.101934" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Technol. Innov</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">101934</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Effect of different environmental conditions on the growth and development of Black Soldier Fly Larvae and its utilization in solid waste management and pollution mitigation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shahzadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bilal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eti.2022.102649</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.eti.2022.102649" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Technol. Innov</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">102649</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Potential of biogas production from anaerobic co-digestion of fat, oil and grease waste and food waste. E3S Web Conf</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sandriaty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Priadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kurnianingsih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abdillah</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/e3sconf/20186702047</idno>
+		<ptr target="http://dx.doi.org/10.1051/e3sconf/20186702047" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Study of vegetable waste product as alternative artificial feed to life cycle of Hermetia illuncens</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sanjaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suhara Nurjhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halimah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shintawati</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/1280/2/022006</idno>
+		<ptr target="http://dx.doi.org/10.1088/1742-6596/1280/2/022006" />
+	</analytic>
+	<monogr>
+		<title level="m">Conf. Ser. 1280</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Valorisation of food waste via hydrothermal carbonisation and techno-economic feasibility assessment</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">U</forename><surname>Saqib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baroutian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dubey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Sarmah</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scitotenv.2019.06.484</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.scitotenv.2019.06.484" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">690</biblScope>
+			<biblScope unit="page" from="261" to="276" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">The effectiveness of anaerobic digestion process by thermal pre-treatment on food waste as a substrate</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N A</forename><surname>Saragih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Priadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adityosulindro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abdillah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Islami</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/251/1/012014</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/251/1/012014" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="page">251</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">An inclusive approach for organic waste treatment and valorisation using Black Soldier Fly larvae: A review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kumari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jenvman.2019.109569</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jenvman.2019.109569" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">251</biblScope>
+			<biblScope unit="page">109569</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">Gifting, ridding and the everyday mundane: the role of class and privilege in food waste generation in Indonesia. Local Environ</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Soma</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13549839.2017.1357689</idno>
+		<ptr target="http://dx.doi.org/10.1080/13549839.2017.1357689" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1444" to="1460" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Space to waste: the influence of income and retail choice on household food consumption and food waste in Indonesia</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Soma</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13563475.2019.1626222</idno>
+		<ptr target="http://dx.doi.org/10.1080/13563475.2019.1626222" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. Plan. Stud</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="372" to="392" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Technological evaluation of municipal solid waste management system in Indonesia</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sudibyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Majid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Pradana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Budhijanto</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Deendarlianto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Budiman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.egypro.2017.03.312</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.egypro.2017.03.312" />
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="263" to="269" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<author>
+			<persName><surname>Sugiyarto</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/e3sconf/202131602028</idno>
+		<ptr target="http://dx.doi.org/10.1051/e3sconf/202131602028" />
+		<title level="m">Assessing households&apos; food waste in rural Yogyakarta. E3S Web Conf. 316, 02028</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Food waste to bioenergy: current status and role in future circular economies in Indonesia</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suhartini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Rohma</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Elviliana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Santoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Listiningrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Melville</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40974-022-00248-3</idno>
+		<ptr target="http://dx.doi.org/10.1007/s40974-022-00248-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Energy, Ecol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="297" to="339" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">From unavoidable food waste to advanced biomaterials: microfibrilated lignocellulose production by microwave-assisted hydrothermal treatment of cassava peel and almond hull</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Sulaeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dugmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Remón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Matharu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10570-021-03986-5</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10570-021-03986-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Cellulose</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="7687" to="7705" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Kinetic of biogas production in a batch anaerobic digestion process with interference of preservative material of sodium benzoate</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sumantri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hadiyanto</surname></persName>
+		</author>
+		<idno type="DOI">10.9767/BCREC.15.3.9366.898-906</idno>
+		<ptr target="http://dx.doi.org/10.9767/BCREC.15.3.9366.898-906" />
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Chem. React. Eng. Catal</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="898" to="906" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Potential of energy municipal solid waste (MSW) to become Refuse Derived Fuel (RDF) in Bali Province</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W K</forename><surname>Suryawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M W</forename><surname>Wijaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Sari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Y</forename><surname>Septiariva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Zahra</surname></persName>
+		</author>
+		<idno type="DOI">10.15294/jbat.v10i1.29804</idno>
+		<ptr target="http://dx.doi.org/10.15294/jbat.v10i1.29804" />
+	</analytic>
+	<monogr>
+		<title level="j">Indonesia. J. Bahan Alam Terbarukan</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="9" to="15" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Assessment of household food waste in Hungary</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Szabó-Bódi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kasza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Szakos</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/BFJ-04-2017-0255</idno>
+		<ptr target="http://dx.doi.org/10.1108/BFJ-04-2017-0255" />
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="625" to="638" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Optimum organic loading rates (OLR) for food waste anaerobic digestion: study case universitas Indonesia 10</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I S</forename><surname>Tassakka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Islami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N A</forename><surname>Saragih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Priadi</surname></persName>
+		</author>
+		<idno type="DOI">10.14716/ijtech.v10i6.3613</idno>
+		<ptr target="http://dx.doi.org/10.14716/ijtech.v10i6.3613" />
+	</analytic>
+	<monogr>
+		<title level="j">The Economist Intelligence Unit</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="26" to="28" />
+			<date type="published" when="2017">2019. 2017</date>
+		</imprint>
+	</monogr>
+	<note>Toward a more sustainable food system Fixing Food</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title level="m" type="main">Peraturan Presiden Republik Indonesia Nomor 35 Tahun 2018 tentang Percepatan pembangunan instalasi pengolah sampah menjadi energi listrik berbasis teknologi ramah lingkungan (Presidential Regulation (PERPRES) concerning Acceleration of Construction of Was</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>The Government of Indonesia</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Drivers of food waste and their implications for sustainable policy development</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Thyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tonjes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2015.11.016</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.resconrec.2015.11.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="110" to="123" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">The environmental impacts of alternative food waste treatment technologies in the U</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Thyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tonjes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2017.04.169</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2017.04.169" />
+	</analytic>
+	<monogr>
+		<title level="j">S. J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="101" to="108" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Simulation and optimization of anaerobic co-digestion of food waste with palm oil mill effluent for biogas production</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S M</forename><surname>Tiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohamad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ur Rahmah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kiatkittipong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sriseubsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kumakiri</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su132413665</idno>
+		<ptr target="http://dx.doi.org/10.3390/su132413665" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment (LCA) pengelolaan sampah di tpa gunung panggung kabupaten tuban, jawa timur life cycle assessment (LCA) of municipal solid waste management in gunung panggung landfill, tuban regency, east java</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prasetya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Haryanto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Teknol. Lingkung</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="147" to="161" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Comparing wasted apples and oranges: An assessment of methods to measure household food waste. Waste Manage</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Herpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Van Der Lans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Holthuysen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nijenhuis-De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Quested</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2019.03.013</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.wasman.2019.03.013" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="71" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Hydrothermal treatment of organic waste</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Vlaskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Kostyukevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Grigorenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kiseleva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Vladimirov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Yakovlev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Nikolaev</surname></persName>
+		</author>
+		<idno type="DOI">10.1134/S1070427217080158</idno>
+		<ptr target="http://dx.doi.org/10.1134/S1070427217080158" />
+	</analytic>
+	<monogr>
+		<title level="j">Russ. J. Appl. Chem</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1285" to="1292" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Co-hydrothermal carbonization of organic solid wastes to hydrochar as potential fuel: A review</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scitotenv.2022.158034</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.scitotenv.2022.158034" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">850</biblScope>
+			<biblScope unit="page">158034</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Utilization of producing biogas from food waste in anaerob biodegester at thermophilic temperature</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Waris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kharismawati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Aswan</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/1869/1/012166</idno>
+		<ptr target="http://dx.doi.org/10.1088/1742-6596/1869/1/012166" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Conf. Ser</title>
+		<imprint>
+			<biblScope unit="volume">1869</biblScope>
+			<biblScope unit="page" from="4" to="10" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Chemical content of waste composting by black soldier fly (hermetia illucens)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A D</forename><surname>Widyastuti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahmat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Warganegara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Ramadhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Prasetyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Riantini</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1755-1315/739/1/012003</idno>
+		<ptr target="http://dx.doi.org/10.1088/1755-1315/739/1/012003" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conf. Ser. Earth Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">739</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<ptr target="https://www.worldbank.org/en/country/indonesia/overview#1" />
+		<title level="m">The World Bank In Indonesia [WWW Document</title>
+		<imprint>
+			<publisher>World Bank</publisher>
+			<date type="published" when="2021-01-22">2021. January 22</date>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Methane potential of food waste from Engineering Faculty Cafeteria in Universitas Indonesia</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wulansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kristanto</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICSEEA.2015.7380741</idno>
+		<ptr target="http://dx.doi.org/10.1109/ICSEEA.2015.7380741" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding -2015 Int</title>
+		<meeting>eeding -2015 Int</meeting>
+		<imprint>
+			<date type="published" when="2015">2016. 2015</date>
+			<biblScope unit="page" from="30" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Material Flow Analysis of Food Loss and Food Waste in Jambangan Recycling</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Zahra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>Center and Wonorejo Compost House. Institute Technology Sepuluh Nopember</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Anaerobic digestion based waste-to-energy technologies can halve the climate impact of China&apos;s fast-growing food waste by 2040</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vuppaladadiyam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Duan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2020.123490</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jclepro.2020.123490" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page">123490</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Water footprint of food consumption by Chinese residents</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph16203979</idno>
+		<ptr target="http://dx.doi.org/10.3390/ijerph16203979" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

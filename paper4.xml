@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sustainable development goals through reducing food loss and food waste: A comprehensive review</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-05-01">1 May 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sobiya</forename><surname>Manzoor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Food Science and Technology</orgName>
+								<orgName type="institution">Sher-e-Kashmir University of Agricultural Sciences and Technology</orgName>
+								<address>
+									<settlement>Kashmir</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ufaq</forename><surname>Fayaz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Food Science and Technology</orgName>
+								<orgName type="institution">Sher-e-Kashmir University of Agricultural Sciences and Technology</orgName>
+								<address>
+									<settlement>Kashmir</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aamir</forename><surname>Hussain Dar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Food Technology</orgName>
+								<orgName type="institution">Islamic University of Science and Technology</orgName>
+								<address>
+									<region>Kashmir</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Kshirod</forename><surname>Kumar Dash</surname></persName>
+							<email>kshirod@tezu.ernet.in</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Food Processing Technology</orgName>
+								<orgName type="institution">Ghani Khan Choudhury Institute of Engineering and Technology Malda</orgName>
+								<address>
+									<addrLine>West Bengal</addrLine>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rafeeya</forename><surname>Shams</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Food Technology &amp; Nutrition</orgName>
+								<orgName type="institution">Lovely Professional University</orgName>
+								<address>
+									<settlement>Phagwara</settlement>
+									<region>Punjab</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Iqra</forename><surname>Bashir</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Food Science and Technology</orgName>
+								<orgName type="institution">Sher-e-Kashmir University of Agricultural Sciences and Technology</orgName>
+								<address>
+									<settlement>Kashmir</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vinay</forename><forename type="middle">Kumar</forename><surname>Pandey</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Research &amp; Development Cell, Biotechnology Department</orgName>
+								<orgName type="department" key="dep2">Manav Rachna International Institute of Research and Studies (Deemed to Be University)</orgName>
+								<address>
+									<addrLine>Faridabad 121004</addrLine>
+									<region>Haryana</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gholamerazi</forename><surname>Abdi</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biotechnology</orgName>
+								<orgName type="institution" key="instit1">Persian Gulf Research Institute</orgName>
+								<orgName type="institution" key="instit2">Persian Gulf University</orgName>
+								<address>
+									<settlement>Busher</settlement>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sustainable development goals through reducing food loss and food waste: A comprehensive review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-05-01">1 May 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">01CD8F96485FD16BB4FAC82008D6E1F0</idno>
+					<idno type="DOI">10.1016/j.fufo.2024.100362</idno>
+					<note type="submission">Received 23 September 2023; Received in revised form 20 April 2024; Accepted 30 April 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Sustainable development goals Waste management Supply chain Economic sustainability</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The major sustainability concern is food waste, which might be minimized by more effective redistribution of surplus food, supply chain waste management, and sustainable food management. Due to technological and infrastructure issues that require technology application at a wide scale with minimal environmental impact, food waste and food loss occur at all levels of the supply chain. Strategies for food redistribution, recovery, and reuse provide the economy with extra by-products and financial advantages. Because of the complicated relationships between distributors and suppliers, contractual obligations, inaccurate food demand forecasts, and food standards, changing consumption and production patterns at the industry and market levels is difficult. Based on this the objective of the review was to discuss the strategies for reducing food waste and achieving sustainable development goals and the role of different actors in reducing food wastage and in implementing SDGs. Several Sustainable Development Goals (SDGs), including those related to finishing world hunger (SDG 2), ensuring sustainable agriculture (SDG 2), promoting sustainable economic growth (SDG 8), and combating climate change (SDG 13), among others, have been found to depend on reducing the amount of food that is wasted and have destroyed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Sustainable Development Goals (SDGs), commonly known as Global Goals, consist of a series of goals set by global agreement to preserve all aspects of the habitability of the planet, suppress poverty, and ensure that people live in peace and prosperity, now as well as in the future <ref type="bibr" target="#b35">(Morton et al., 2017)</ref>. It has been reported that sustainable development is "a kind of development that meets the needs of the present without compromising the ability of future generations to meet their own needs". Sustainable development served as the guiding principle to heal the gap between the North and the South <ref type="bibr" target="#b44">(Siegel and Lima, 2020)</ref>. However, there were many divergent viewpoints about what growth meant, along with other theories about how it could be accomplished <ref type="bibr" target="#b15">(Fukuda-Parr and McNeill, 2019)</ref>. In this situation, the development goals evolved into a unique attempt to overcome these differences and find common ground, "with a set of ideas as the consensus global norm concerning both the ends and the means of development." <ref type="bibr" target="#b16">(Fukuda-Parr, 2019)</ref>. The same principles guided the design of both the Millennium Development Goals (MDGs) and the Sustainable Development Goals (SDGs): A social-political priority must be stated, a time-bound quantitative aspect must be realized, and measurement techniques must be used to track progress <ref type="bibr" target="#b15">(Fukuda-Parr and McNeill, 2019)</ref>.</p><p>The goals for global accords shape discourse on how to conceptualize development difficulties. It may be claimed that the motivation behind these aims' persuasive language is what primarily determines how they affect policy, governments, and other society stakeholders. The Goals were formally adopted by UN member states in 2015 from 2016 to 2030 to deal with the overwhelming empirical and scientific evidence indicating the world required a substantially sustainable strategy <ref type="bibr" target="#b16">(Fukuda-Parr, 2019)</ref>. The goal is to provide a thoroughly researched structure that is both politically and scientifically viable as well as being understandable to the general public. As global policies are implemented to ensure a healthy, fair, or flourishing future for generations, these objectives provide the best chance to ensure critical cooperation as well as alignment <ref type="bibr" target="#b35">(Morton et al., 2017)</ref>. The SDGs are clearer, more detailed, and more comprehensive than the MDGs, and every nation must act upon them. The 17 Sustainable Development Goals have 169 targets, which makes them more extensive and ambitious than the Millennium Development Goals in that they can confront the fundamental reason for poverty and the need for development that benefits everyone. The goals cover 3 aspects of sustainable development: environmental protection, social inclusion, and economic prosperity.</p><p>The new global goals seek to improve upon the achievements and momentum of the MDGs by focusing on issues such as inequality, adequate employment, economic growth, cities and human settlements, industrialization, oceans, ecological systems, peace, climate change, energy, sustainable consumption and production, and justice. MDGs were only intended to be executed in developing countries; new Goals are applied universally to all nations SDGs place an intense focus on ways to achieve implementation, like the mobilization of financial resources, technology, capacity-building, data, and institutions. New Goals recognize that addressing climate change is important to achieving poverty eradication and sustainable development. The goal of SDG 13 is to promote immediate action to lessen the climate change effects. On the basis of this, the purpose of this riview is to provide possibilities for reducing food waste and achieving the Sustainable Development Goals (SDGs), as well as to explore the involvement of various individuals in both the reduction of food waste and the implementation of the SDGs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Analysis of relationship between food waste and key SDGs, including SDG 2, SDG 12, SDG 13, and SDG 14</head><p>Food waste is defined as the reduction of food utilized for consumption in the supply chain due to loss, damage, disposal, or diversion to other uses <ref type="bibr">(FAO, 2014)</ref>. The primary cause for the elevated food waste is the miscoordination among stakeholders along the food supply chain <ref type="bibr" target="#b20">(Govindan, 2018)</ref>. Food is thus wasted across the food supply chain (FSC), from the initial stages of manufacturing to final consumption. Lack of efficient physical infrastructure and post-harvest, production and processing techniques, causes food loss in its early stages <ref type="bibr" target="#b23">(Gustavsson et al., 2011)</ref>. Retail, hospitality, and consumption are responsible for the majority of food waste at the FSC's final stage <ref type="bibr" target="#b38">(Parfitt et al., 2010)</ref>. Food waste has a direct impact on the economy, the environment, and society because it results in one-third loss of the edible foods prepared for human consumption <ref type="bibr" target="#b37">(Papargyropoulou et al., 2014)</ref>. As a result, the developed world's higher rates of food waste and increasing food insecurity represent a contradiction of "scarcity within abundance" <ref type="bibr" target="#b17">(Galli et al., 2019)</ref>. Because of the variety in production patterns, chemical and physical characteristics, and underlying challenges or differences in assessing their rising volume, managing food waste is a huge task. Population expansion, industrialization, urbanization, and globalization all play a part in world's escalating food waste production. The variety of eating habits and increased purchasing power as a result of these phenomena <ref type="bibr" target="#b51">(Thyberg and Tonjes, 2016)</ref>.</p><p>The Problem of food waste has worsened due to insufficient funding, and urgency in its management. As demand for natural resources like water, land, and energy rises, the problem is expected to persist until 2050. There's growing recognition of food waste as a significant global sustainability concern, spurred by international and national initiatives. Mitigation efforts tie food waste to related issues like food poverty, while solutions are guided by Sustainable Development Goals (SDGs). Zero hunger is the goal of SDG 2, sustainable consumption, and production (SCP) patterns are the goal of SDG 12, combating climate change is the goal of SDG 13, and conservation of marine ecosystems is the goal of SDG 14. The SDGs are an indicator of the main goal of sustainable development since they represent a common statement of stakeholder requirements on a global scale that balances social, economic, and environmental growth <ref type="bibr">(Fonseca and Carvalho, 2019)</ref>. Food waste and loss (FWL) have significant negative impacts, drawing increasing global attention due to their links to food security and climate change. Throughout its lifecycle-from production to consumption-food directly affects the environment. Unlike typical products, food waste is intertwined with societal issues like eating habits and cultural traditions. It intersects with problems such as unequal access to food, contributing to obesity and associated health issues, particularly in affluent and developing nations.</p><p>According to the UN, 1.3 billion tonnes of food are lost each year, which results in 795 million people going without food and nearly 1 billion people being undernourished <ref type="bibr" target="#b22">(Grosso and Falasconi, 2018)</ref>. Additionally, 2 billion people globally are overweight or obese, and consuming too much food is detrimental to the environment as well as human health. The food business is responsible for around 22 % of the world's total greenhouse gas emissions and 30 % of its total energy use. Implementing circular economy solutions centered on decreasing food waste and adopting sustainable consumption habits can help accomplish SDGs 2 and 12 more quickly <ref type="bibr" target="#b34">(Mokrane et al., 2023)</ref>. Climate change is exacerbated by food waste (SDG 13). Global food consumption patterns change as a result of rising wages, urbanization, and diets that include more animal-based foods, processed foods, sweetened beverages (that are linked to obesity and overweight), and high greenhouse gas (GHG) emissions. By 2050, GHG emissions associated with the preparation of these diets will account for 80 % of all food processing, if this worldwide dietary change trend continues <ref type="bibr" target="#b40">(Režek Jambrak et al., 2021)</ref>. In terms of responsible consumption (SDG 12), the novelty of more environmentally friendly food packaging can increase the shelf stability of fresh foods and, as a result, decrease food waste <ref type="bibr" target="#b46">(Spada et al., 2018)</ref>, and the accompanying economic and environmental costs.</p><p>To enhance food safety and sustainability, researchers propose implementing modern thermal and nonthermal processing methods, utilizing secure, clean, and energy-efficient technology. This approach promotes smart land use, efficient factory production, and reduced greenhouse gas emissions, aligning with Sustainable Development Goal 13 (SDG 13) to combat climate change. SDG 14 focuses on conserving marine ecosystems and sustainable resource use, aiming to manage fish stocks for maximum sustainable yield. Achieving this goal requires addressing illegal and overfishing practices, alongside reducing fish losses and waste through improved governance and management. Lowering food waste of fish products supports sustainable resource utilization and aligns with SDG 14 objectives. By eliminating harmful subsidies and discouraging discarding, reducing food waste emerges as a viable strategy to advance SDG 14.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Strategies for reducing food waste and achieving SDGs</head><p>Every step of the food supply chain, from initial agricultural production to final household consumption, results in food waste. This trash is typically concentrated during the consuming stage in developed nations. In this sense, the food services industry is important since it generates around 25 % of consumer waste and over 75 % of this waste might be avoided <ref type="bibr" target="#b26">(Hollins, 2013)</ref>. Thus, a variety of tactics have been suggested by academics and professionals to lessen it. All phases of the food transformation process were examined by the measures, which also included bettering planning and purchasing practices, repurposing kitchen scraps, providing consumers with smaller portion sizes and takeout bags, and conducting awareness campaigns. Despite the undeniable advancement that has occurred over the last decade as a decentralized process taking place in such a short period of duration, the field of study has organizational problems that make it hard for investigators to identify the gaps that require to be filled and for those who practice to have simple access to the primary answers. As a result, methods for preventing food waste need to be improved and strengthened.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Managerial</head><p>This group consists of all waste reduction programs that are implemented across the board by the management and are thus carried out, guided, or enforced, with a focus on two crucial solutions: involving workers and monitoring food waste. Employee dedication is highlighted as essential for success, with recommendations including rewards for goal achievement and awareness of the environmental and social impacts of waste. They make a number of recommendations on ways to support this commitment, such as rewarding those who reach their goals <ref type="bibr" target="#b19">(Goh and Jie, 2019)</ref> or emphasizing the negative environmental and social effects of food waste. Measurement is the process of determining how much food is wasted within the company. It is frequently referred to as the "first step" and serves as a baseline as well as a diagnosis of the issue. Many publications suggest procedures for carrying out this quantification, while others examine the difficulties in doing so <ref type="bibr" target="#b7">(Burton et al., 2016)</ref>. Other managerial strategies mentioned include planning, executing, and monitoring actions to reduce waste, as well as miscellaneous actions like developing policies and forming partnerships. <ref type="bibr" target="#b29">(Kasavan et al., 2018)</ref>. Additionally, a figure presents an overview of processes for manufacturing functional foods using bioactive-rich substances (Fig. <ref type="figure">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Supply chain management</head><p>Supply Chain Management (SCM) in food establishments involves purchasing, planning, and storing food. One crucial aspect of SCM is planning, which involves determining what and how much food should be procured. To design plans that minimize waste, two factors need to be considered. Firstly, menu design plays a vital role in reducing losses throughout the process. Menus should be created with considerations that help minimize waste. This includes utilizing resources that the establishment already possesses, enhancing the use of leftovers, and incorporating ingredients that are approaching their use-by dates. By incorporating these elements into the menu, the establishment can optimize resource utilization and minimize food waste. Forecasting and demand planning are essential in Supply Chain Management (SCM) for menu planning, helping establishments estimate food item demand accurately to procure the right quantities and minimize over-purchasing and subsequent waste <ref type="bibr" target="#b52">(Vizzoto et al., 2021)</ref>. The planning process results in a list of items to purchase, with three main purchase determinants identified: preventing misunderstandings through centralized buying and stock double-checking, reducing inventory via JIT delivery or batch size adjustments, and product specification to minimize food waste <ref type="bibr" target="#b5">(Betz et al., 2015)</ref>. Proper handling and storage conditions are also crucial at the operational level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Food preparation</head><p>The act of preparing involves turning raw materials into dishes that are ready to be served. The four tactics are centered on the type, quantity, and way that food should be prepared to reduce waste. As food waste decreases with increased food flavor, dealing professionals should have regular training to prevent food waste <ref type="bibr" target="#b11">(Derqui et al., 2016)</ref>. In terms of quantity, strategies are offered, such as cooking in stages, to prevent overcooking while retaining a high level of response to incoming orders <ref type="bibr" target="#b45">(Silvennoinen et al., 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Food serving</head><p>Food presentation to clients is referred to as serving approaches. The eight criteria include serving sizes, food presentation on buffets, tables, and menus, as well as portion sizes. Most often, plate waste is caused by portion size <ref type="bibr" target="#b5">(Betz et al., 2015)</ref>. Numerous studies show that some serving methods waste more food than others. For instance, self-service patrons frequently leave food on their plates than patrons of buffets that are provided by a third party.</p><p>Buffets produce higher serving losses than "a la carte services," in a similar way. Changes to serving styles may therefore result in less food being wasted. If focusing on eliminating plate waste is the goal, selfservice needs to be avoided <ref type="bibr">(Ellison et al., 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Consumer behavior</head><p>The three consumer behavior techniques employ prodding, rewards, Fig. <ref type="figure">1</ref>. Overview of the processes to take into consideration when manufacturing possibly functional foods utilizing bioactive-rich substances.</p><p>or awareness-building to change consumers' attitudes toward food waste. Awareness campaigns, which are the most commonly debated in academia, explore customer's beliefs and ideals to draw their attention to how commonly they leave their food on plates <ref type="bibr" target="#b32">(Lorenz et al., 2017)</ref>. Even though there have been numerous studies examining their impact on food waste, it is still not apparent how much they may actually reduce the waste if the data are inconclusive. Fig. <ref type="figure">2</ref> displays several examples of food labels that market the production of their products as being environmentally friendly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Information exchange</head><p>Information asymmetry contributes to many errors and misconceptions that ultimately result in food waste. The disparity between employees and customers may be lessened by external communication tactics. Internal communication needs to be improved when the disparity exists within the personnel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7.">Alternative destinations</head><p>The food has already been unsuccessfully devoured at this point, either by the individuals for whom it was originally meant or in the setting in which it was offered. Thus, the last-ditch effort to convince them to consume the meal is to discover substitute locations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Role of different actors in reducing food wastage and in implementing SDGs</head><p>Governance of food safety and waste reduction differs greatly. In order to reduce food wastage, stable value chains and concurrent, observable failures in the market are necessary, and it is unquestionably the responsibility of the government to ensure norms that are suitable for safeguarding the health of the public. Almost all stakeholders agree that wasting food is unacceptable on moral, financial, and environmental grounds. As a variety of players and institutions with various underlying viewpoints drive food waste reduction technologies, a closer study uncovers a more "wicked" situation <ref type="bibr" target="#b49">(Szulecka and Strøm-Andersen, 2022)</ref>. Considering that the European Union (EU) ranks second globally in terms of per-person food losses and waste at the consumption and pre-consumption stages. It is not unexpected that national and local European stakeholders have begun to debate managing food waste more frequently <ref type="bibr">(FAO, 2019)</ref>. The decrease in food waste is a goal shared by every stakeholder in the food distribution network, including farmers, food processors, retailers, consumers, nonprofit groups, and government agencies <ref type="bibr" target="#b18">(Ghinoi et al., 2020)</ref>. To efficiently bring about changes to technological advances, practices, and laws that a single player is unable to support in order to lessen food wastage, it appears that all parties involved must cooperate <ref type="bibr" target="#b37">(Papargyropoulou et al., 2014)</ref>.</p><p>Minimizing food waste involves a social dilemma akin to a public goods game, where some individuals cooperate to reduce waste while others defect. This qualitative study complements behavioral sciences by examining these behaviors and co-evolutionary processes. Through a sociological approach, the study explores diverse perspectives and tactics of various actors within national policy contexts to understand action mechanisms and organizational structures. Additionally, a schematic representation of sustainable development goals is provided in Fig. <ref type="figure" target="#fig_0">3</ref>. Emerging nations like Malaysia and Thailand have integrated food waste (FW) management systems into their legal frameworks, but funding shortages hinder effective implementation. Priority should be given to establishing proper technical segregation and collection within the municipal solid waste management system. Adequate infrastructure and financial support are crucial for sustainable operations in formal collection sectors. Currently, developing nations allocate most of their budgets to landfilling FW, limiting investment in treatment facilities and recycling programs. Governments should incentivize the adoption of novel technologies like anaerobic digestion and biochemical treatment to enhance FW recycling. Furthermore, regulations and corporate practices must be revised to encourage sustainable food production, such as adopting the closed-loop supply chain model <ref type="bibr" target="#b50">(Thi et al., 2015)</ref>. Governments should establish national food banks and collaborate with the World Bank's global food bank to facilitate food donations. This platform can redistribute nutritious food from post-harvest phases and unsold food from merchants and wholesalers to feed millions of hungry people globally, effectively managing food waste. <ref type="bibr">(Brain et al., 2013)</ref>. Animal feeding should be implemented since it is inexpensive and simple to do so in developing nations that rely largely on livestock, like Fig. <ref type="figure">2</ref>. Several food labels advertise their production to be sustainable. India, Mexico, and China.</p><p>Therefore, by disposing of food waste, developing nations may both combat the rising cost of feed and combat climate change. Raising public awareness of food waste issues and altering consumer behavior is important to decrease food waste production. To encourage the recycling of food waste, developing nations urgently require the creation of programs like "Food Waste into Energy" (in US), "Love Food-Hate Waste" (in UK), and "Zero Waste" strategy (in Europe) <ref type="bibr" target="#b50">(Thi et al., 2015)</ref>. In the end, the system throughout its entirety should contribute to public education, thinking about the future, and maintaining the community involved in every stage of the entire process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">SDG in the supply chain</head><p>The network of activities that compose the food supply comprises disposal of waste, retail sales, food manufacture, and agricultural cultivation. As a result of the physical distance between the place of primary manufacturing and the point of consumption, supply chains are divided into "local" and "global" categories. Large retailers, widely functioning multinational enterprises, cooperatives, or short-supply chains might be in charge of the food supply. Farmers, food traders (including distribution and retail), food processors (including all types of B2B food processors), and consumers make up the traditional food supply chain, though chains may vary depending on how food is altered during core operations <ref type="bibr">(Djekic et al., 2021)</ref>. <ref type="bibr" target="#b20">Govindan (2018)</ref> shows how consumption and production habits in connection to societal obligations and natural ecosystems can have a direct impact on achieving SDG 12. The interdependence between SDG 2 and SDG 12 can be shown in the way that changes to the current food supply chain can improve food quality and security <ref type="bibr" target="#b20">(Govindan, 2018;</ref><ref type="bibr" target="#b2">Asian et al., 2019)</ref>.</p><p>Farmers are critical for attaining the SDGs, hence it is necessary to change present agricultural practices to more "holistic" ones like agroecology, climate-smart agriculture, &amp; sustainable agriculture. Higher yields for novel rice varieties were reported by <ref type="bibr" target="#b1">Arouna et al. (2017)</ref>, increasing income (SDG 2; an average of USD 3.9 per year per person) and lowering poverty (SDG 1; around 18 % and 24 %) for small-scale farmers in sub-Saharan Africa. Despite this, Thornton et al. ( <ref type="formula">2018</ref>), who assessed the state of modifications in agricultural practices of 6300 smallholders in 21 countries, found that the adoption of improvements in farming practices has lagged behind those required to attain food security. The construction of a smart honey supply chain, which increased food security and food safety and decreased honey fraud, is one example of how technological advancements in agriculture are paving the way for providing food security associated with SDG 2 <ref type="bibr" target="#b39">(Rünzel et al., 2021)</ref>.</p><p>This blockchain-based smart farming system was built. For farmers to opt to change their agricultural practices, access to and ownership of land must be a key consideration. According to <ref type="bibr" target="#b8">Charoenratana and Shinohara (2018)</ref>, "farmers' increased agricultural stability will result in greater confidence in making investments in the land and offer a broader range of professional opportunities which will generate sufficient to allow stable food supplies of farming households". Thus, they came to the conclusion that improving land security is essential for enhancing food security. Additionally, because women own between 5 and 30 percent of the cultivated land in underdeveloped nations, access to land and other resources is essential for attaining gender equality (SDG 5) in agricultural systems <ref type="bibr" target="#b0">(Agarwal, 2018)</ref>.</p><p>Food processors must innovate resource-efficient methods, minimize residues, and enhance waste recycling to achieve sustainability. Prioritizing sanitation and access to water, especially potable water, is essential at every stage of the food processing supply chain to meet SDG 6 goals. <ref type="bibr">(S Á et al., 2017)</ref>. Food processing ought to adopt renewable energy sources in relation to affordable and environmentally friendly energy (SDG 7). With the digitalization, innovation, and optimization of the food manufacturing industry, like Industry 4.0 and the construction of efficient and high-quality infrastructures, food processing could also indirectly affect the motivation, industry, and infrastructure (SDG 9). Utilization of resources could be decreased throughout the entire distribution network, productivity can be increased, jobs can be created, and food systems can gain valorization through effective planning, optimization, and digitization <ref type="bibr" target="#b33">(Mangindaan et al., 2022)</ref>. Three areas that are extremely connected to the water-food-energy nexus could be achieved by combining the goals of SDGs 2, 6, and 7 <ref type="bibr" target="#b31">(Lin et al., 2021)</ref>. Food traders are essential to achieving SDGs 2, 3, which call for inexpensive and readily available food. Given that climate change will cause more than 50 million people to be undernourished by 2050 (SDG 13), the current international food trade practice needs to be changed <ref type="bibr" target="#b27">(Janssens et al., 2020)</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">SDG in packaging</head><p>Traders can market as well as promote healthy food goods in their retail locations by using a variety of food labels. International ISO standards define environmental claims as "claims which indicate the environmental aspects of a product or service" and give users the option to convey information about the environment in a range of levels and forms <ref type="bibr">(Djekic et al., 2021)</ref>. Environmental labels have to employ an accurate and verifiable evaluation approach and take into account all pertinent life cycle effects of a product (aligned with food labels as necessary legal standards). Furthermore, product details should offer social and potentially economic advantages alongside environmental benefits, aligning with the SDGs. To simplify, let's refer to this as "sustainable labeling." Many organizations have introduced voluntary sustainable labeling initiatives to inform consumers about specific ingredients or production processes in the food they purchase. <ref type="bibr" target="#b28">Kaczorowska et al. (2019)</ref> these institutions receive funding from manufacturers, merchants, NGOs, or public bodies. They all share four objectives: (1) Providing consumers with knowledge (2) Presenting information in easily understandable formats; (3) Building consumer trust through utilization and verification processes; and (4) Empowering consumers to make informed choices. Sustainable labeling allows consumers to express their personal preferences for product attributes and compare various quality qualities to determine their preferences <ref type="bibr" target="#b3">(Asioli et al., 2022)</ref>.</p><p>In this regard, it is noteworthy to mention two recent labels that have entered the European market: Eco-Score, which displays the environmental influence on food <ref type="bibr">(SDG 6,</ref><ref type="bibr">7,</ref><ref type="bibr">13)</ref>, and Nutri-Score, which combines nutritional and health issues; both add value to food choices (SDG 12) <ref type="bibr" target="#b10">(De Bauw et al., 2021)</ref>. All the labeling programs, including ISO standards and the recent Eco-Score and Nutri-Score, are intended to encourage consumers to choose foods that have a lower environmental effect and to engage in responsible consumption. The plethora of programs available has boosted market-based incentives for eco-friendly commodities and industrial methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">SDG in dairy</head><p>The dairy industry, comprising farmers, businesses, and cooperatives, must utilize diverse technologies to enhance sustainability across various aspects such as primary production, cow feeding, animal husbandry, manure management, milk processing, derivatives production, and material selection for packaging <ref type="bibr" target="#b42">(Rotz et al., 2010)</ref>. Consequently, employing "greener" technology, improving the supply chain networks, as well as the design the product is necessary for the dairy sector to accomplish the SDGs <ref type="bibr" target="#b36">(Mozas-Moral et al., 2021)</ref>. Educating food firms on sustainable management, resource efficiency, and food loss reduction is crucial. Utilizing agro-industrial waste and residues, such as seeds, skin, stalks, rind, pomace, and leaves, is essential. These by-products can serve as sources of bioactive substances like dietary fiber, carotenoids, phytosterols/stanols, PUFAs, and phenolic components, enabling dairy companies to implement sustainable practices effectively <ref type="bibr" target="#b21">(Granato et al., 2022)</ref>. Creating potentially useful dairy products is complex, requiring compliance with regional regulations like those of the FDA and EFSA. Products must appeal to consumers while being logistically and economically feasible. Enhancing the bioactivities of dairy foods and increasing their nutrient density can be achieved by adding extracts of bioactive substances, employing a complementary strategy. While some research supports utilizing side-streams for bioactive substances, regulations on innovative food products need frequent updates to match scientific advancements. Health claims must be supported by human interaction data. Developing functional dairy foods with added bioactive components remains challenging across food technology sectors. To address sustainability, technical and legal issues, and clinical evidence, a multi-actor approach is essential.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Future scope</head><p>Establishing an earlier advancement in mechanization and precision agriculture, use of automation and robotics are currently employed in numerous facets of the food system (such as cultivation, harvesting, and environmental monitoring) and have a wide range of possible uses in the future <ref type="bibr" target="#b9">(Clapp and Ruder, 2020;</ref><ref type="bibr" target="#b47">Sparrow and Howard, 2021;</ref><ref type="bibr" target="#b30">Klerkx and Rose, 2020)</ref>. Applications for robots in animal husbandry comprise pest control, livestock and crop monitoring, abattoir operations, or food delivery. Further autonomous cropping equipment includes that for planting, surveying, tending, harvesting, and handling <ref type="bibr" target="#b41">(Roldán et al., 2017;</ref><ref type="bibr" target="#b24">Herrero et al., 2020;</ref><ref type="bibr" target="#b4">Bechar and Vigneault, 2017)</ref>. Automation and robotics have significantly improved food safety in urban-centric food processing facilities. While reducing labor and agrochemical costs, they may increase energy expenses. Automation enhances managerial decision-making by minimizing cognitive biases, reducing exposure to toxic machinery and chemicals, and lowering human injuries (SDGs 3, 8). By using fewer toxic agrochemicals and reducing ecological impact, automation enhances resource efficiency (SDGs 12, 14, 15) and reduces input waste with precise dosing (SDG 12). It boosts supply chain resilience against disruptions like pandemics, population decline, or aging <ref type="bibr" target="#b30">(Klerkx and Rose, 2020)</ref>. However, it may lead to increased production, processing, and revenue in certain subsectors, impacting landscapes and small-scale farmers <ref type="bibr">(SDGs 10,</ref><ref type="bibr">14,</ref><ref type="bibr">15)</ref>. Automation reduces unskilled labor needs, potentially driving urban migration, urbanization, unemployment, poverty, and social conflicts without sufficient social support (SDG 8) <ref type="bibr" target="#b24">(Herrero et al., 2020;</ref><ref type="bibr">Herreron et al., 2021)</ref>.</p><p>Automation could, however, help those regions with manpower shortages where productivity is constrained by aged farm labor and growing urbanization. Furthermore, if robotics becomes more widely used, there may be a greater demand for professionals with knowledge of how to create, maintain, and fix robotic equipment. Overall, there may be a greater spatial separation between production and consumption, which would weaken socio-cultural linkages to the land and environment for a population that is becoming more urban. Robotics are also susceptible to failure, power supply issues, and hacking-related disturbances. Therefore, automation may simply swap out the labor's susceptibility to disruption for machinery's susceptibility to other disruptive causes <ref type="bibr" target="#b48">(Sparrow et al., 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusions</head><p>Reducing food losses targets both consumer and retail food waste, along with losses across the supply chain, including post-harvest losses. This aids in alleviating global hunger and malnutrition by ensuring more food reaches those in need. It also reduces environmental impact, such as greenhouse gas emissions, water use, and land degradation, promoting sustainable consumption and production practices. Moreover, it saves money for producers, retailers, and consumers, offering economic benefits and aligning with ethical and social responsibility standards. Achieving this goal requires legislative measures, innovations, and behavioral changes, motivating action from governments, corporations, and individuals. Many nations and organizations have set reduction targets and implemented programs to monitor progress. Eliminating hunger (SDG 2), promoting sustainable agriculture (SDG 2), fostering economic growth (SDG 8), and combating climate change (SDG 13) are all contingent on reducing food loss and waste, showcasing the integration of environmental, social, and economic sustainability efforts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head><p>Sobiya Manzoor: Data curation, Formal analysis, Investigation, Methodology, Software, Validation, Visualization, Writingoriginal draft, Writingreview &amp; editing. Ufaq Fayaz: Data curation, Formal analysis, Investigation, Methodology, Resources, Software, Validation,</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Schematic representation of sustainable development goals.</figDesc><graphic coords="5,81.64,55.45,432.00,249.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,69.62,482.79,456.00,243.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,69.62,469.08,456.00,257.10" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Data will be made available on request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical Statement -Studies in humans and animals</head><p>This study does not involve any animals or human subjects.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Gender equality, food security and the sustainable development goals</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Agarwal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Environ. Sustain</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="26" to="32" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Contribution of improved rice varieties to poverty reduction and food security in sub-Saharan Africa</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arouna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lokossou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C S</forename><surname>Wopereis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bruce-Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Roy-Macauley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Food Security</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="54" to="60" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Sharing economy in organic food supply chains: A pathway to sustainable development</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Asian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hafezalkotob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>John</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Econ</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="322" to="338" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Comparison of different ways of handling L-shaped data for integrating sensory and consumer information</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Asioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">C</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Varela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Naes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Qual. Prefer</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<date type="published" when="2022">2022. 104426</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Agricultural robots for field operations. Part 2: operations and systems</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bechar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vigneault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosyst. Eng</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="110" to="128" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Food waste in the swiss food service industry-magnitude and potential for reduction. Waste Manage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Betz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buchli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Müller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="218" to="226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tim</surname></persName>
+		</author>
+		<title level="m">Reducing Food Loss and Waste e Installment 2 of &quot;Creating a Sustainable Food Future</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Resource Institute</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Benefits, barriers, and challenges to university-level food waste tracking</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Serrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Budowle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dulys-Nusbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hunger. Environ. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="428" to="438" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rural farmers in an unequal world: land rights and food security for sustainable well-being</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Charoenratana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shinohara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Land Use Policy</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Precision technologies for agriculture: digital farming, geneedited crops, and the politics of sustainability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ruder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Environ. Polit</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="49" to="69" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A combined Nutri-Score and &apos;Eco-Score&apos; approach for more nutritious and more environmentally friendly food choices? Evidence from a consumer experiment in Belgium</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Bauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Matthys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Poppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Franssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vranken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Qual. Prefer</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<date type="published" when="2021">2021. 104276</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Towards a more sustainable food supply chain: opening up invisible waste in food service</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Derqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fayos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fernandez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">693</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Role of the food supply chain stakeholders in achieving UN SDGs</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Djekic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Batlle-Bayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fullana-I-Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Jambrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">9095</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Covid-19 pandemic effects on food safety-Multi-country survey study</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Djekic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nikolić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uzunović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marijke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tomasevic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">107800</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The multi-level perspective in research on sustainability transitions in agriculture and food systems: a systematic review</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>El Bilali</surname></persName>
+		</author>
+		<ptr target="http://www.fao.org/save-food/it/" />
+	</analytic>
+	<monogr>
+		<title level="m">Save food: global initiative on food loss and waste reduction</title>
+		<imprint>
+			<date type="published" when="2019-02-16">2019. 2019. accessed February 16, 2019</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">74</biblScope>
+		</imprint>
+	</monogr>
+	<note>Food and Agriculture Organization of the United Nations -FAO</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Knowledge and politics in setting and measuring the SDG S: introduction to special issue</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fukuda-Parr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcneill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Policy</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="5" to="15" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Keeping out extreme inequality from the SDG agendathe politics of indicators</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fukuda-Parr</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1758-5899.12602</idno>
+		<ptr target="https://doi.org/10.1111/1758-5899.12602" />
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Policy</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="61" to="69" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Food waste reduction and food poverty alleviation: a system dynamics conceptual model</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Galli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cavicchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brunori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Human Values</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="289" to="300" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Toward the creation of novel food waste management systems: a network approach</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghinoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Silvestri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Steiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">118987</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">To waste or not to waste: exploring motivational factors of generation Z hospitality employees towards food wastage in the hospitality industry</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hosp. Manage</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="126" to="135" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Sustainable consumption and production in the food supply chain: a conceptual framework</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Govindan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Econ</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="419" to="431" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The price of sustainability: How consumers trade-off conventional packaging benefits against sustainability</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Granato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Van Trijp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page">132739</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Addressing food wastage in the framework of the UN sustainable development goals</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Falasconi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="97" to="98" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gustavsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cederberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Sonesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Otterdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meybeck</surname></persName>
+		</author>
+		<title level="m">Global food losses and food waste</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Innovation can accelerate the transition towards a sustainable food system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Thornton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mason-D'croz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Bodirsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>West</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Food</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="266" to="272" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Articulating the effect of food systems innovation on the sustainable development goals</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Thornton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mason-D'croz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Bodirsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rockström</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Planet. Health</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="50" to="e62" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Overview of waste in the UK hospitality and food service sector. Overview Waste UK Hospital</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hollins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Food Service Sector</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Global hunger and climate change adaptation through international trade</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Janssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Havlík</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Krisztin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leclère</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ohrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ragnauth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Valin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Clim. Change</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="829" to="835" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Impact of food sustainability labels on the perceived product value and price expectations of urban consumers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaczorowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rejman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Halicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szczebyło</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Górska-Warsewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">7240</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Knowledge and attitudes of hoteliers in langkawi UNESCO global geopark towards sustainable food waste management (SFWM)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kasavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Halim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pertanika J. Soc. Sci. Human</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Dealing with the game-changing technologies of agriculture 4.0: how do we manage diversity and responsibility in food system transition pathways?</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Klerkx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rose</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Glob. Food Sec</publisher>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">100347</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of a biogas system for cassava processing in Brazil to close the loop in the water-waste-energy-food nexus</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borrion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Fonseca-Zang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Zang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Leandro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Campos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page">126861</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">What makes people leave their food? The interaction of personal and situational factors leading to plate leftovers in canteens</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A S</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Langen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appetite</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="45" to="56" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Black soldier fly larvae (Hermetia Illucens) for biodiesel and/or animal feed as a solution for waste-foodenergy nexus: bibliometric analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mangindaan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Kaburuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meindrawan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">13993</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Exploring the global scientific literature on food waste and loss</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mokrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Buonocore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Capone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Franzese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">4757</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Sustainable development goals (SDGs), and their implementationA national global framework for health, development and equity needs a systems approach at every level</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pencheon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Squires</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br. Med. Bull</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The role of the SDGs as enhancers of the performance of Spanish wine cooperatives</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mozas-Moral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fernández-Uclés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Medina-Viruel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bernal-Jurado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Technol. Forecast. Soc. Change</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page">121176</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The food waste hierarchy as a framework for the management of food surplus and food waste</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papargyropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Steinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Bin Ujang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="106" to="115" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Food waste within food supply chains: quantification and potential for change to 2050</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barthel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macnaughton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. B, Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="3065" to="3081" />
+			<date type="published" when="1554">2010. 1554</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Designing a smart honey supply chain for sustainable development</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rünzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Hassler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Formato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cazier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Consum. Electr. M</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Internet of nonthermal food processing technologies (IoNTP): food Industry 4.0 and Sustainability</title>
+		<author>
+			<persName><forename type="first">Režek</forename><surname>Jambrak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nutrizio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Djekić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pleslić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chemat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">686</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">From frequency of use to social integration: The mediation of routinization and infusion in Tuenti community</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Roldán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sanchez-Franco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Real</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Res. Manag. Bus. Econ</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="63" to="69" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The carbon footprint of dairy production systems through partial life cycle assessment</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Rotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Montes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chianese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Dairy Sci</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1266" to="1282" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A review on enzymatic synthesis of aromatic esters used as flavor ingredients for food, cosmetics and pharmaceuticals industries</title>
+		<author>
+			<persName><forename type="first">Á</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G A</forename><surname>De Meneses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>De Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H H</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Food Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="95" to="105" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">When international sustainability frameworks encounter domestic politics: the sustainable development goals and agri-food governance in South America</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Bastos Lima</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.worlddev.2020.105053</idno>
+		<ptr target="https://doi.org/10.1016/j.worlddev.2020.105053" />
+	</analytic>
+	<monogr>
+		<title level="j">World Dev</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<date type="published" when="2020">2020. 105053</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Food waste volume and origin: case studies in the Finnish food service sector</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Silvennoinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Heikkilä</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Katajajuuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reinikainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="140" to="145" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The influence of shelf life on food waste: a model-based approach by empirical market evidence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Spada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Conte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Del Nobile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="3410" to="3414" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Robots in agriculture: prospects, impacts, ethics, and policy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sparrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Howard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Precis. Agric</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="818" to="833" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effective ecosystem monitoring requires a multi-scaled approach</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Sparrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Munroe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Wardle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Guerin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bastin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Phinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1706" to="1719" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Norway&apos;s food waste reduction governance: from industry self-regulation to governmental regulation? Scan</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Szulecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Strøm-Andersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polit. Stud</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="86" to="109" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">An overview of food waste management in developing countries: current status and future perspective</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B D</forename><surname>Thi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manage</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="220" to="229" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Drivers of food waste and their implications for sustainable policy development</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Thyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tonjes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="110" to="123" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Strategies to reduce food waste in the foodservices sector: a systematic review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vizzoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Testa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Iraldo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hosp. Manage</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">102933</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

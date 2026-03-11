@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The environmental impact of reducing food loss and waste: A critical assessment</title>
+				<funder>
+					<orgName type="full">Food and Agricultural Organization</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-05-05">5 May 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Andrea</forename><surname>Cattaneo</surname></persName>
+							<email>andrea.cattaneo@fao.org</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Agricultural Development Economics Division, Food and Agriculture Organization of the United Nations (FAO)</orgName>
+								<address>
+									<addrLine>Viale delle Terme di Caracalla</addrLine>
+									<postCode>00153</postCode>
+									<settlement>Rome</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giovanni</forename><surname>Federighi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Agricultural Development Economics Division, Food and Agriculture Organization of the United Nations (FAO)</orgName>
+								<address>
+									<addrLine>Viale delle Terme di Caracalla</addrLine>
+									<postCode>00153</postCode>
+									<settlement>Rome</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sara</forename><surname>Vaz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Agricultural Development Economics Division, Food and Agriculture Organization of the United Nations (FAO)</orgName>
+								<address>
+									<addrLine>Viale delle Terme di Caracalla</addrLine>
+									<postCode>00153</postCode>
+									<settlement>Rome</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The environmental impact of reducing food loss and waste: A critical assessment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-05-05">5 May 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">447371B664FE03451922CE1782775D07</idno>
+					<idno type="DOI">10.1016/j.foodpol.2020.101890</idno>
+					<note type="submission">Received 27 August 2019; Received in revised form 3 March 2020; Accepted 29 March 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Food loss Food waste Greenhouse gas emissions Resource use efficiency Environmental targeting Policy design</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This paper examines the rationale for pursuing environmental objectives by reducing food loss and waste (FLW). The main thrust of the literature on this issue is that FLW reduction can make a major contribution to making food systems more sustainable. Using a stylized analytical framework, we find that reducing FLW always improves resource use efficiency for land and water, and reduces the amount of greenhouse gases (GHG) emitted per unit of food consumed. However, whether the actual environmental outcome is improved will depend on where environmental damage and FLW reduction occur, and the way price transmission connects these along the food supply chain. We find that, while a food waste reduction at the consumer level always improves the environmental outcome, this is not guaranteed when reducing losses from farm to retail. We thus derive a condition linking the price transmission mechanism and the environmental impact of a loss reduction. Simulating environmental outcomes based on a range of parameter values found in the literature, we find that reducing losses at or close to the farm level can increase the aggregate amount of GHG emissions, and therefore focusing on reducing consumer waste is more effective in reducing emissions. As for reducing natural resource use, both loss and waste reductions reduce the amount of land and water use, but effectiveness is reduced by heterogeneity in environmental impact. Relative to loss reductions, effectiveness of a waste reduction is amplified if there are environmentally damaging losses upstream in the value chain, but also dampened by vertical heterogeneity of sourcing along a value chain. The paper makes the case that more targeted instruments may be better suited to address typically local water scarcity and land use and degradation issues.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>An extensive literature exists on the environmental impactin terms of carbon, land, and water footprintsof food production and of food loss and waste (FLW) in particular <ref type="bibr" target="#b1">(Chapagain and James, 2013;</ref><ref type="bibr" target="#b3">FAO, 2019</ref><ref type="bibr" target="#b5">FAO, , 2013;;</ref><ref type="bibr" target="#b9">Kummu et al., 2012;</ref><ref type="bibr" target="#b18">Venkat, 2011)</ref>. While most of this literature implies a direct connection between reducing FLW and reducing the environmental impact of food production <ref type="bibr" target="#b0">(Chapagain and James, 2011;</ref><ref type="bibr" target="#b5">FAO, 2013)</ref>, there are applied economic models that take into account the interaction between supply and demand and how it is affected by changes in FLW <ref type="bibr" target="#b16">(Springmann et al., 2018)</ref>.</p><p>This paper provides novel economic insights on the relationship between FLW and environmental sustainability using a stylized partial equilibrium model of a supply chain facing both losses and waste. It starts by showing how people's different perspectives on the link between FLW and the environment are based on different economic assumptions of how the food system functions and how changes in losses or waste affect the environment. Based on these assumptions, a model linking food loss and waste to environmental impacts (water, land, and GHG emissions) was created, using economic parameters (price elasticities of supply and demand at the farm and retail levels, and retail to farm price transmission elasticities) and environmental parameters (impact factors, and where along the supply chain the environmental damage occurs). The model is used to derive general results about resource use efficiency (for land and water) and GHG emission intensity per unit of food consumed, as well as actual absolute environmental impacts. These results are presented in four propositions. We then use the conditions derived to simulate environmental outcomes of FLW interventions based on parameter values found in the literature to provide practical guidance and discuss policy implications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Framing the problem in a way that provides insight on environmental effectiveness of FLW reduction interventions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Four different perspectives on reducing FLW to attain environmental objectives</head><p>Reducing food loss and waste to address environmental concerns associated with the food system can elicit different reactions from people depending on the perspective and experience they bring to the table.</p><p>Here we provide four stylized arguments based on different points of view on whether reducing FLW is an effective way to reduce the environmental impact associated with food production.</p><p>The environmental steward -To the environmentally conscious, food loss and waste constitutes a use of resources that could be avoided. To the environmental steward, cutting FLW translates in full into natural resource savings (and avoided GHG emissions), since that food would no longer need producing. Based on estimates of resource use and GHG emissions associated with food loss and waste (e.g. <ref type="bibr" target="#b4">FAO, 2015;</ref><ref type="bibr" target="#b9">Kummu et al., 2012)</ref>, this assumption implies that eliminating FLW could reduce global GHG emissions by 8% and reduce by a quarter the water used by agriculture relative to baseline values. The approach calculates the environmental benefit by multiplying the environmental impact per unit of food produced by the amount of FLW reduction of that product. This, however, assumes that the amount of food consumed does not change as a result of a reduction in FLW, and that the ensuing price change would be entirely transmitted to farmers in such a way that agricultural production would be reduced by the exact same amount of the avoided losses or waste. In economic terms, the approach assumes a perfectly inelastic demand, combined with elastic supply at the farm level and price changes being transmitted along the supply chain.</p><p>The doubting Thomas -According to this perspective, reducing one ton of food loss at a certain stage of the supply chain and at a given period would only result in pushing that ton of food (which had already been produced) throughout the food supply chain until it reaches consumers. The "doubting Thomas" makes the case that the carbon, water and land used to generate that ton of avoided losses will still have been used. Therefore, pushing more food along the supply chain may actually produce more environmental damage if, for instance, increased throughput at later stages of production lead to more GHGs being emitted. It thus assumes consumers are extremely sensitive to prices (i.e. demand is perfectly elastic), so that a fall in prices following a loss reduction always translates not into a decrease in production but rather into more food reaching consumers.</p><p>The forward-looking pragmatist -A demographer or economist working on future scenarios will be well aware of the increase in demand for food projected in the coming decades due to growing populations and incomes, as well as the additional pressure on natural resources this would entail. Reducing FLW is therefore seen as providing better resource use efficiency to meet growing food demand while limiting the environmental impact <ref type="bibr" target="#b15">(Searchinger et al., 2018;</ref><ref type="bibr" target="#b16">Springmann et al., 2018)</ref>.</p><p>The nitpicky economist -Economists will typically argue that the best way to target an environmental externality is by addressing directly the market failure that leads to the excessive environmental damage according to a social welfare measure. For instance, if water is scarce, then the price of water used in agriculture should reflect such scarcity, in order to avoid water wastage. Likewise, if GHG emissions are a threat, putting a price on carbon would help limit emissions. These additional costs would ultimately be reflected in higher food prices, which, in turn, could increase the incentives to reduce FLW. For the "nitpicky economist", using the reduction of food loss and waste as a means to reach environmental goals would, therefore, be too generic to target environmental damage in an effective way.</p><p>These four perspectives are very different in their assumptions about supply-demand relationships affecting natural resource use and GHG emissions. The first two casesthe "environmental steward" and the "doubting Thomas" -are at opposite extremes in terms of the underlying assumptions about price elasticities, and both are essentially static in that changes in supply and demand occur exclusively in response to the reduction in food loss or waste. The "forward-looking pragmatist" takes a longer-term view on demand for food, factoring in population growth and dietary change, and essentially focuses on reducing FLW as a way of improving resource use efficiency so as to meet this growing demand.</p><p>On the other hand, the "nitpicky economist" makes the point that there are better ways than reducing food loss and waste to improve environmental outcomes and resource use efficiency. Reducing FLW will have only an indirect impact on the environment mediated through the effect on product price along the value chain. This is likely less environmentally effective than direct interventions such as improving irrigation efficiency or reducing GHG emission intensity. Moreover, it may be difficult to foresee the impacts of FLW reduction on land or water use in specific geographic locations of environmental concern. In other words, while reduction measures will always improve the average bluewater and land use efficiency no matter where they are implemented, improving resource use efficiency where it matters most requires an understanding of the extent to which land and water impacts are linked to geographic location. However, the "forward-looking pragmatist" would argue that targeted measures, such as pricing natural resources based on their true value, despite being more efficient, are politically unappealing as they would increase the cost of food. Thus, reducing food loss and waste, although not the best-targeted option for environmental improvement, may be more viable politically.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">The importance of location and magnitude of FLW (and associated environmental impact) for effective policy design</head><p>Aside from supply/demand adjustments, two additional elements are key in understanding the environmental outcome associated with FLW reductions. The first is where along the supply chain the environmental damage associated with food production occurs and to what extent. The second is where along the supply chain losses occur, their magnitude, and the potential for reduction.</p><p>Starting from where in the supply chain does the bulk of environmental damage associated with food production occurs, it is safe to say that a FLW reduction intervention will be environmentally effective only if it reduces output at the point in the supply chain where the environmental damage takes place. This can be quite distinct from where losses are occurring along the value chain. Thus, the second point, whether measures to reduce losses or waste occur upstream or downstream of the environmental impact, will matter for effective policy making since it will determine through price transmission the output at the point where environmental damage occurs.</p><p>In other words, the environmental impact of an intervention in point A of the supply chain will depend on how it affects natural resource use (or GHGs emitted) at point B in the supply chain, where the bulk of the environmental impact happens. For instance, a reduction in food losses at, or close to, the farm stage that lowers the costs of inputs for actors downstream may induce the latter to expand their output. Consequently, as more food moves throughout the supply chain, the eventual result would be increased GHG emissions since the emissions per unit of food lost or wasted tend to be higher towards the retail and consumption stages of the supply chain. On the other hand, the land or blue-water footprint originates in the primary production stage, and a FLW reduction upstream that depresses farm-gate prices and thereby induces producers to scale back their productionand thus their use of natural resourceswill lead to an environmental improvement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">The importance of geographic location for land and water (and its irrelevance for GHG emissions)</head><p>When it comes to the geographic location of the environmental impact associated with FLW, there are two questions that need to be addressed. The first is whether geographic location matters for the environmental dimension in focus, and the second is whether the environmental impact of a FLW reduction can be traced back to a particular geographic location.</p><p>On the first question, since GHG emissions have global ramifications, irrespective of where they occur, the geographic location of the emissions is irrelevant from an environmental standpoint. Conversely, environmental problems caused by the unsustainable use of land or water are mostly specific to a geographic location, and therefore the effectiveness of FLW reductions to reduce associated land and water footprints will depend on how the impact is felt on different locations.</p><p>From a policy perspective, it may be difficult to foresee the geographic location of the environmental impacts of an intervention to reduce FLW. For this reason, interventions further along the supply chain may not be particularly effective in remedying a location-specific environmental problem, as not all products targeted originate from the problem area. Taking water scarcity as an example, if interventions take place further downstream in the supply chain, by the time prices are transmitted from retailers to farmers in water-scarce regions, the diluted price effect may not be strong enough to induce those farmers to adjust production and resource use. This, however, may not be an issue for policy makers focused on non-location-specific environmental damage, such as GHG emissions, which are a global concern. Here, a diluted price signal that results in a small drop in production by a large number of farmers will still help mitigate climate change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The model</head><p>Building on the previous sections, the mechanism of price transmission is central in determining environmental impacts of FLW reductions. Price transmission is often characterized in the literature as occurring domestically through the various stages of the supply chain (vertical transmission) and internationally through horizontally-related markets (horizontal price transmission) <ref type="bibr" target="#b17">(Vavra, and Goodwin, 2005)</ref>. Since the focus of the paper is on the transmission of price changes along the food supply chain in determining the environmental outcome associated with a FLW reduction, the stylized model presented next will limit its focus to vertical price transmission considering the impact of the FLW reduction on the prices up-or downstream of where it occurs. 1 Gardner's  model (1975) analysing the farm-retail price relationship in a competitive marketis taken as an inspiration to develop here a partial equilibrium framework to examine the relationship between FLW and the environment through price transmission between farms and consumers. In this paper, we make the distinction between food losses (from farm up to, and including, retail) and food waste (by consumers and service providers), allowing the former to be interpreted as a shift in retail supply, while the latter as a shift in consumer demand for food.</p><p>The modelling strategy consists of two steps: the first step analyses the impact of reducing food loss or waste on the equilibrium level of agricultural production (Q F ), food sold at retail (Q R ), and food that is actually consumed (Q C ). The second step then applies the changes in demand and supply to calculate the change in environmental damage associated with food production. The latter can be defined as follows:<ref type="foot" target="#foot_0">foot_0</ref> </p><formula xml:id="formula_0">ED = IF⋅[γ F ⋅Q F + (1 -γ F )⋅Q R ] (1)</formula><p>where IF is the impact factor expressing the environmental impact per unit of the final product, γ F is the share of environmental damage that occurs at the farm level, and (1γ F ) is the share of environmental damage occurring between the farm and the retail level. Recall that, depending on the environmental dimension, the damage is generated at different points along the supply chain. For instance, the carbon footprint of FLW follows a pattern throughout the various stages of the food supply chain quite differently from that of land or water footprints, where the bulk of the environmental impact occurs in the agricultural production phase. For this reason, the share of the environmental footprint that occurs at the farm level, or that occurs at the retail level, must be taken into account. To keep things simple we assume that there is no environmental damage occurring specifically at the consumer level. <ref type="foot" target="#foot_1">3</ref>In the following subsections, we start by looking at the environmental impact of a reduction in losses (Section 3.1) followed by a reduction in waste (Section 3.2). Section 3.3 analysis the implications of a food loss and waste reduction on resource use efficiency and GHG emission intensity. We conclude the analytical modelling highlighting that the results derived are affected by the heterogeneity of environmental impacts (Section 3.4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Environmental impact of a reduction in losses</head><p>Fig. <ref type="figure" target="#fig_0">1</ref> illustrates the market for a food commodity and the impact of a loss reduction intervention on the quantity and price levels. The depicted situation is best interpreted as capturing the full supply chain from agricultural production to consumption, but concealing the various intermediate stages (such as processing and transportation). The first quadrant (quadrant I) portrays a standard upward sloping supply curve and a standard downward sloping demand curve as observed at the retail level. The demand curve reflects purchases by consumers, and not actual consumption. The price mechanism ensures that demand equals supply. The initial equilibrium is reached at point A, where the quantity traded at the retail level is Q R0 and the equilibrium price is P 0 .</p><p>Let us assume that this food commodity suffers losses between farm and retail. The extent of the loss incurred is illustrated in the second quadrant (quadrant II), where Q F0 refers to the quantity produced at the farm level, given retail demand. The difference between what is produced at the farm and what reaches the market (Q F0 -Q R0 ) equals the total amount of loss, and the loss ratio (L) is denoted by:</p><formula xml:id="formula_1">L = 1 -Q R /Q F (2)</formula><p>Similarly, the difference between the quantity supplied at the retail level (Q R ) and the amount actually consumed (Q C ) corresponds to the total amount of waste that occurs at consumer level, whereby the waste ratio is:</p><formula xml:id="formula_2">W = 1 -Q C /Q R (3)</formula><p>Assuming producers are induced to reduce losses through the adoption of a new technology, the loss ratio between production and 1 Horizontal price feedback occurs also domestically across a population of actors at a given stage in the supply chain. For simplicity, we assume this is fully reflected in shifts of supply and demand following FLW reductions since all actors at a given stage observe the same price for their output. The model does not consider the speed of adjustment to a new equilibrium. retail then becomes L 1 . The action of reducing losses, given the original demand curve, would result in a lower price, P 1 , and a higher equilibrium quantity, Q R2 . The size of the impact, going from Q R0 to Q R2 , however, is smaller than the impact if prices had not changed, from Q R0 to Q R1 . The shift in retail supply is equivalent to removing a tax on retail suppliers where the amount of the tax is proportionate to the food lost before retail. This is consistent with a lower equilibrium price in the food retail market and higher food quantity retailed especially when the food demand is elastic.</p><p>Such a drop in the retail price level is subsequently transmitted to the farm stage through a process of price transmission along the food supply chain (see quadrant IV), and creates a disincentive for agricultural production. The magnitude of this disincentive will depend on the slope of the line in quadrant IV, which represents the farm sales price divided by the retail price or, in other words, the farm share of the final consumer dollar. The higher this share, the more pronounced the impact on farm sales price of a reduction in retail price. The effect is illustrated in the third quadrant, with a fall in agricultural production from Q F0 to Q F1 . A decrease in agricultural production reduces natural resource use at this stage (assuming the efficiency of production is unchanged). The question then becomes by how much the price change at retail, in response to a loss reduction, is actually transmitted to the farm.<ref type="foot" target="#foot_2">foot_2</ref> If demand at retail is very elastic, or the price transmission mechanism is weak, the environmental impact upstream of losses may not be reduced. An elastic demand in terms of food purchases at retail can lead to greater demand following a reduction in losses, increasing environmental damage when this occurs mostly downstream (as with GHG emissions). Hence, determining whether the impact of a loss reduction is positive or negative depends on the demand and supply elasticities, and on the elasticities of retail to farm price transmission to evaluate the extent to which retail price movements affect farm prices. Following <ref type="bibr" target="#b6">Gardner (1975)</ref>, such elasticity is defined as the ratio of relative change in farm price to the relative change in the retail-level price:</p><formula xml:id="formula_3">τ FR = dlnP F dlnP R (4)</formula><p>Let η RL and η FL be the elasticity of demand at the retail level and supply by farmers relative to a food loss intervention (see Appendix A for definitions). It can be shown (see Appendix B) that:</p><formula xml:id="formula_4">η RL η FL ⋅τ FR = ε PR σ PF (5)</formula><p>where ε PR and σ PF are the price elasticities of consumer demand at retail level and supply at the farm level, respectively. While acknowledging that the mark-up must change in response to demand or supply shifts in order to be compatible with market equilibrium <ref type="bibr" target="#b6">(Gardner, 1975;</ref><ref type="bibr" target="#b14">Santeramo and Gioia, 2018)</ref>,<ref type="foot" target="#foot_3">foot_3</ref> here we assume, for presentation purposes, that the retail-farm price transmission elasticity, τ FR , is fixed.</p><p>We then move to determine whether the impact of a loss reduction on the environment is positive or negative. Policymakers interested in reducing the environmental impact of food loss and waste should first consider which environmental dimension to target (carbon, land and water). This matters since, as aforementioned, the environmental damage of the different dimensions is generated at different points along the supply chain. Once this is determined, the change in environmental damage of a change in losses of a food product can be obtained doing the total differential of equation ( <ref type="formula">1</ref>):</p><formula xml:id="formula_5">dED = IF⋅[γ F ⋅dQ F + (1 -γ F )⋅dQ R ]<label>(6)</label></formula><p>By replacing dQ C = dQ R (1 -W) and dQ F and dQ R by their respective elasticities (see Appendix A), we then apply the condition found in equation ( <ref type="formula">5</ref>) to equation ( <ref type="formula" target="#formula_5">6</ref>), in order to derive the break-even condition that corresponds to a zero impact on the environment (dED = 0). From here, the condition for a reduction in environmental damage (or beneficial environmental outcome following a loss reduction) is then denoted by equation ( <ref type="formula">7</ref>). Some of the formulas are derived in Appendix B.</p><formula xml:id="formula_6">τ FR ⋅σ PF ⋅γ F ⋅Q F ⏟̅̅̅̅̅̅̅̅̅̅⏞⏞̅̅̅̅̅̅̅̅̅̅⏟ Improvement upstream &gt; -ε PR ⋅(1 -γ F )⋅Q R ⏟̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅⏞⏞̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅⏟ Deterioration downstream (7)</formula><p>Equation ( <ref type="formula">7</ref>) balances the positive and negative impacts a food loss reduction may have simultaneously on the environment. It places in the left-hand side (LHS) all effects that are farm-related, while those linked to the retail stage are instead placed at the right-hand side (RHS) of the expression. The effectiveness of a loss reduction in reducing the environmental damage will depend on by how much the LHS exceeds the RHS. The more inelastic demand (since the elasticity of demand is negative) and the more elastic supply, the larger the potential to obtain an environmental improvement. This result is in line with the literature on impacts of reducing food losses, whereby prices decrease the most when supply is elastic and demand is inelastic <ref type="bibr" target="#b13">(Rutten, 2013)</ref>. This price signal is then transmitted to farmers through a price transmission mechanism, discouraging production. The equation illustrates that, depending on where the environmental damage occurs along the supply chain, if the decrease in agricultural production compensates for an increase in supply downstream (associated with a reduction in losses), a reduction in environmental damage is possible. While not captured in the model, in the long run, the supply of agricultural commodities is expected to be more elastic <ref type="bibr" target="#b13">(Rutten, 2013)</ref>, so then environmental improvements are more likely to occur. By substituting Q R = Q F (1 -L) into equation ( <ref type="formula">7</ref>) we can obtain the following proposition.</p><p>Proposition 1. Depending on where the environmental damage occurs along the supply chain and on the price transmission mechanism,there can exist a loss ratio, L*, below which a reduction in losses is environmentally damaging.</p><formula xml:id="formula_7">L * = 1 -τ FR ⋅ σ PF -ε PR ⋅ γ F (1 -γ F )<label>(8)</label></formula><p>This condition implies that, if the price transmission mechanism is weak and/or the environmental damage occurs mostly downstream in the supply chain, even if there are considerable losses it may still be preferablefrom an environmental standpointnot to intervene.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Environmental impact of a reduction in waste</head><p>We now turn to the waste side, which follows a similar logic of that of a loss reduction. Fig. <ref type="figure" target="#fig_1">2</ref> illustrates an equivalent market for a food commodity of that of Fig. <ref type="figure" target="#fig_0">1</ref>, with the only difference being the modelling for a waste reduction, instead of losses.</p><p>As in Fig. <ref type="figure" target="#fig_0">1</ref>, the first quadrant portrays the market equilibrium whereby supply equals demand. The initial equilibrium is reached at point A, given price P 0 . Assuming the food commodity suffers an exogenous amount of waste by food service providers and consumers, let us consider the impact of a reduction in food waste (e.g. through an awareness campaign). If the campaign is effective, then the waste ratio W decreases. Keeping in mind that actual consumption is not observable, the change will result in a pivoting and shift of the demand curve to the left from D 1 to D 2 . The assumption here is that, although the waste ratio will be constant in the neighborhood of equilibrium, at high prices it will be typically lower than at low prices; therefore, reducing the waste rate by a fixed proportion will shift the demand curve more to the left at lower prices than at higher prices. Let the percent change in waste be defined as β, then the horizontal shift in demand at equilibrium can be expressed as β⋅W⋅Q R . Given the original supply curve, a contraction in demand would result in a lower price, P 1 , and a lower quantity from Q R0 to Q R2 (point C). The shift in demand could be thought of as equivalent to removing a tax on consumers where they are charged the waste rate W for every extra unit they consume of the food they purchased. Lowering this "tax", which could be also thought of as the cost of waste avoidance, will lead to consuming more of what is bought, and possibly buy less. This is then consistent with a lower equilibrium price in the food retail market and lower food quantity purchased by consumers especially when the food supply at retail level is elastic.</p><p>Again, the drop in price is transmitted from retail to primary production level through a price transmission mechanism along the food supply chain, visible in quadrant IV. As illustrated in the third quadrant, the price decrease creates a disincentive to produce at the farm level, from Q F0 to Q F1 . As before, the extent of the decrease in agricultural production, and consequently natural resource use, will ultimately depend on the how the change in demand is transmitted from retail to farm. 6 The environmental impact in response to the shift in demand at the retail level now caused by a waste reduction can still be expressed by equation ( <ref type="formula" target="#formula_5">6</ref>), which can be simplified by using Q F = QR 1-L to obtain:</p><formula xml:id="formula_8">dED = IF⋅dQ R [ 1 + γ F L (1 -L) ]<label>(9)</label></formula><p>Where dQ R corresponds to the change in consumer purchases at the new equilibrium following a decrease in consumer waste. Recall that the supply chain meets only part of the entire demand shift (β⋅W⋅Q R ) from Q R0 to Q R1, up to the point it is economically justified (in this case, up to Q R2 ). Following <ref type="bibr" target="#b7">Hull (2005)</ref>, and assuming perfect competition, the ratio</p><formula xml:id="formula_9">σP R σP R -εP R</formula><p>measures the degree of responsiveness to a demand shift, where σ PR and ε PR are the price elasticity of supply and demand at the retail level, respectively. Multiplying this ratio by the shift in demand (β⋅W⋅Q R ) gives us dQ R . 7 By replacing the latter in equation ( <ref type="formula" target="#formula_8">9</ref>), the change in environmental damage is then:</p><formula xml:id="formula_10">dED = (β⋅W⋅Q R )⋅ σ PR σ PR -ε PR ⋅IF⋅ [ 1 + γ F L (1 -L) ] (<label>10</label></formula><formula xml:id="formula_11">)</formula><p>Note that, since the only negative parameters are β and ε PR (and the latter turn positive as it follows a minus sign), the RHS of equation ( <ref type="formula" target="#formula_10">10</ref>) is always negative, implying that the environmental damage is always reduced when there is a reduction in waste. In equation ( <ref type="formula" target="#formula_12">11</ref>), the lefthand side of the equation represents the percent change in environmental damage relative to the damage embodied in food waste before an intervention takes place.</p><formula xml:id="formula_12">dED (W⋅Q R ⋅IF) = β⋅ σ PR σ PR -ε PR ⋅ [ 1 + γ F L (1 -L) ]<label>(11)</label></formula><p>The RHS shows that the more responsive supply is to a contraction in demand (i.e. the higher the percent of a demand decrease which is met at the new equilibrium, expressed by a high value of</p><formula xml:id="formula_13">σP R σP R -εP R</formula><p>), the larger the environmental improvement. Again, in the long run, supply of agricultural commodities will likely be elastic; hence, the potential for environmental improvement increases. At the same time, the larger the 6 Assuming there is no change in the level of losses, the elasticity of retailfarm price transmission at equilibrium can be expressed as τ FR = σP R εP F</p><p>. 7 Here we assumed that the reduction in consumer waste rate is fully transmitted as a reduction in demand of purchases at retail by consumers, and that adjustments then occur through prices. However, it is possible that consumers wasting less will consume more of what they purchase (even if the price does not change) and then the reduction in waste rate would not be fully transmitted as a reduction in consumer purchases. environmental damage at the farm level, γ F , the larger the potential to decrease the environmental damage associated with food waste. This takes us to our second proposition.</p><p>Proposition 2. Reducing waste always guarantees an environmental improvement in all environmental dimensions. The magnitude of the effect will depend on how responsive supply at the retail level is to a contraction in demand. Furthermore, reducing waste has a multiplier effect in improving the environment because avoiding waste also entails avoiding the losses that occur in the process of producing the food that, ultimately, went to waste. The multiplier is equal to</p><formula xml:id="formula_14">[ 1 + γ F L (1-L)</formula><p>]</p><p>.</p><p>For example, let us assume losses along a tomato supply chain are one third. By avoiding wasting one ton of tomatoes, the direct environmental damage from producing that ton of tomatoes is avoided in part (linked to the value of</p><formula xml:id="formula_15">σP R σP R -εP R</formula><p>). At the same time, the indirect damage associated with the third of a ton lost in the process of delivering the tomatoes then wasted by consumers, is also avoided. If the environmental impact occurs mostly at farm level (γ F = 1), such as with land, then the multiplier would take a value of 1.5, a quite considerable amount.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Resource use efficiency and GHG emission intensity</head><p>The amount of resources used and GHGs emitted to produce a unit of food that is actually consumed and not lost or wasted is an important metric that is often used when thinking about meeting demand for food in the context of a growing population and increasing incomes. If we define resource use efficiency (RUE) as the ratio between the amount of food that is actually consumed, Q C , and total environmental damage of food production, we then have that RUE = Q C /ED. By using the equation for environmental damage (equation ( <ref type="formula">1</ref>)) and for loss and waste ratios (equations ( <ref type="formula">2</ref>) and (3)), RUE can then be expressed as:</p><formula xml:id="formula_16">RUE = 1 IF (1 -W) [ 1 + γ F L (1-L) ]<label>(12)</label></formula><p>It is interesting to note that RUE does not depend on any economic parameter; hence, it is independent of price transmission mechanisms. Instead, it is fully determined by the loss and waste ratios, environmental impact factors, and how the resource use/environmental damage is distributed along the supply chain (i.e. γ F ). This is logical given that, in resource efficiency terms, (i) consuming the same amount of food using x % fewer natural resources and emitting less GHGs, and (ii) consuming x % more without increasing resource use or GHG emissions, will lead to the same RUE outcome. However, despite the change in RUE being the same, these two cases imply different elasticities and price transmission mechanisms, and lead to very different environmental outcomes in our framework. Propositions 3a-c summarize RUE outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proposition 3a. Resource use efficiency (RUE) and GHG emission intensity always improve with a reduction in food loss or food waste.</head><p>Proposition 3b. RUE and GHG intensity improvements from a loss reduction increase with the share of the environmental damage occurring upstream (γ F →1) and decrease with the amount of waste at the consumer level. An interaction between the environmental damage occurring downstream (1γ F ) and the loss ratio was also found.</p><p>The above proposition is based on the following derivative (see Appendix C for full derivation):</p><formula xml:id="formula_17">∂RUE ∂L = -γ f (1 -W) IF ( 1 -(1 -γ f )L ) 2 &lt; 0 (13)</formula><p>Since the bulk of the land and water footprints occurs at farm level, and a loss reduction will take place closer to this stage than at consumer level, the potential for improving the land and water use efficiency is higher than for decreasing GHG emissions per unit of food consumed. In fact, if the environmental damage occurs mostly at the consumer stage, then the chance of decreasing GHG emission intensity through an upstream loss reduction is very limited.</p><p>Proposition 3c. Awaste reduction has a less than proportionate effect on RUE and GHG emission intensity. In fact, the multiplier effect that led to larger environmental improvements in Proposition 2 actually dampens RUE and GHG improvements. This is particularly the case for upstream environmental impacts (γ F →1), such as land and water use, whereby reducing waste is unlikely to improve efficiency.</p><p>This proposition elucidates that focusing solely on reducing waste does not lead to RUE improvement upstream. In addition, the larger the multiplier</p><formula xml:id="formula_18">[ 1 + γ F L (1-L)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>]</head><p>i.e. the larger the damage associated with losing food in the process of delivering it to consumers that end up wasting itthe more dampened the RUE gain of a waste reduction. See Appendix C for the confirmation of Proposition 3c.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Heterogeneity of environmental impact by food supply chain actors affects the environmental effectiveness of FLW interventions</head><p>So far, the paper has implicitly assumed that, for a given supply chain, all farms cause the same "damage" per unit of food produced, and the same applies for downstream activities. However, in reality, farms may have heterogeneous environmental impacts depending on a number of different factors including geographic location, available technology, and management practices. We will refer to this as horizontal heterogeneity. For example, in terms of water use, a farm may produce no environmental impact on blue water if it relies on rain to produce its crops, or if it uses irrigation but in an area where water resources are plentiful. In this case, if the objective is to reduce water scarcity through FLW reduction, then interventions need to reduce production where the environmental damage is occurring. <ref type="foot" target="#foot_4">8</ref>Likewise, we have assumed that environmental impact factors, IF, have a unique value for a given supply chain. However, if there is heterogeneity in environmental impacts, then the IF used in our analysis is only but an average of this heterogeneity. In fact, as illustrated in Table <ref type="table" target="#tab_1">2</ref> in the following section, the environmental footprints of food production can differ considerably across regions. The potential for achieving environmental objectives through FLW reduction is therefore limited by heterogeneity, unless there is the possibility to target the most environmentally damaging actors, instead of spreading the intervention over farms that produce little damage. This result can be summarized in the following proposition.</p><p>Proposition 4. If one distinguishes between farms where environmental damage occurs and those where it does not occur (horizontal heterogeneity), then the environmental effectiveness of an untargeted loss or waste reduction will be proportional to the share of production of those farms where damage occurs.</p><p>If targeting interventions to only damage-producing farmers were possible, then equation ( <ref type="formula" target="#formula_5">6</ref>) could be re-written as follows:</p><formula xml:id="formula_19">dED = IF⋅ [ γ F φ DF ⋅dQ DF + (1 -γ F )⋅dQ R ] (<label>14</label></formula><formula xml:id="formula_20">)</formula><p>where Q DF defines farms where the environmental damage is occurring, while φ DF = Q DF /Q F is the share of production that is produced by farms where damage occurs relative to total production in that supply chain.</p><p>The term γ F φ DF expresses that the actual impact factor for the environmentally damaging farms is higher than the average over all farms (IF ⋅γ F ) by a factor 1 φ DF .</p><p>Note that equation ( <ref type="formula" target="#formula_19">14</ref>) assumes there is no heterogeneity among downstream actors. However, heterogeneity will exist also downstream, and in particular in how a value chain sources its inputs for the downstream section. We will refer to this as vertical heterogeneity. One example of this type of heterogeneity is the degree to which a value chain relies on imported primary inputs. The more it relies on imported inputs the less a change in consumer waste will affect domestic environmental outcomes. Downstream reductions can therefore be dampened both by horizontal and vertical heterogeneity.</p><p>The conclusion is that with heterogeneity, it will be difficult to target the production effects of a reduction in losses or waste to those actors in the supply chain that are causing environmental damage. Although not covered here, the issue of heterogeneity may also affect non-local environmental impacts, such as GHG emissions, if, for example, processors employ different processing systems in terms of technology and energy sources.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Empirical analysis</head><p>The analytical results are useful in providing overall guidance on potential environmental impacts of interventions to reduce food loss and waste. However, a policymaker will be interested in quantifying these impacts as a means of weighing benefits and costs of interventions. For example, we found that by reducing losses, there is a theoretical risk of "making things worse" in some environmental dimensions. Using empirical ranges found in the literature for elasticities and for the environmental damage location along the supply chain can shed light on whether this risk can occur in practice. Similarly, while reductions in waste were found to always lessen the environmental damage, using empirical estimates allows quantifying the extent of this improvement.</p><p>Representative values for elasticities and environmental parameters found in the literature are summarized in Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">2</ref>.  <ref type="bibr">et al., 1995)</ref> Note: Due to the lack of price elasticities of supply at the retail level for other commodities besides beef, the authors decided to broaden the elasticities' range to [1; 9.40].</p><p>provides the ranges for carbon, land and water impact factors along with the distribution of environmental impacts along the supply chain. 9 The values in Table <ref type="table" target="#tab_1">2</ref> highlight the considerable variation in the distribution of environmental impacts across regions. While relevant when devising policy recommendations to each context, the environmental impact factors are not directly used in the simulations presented below. Instead, they are used to estimate the ranges for how much of the environmental impact occurs at the farm level (i.e. γ F ). The purpose of the simulations is then to see how effective reducing losses or waste would be in improving environmental conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Simulating the environmental impact of a loss reduction</head><p>From the model, it emerged that there are situations where reducing losses can lead to greater environmental damage. The purpose of the simulations is then to see whether there is a real risk of "making things worse" by reducing losses or whether the risk is only theoretical. Results are depicted in Fig. <ref type="figure">3</ref>. The four isoclines represent the environmental "break-even" (i.e. dED = 0) linked to the loss reduction, for all combinations of γ f and L, given four possible price transmission scenarios. It essentially provides a graphical representation of equation ( <ref type="formula" target="#formula_7">8</ref>) in Proposition 1. A worst and best case scenario were drawn from this, represented by the extreme-left and extreme-right isoclines, respectively. Recall from equation ( <ref type="formula">7</ref>) that a price transmission mechanism strong enough to transcend the equation's RHS designates an environmental improvement. In this case, for each price transmission scenario, if a combination of γ f and L falls below the isocline, then a loss reduction for that supply chain will produce more environmental damage. Instead, if we fall above the curve, a loss reduction can effectively reduce the damage. The figure also shows how the land and water footprints originate above all in the primary stage. Instead, GHG emissions embedded in a food product tend to increase as the product moves along the supply chain and the accumulated contribution of each stage in the chain is larger than the preceding stage.</p><p>Starting from the worst-case scenario (i.e. Minimum price transmission), we see that an inelastic supply and price transmission combined with an elastic demand impede environmental improvement. This is true for almost every combination of γ F and L, and means that a decrease in agricultural production is not able to compensate for the additional environmental damage from an increase in supply at retail. However, as the price transmission improves (from minimum to low price transmission), a loss reduction intervention can guarantee an environmental improvement if γ f &gt; 0.7, which is the general case for water and land use. If γ f is lower than 0.4, which is the usual case for interventions aiming at reducing GHG emission in energy intensive supply chains for example, then reducing losses will not have the desired reducing effect on carbon, even in the high price transmission scenario. Only if losses are very high between farm and retail (L &gt; 0.4) can the intervention be effective.</p><p>In reality, the price transmission mechanism is likely to fall somewhere between the intermediate isoclines (i.e. low and high price transmission). By way of illustration, let us assume a given supply chain and country has losses of 20 percent. In terms of environmental damage, suppose 30 percent of GHGs are concentrated at the farm level (i. e.γ f GHG = 0.3), while for water and land this percentage goes up to 72 Note: The carbon impact factor expresses tons of CO 2 equivalent emitted, the land impact factor indicates hectares of land used, and the blue-water impact factor indicates cubic metres of water used per ton of food lost or wasted. Source: Carbon (FAO, 2013) and blue-water <ref type="bibr" target="#b2">(Doorn and Irving, 2006;</ref><ref type="bibr" target="#b5">FAO, 2013)</ref>. For land, it was assumed for all products and regions that the entirety of the environmental impact occurs at farm level.</p><p>9 While providing the range of environmental parameters based on available information, the estimates in Table <ref type="table" target="#tab_1">2</ref> need to be handled with care due to the heterogeneity among supply chains, whereby the same product can have different environmental impacts. This means a specific supply chain can fall outside the range provided. For example, a value chain that is based exclusively on rainfed crops will have γ F = 0 for blue water, which is outside of the range.</p><p>and 99 percent, respectively. Looking at Table <ref type="table" target="#tab_1">2</ref>, these ranges are compatible with producing vegetables in industrialized Asia, or producing cereals in sub-Saharan Africa. In Fig. <ref type="figure">3</ref>, the letters G, W and L denote the combination of loss and γ f for the carbon, water and land footprints, respectively. The fact that G falls on the left side of both intermediate isoclines, while W and L fall on the right side, shows that trade-offs can arise when reducing losses. This resultlower land and water use but higher GHG emissionsis in line with the literature on environmental impacts of loss reduction <ref type="bibr" target="#b3">(FAO, 2019)</ref>. Fig. 4. The role of the share of the environmental impact, the loss ratio and elasticities of supply and demand in determining the environmental impact of a waste reduction. Note: The parameters are set as follows: Lowσ P R = 1; High σ P R = 9.4; Low ε P R = 0.05 (absolute value); High ε P R = 0.63 (absolute value). The circled G, W, L represent an example case for a value chain that faces 20% losses with γ f GHG = 0.3, γ f water = 0.72, γ f land = 0.99.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Simulating the environmental impact of a waste reduction</head><p>We now turn to simulate a food waste reduction. Unlike losses, reducing waste always leads to an environmental improvement; therefore, the focus is on the magnitude of the improvement relative to the reduction. Fig. <ref type="figure">4</ref> illustrates the environmental damage embodied in food waste that is reduced after a food waste intervention for different combinations of price elasticity of supply and demand at the retail level. In other words, the isoclines in Fig. <ref type="figure">4</ref> represent an environmental improvement linked to the waste reduction that is exactly proportional to the environmental damage embodied in the food being wasted, meaning that along the curve equation ( <ref type="formula" target="#formula_12">11</ref>) simplifies to dED (W⋅QR⋅IF) = β. That is, along the isocline, a β percent waste reduction implies a reduction by β percent of the environmental damage directly associated with the wasted food.</p><p>In the presence of a very elastic supply at the retail level but rigid demand (solid isocline), as in the case with staple crops, the environmental damage is decreased more than proportionally to the decrease in waste (most combinations of γ f and L are above the isocline). This is true for every loss ratio level as long as the farm stage is responsible for &gt;10 percent of the environmental damage, which is likely to occur in almost every situation, since nearly all land and water use, as well as considerable GHG emissions, occur during the primary production phase. In the case of processed foods and beverages, whereby demand is expected to be more elastic (see Table <ref type="table" target="#tab_0">1</ref>), a waste reduction is still expected to reduce land and water use more than proportionally. However, as shown by point G, when γ f &lt; 0.3 (as in the case for GHGs), the percentage decrease in the carbon footprint will be less than proportionate relative to the percentage reduction in waste. Nevertheless, given the probable range of elasticities provided in Table <ref type="table" target="#tab_0">1</ref>, the multiplier effect of a waste reductionassociated with avoiding the losses that occur in the process of producing the food that goes to wastetends to dominate. Therefore, reducing waste in a supply chain with already significant losses could improve environmental sustainability by more than expected. This is true for every environmental dimension and almost all scenarios illustrated in Fig. <ref type="figure">4</ref>, except for the most extreme case of an inelastic supply and elastic demand at the retail level. This is indeed the case for the example in the previous section represented now in Fig. <ref type="figure">4</ref>, where all but the most extreme scenario are on the left of W and L, with G being possibly on the isoclines that define proportionality of impact for some cases. However, a word of caution is in order since this result will be dampened by horizontal and vertical heterogeneity which are not considered in the simulation here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Resource use efficiency and GHG emission intensity</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1.">The impact of reducing food loss</head><p>The third proposition in this paper asserts that RUE and GHG emission intensity is always improved when losses or waste are reduced. The simulations can provide insight on how much improvement one can expect. Fig. <ref type="figure">5</ref> shows that the partial derivative of RUE and GHG emission intensity in response to a decrease in the loss ratio is always positive, confirming Proposition 3. Note that the curves no longer represent isoclines. Instead, they represent different starting levels of loss and waste. The first thing to stand out is that, in the presence of a low γ f , the change in RUE is less than proportional to the change in loss ratio. In this respect, the scope for improvement is reduced by a low level of γ f , as in the case with carbon, since while reducing losses between farm and retail may decrease demand at the farm level, if the bulk of GHG emissions are downstream, then GHG emission intensity will not improve. Instead, the scope for decreasing land and water use is large. The potential to improve RUE is also decreased with food waste since, reducing losses at farm to later be wasted during consumption partially offsets the benefit of the loss reduction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2.">The impact of reducing food waste</head><p>A different pattern arises when it comes to reducing food waste (see Fig. <ref type="figure">6</ref>), where the scope for improvement appears more evenly distributed for the different environmental dimensions (ranges of γ f ), even though it is decreasing with γ f , as predicted by Proposition 3b. However, the dampening of the RUE improvement is not large, indicating that waste reduction is a good option to improve RUE. In fact, the high response of RUE relative to a waste ratio change (for all values of γ F ) suggest that reducing waste can lead to simultaneous positive outcomes in distinct environmental dimensions. The different curves, representing different loss ratios in a value chain, suggest a higher loss ratio reduces Fig. <ref type="figure">5</ref>. A food loss reduction always improves resource use efficiency.</p><p>the potential for an efficiency improvement linked to waste reduction. This occurs because if a supply chain has a high level of food loss that goes unaddressed, then any positive effect of a reduction in food waste on RUE will be dampened.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Policy implications</head><p>Going back to the four different perspectives on reducing food loss and waste to improve environmental sustainability can help policymakers under distinct scenarios prioritize reduction interventions. From the simulations and expected elasticity ranges provided in Table <ref type="table" target="#tab_0">1</ref>, it is clear that the viewpoints from the "environmental steward" and the "doubting Thomas" are extreme, since, in reality, prices and the transmission mechanisms herein play a central role in determining the environmental outcome. The fundamental question for an environmentally-focused policymaker is then whether it makes sense to pursue reductions in food loss and waste and, if yes, should one prioritize interventions towards loss or waste, or pursue reductions jointly?</p><p>Table <ref type="table">3</ref> summarizes the environmental impacts and resource use efficiency implications from loss or waste reductions, and identifies policy priorities depending on the environmental objective. The premise is that policymakers with different objectives will have different priorities in terms of what they need to do to improve environmental sustainability, and this will inform how to reduce FLW. Building on the four environmental viewpoints, the table further indicates when results corroborate a given environmental perspective (see identifiers in Fig. <ref type="figure">6</ref>. A food waste reduction always improves resource use efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 3</head><p>Environmental impacts of a loss or waste reduction based on where the environmental impact occurs along value chain. Starting from a reduction in losses, a policymaker needs to choose carefully which environmental dimension to focus on and whether increasing food availability matters, since trade-offs can arise.</p><p>For instance, while a loss reduction is likely to improve land and water use (which, for the "environmental steward" (ES), is particularly important), there is a high probability that GHG emissions will increase, with the possible exception of some livestock supply chains (see Proposition 1). In this sense, the "doubting Thomas" (DT) perspective is correct in the sense that a reduction in losses would actually worsen the carbon footprint. At the same time, if there is environmental impact heterogeneity, this can strongly limit the effectiveness of loss reductions in decreasing the land and water footprints. For example, a supply chain that is mostly irrigated but where the environmental pressure is very geographically localized, reducing losses may have a very limited impact on where it truly matters (see Proposition 4). In this regard, the "nitpicky economist" (NE) perspective is the correct one in the sense that targeting the environmental externality directly (e.g. by putting a price on water reflecting scarcity) instead of through FLW reduction may prove more effective. However, reducing losses does have the ability to make more food available to consumers, which can improve food security levels, especially in food-insecure countries. Moreover, as detailed in Proposition 3b, it has the potential to improve RUE, especially for land and water, which, according to the "forward looking pragmatist" (FLP) perspective, will play a crucial role in meeting current and future demands for food.</p><p>When it comes to reduce waste, it is clear from Table <ref type="table">3</ref> that a reduction in waste is always desirable from an environmental perspective, independently of the environmental dimension. This is true from both an environmental stewardship perspective, and in terms of RUE and GHG emission intensity, even if reducing the percentage of waste has a less than proportionate effect on RUE but a more than proportionate effect on the actual environmental outcome. On the latter, recall that reducing waste has the additional benefit of not having to produce food that is lost in the process of bringing food to the consumer that then wastes it, as explained in Proposition 2. Overall, while both the "environmental steward" and "forward-looking pragmatist" perspectives apply when reducing waste, the "nitpicky economist" is still right in situations where the environmental damage is spatially heterogeneous.</p><p>Based on the results of the analysis and discussion, the authors propose policy implications as follows depending on a policymaker's main objective:</p><p>• Reducing greenhouse gas emissions -Policymakers should focus on reducing consumer waste, given that reducing losses upstream may increase aggregate emissions; • Reducing total land and water use -Both loss and waste reductions reduce the amount of land and water use, but effectiveness is reduced by heterogeneity in environmental impact. Relative to loss reductions, effectiveness of a waste reduction is amplified if there are environmentally damaging losses upstream in the value chain, but also dampened by vertical heterogeneity of sourcing along a value chain (e.g. share of imports of primary product); • Balancing food security and environmental objectives -In developing countries, the main objective of FLW reductions could be to increase food availability and access in an environmentally sustainable way. This would be consistent with adopting a FLW strategy that maximizes resource use efficiency (following equation ( <ref type="formula" target="#formula_16">12</ref>)) using minimal information, since it does not depend on elasticities of supply and demand. It would imply focusing on loss reduction for food security purposes <ref type="bibr" target="#b3">(FAO, 2019)</ref>, while also keeping food waste in check; • Reducing the environmental impact of increased demand in coming decades -The negative effect on land and water use of an increase in demand can be mitigated by reducing either losses or waste. Instead, for GHG emissions, reducing losses may exacerbate this impact by further increasing consumer demand. In a forward-looking scenario of increasing demand, reducing waste can effectively counterbalance the shift in demand if the food waste avoided is equal to the increase in demand. This can serve as a rule of thumb in countries where food demand is expected to increase. The challenge will be that in countries with rising incomes the waste rate is expected to increase and it will be difficult to reverse the trend.</p><p>The political economy implications of the findings in this paper are complex. The political viability of these type of interventions is attractive vis-à-vis more targeted environmental policies based on the polluter-pays principle. However, trade-offs exist between environmental objectives, and effectiveness in each dimension will be very sensitive to heterogeneity, making it difficult to provide guidance on the appropriate spatial/administrative scale for these type of interventions. For losses, policymakers will most likely want to focus on specific value chains, and interventions will be guided by a combination of socioeconomic objectives, not just environmental concerns. For waste reductions, it makes more sense to try and reach as many consumers as possible and focus on reducing GHG emissions, where the environmental impact is less spatially dependent than for natural resources. A final consideration from a political economy perspective is the need to consider FLW interventions as part of a broader policy package for a sustainable food system, which may involve eliminating existing policy distortions (e.g. subsidies to some food products) that are underlying causes of food loss and waste, or finding other ways to internalize environmental externalities. This topic should be further developed but goes beyond what we can address with our stylized approach.</p><p>Several limitations of the analysis need to be highlighted when considering the policy implications. The argument presented here is based on a very stylized partial equilibrium model. First, the numerical simulations are based on parameter ranges based on studies found in the literature, which may not be internally consistent across studies. The results can only be interpreted as providing a relative order of magnitude of effects on different environmental dimensions of food loss and waste reductions. Second, looking beyond a single product at the broader economy may lead to different policy insights. A multi-market analysis may generate slightly different results once cross-price elasticities are taken into account along with environmental impact of different food products. Even more so, general equilibrium effects are not taken into account, which means that factors of production such as land, labor, capital, and water, as well as their interaction, are not considered. This limits the policy options that can be analysed. For example, we cannot examine the environmental impact of a tax on water, and compare its effectiveness to that of reducing losses. Furthermore, in general equilibrium, there are many indirect paths to affecting the environment through factor movements across sectors. To illustrate, water that is saved by reducing food losses could be redirected to residential use, implying that the benefit to society of reducing those losses is not necessarily environmental. Similarly, consumers may spend financial savings from reducing food waste on products with higher GHG intensity, negating the climate change benefits of the food waste reduction. In conclusion, general equilibrium effects are likely to further dilute the environmental effectiveness of reducing FLW, and may well tilt the balance more in favour of the "nitpicky economist" arguing that targeting directly environmental externalities is the most effective way.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Concluding remarks</head><p>The framework provided in this paper highlights the importance of accounting for economic effects, and particularly price transmission mechanisms, when determining environmental outcomes linked to reductions in food loss and waste. By highlighting potential synergies and trade-offs between different environmental dimensions, the paper presents important policy implications of food loss and waste reduction strategies. The paper demystifies the link between food loss and waste reduction and environmental outcomes and summarizes the results in four propositions. The first proposition proves that, when the price transmission mechanism is weak and/or the environmental damage occurs mostly downstream, a reduction in losses can produce more environmental damage than good. Conversely, the second propositions concludes that reducing waste always leads to an environmental improvement. The paper also debunks the false equivalence between resource use efficiency and environmental improvement. This takes us to our third proposition, which suggests that reducing FLW always improves resource use efficiency and GHG emission intensity. In the case of losses, this improvement increases with the share of damage occurring upstream but decreases if consumer waste is high. As for reducing waste, the potential for improvement in all dimensions is large despite decreasing with losses.</p><p>The results suggests that if the objective is to reduce GHG emissions and improve emission intensity, then targeting consumer waste is more advisable. Instead, if the objective is to improve land and water-use efficiency, then interventions should focus on reducing losses, especially if close to the problem area. However, the effectiveness of the latter will depend on how the environmental impact is distributed across food supply chain actors. This result can be summarized in our fourth and last proposition, which finds that the potential for achieving environmental objectives through an untargeted loss reduction at the farm level will be proportional to the share of production that comes from environmentally damaging farms. The environmental impact of consumer waste reduction on domestic land and water use is likely weaker, especially the more the supply chain uses imported primary products. Understanding the heterogeneity of production systems across different spatial scales, and distinguishing in which farms and firms downstream the environmental damage occurs, will allow policy makers to identify the most environmentally effective interventions, which may not necessarily be food loss and waste reduction.</p><p>However, despite the novelty this paper brings to the debate, much remains to be explored in this area. The model here presented is very stylized and could be extended to better capture reality, for example by introducing intermediary agents such as food processors. The framework could also be applied to the trade-off between better packaging to reduce food loss and waste and the environmental impacts of such packaging in terms of GHG emissions and plastic pollution. Another area that requires further development is the importance of heterogeneity in environmental impacts in determining the effectiveness of interventions, which was only briefly discussed in this paper. Finally, this paper highlights the important link between price transmission mechanisms and the incentives to reduce food loss and waste, which links two previously disconnected strands of literature, and opens new possibilities. For example, the available literature on the asymmetry of price transmission in terms of magnitude of effects and on how market structure affects price transmission upstream and downstream, are all issues that affect the reaction of the food system to food loss and waste reductions and that have implications that go beyond the environmental dimension.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Disclaimer</head><p>The views expressed in this article are those of the authors and do not necessarily reflect the views or policies of Food and Agriculture Organization of the United Nations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head><p>Andrea Cattaneo: Conceptualization, Methodology, Formal analysis, Writing -original draft, Supervision. Giovanni Federighi: Data curation, Writing -review &amp; editing. Sara Vaz: Data curation, Visualization, Validation, Writing -review &amp; editing. Description Symbol Definitions Quantity demanded by consumers at retail level QR Quantity actually consumed by consumers QC Quantity supplied at the farm level QF Loss &amp; waste parameters Loss ratioshare of food that is lost between farm and retail L L = 1 -QR/QF Waste ratioshare of food that is wasted by consumers after demanded at retail level W W = 1 -QC/QR Percent change in losses associated with an intervention (exog.) α α = dL L Percent change in waste associated with an intervention (exog.) β β = dW W Environmental parameters Environmental impact factor IF Share of environmental impact that occurs at farm level γ F Share of environmental impact that occurs along the supply chain beyond farm level 1γ F Environmental damage associated with food production ED ED = IF⋅ [ γ F ⋅QF + (1γ F )⋅ QR ] Elasticities Elasticity of consumer demand at retail level relative to a food loss intervention η RL η RL = dlnQR dlnL Elasticity of supply by farmers relative to a food loss intervention η FL η FL = dlnQF dlnL Elasticity of consumer demand at retail level relative to a food waste intervention η RW η RW = dlnQR dlnW Elasticity of supply by farmers relative to a food waste intervention η FW η FW = dlnQF dlnW Price elasticity of consumer demand at the retail level εP R εP R = dlnQR dlnPR Price elasticity of demand at farm level εP F εP F = dlnQF dlnPF Price elasticity of supply at farm level σP F σP F = dlnQF dlnPF Price elasticity of supply at retail level σP R σP R = dlnQR dlnPR Price transmission elasticity from retail to farm τFR τFC = dlnPF dlnPR</p><p>Let us assume that there are losses in the production and supply of a food commodity. The action of avoiding such losses would result in a change in agricultural production and retail supply. At retail level, the adjustment in supply is measured by the supply elasticity at retail level relative to a change in the level of losses, or:</p><formula xml:id="formula_21">η RL = dlnQ R dlnL (B.1)</formula><p>A similar condition can be derived for the adjustment in production at farm level:</p><formula xml:id="formula_22">η FL = dlnQ F dlnL (B.2)</formula><p>Given that a reduction in losses would result in a lower price at retail level, the change in agricultural production will depend on how the price change is transmitted from retail to farm. This transmission mechanism can be measured by the elasticity of retail-farm price transmission (i.e. the ratio between the price change at farm level relative to a change at retail), or: We now turn to the environmental dimension associated with the production of food, and how a reduction in losses can lead to environmental improvement or further damage. The total environmental damage associated with food production can be expressed by:</p><formula xml:id="formula_23">ED = IF⋅[γ F ⋅Q F + (1 -γ F )⋅Q R ] (B.7)</formula><p>where IF corresponds to an impact factor associated with each environmental dimension (carbon, land and water) and γ F represents the share of that environmental impact that occurs at farm level. The distinction between the impact that occurs at farm or at the retail stage is useful from a policy point of view since each environmental dimension is affected differently along the food supply chain (i.e. impact factors will change depending on, inter alia, the environmental dimension and location in the food supply chain). While acknowledging that consumers can also contribute to environmental damage (e.g. through the use of domestic refrigeration or heating), for simplicity and policy relevance purposes, the expression only considers environmental damage produced from farm up to, and including, the retail level.</p><p>The change in environmental damage associated with a shift in supply (reduction in losses) or a contraction in demand (reduction in waste), can be denoted as:</p><formula xml:id="formula_24">dED = IF⋅[γ F ⋅dQ F + (1 -γ F )⋅dQ R ] (B.8)</formula><p>From Table <ref type="table">A</ref>.1, we have that dQ F = Q F ⋅α⋅η FL ; and dQ R = Q R ⋅α⋅η RL . Equation (B.8) then becomes:</p><formula xml:id="formula_25">dED = IF⋅α[γ F ⋅η FL ⋅Q F + (1 -γ F )⋅η RL ⋅Q R ] (B.9)</formula><p>For a loss reduction to reduce environmental damage, equation (B.9) needs to be negative. Since IF is always positive (see Table <ref type="table" target="#tab_1">2</ref> in the main text)</p><p>and α (i.e. a percent change in losses) is negative following a loss reduction, the condition in brackets that follows α needs to be positive for environmental damage to be reduced. Hence, eq. (B.9) becomes:</p><formula xml:id="formula_26">η FL η RL &gt; - Q R Q F ⋅( 1 γ F -1) (B.10)</formula><p>Using equation (B.6) and knowing that Q R = (1 -L)Q F , we have that:</p><formula xml:id="formula_27">τ FR &gt; - ε PR σ PF ⋅(1 -L)⋅( 1 γ F -1) (B.11)</formula><p>2 For a change in food waste</p><p>Similarly to losses, it is assumed that food is wasted between retail and final consumption. Avoiding such waste would result in a contraction of consumer demand. At retail level, the adjustment in supply is measured by the supply elasticity at retail level relative to a change in the level of waste, or:</p><p>η RW = dlnQ R dlnW (B.12)</p><p>A similar condition can be derived for the adjustment in production at farm level:</p><formula xml:id="formula_28">η FW = dlnQ F dlnW (B.13)</formula><p>Given that a reduction in food waste would result in a lower price at retail level, the change in agricultural production will, again, depend on how the price change is transmitted from retail to farm. A similar condition to expression (B.6) can be derived:</p><formula xml:id="formula_29">τ FR = σ PR ε PF ⋅ dlnQ F dlnQ R (B.14)</formula><p>Assuming the loss ratio remains unchanged, and since QR QF = 1 -L, we have that dlnQF dlnQR = 1. Equation (B.14) becomes:</p><formula xml:id="formula_30">τ FR = σ PR ε PF (B.15)</formula><p>To measure the change in environmental damage associated with a reduction in waste, we part from equation (B.8), knowing that QR QF = 1 -L and that the loss ratio remains unchanged.</p><formula xml:id="formula_31">dED = IF⋅dQ R [ γ F 1 -L + (1 -γ F ) ] (B.16) dED dQ R = IF [ 1 + γ F L (1 -L) ] (B.17)</formula><p>where dQ R denotes a contraction in demand as a consequence of a waste reduction. Since suppliers meetonly part of the entire demand increase up to the point it is economically justified, following <ref type="bibr" target="#b7">Hull (2005)</ref>, the degree of responsiveness to a demand shift is expressed by 0 ≤ </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>]</head><p>&gt; 0, eq. (B.17) proves that that there is always an environmental improvement if food waste is reduced.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix C</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resource use efficiency</head><p>A reduction in food losses or waste is expected to improve resource use efficiency (RUE) since more food reaches the consumer for a given level of resources (or, conversely, fewer resources may be used to ensure a given level of food reaches the consumer). RUE can be measured as the ratio of food that reaches and is eaten by the consumer relative to the total amount of environmental damage associated in the production of that food. This ratio can be expressed as:</p><formula xml:id="formula_32">RUE = Q C /ED (C.1)</formula><p>From Eq. (B.7), and using Q R /Q F = 1 -L and Q C /Q R = 1 -W, equation (C.1) then becomes:</p><formula xml:id="formula_33">RUE = 1 IF (1 -W) [ 1 + γ F L (1-L) ] (C.2)</formula><p>If the partial derivative of RUE relative to W and L, respectively, is negative, then when waste or losses are reduced, the use of resources is more efficient. Equation (C.3) proves that RUE is always improved when waste is reduced, since the denominator in the expression is always positive, implying that the partial derivative is always negative:</p><formula xml:id="formula_34">dRUE dW = -1 IF⋅ [ 1 + γ F L (1-L) ] &lt; 0 (C.3)</formula><p>As for losses, equation (C.4) is also negative, implying that an increase in the loss ratio decreases resource efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>∂RUE ∂L</head><formula xml:id="formula_35">= -γ f (1 -W) IF⋅ ( 1 - ( 1 -γ f ) L ) 2 &lt; 0 (C.4)</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Graphical representation of a food loss reduction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Graphical representation of food waste reduction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .Fig. 4 .</head><label>34</label><figDesc>Fig.3. The role of the price transmission mechanism in determining the environmental impact, for a given loss ratio. Note: The parameters are set as follows, Minimum price transmission : τ = 0.16; σ P F = 0.09; ε P R = 0.63 (absolute value); Low price transmission : τ = 0.4; σ P F = 0.1; ε P R = 0.1 (absolute value); High price transmission : τ = 0.8; σ P F = 0.1; ε P R = 0.1 (absolute value); Maximum price transmission : τ = 2.31; σ P F = 0.12; ε P R = 0.05 (absolute value). The circled G, W, L represent an example case for a value chain that faces 20% losses with γ f GHG = 0.3, γ f water = 0.72, γ f land = 0.99.</figDesc><graphic coords="9,37.59,55.67,354.38,290.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>efficiency ✓✓✓[ES &amp; FLP] ✓✓✓[FLP] ✓✓[FLP] Attention: losses dampen effectiveness ✓✓[FLP] Attention: losses dampen effectiveness Note 1: ✓-weakly recommended given low scope for improvement; ✓✓-recommended given high potential for improvement; ✓✓✓-highly recommended given very high potential for improvement; ✕not recommended due to likelihood of increasing GHGs; ✕✕not recommended due to high probability of increasing GHGs. *Multiplier effect can reach 50% if L &gt; 0.4. Note 2: In brackets the environmental perspective corroborated by the outcome: [ES] = Environmental steward, [DT] = doubting Thomas, [NE] = nitpicky economist, [FLP] = forward-looking pragmatist brackets).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>σ PF and ε PR be the supply elasticity at farm level and demand elasticity at consumer level, respectively. Using the condition for ε PR in TableA.1, equation (B.1) becomes: η RL ⋅dlnL = ε PR ⋅dlnP R for σ PF , Eq. (B.5) becomes:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>σP R σP R -εP R ≤ 1. Given this performance metric, and the adjustment in demand due to a reduction in waste, dQ R can be rewritten asdQR = β⋅W⋅Q C ⋅ σP R σP R -εP R . Equation (B.16) then converts to: dED = (β⋅W⋅Q R )⋅</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="10,120.13,469.48,354.96,256.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Table 1 looks at the elasticities of supply, demand and price transmission, while Table2Elasticities of supply, demand and price elasticities based in findings in the literature.</figDesc><table><row><cell></cell><cell>Range of</cell><cell>Commodity</cell><cell>Region/</cell><cell>Reference</cell></row><row><cell></cell><cell>elasticities</cell><cell>group</cell><cell>country</cell><cell>(authors and</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>year)</cell></row><row><cell>Price elasticities of food supply at retail level (σP R )</cell><cell>[9.40] [6.85]</cell><cell>Beef Beef</cell><cell>United States States United</cell><cell>(Wohlgenant and Mullen, 1987) (Marsh, 1991)</cell></row><row><cell>Price elasticities</cell><cell>[0.09;</cell><cell>Wheat, rice,</cell><cell>World</cell><cell>(Roberts and</cell></row><row><cell>of food supply</cell><cell>0.12]</cell><cell>corn and</cell><cell></cell><cell>Schlenker,</cell></row><row><cell>at farm level</cell><cell></cell><cell>soybeans</cell><cell></cell><cell>2013)</cell></row><row><cell>(σP F )</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>[-0.25;</cell><cell>Food,</cell><cell>World</cell><cell>(Muhammad</cell></row><row><cell>Price elasticities of food demand (εP R )</cell><cell>-0.63] [-0.05; -0.07]</cell><cell>beverages and tobacco Wheat, rice, corn and</cell><cell>World</cell><cell>et al., 2011) (Roberts and Schlenker,</cell></row><row><cell></cell><cell></cell><cell>soybeans</cell><cell></cell><cell>2013)</cell></row><row><cell>Retail-farm price transmission elasticities (τFR)</cell><cell>[0.16; 0.90] 2.31] [1.65;</cell><cell>Beef, pork, poultry and dairy poultry Beef, pork and</cell><cell>United States States United</cell><cell>(Wohlgenant, 2006) (Kinnucan</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Environmental impact factors and distribution of environmental impact at farm level (γ F ) for different regions and commodity groups.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Cereals, oil-bearing crops, pulses and</cell><cell cols="2">Meat, fish, and animal products</cell><cell>Fruits and vegetables</cell><cell></cell></row><row><cell></cell><cell></cell><cell>roots</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Range for impact</cell><cell>Range for</cell><cell>Range for impact</cell><cell>Range for</cell><cell>Range for impact</cell><cell>Range for</cell></row><row><cell></cell><cell></cell><cell>factor</cell><cell>γ F</cell><cell>factor</cell><cell>γ F</cell><cell>factor</cell><cell>γ F</cell></row><row><cell></cell><cell>Carbon</cell><cell>1.2-4.5</cell><cell>20-58%</cell><cell>2.1-22.6</cell><cell>48-89%</cell><cell>1.0-3.5</cell><cell>17-68%</cell></row><row><cell>Region 1 -Europe</cell><cell>water Blue</cell><cell>9-906</cell><cell>90-100%</cell><cell>61-428</cell><cell>95-99%</cell><cell>33-302</cell><cell>83-98%</cell></row><row><cell></cell><cell>Land use</cell><cell>0.1-0.6</cell><cell>99-100%</cell><cell>0.1-20</cell><cell>99-100%</cell><cell>0.1-0.1</cell><cell>99-100%</cell></row><row><cell></cell><cell>Carbon</cell><cell>0.7-5.3</cell><cell>10-51%</cell><cell>1.8-26.6</cell><cell>36-89%</cell><cell>0.9-4.0</cell><cell>12-66%</cell></row><row><cell>Region 2 -North America and Oceania</cell><cell>water Blue</cell><cell>5-1150</cell><cell>83-100%</cell><cell>33-885</cell><cell>92-100%</cell><cell>51-302</cell><cell>88-98%</cell></row><row><cell></cell><cell>Land use</cell><cell>0.02-1.1</cell><cell>99-100%</cell><cell>2.5-27.8</cell><cell>99-100%</cell><cell>0.03-0.1</cell><cell>99-100%</cell></row><row><cell></cell><cell>Carbon</cell><cell>1.0-6.9</cell><cell>10-56%</cell><cell>2.1-26.2</cell><cell>40-90%</cell><cell>1.0-2.8</cell><cell>5-46%</cell></row><row><cell>Region 3 -Industrialized Asia</cell><cell>water Blue</cell><cell>1-463</cell><cell>50-100%</cell><cell>59-411</cell><cell>95-99%</cell><cell>5-302</cell><cell>42-98%</cell></row><row><cell></cell><cell>Land use</cell><cell>0.04-1.0</cell><cell>99-100%</cell><cell>4.1-26</cell><cell>99-100%</cell><cell>0.03-1</cell><cell>99-100%</cell></row><row><cell></cell><cell>Carbon</cell><cell>1.5-5.5</cell><cell>7-65%</cell><cell>2.1-32.6</cell><cell>34-91%</cell><cell>1.2-2.1</cell><cell>7-39%</cell></row><row><cell>Region 4 -Latin America</cell><cell>water Blue</cell><cell>9-959</cell><cell>90-100%</cell><cell>46-573</cell><cell>94-99%</cell><cell>38-302</cell><cell>84-98%</cell></row><row><cell></cell><cell>Land use</cell><cell>0.1-1.2</cell><cell>99-100%</cell><cell>3.5-48.3</cell><cell>99-100%</cell><cell>0.1-0.1</cell><cell>99-100%</cell></row><row><cell></cell><cell>Carbon</cell><cell>0.4-8.3</cell><cell>5-77%</cell><cell>1.5-28.9</cell><cell>42-94%</cell><cell>0.3-2.1</cell><cell>6-71%</cell></row><row><cell>Region 5 -Sub-Saharan Africa</cell><cell>water Blue</cell><cell>1-3360</cell><cell>50-100%</cell><cell>59-482</cell><cell>95-99%</cell><cell>45-302</cell><cell>87-98%</cell></row><row><cell></cell><cell>Land use</cell><cell>0.1-2.4</cell><cell>99-100%</cell><cell>9.3-68.9</cell><cell>99-100%</cell><cell>0.1-0.2</cell><cell>99-100%</cell></row><row><cell></cell><cell>Carbon</cell><cell>1.1-5.8</cell><cell>10-49%</cell><cell>2.2-25.3</cell><cell>44-90%</cell><cell>1.0-2.4</cell><cell>13-42%</cell></row><row><cell>Region 6 -South and Southeast Asia</cell><cell>water Blue</cell><cell>2-1178</cell><cell>67-100%</cell><cell>115-1019</cell><cell>97-100%</cell><cell>62-302</cell><cell>90-98%</cell></row><row><cell></cell><cell>Land use</cell><cell>0.1-1.6</cell><cell>99-100%</cell><cell>3.8-74.3</cell><cell>99-100%</cell><cell>0.1-0.1</cell><cell>99-100%</cell></row><row><cell></cell><cell>Carbon</cell><cell>1.5-5.8</cell><cell>8-50%</cell><cell>2.3-25.6</cell><cell>42-90%</cell><cell>1.0-2.4</cell><cell>9-43%</cell></row><row><cell>Region 7 -North Africa, Western and</cell><cell>Blue</cell><cell>77-3100</cell><cell>99-100%</cell><cell>116-2567</cell><cell>97-100 &amp;</cell><cell>98-302</cell><cell>93-98%</cell></row><row><cell>Central Asia</cell><cell>water</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Land use</cell><cell>0.04-1.4</cell><cell>99-100%</cell><cell>5.4-179.9</cell><cell>99-100%</cell><cell>0.1-0.1</cell><cell>99-100%</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p>Here, the term "environmental damage" implies that a positive value equates an undesirable environmental impact. The term "environmental impact" was avoided due to its potential dual meaning (e.g. would a positive value entail more or less damage?). Depending on the environmental dimension being considered, ED can represent tons of CO 2 equivalent, hectares used, or m</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_1"><p>of water used. While not a direct expression of environmental damage, these impact factors are useful to measure environmental impacts under different contexts.3 One could envision using γ F , γ R , and γ C so as to take into account GHG emissions associated with food wasted by consumers that ends up in landfills, but it would not change the overall results reported in this paper.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_2"><p>The analysis here is for the short-run. We assume that factors such as land and capital are fixed, and there are no new entrants in the value chain being analyzed.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_3"><p>In his classic article,<ref type="bibr" target="#b6">Gardner (1975)</ref> demonstrates that the retail-farm price ratio (i.e. the relative marketing margin) declines after events that increase demand for food, if the elasticity of supply of marketing inputs is higher than the one for farm products, and vice versa. Secondly, some events that increase the supply of farm products, such as a reduction in food losses, should increase the retail-farm price ratio.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_4"><p>Heterogeneity will exist across producers in multiple dimensions, such as endowments, input costs, and prices; however, they are not relevant here.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This research was funded by the <rs type="funder">Food and Agricultural Organization</rs> of the <rs type="institution">United Nations (FAO)</rs> as background material for the 2019 report on The <rs type="institution">State of Food and Agriculture</rs>. The views expressed in this publication are those of the authors and do not necessarily reflect the views or policies of FAO.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>See Table A.1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B 1 For a change in food loss</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The Water and Carbon Footprint of Household Food and Drink Waste in the UK. World Wildlife Fund</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chapagain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>James</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>Edinburgh, UK.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Accounting for the Impact of Food Waste on Water Resources and Climate Change</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chapagain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-12-391921-2.00012-3</idno>
+		<ptr target="https://doi.org/10.1016/B978-0-12-391921-2.00012-3" />
+	</analytic>
+	<monogr>
+		<title level="m">Food Industry Wastes</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Kosseva</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Webb</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Diego</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="217" to="236" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Wastewater treatment and discharge</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Irving</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IPCC Guidelines for National Greenhouse Gas Inventories</title>
+		<imprint>
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+	<note>Chapter 6</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Moving forward on food loss and waste reduction</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+			<publisher>Rome</publisher>
+		</imprint>
+	</monogr>
+	<note>The State of Food and Agriculture</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Food Wastage Footprint &amp; Climate Change (Guidance Document)</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Food Wastage Footprint: Impacts on Natural Resources: Summary Report</title>
+		<meeting><address><addrLine>Rome</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The farm-retail price spread in a competitive food industry</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Gardner</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1238402</idno>
+		<ptr target="https://doi.org/10.2307/1238402" />
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Agric. Econ</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="399" to="409" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The role of elasticity in supply chain performance</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hull</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpe.2004.09.013</idno>
+		<ptr target="https://doi.org/10.1016/j.ijpe.2004.09.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Econ</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="301" to="314" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Direct and spillover effects of increased U.S. beef promotion. Presented at the The Research Committee on Commodity Promotion (NEC-63), Economic Analysis of Meat Promotion</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Kinnucan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hsia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Kinnucan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Clary</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Lost food, wasted resources: global food supply chain losses and their impacts on freshwater, cropland, and fertiliser use</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kummu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>De Moel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porkka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Varis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scitotenv.2012.08.092</idno>
+		<ptr target="https://doi.org/10.1016/j.scitotenv.2012.08.092" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">438</biblScope>
+			<biblScope unit="page" from="477" to="489" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Derived demand elasticities: marketing margin methods versus an inverse demand model for choice beef</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Marsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">West. J. Agric. Econ</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="382" to="391" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">International evidence on food consumption patterns: an update using 2005. International comparison program data. SSRN Electron</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Seale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Regmi</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2114337</idno>
+		<ptr target="https://doi.org/10.2139/ssrn.2114337" />
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identifying supply and demand elasticities of agricultural commodities: implications for the US ethanol mandate</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schlenker</surname></persName>
+		</author>
+		<idno type="DOI">10.1257/aer.103.6.2265</idno>
+		<ptr target="https://doi.org/10.1257/aer.103.6.2265" />
+	</analytic>
+	<monogr>
+		<title level="j">Am. Econ. Rev</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="2265" to="2295" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">What economic theory tells us about the impacts of reducing food losses and/or waste: implications for research</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Rutten</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2048-7010-2-13</idno>
+		<ptr target="https://doi.org/10.1186/2048-7010-2-13" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Food Secur. 2, 13</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A review of supply chain prices analyses with emphasis on perishable markets</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Santeramo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Gioia</surname></persName>
+		</author>
+		<idno type="DOI">10.5772/intechopen.69451</idno>
+		<ptr target="https://doi.org/10.5772/intechopen.69451" />
+	</analytic>
+	<monogr>
+		<title level="m">Agricultural Value Chain</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Egilmez</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>InTech</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Creating a Sustainable Food Future -A Menu of Solutions to Feed Nearly 10 Billion People by 2050</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Searchinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Waite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dumas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Matthews</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>World Resources Institute</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Options for keeping the food system within environmental limits</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Springmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mason-D'croz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wiebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Bodirsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lassaletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Vermeulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jonell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Troell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Declerck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zurayk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scarborough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rayner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Loken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fanzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C J</forename><surname>Godfray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tilman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rockström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Willett</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-018-0594-0</idno>
+		<ptr target="https://doi.org/10.1038/s41586-018-0594-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">562</biblScope>
+			<biblScope unit="page" from="519" to="525" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Analysis of Price Transmission Along the Food Chain (OECD Food, Agriculture and Fisheries Working Papers No. 3 OECD Food, Agriculture and Fisheries Working Papers)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vavra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Goodwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/752335872456</idno>
+		<ptr target="https://doi.org/10.1787/752335872456" />
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>OECD</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The climate change and economic impacts of food waste in the United States</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkat</surname></persName>
+		</author>
+		<idno type="DOI">10.18461/ijfsd.v2i4.247</idno>
+		<ptr target="https://doi.org/10.18461/ijfsd.v2i4.247" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Food Syst. Dyn</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="431" to="446" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Retail-to-farm transmission of generic advertising effects</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Wohlgenant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Choices Mag. Food Farm Resour. Issues</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Modeling the farm-retail price spread for beef</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Wohlgenant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Mullen</surname></persName>
+		</author>
+		<idno type="DOI">10.22004/ag.econ.32229</idno>
+		<ptr target="https://doi.org/10.22004/ag.econ.32229" />
+	</analytic>
+	<monogr>
+		<title level="j">West. J. Agric. Econ</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="119" to="125" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

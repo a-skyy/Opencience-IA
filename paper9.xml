@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A systematic literature review on food waste/loss prevention and minimization methods</title>
+				<funder>
+					<orgName type="full">CAPES -Coordination of Improvement of Higher Education Personnel</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-03-05">5 March 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Natália</forename><forename type="middle">Valmorbida</forename><surname>Moraes</surname></persName>
+							<email>vmoraes.nati@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Henrique</forename><surname>Fernando</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Márcia</roleName><forename type="first">Elisa</forename><surname>Lermen</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Soares Echeveste</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate Program of Industrial Engineering</orgName>
+								<orgName type="institution">Federal University of Rio Grande do Sul</orgName>
+								<address>
+									<addrLine>Av. Osvaldo Aranha 99</addrLine>
+									<postCode>90035-190</postCode>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">Federal University of Rio Grande do Sul</orgName>
+								<address>
+									<addrLine>Av. Osvaldo Aranha 99, 5th floor</addrLine>
+									<postCode>90035-190</postCode>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A systematic literature review on food waste/loss prevention and minimization methods</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-03-05">5 March 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F8C72EDB376F26859DAEE008E5C23C7C</idno>
+					<idno type="DOI">10.1016/j.jenvman.2021.112268</idno>
+					<note type="submission">Received 23 December 2020; Received in revised form 19 February 2021; Accepted 22 February 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Food waste/loss Prevention Minimization Systematic literature review</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Several initiatives have been proposed to address food waste and loss issues and support stakeholders throughout the food chain. However, the literature still lacks a review paper that compiles methods, practices, and solutions to reduce food waste and loss. With the goal of filling this gap, this paper aims to compile and gather food waste and loss prevention and minimization methods to support decision-makers and other stakeholders along the food chain. Through a systematic literature review, we have outlined research findings and empirical studies on food waste and loss prevention and minimization methods previously published, studied, implemented, and discussed in the scientific literature worldwide. A sample of 84 articles was analyzed. As a result, this study provides a bibliometric analysis of the sample and a classification of the prevention and minimization methods found in the articles in 10 fields established by the authors. A coverage analysis of empirical studies was also performed, cross-checking the data with the type of food extracted from the case studies application. Lastly, suggestions of future research extracted from the articles were compiled into a research agenda to indicate trends and support academics, researchers, practitioners, and other stakeholders involved in the food chain to develop and study practices to minimize and prevent food waste and loss. The main contribution of this study is an inventory of the theoretical and practical methods of prevention and minimization of food waste and loss found in the literature, grouping them according to their similarities, to support stakeholders improving actions to reduce food waste in cities, farms, retail, and other sustainable ecosystems.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The Food and Agriculture Organization <ref type="bibr">(FAO, 2011)</ref> estimates that 1/3 of the edible parts of food produced for human consumption worldwide is either wasted or lost, which amounts to 1.3 billion tons per year. When converted into calories, one out of every four calories produced and intended for people is not ultimately consumed, configuring a moral paradox, with approximately 821.6 million people globally undernourished in 2018 <ref type="bibr" target="#b51">(Lipinski et al., 2013;</ref><ref type="bibr">FAO, 2019a)</ref>.</p><p>Besides hunger and food security concerns, Food Waste and Loss (FWL) negatively impacts the environment and natural resources. Among the impacts of FWL are the inefficient use of water and land and unnecessary greenhouse gas emissions, leading to diminished natural ecosystems and the services they provide <ref type="bibr" target="#b40">(HLPE, 2014;</ref><ref type="bibr" target="#b51">Lipinski et al., 2013)</ref>. <ref type="bibr">FAO (2012)</ref> estimates a 60% growth in the demand for food by 2050, causing concern about the ecosystems and natural resources necessary to support increases in food production and consumption.</p><p>There is also great concern about how to ensure enough food to a future global population that is quickly growing and urbanizing, and about how diversifying dietary patterns are contributing to the deterioration of the world's natural environment <ref type="bibr" target="#b40">(HLPE, 2014;</ref><ref type="bibr" target="#b67">Papargyropoulou et al., 2014;</ref><ref type="bibr" target="#b86">Thyberg and Tonjes, 2016)</ref>.</p><p>Several drivers are behind FWL in all stages of the food chain, from initial agricultural production to final household consumption. These drivers can be divided into direct and indirect causes resulting from the interaction between the food systems' elements and activities related to the food supply chain <ref type="bibr">(FAO, 2019b)</ref>. <ref type="bibr" target="#b86">Thyberg and Tonjes (2016)</ref> give examples such as infrastructure limitations, climate, environmental factors, food quality and esthetics, safety standards, and consumers' decisions. <ref type="bibr" target="#b60">Muriana (2017)</ref> identifies the main causes of FWL as demand variability, unpredictable events, transport and packaging mistakes, quality standards, manufacturing, pricing policies, shelf control policies, promotions, shelf life, supply chain coordination, and overproduction. <ref type="bibr">FAO (2011)</ref> considers the differences in FWL between industrialized and developing countries, citing premature harvesting and inadequate storage facilities as issues to be addressed in developing countries, while consumer attitudes and use and re-use being more expensive than waste disposal are cited as issues to be addressed in both industrialized and developing countries.</p><p>In this context, reducing FWL can decrease the global demand for food production and the pressure on ecosystems and natural resources such as water and land, enabling increased availability of food along the supply chain <ref type="bibr" target="#b93">(Zhang et al., 2018)</ref>. Moreover, reducing FWL generates economic benefits for all supply chain stakeholders and society as a whole by translating that reduction into monetary savings. Concerning sustainable costs, <ref type="bibr">FAO (2014)</ref> estimates that FWL generates economic costs of around USD 1 trillion, environmental costs of around USD 700 billion, and social costs of around USD 900 billion per year. Thus, making profitable investments to reduce FWL could be one way to decrease the cost of food. However, that would require a wide range of social actors to engage in the rethinking of food systems to achieve a significant reduction in FWL <ref type="bibr" target="#b7">(Beretta et al., 2013;</ref><ref type="bibr" target="#b67">Papargyropoulou et al., 2014;</ref><ref type="bibr" target="#b10">Campoy-Muñoz et al., 2017)</ref>.</p><p>According to the FWL hierarchies presented by <ref type="bibr" target="#b67">Papargyropoulou et al. (2014)</ref> and <ref type="bibr" target="#b13">Ciccullo et al. (2021)</ref>, prevention is the first and most likely option to reduce FWL in order to deliver the best overall environmental outcome. FWL prevention is a source reduction strategy that includes avoiding waste generation and reducing food surplus <ref type="bibr" target="#b63">(NRDC, 2017)</ref>. <ref type="bibr" target="#b86">Thyberg and Tonjes (2016)</ref> highlight four primary motivations to study and invest in FWL prevention: the environmental impacts of production, storage, and transportation; economic losses; food insecurity; and the environmental impacts of food waste disposal. Although eliminating food waste is impossible because some of it is unavoidable, prevention methods can be an effective alternative for substantially reducing food waste through policies, programs, campaigns, and changes in human behavior <ref type="bibr" target="#b67">(Papargyropoulou et al., 2014;</ref><ref type="bibr" target="#b62">Nayak and Bhushan, 2019;</ref><ref type="bibr" target="#b43">Joshi and Visvanathan, 2019)</ref>.</p><p>The United Nations developed the Sustainable Development Goals (SDGs), which included 17 SDGs and 169 specific goals <ref type="bibr" target="#b90">(Xie et al., 2021)</ref>; these goals have been adopted by countries and corporates across the world <ref type="bibr" target="#b14">(Cole et al., 2021)</ref>. Food Waste and Loss reduction is enshrined in the SDG 12, specifically in goal 12.3, which "calls for halving per capita global food waste at retail and consumer levels and reducing food loss along production and supply chains, including post-harvest loss, by 2030". Moreover, minimizing FWL and making the most of the resources underpinning the food system (i.e., water, land, labor, and fuel) are considered particularly crucial in the context of the challenge of sustainable feeding <ref type="bibr">(FAO, 2019b;</ref><ref type="bibr" target="#b2">Armington et al., 2020)</ref>. However, according to <ref type="bibr" target="#b60">Muriana (2017)</ref>, FWL is often considered an implicit consequence of unpredictable events that can neither be avoided nor mitigated, which indicates that the FWL issue has not been adequately investigated. Most studies focus on optimizing costs and profits in the supply chain through operational actions and the management, quantification, and characterization of waste. Thus, this scenario points to an essential gap in academic research, since there is an urgent need to provide information to support decision-makers <ref type="bibr" target="#b45">(Kibler et al., 2018)</ref>. The scientific literature lacks papers addressing evaluation methodologies or presenting reliable results of the implementation of food waste prevention and minimization measures <ref type="bibr" target="#b77">(Schneider, 2013;</ref><ref type="bibr">Beretta and Hellweg, 2019)</ref>.</p><p>This study intends to fill that gap, addressing the following research questions: (i) what are the methods studied and proposed in scientific literature to prevent and minimize FWL around the world? (ii) How can those methods be gathered and categorized to facilitate their implementation and support decision-makers? (iii) What could be the next scientific studies on FWL prevention and minimization methods?</p><p>Through the application of a systematic literature review (SLR), we have made a compilation of research findings and empirical studies on FWL prevention and minimization methods previously published, studied, implemented, and discussed in the scientific literature worldwide. Thus, this paper aims to compile and gather FWL prevention and minimization methods and practices to support decision-makers along the food chain. Therefore, the main contribution of this study is a survey of theoretical and practical FWL prevention and minimization methods found in the scientific literature, gathering them according to their similarities, to support stakeholders and practitioners to improve actions to reduce food waste in cities, farms, retail outlets, and other sustainable ecosystems.</p><p>The subsequent sections of this paper are divided as follows: section 2 presents conceptual considerations on food, food waste and food loss; section 3 discusses the methods and how they were applied in this study; section 4 contains an analysis of the studied literature and a discussion of the findings; section 5 presents a research agenda for future investigations; and section 6 presents the authors' conclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">FWL terms and applications</head><p>When considering the existing plethora of studies on Food Waste and Loss (FWL), it is important to delimit and specify, for the purposes of this study, what is defined as food, food waste and food loss, and how that is done, since these terms are used in many different ways in the literature. The authors of this review paper came across several different uses of those terms during the reading and discussion of the publications selected. A synthesis of the uses they encountered is presented below.</p><p>According to <ref type="bibr" target="#b89">WHO and FAO's (2013)</ref> definition, food refers to any substance, whether processed, semi-processed or raw, intended for human consumption, with animal or plant origin. It includes drinks, chewing gum, and any substance used in the manufacture, preparation or treatment of food, but it does not include cosmetics, tobacco or substances used only as drugs.</p><p>In the present paper, FWL is understood as "the decrease in quantity or quality of food along the food chain" <ref type="bibr">(FAO, 2019b)</ref>. FWL refers to the edible parts of plants and animals produced or harvested for human consumption, but not ultimately consumed by people. It represents a decrease in the mass, caloric, and nutritional value of edible food intended for human consumption at any stage in the food chain <ref type="bibr" target="#b51">(Lipinski et al., 2013)</ref>. FWL is generally measured in food mass, although some studies use caloric metrics and economic units <ref type="bibr" target="#b40">(HLPE, 2014)</ref>.</p><p>Despite the FWL definition above, there is a conceptual difference between "food loss" and "food waste". Food loss is the term used to designate the food mass lost and the harvest, post-harvest and use and consumption phases. Food waste is the decrease in the quantity or quality generally related to human behavior, retail, food services and final consumption stages <ref type="bibr" target="#b36">(Halloran et al., 2014;</ref><ref type="bibr">FAO, 2019b)</ref>.</p><p>The authors of this paper decided to use the term Food Waste and Loss to designate all edible food intended for human consumption that has not accomplished its goals, regardless of which stage of the food chain or the reasons why it was wasted or lost.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Methodology</head><p>The present study applies a Systematic Literature Review (SLR) to identify FWL prevention and minimization methods. SLR is an appropriate methodology because it maps, assesses, and synthesizes literature to develop knowledge in a specific field, allowing the identification of research gaps to develop new research agendas <ref type="bibr" target="#b87">(Tranfield et al., 2003;</ref><ref type="bibr" target="#b59">Munaro et al., 2020)</ref>. According to <ref type="bibr" target="#b69">Petticrew and Roberts (2008)</ref>, SLR gathers and processes information and has the capacity to closely follow scientific methods and limit bias, with the general goal of producing a methodical synopsis of the research in a particular field of study and identify research or knowledge gaps and areas for future studies.</p><p>Another reason for choosing SLR was that it mitigates the possibility of errors, enabling replicability <ref type="bibr" target="#b58">(Mulrow, 1994)</ref>. Moreover, it is objective, transparent and rigorous, providing guidelines to help identify the essential contributions of specific research fields. This method also enhances the legitimacy and reliability of the results, establishing a solid ground for the formulation of opinions and considerations for further research <ref type="bibr" target="#b87">(Tranfield et al., 2003;</ref><ref type="bibr" target="#b18">Denyer and Tranfield, 2009)</ref>.</p><p>Following the instructions of <ref type="bibr" target="#b87">Tranfield et al. (2003)</ref>, <ref type="bibr">Denyer and</ref><ref type="bibr" target="#b18">Tranfield (2009), and</ref><ref type="bibr" target="#b56">Moher et al. (2009)</ref>, the development of the review involved five steps: (i) definition of the research objective; (ii) database selection; (iii) identification of keywords and terms; (iv) selection of compatible articles, and (v) data extraction and evaluation.</p><p>With regards to the aim (i), according to the research question proposed in section 1 (introduction), this study aims to gather and compile FWL prevention and minimization methods previously published, studied, and discussed in the scientific literature worldwide. Concerning the database selection (ii), we have chosen four databases (Science Direct, Scopus, Wiley, and Web of Science) to sample articles. The choice of these databases was due to their extensive use in scientific research and also because they offer access to a wide range of scientific papers from many different knowledge fields and with varied propositions. The keywords and terms (iii) were defined after a scoping review of the term "food waste" and a discussion among the authors about the goals of our study. Hence, our search string, applied in each database, was the Boolean operation: ("food waste" OR "food losses") AND (prevention OR minimizing OR reduction) AND (method* OR "case study" OR practice*). The review was performed in November 2020. To get the widest possible range of scientific literature in English, no start date was specified and no area was excluded from the search, which included only review and research papers. This resulted in a set of 1.356 articles.</p><p>For the selection of compatible articles (iv), the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines were employed for a systematic identification and assessment of approaches and also to ensure a consistent and complete presentation of methods <ref type="bibr" target="#b56">(Moher et al., 2009</ref><ref type="bibr" target="#b57">(Moher et al., , 2015))</ref>. This process included the following steps: first, the identification and elimination of duplicates (835), second, the exclusion of book chapters, proceedings, and event articles (3), and, third, the exclusion of articles outside the scope by title, abstract, and full-text reading, (434). After that process, a set of 84 articles was selected to be used in the systematic review. No studies were excluded based on quality. However, the authors would like to highlight that this study does not claim to be exempt from limitations or to be exhaustive, since it was based on search strings, databases, exclusion criteria and subjective choices.</p><p>Finally, the data extraction was carried out (v). To that end, the set of publications underwent a critical evaluation by the researchers. The evaluation focused on identifying FWL prevention and minimization methods, practices, techniques, initiatives, and actions suggested, applied, and discussed in the selected articles. Thereafter, an aggregating approach was used to summarize the conclusions of the articles under review.</p><p>Content analysis was the methodology used to evaluate the information extracted from the article sample <ref type="bibr">(Elo and Kingas, 2008)</ref>. Thus, the extracted data were entered into a database capturing the following information from each paper: (i) paper details (title, authors, journal, year of publication, DOI, impact factor [InCites Journal Citation Reports -JCR], number of citations and institution location); (ii) information about the method (methodology applied, prevention method, minimization method, barriers, case study, stakeholders, coverage, and type of FWL); and (iii) future research (recommendations by the authors and gaps found).</p><p>This aggregative approach largely depends on the researcher's subjective interpretation of the papers reviewed. This occurs because, as stated by <ref type="bibr" target="#b87">Tranfield et al. (2003)</ref>, a certain degree of subjective latitude must be given to researchers for such different studies to be compared and considered in order to extract shared meanings and abstract approaches that do not address the declared purposes of the review.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results and discussion</head><p>A preliminary overview analysis of the continent, country, methodology, journal, and year of publication was done to understand the general panorama in the scientific literature. Moreover, the authors present a discussion of the worldwide distribution of the article sample, the increasing tendency over recent years, and how this justifies the importance of the present paper.</p><p>Thereafter, prevention and minimization methods extracted from the selected studies were gathered into four clusters according to their application, and presented here in summary tables to be easily accessed for consultation at any time. Subsequently, an analysis of findings was performed in order to identify what practices, expertise and tools are being used to address the FWL issue. In addition, the authors discussed how effective those practices have been at reducing FWL and what actions and methods are missing in each field.</p><p>Finally, suggestions for future research found the articles were compiled into a research agenda to help new researchers, companies, governments and any stakeholders involved in the food supply chain to implement methodologies to minimize and prevent food waste.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Overview</head><p>Fig. <ref type="figure" target="#fig_0">1</ref> below shows a bibliometric data overview of the 84 selected articles in the SLR by journal title, countries by continent, research methodologies, and year of publication. This sample came from a total of 32 journals, and the seven most recurring were: Waste Management ( <ref type="formula">22</ref>), Resource, Conservation and Recycling ( <ref type="formula">14</ref>), Sustainability (7), Journal of Cleaner Production (5), British Food Journal (3), Food Policy (3) and Waste Management and Research (3). All the journals are strictly concerned with sustainability, environment and waste issues. Appendix A1 summarizes all 32 journals and their respective Journal Impact Factor (JIF), number of articles and authors.</p><p>According to the classification proposed by Merli et al. ( <ref type="formula">2018</ref>), the selected articles were classified into five research methodologies: modeling, case study, theoretical and conceptual, review, and survey. Some articles can be classified in more than one research methodology, which happened with nine studies. The most usual methodology was 'case study', which is consistent with the search string used in the SLR and shows the importance of empirical evidence in this research area. On the other hand, the 'review' methodology was used in only 12 articles in the sample, indicating a gap in the current scientific literature. Besides, the review papers found in SLR discuss waste prevention in a general manner <ref type="bibr" target="#b91">(Yano and Sakai, 2016)</ref>, or address food waste drivers <ref type="bibr">(Thyberg and Tonges, 2015;</ref><ref type="bibr">Stangherlin and Barcelos, 2018)</ref>, or focus on a specific country or continent <ref type="bibr" target="#b15">(Corrado and Sala, 2018;</ref><ref type="bibr">Mourad, 2016)</ref>, or only on a specific area of the food chain (i.e., <ref type="bibr" target="#b50">Lefadola et al., 2018;</ref><ref type="bibr" target="#b79">Sharp et al., 2010;</ref><ref type="bibr" target="#b45">Kibler et al., 2018;</ref><ref type="bibr" target="#b34">Girotto et al., 2015;</ref><ref type="bibr" target="#b46">Kostecka et al., 2018)</ref>. This confirms the need for a comprehensive review to understand which practices and methods of FWL prevention and minimization have been studied by researchers, without excluding any food chain stages or stakeholders, or any countries or continents, as we propose.</p><p>Most of the 84 articles selected were produced at research centers and authored by researchers from Europe (62.6%), America (19.2%), Asia (14.2%), as well as Africa and Oceania, with 4% each. The wide gap between Europe and the other continents can be explained by the policies, programs, agreements, and incentives implemented by the European Union (EU). Reducing FWL is key to achieving the European Green Deal, which is a set of policy initiatives to make Europe the first climateneutral continent by 2050 <ref type="bibr">(EC, 2019;</ref><ref type="bibr">2020a)</ref>. Moreover, the European Commission (EC) is committed to the achievement of SDG Target 12.3 and, in order to do that, it has established the 'Farm to Fork Strategy' for a fair, healthy, and environmentally friendly food system <ref type="bibr">(EU, 2020a</ref><ref type="bibr">(EU, , 2020b))</ref>.</p><p>Thus, four out of the five countries that originated most of the studies are in Europe. Outside Europe, the USA is the country with the largest number of research centers and research studies in the sample. This can be explained by the broad set of programs all ten EPA (the United States Environmental Protection Agency) regions have in place to tackle food waste (EPA, 2020). In addition, the NRDC (Natural Resources Defense Council) promoted the national 'Save the Food' campaign to raise awareness about food waste among consumers, the leading drivers of FWL in the USA (NRDC, 2020). Programs such as these promote the production of scientific research to better understand the current FWL situation in those countries, develop new models and technologies, and propose solutions for the problem, supporting governments, organizations and the entire food chain.</p><p>Finally, although no start date was specified, the sample consists of articles dating from 2002 to January 2021. However, we did notice a significant number of articles starting from 2014 and peaking in 2018. That proves that the prevention and minimization of food waste is a new issue for scholars and the scientific literature, as it only stated to be discussed and studied at the beginning of the millennium. It is also evidence of a pressing need for more investigation, application and invention in this research area in order to develop a more efficient food system, conscientious consumption and sustainable habits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Practices and methods of prevention and minimization of FWL</head><p>The practices and methods found in the article sample were divided into ten fields (education, policies, donations, reuse, research, support, stock, demand control, logistics, and selling) gathering actions, tools, and expertise that share similar aims. The ten fields were created based on the authors' discussions about the similarities between the practices found, followed by the development of a dataset, gathering those practices according to their respective aims in the food chain and the stakeholders involved. In addition, the fields were divided into four clusters to elucidate the content analysis.</p><p>The practices and methods comprise actions, tools, or expertise to prevent or minimize FWL. As prevention methods, the authors understand all attitudes, choices, and practices that a stakeholder adopts before food is produced, bought, or prepared, taking into account the method's impact on the food chain where it is employed (i.e., technology adoption, staff training). Minimization methods are the attitudes, choices, and practices that one or more stakeholders adopt after food has been produced, bought, or prepared (i.e., reuse of leftovers or donations to food banks). Hence, the four clusters developed in this study are: education and awareness; policy, donations and reuse; research and support; and storage, demand control, logistics and selling.</p><p>Table <ref type="table" target="#tab_0">1</ref> presents a summary of practices to illustrate the general findings. The table is divided into five columns to represent the ten fields, the correspondent method, the category, if it exists, three practices extracted from the complete findings, and their respective authors. The complete results found in the review process are presented in the supplementary material in Appendix A2 (from A2.1 to A2.4), where all practices are shown in their fields and with their references.</p><p>Moreover, each practice or method that refers to a case study was classified into specific, sectorized, and extensive, according to its coverage in the original study, in order to help decision-makers understand and choose its best application. This information was crossedchecked with the food type studied in each empirical study. The analysis can point to gaps in the scientific literature, aiming at future research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Education and awareness</head><p>Education is the field with the most significant number of practices found in the scientific literature selected in the SLR. This field encompasses practices that aim to change the behaviors, mindsets, and awareness of all kinds of stakeholders involved in the food chain, from producers to consumers. For these reasons, education is strictly related to prevention methods that act directly on human motivations and choices before food is prepared, bought, transported, made available for consumption, or put up for sale.</p><p>Table <ref type="table">A2</ref>.1 shows all the practices collected from the sample of articles studied for this first cluster (education and awareness). Each practice is linked to its authors, according to the study it was extracted from. The practices in this field were divided into five categories to better explain and discuss the findings: (i) campaigns, (ii) communication, (iii) training, (iv) conscious consumption, and (v) information. Campaigns (i) are practices that can be adopted at different coverage levels according to the stakeholders involved, as shown by many studies (i.e., <ref type="bibr">Mu'azu et al., 2019;</ref><ref type="bibr" target="#b41">Jereme et al., 2018;</ref><ref type="bibr" target="#b70">Pinto et al., 2018)</ref>. They can also be implemented by governments and their agencies, by citizens, non-governmental organizations (NGOs), schools and universities, and   businesses such as restaurants and grocery stores. Each campaign has its particular target audience, depending on its objectives, although the primary goal is to promote and build awareness and change people's behavior and choices to avoid and reduce food waste. <ref type="bibr">Thyberg and Tonges (2015)</ref> highlight educational campaigns with the involvement of multiple stakeholders. <ref type="bibr" target="#b79">Sharp et al. (2010)</ref> studied educational campaigns in the household environment. Finally, <ref type="bibr" target="#b24">Ellison et al. (2019)</ref> investigated educational campaigns to reduce plate waste among young adults in two university dining halls. Campaigns are effective actions because they mobilize people and businesses around the FWL issue and create permanent awareness and involvement by developing better habits. Thus, campaigns can promote excellent immediate results, stimulating new programs, laws, and reduction goals. Communication (ii) was a practice category that appeared more frequently in the business area as an essential factor in the prevention of food waste. <ref type="bibr" target="#b50">Lefadola et al. (2018)</ref> bring up the importance of communication practices between different units, suppliers, customers, and other relevant stakeholders. However, to be effective, communication practices need tools to mediate and help when necessary. Moreover, communication can be done directly between people, teams, sectors, or through digital media, social media, radio, television, the internet, and other means, using advertising or other marketing methods, depending on each case and on the targets. <ref type="bibr" target="#b92">Young et al. (2016)</ref> presented social media and e-newsletter interventions as a means to improve communication. Thus, communication needs to be transparent and clear to promote better FWL reduction results and to reach and engage the people or institutions it is intended to.</p><p>Training (iii) can entail workshops, conferences, seminars, classes, and courses. It aims to anticipate human actions and choices, inform, standardize and exercise practices, and develop abilities. Training is usually applied in the case of food service employees. <ref type="bibr" target="#b47">Lagori et al. (2018)</ref> recommend increasing catering staff training to prevent food waste in a school in Italy. <ref type="bibr" target="#b8">Bharucha (2018)</ref> highlights that seminars focusing exclusively on food waste management can be conducted by food regulatory associations to generate awareness among kitchen staff. In turn, <ref type="bibr" target="#b20">Derqui et al. (2016)</ref> suggest training for all stakeholders along the entire food chain. Local governments should require the food service sector to train its staff on FWL issues and practices to avoid it.</p><p>Conscious consumption (iv) concerns consumer choice patterns and practices in acquiring consumption goods. It also refers to practices that act directly on how consumer behavior can be modified. <ref type="bibr" target="#b42">Johansson and Corvellec (2018)</ref> cite sustainable consumption and reducing consumption as important steps to address FWL. Another effective strategy is to educate people since childhood in school canteens <ref type="bibr" target="#b22">(Diaz-Ruiz et al., 2019)</ref>. Moreover, consumer awareness and the way food products are sold must improve, avoiding promotions, reducing packaging and being aware of expiration dates. <ref type="bibr" target="#b65">Okumus (2020)</ref> suggests that consumers should be encouraged to take home leftovers from their restaurant orders.</p><p>The information (v) category involves practices intended to spread content, data, facts and knowledge to all stakeholders in the entire food chain, from production to consumers. Information stimulates dialog and understanding about food waste concerns. It also strengthens bonds, increases transparency in actions, and makes the decisions taken by decision-makers more democratic. <ref type="bibr" target="#b15">Corrado and Sala (2018)</ref> highlight that information is crucial to define strategies for FWL reduction. Moreover, the availability of information makes final consumers more responsible for FWL reduction and increases the engagement of all actors in addressing the possible causes of FWL. <ref type="bibr" target="#b41">Jereme et al. (2018)</ref> suggest sensitizing people by informing them about the negative environmental impacts of food waste. Finally, <ref type="bibr" target="#b79">Sharp et al. (2010)</ref> report that having a knowledgeable local team of waste prevention advisors can be a way to spread information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Policies, donations, and reuse</head><p>This section presents practices and methods found in the selected articles and allocated in the fields named policies, donations, and reuse. Table <ref type="table">A2</ref>.2 shows prevention and minimization methods from the policies (i), donations (ii), and reuse (iii) fields. All practices found are linked to their authors in Table <ref type="table">A2</ref>.2 in Appendix A2. In the Policies field the practices are divided into prevention and minimization methods. Policy practices are those promoted or stimulated by the government at local-, state-, and national levels to create or fund programs, campaigns, laws, tax incentives, and other actions that draw the attention of producers, the industrial sector, retail, consumers, and all food chain stakeholders to the importance and need to reduce FWL.</p><p>Policy practices to prevent FWL are aimed at acting on waste and loss reduction before food, meals, and products are made or bought. Beausang et al. ( <ref type="formula">2017</ref>) suggest relaxing cosmetic specifications in fruit and vegetable production to prevent good food from being thrown away only because it looks ugly or has imperfections. <ref type="bibr">Mu'azu et al. (2019)</ref>, <ref type="bibr" target="#b81">Steen et al. (2018), and</ref><ref type="bibr" target="#b8">Bharucha (2018)</ref> advocate government actions at all levels to implement support programs; FWL reduction policies that set goals and mitigate factors that cause wastage; and the enforcement of laws, respectively. Diaz-Ruiz et al. ( <ref type="formula">2019</ref>) mention legislative change as a way to address the FWL issue.</p><p>With regards to minimizing FWL, policy practices are designed to remedy decisions already taken or to facilitate communication between stakeholders in order to deal with standards, rules, specifications, quality expectations, and habits <ref type="bibr" target="#b48">(Gobel et al., 2015)</ref>. <ref type="bibr" target="#b5">Beausang et al. (2017)</ref> cite the involvement of actors further along the food chain as an essential factor to promote FWL minimization. <ref type="bibr">Girotto et al. (2019)</ref> show us that incentives to the industry can be an effective way to drive the sector to implement more sustainable alternatives and reduce FWL.</p><p>In addition, taxes can be used by governments at all levels as both an incentive (e. g. donations, rational consumption, and innovation) and a disincentive (e.g., charging companies and industries by the quantity of food thrown away and by the amount of discarded products) <ref type="bibr" target="#b61">(Muth et al., 2019;</ref><ref type="bibr" target="#b22">Diaz-Ruiz et al., 2019;</ref><ref type="bibr" target="#b0">Abduli and Azimi, 2010)</ref>. Policy implementation is a very efficient way to involve the food chain's many sectors and stakeholders because it forces them to take action and makes FWL prevention and minimization a priority in their business and their lives. However, policies must be inspected and supervised to guarantee that guidelines are followed.</p><p>Donations involve practices aimed at giving a destination for food not consumed or not sold. Therefore, donation practices help minimize FWL after food has been produced and put up for sale. Donations can support social actions, give food to those in need, and prevent good food from being thrown away and destined to landfill or incineration. Donations can also be made directly to needy people or through campaigns, social programs, and social assistance <ref type="bibr" target="#b8">(Bharucha, 2018;</ref><ref type="bibr" target="#b20">Derqui et al., 2016;</ref><ref type="bibr" target="#b88">Warshawsky, 2015)</ref>. Moreover, donated food usually presents esthetic imperfections (e. g. fruits or vegetables), or consists of products whose shelf life is about to expire or have been bought in excess, and household and restaurant leftovers <ref type="bibr" target="#b31">(Filimonau et al., 2018)</ref>.</p><p>This field contains a set of practices designed to achieve social goals, such as the reduction of hunger, undernourishment and food insecurity for people in vulnerable situations. Donation practices should be a priority for all levels of government, which must create laws and regulations to make donating food easier and safer. Moreover, it is crucial for authorities to offer incentives to programs that set up stores with affordable prices and charity food banks <ref type="bibr" target="#b5">(Beausang et al., 2017)</ref>. Furthermore, food donations lead to a reduction in the amount of good quality, mostly healthy food that is discarded, decreasing the carbon footprint of the food chain.</p><p>The reuse field contains practices aimed at avoiding leftovers to be thrown away. It gathers actions that minimize the consequences of wrong decisions previously taken, such as incorrect demand calculation in restaurants, events or households. It also minimizes economic loss by overproduction by the food industry, farmers or agricultural companies through selling the surplus product to other industrial sectors as raw material, or by using it as animal feed <ref type="bibr" target="#b71">(Principato et al., 2019;</ref><ref type="bibr" target="#b7">Beretta et al., 2013;</ref><ref type="bibr" target="#b37">Hamilton et al., 2015)</ref>.</p><p>Reuse practices can reduce recycling costs, which highlights the importance of incentives at all levels: the government, the industry, and producers <ref type="bibr" target="#b46">(Kostecka et al., 2018)</ref>. In addition, household food reuse is considered by many authors as an effective way to deal with leftovers <ref type="bibr" target="#b48">(Langen et al., 2015;</ref><ref type="bibr" target="#b1">Abeliotis et al., 2016)</ref>. However, people need knowledge and expertise to be able to use leftovers and reinvent recipes <ref type="bibr" target="#b53">(Martin-Rios et al., 2018)</ref>. Therefore, this knowledge must be made accessible to people and companies, so that it becomes part of a new behavior pattern, eliminating all kinds of prejudice about consuming leftovers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">Research and support</head><p>This section presents practices and methods found in the articles and allocated in the research and support fields. Table <ref type="table">A2</ref>.3 shows prevention and minimization methods from the research field (i), which is divided into the categories: investigation/innovation (a) and LCA/modeling (b); and from the support field (ii), divided into the categories techniques and know-how (c), and technological tools (d). All the practices found are referred to their authors. The research field is divided into two categories. The category named investigation and innovation presents examples of practices aimed at reducing FWL before and after food is produced, transported, bought, or consumed. With regards to minimization practices, <ref type="bibr">Bernstad et al. (2013)</ref>, <ref type="bibr" target="#b78">Schott and Andersson (2014)</ref>, and <ref type="bibr" target="#b3">Baig et al. (2019)</ref> state that it is important and necessary to analyze the waste composition and the quantity of avoidable and unavoidable food in order to be aware of what kinds of food have been wasted and to continually improve the measurement and evaluation methods. Regarding the prevention practices, <ref type="bibr" target="#b79">Sharp et al. (2010)</ref> point out that in order to encourage households to act, it is important that they know how much they are-and could be contributing to reduce FWL. <ref type="bibr" target="#b80">Stangherlin and Barcellos (2018)</ref> highlight that understanding the behavior of all food chain stakeholders is key to preventing FWL. <ref type="bibr" target="#b8">Bharucha (2018)</ref> suggests that research should be speeded up to invent eco-friendly and healthy materials to preserve food for longer periods and keep farm produce fresh.</p><p>The Life Cycle Assessment (LCA) and modeling category includes practices for both the prevention and the minimization of FWL. The LCA method helps researchers to understand the food chain and its flaws and to evaluate where actions to reduce FWL should be prioritized, as well as to identify the environmental impacts of food wastage along the food chain <ref type="bibr" target="#b33">(Gentil et al., 2011;</ref><ref type="bibr" target="#b78">Schott and Andersson, 2014;</ref><ref type="bibr" target="#b73">Salemdeeb et al., 2017;</ref><ref type="bibr" target="#b93">Zhang et al., 2018)</ref>. Moreover, this category includes modeling practices, such as production optimization <ref type="bibr" target="#b4">(Banasik et al., 2016)</ref>, cost-benefit analysis <ref type="bibr">(Thyberg and Tonges, 2015)</ref>, the linear Computable General Equilibrium (CGE) model to address the economic impact of FWL <ref type="bibr" target="#b10">(Campoy-Muñoz et al., 2017)</ref>, and the WAste Reduction Model (WARM) by <ref type="bibr" target="#b33">Gentil et al. (2011)</ref>.</p><p>Research is fundamental to better understand the FWL issue, and it needs to be further explored by governments and the scientific community to provide decision-makers with data to support good choices on how and where efforts and money should be applied. Research generates innovation and provides new perspectives, allowing the creation of different paths and ways to address FWL and its ills.</p><p>The support field is divided into the techniques and know-how, and the technological tools categories. The techniques and know-how category covers prevention methods ranging from straightforward attitudes taken by consumers, such as shopping lists and meal planning in advance <ref type="bibr" target="#b1">(Abeliotis et al., 2016;</ref><ref type="bibr" target="#b48">Langen et al., 2015)</ref>, to more elaborate techniques, such as the food waste management decision tree <ref type="bibr" target="#b32">(Garcia-Garcia et al., 2016)</ref>, and a conceptual framework for the hospitality sector <ref type="bibr" target="#b68">(Papargyropoulou et al., 2016)</ref>. <ref type="bibr" target="#b81">Steen et al. (2018)</ref> suggest implementing more structured lunch breaks for schools with older pupils. In addition, minimization methods include the proper separation of FWL in the service food sector <ref type="bibr" target="#b84">(Tatàno et al., 2017)</ref>, doing regular waste audits and establishing reduction goals with follow ups <ref type="bibr" target="#b20">(Derqui et al., 2016)</ref>, and following a FWL hierarchy framework <ref type="bibr" target="#b67">(Papargyropoulou et al., 2014)</ref>. These practices aim to identify and prioritize options for minimizing and managing FWL throughout the food chain.</p><p>The technological tools category covers innovation, such as smart fridges, the internet of things (IoT), and machine learning to help storage and demand forecasting as tools to prevent FWL <ref type="bibr" target="#b48">(Langen et al., 2015;</ref><ref type="bibr" target="#b55">Minaam et al., 2018;</ref><ref type="bibr" target="#b82">Strotmann et al., 2017)</ref>. Other technologies were found in the review process, including tools to help monitor and anticipate decisions, including cameras, drones, sensors, software, and digital platforms. <ref type="bibr" target="#b13">(Ciccullo et al., 2021;</ref><ref type="bibr" target="#b11">Cane and Parra, 2020)</ref>. As technological minimization practices, Cane and Parra (2020) suggest smartphones and computer applications to promote savings in food consumption, avoid waste, and help manage surplus food and products. Another good practice is making efforts to improve manufacturing processes to reintegrate products within the production line <ref type="bibr" target="#b22">(Diaz-Ruiz et al., 2019)</ref>.</p><p>Support is essential to address FWL because it helps spread information, collect data, facilitate decisions, and plan and manage processes and activities. In an increasingly connected and internet-dependent world it is crucial to use technology and its tools in all steps of the food chain, from production to consumption.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4.">Storage, demand control, logistics, and selling</head><p>The fourth cluster consists of the storage (i), logistics (ii), demand control (iii), and selling (iv) fields. Table <ref type="table">A2</ref>.4 presents the practices and methods extracted from the article sample for each field. All the practices in the table are referred to their authors. The storage field gathers prevention practices concern how food is stored to better maintain its quality and preserve it longer. This can be made through stock management, rotation policies, and routines <ref type="bibr" target="#b50">(Lefadola et al., 2018;</ref><ref type="bibr" target="#b6">Benyam et al., 2018)</ref>. Moreover, it is important to maintain the correct temperature when food is stored and a time-temperature indicator or a cold room system can help control it <ref type="bibr" target="#b72">(Rossaint and Kreyenschmidt, 2015;</ref><ref type="bibr" target="#b22">Diaz-Ruiz et al., 2019)</ref>. In addition, straightforward attitudes, such as using the appropriate packaging and different color bins to separate different foods can help preserve food longer and avoid it being forgotten <ref type="bibr" target="#b1">(Abeliotis et al., 2016;</ref><ref type="bibr" target="#b65">Okumus, 2020)</ref>.</p><p>Correct storage preserves food and provides conditions for food to last as long as it should. In addition, it is important to make stock rotation to use older products, avoiding their expiration. These practices lead to economic savings, avoiding the unnecessary purchase of new products and creating better stock control in households and kitchens.</p><p>The demand control field gathers practices that concern the quantity of food produced, sold, prepared, or consumed. It is intended to avoid surplus food by monitoring demand over the years and doing accurate estimations and forecasts <ref type="bibr" target="#b81">(Steen et al., 2018;</ref><ref type="bibr">de Moraes et al., 2020)</ref>.</p><p>Controlling demand is a path to achieving a balance between what is produced and consumed <ref type="bibr" target="#b34">(Girotto et al., 2015)</ref>. However, it is not an easy task because demand is always varying, every harvest and every day in restaurants and markets. Therefore, using technological tools to constantly control demand can help understand how demand evolves and to make more accurate forecasts.</p><p>Logistics entails prevention practices that have a direct impact on the food transportation process. Thus, FWL can be avoided with correct and controlled logistics. An excellent alternative is to improve local and regional networks so as to reduce distance and shipping time between food providers and buyers <ref type="bibr" target="#b45">(Kibler et al., 2018;</ref><ref type="bibr" target="#b61">Muth et al., 2019)</ref>. It is necessary to provide proper temperature and storage conditions to preserve food during transportation <ref type="bibr" target="#b50">(Lefadola et al., 2018;</ref><ref type="bibr" target="#b16">Cristóbal et al., 2018)</ref>. Moreover, good infrastructural conditions on highways, railroads, and other modes of transport are mandatory to avoid food losses, accidents, and delays <ref type="bibr" target="#b22">(Diaz-Ruiz et al., 2019)</ref>. In addition, planning transport by using applications, choosing better routes, and departure times can represent an economic opportunity to prevent FWL <ref type="bibr" target="#b82">(Strotmann et al., 2017)</ref>. These practices are important because it is at this point of the chain that food or food products can spoil, acquire imperfections, or have their packaging damaged. To be aware of strategies to avoid incidents in the logistics stage can be essential to reduce FWL.</p><p>The selling field gathers practices from both prevention and minimization methods. For the food service area, the studies in the SLR suggest menu changes, smaller plates, reducing portion sizes, incorporating defective products in the menu, and allowing customers to choose their serving size <ref type="bibr" target="#b16">(Cristóbal et al., 2018;</ref><ref type="bibr" target="#b47">Lagori et al., 2018;</ref><ref type="bibr" target="#b61">Muth et al., 2019;</ref><ref type="bibr" target="#b8">Bharucha, 2018)</ref>. Many authors suggest changes in packaging to better conserve the products and smaller package sizes to avoid FWL <ref type="bibr" target="#b48">(Langen et al., 2015;</ref><ref type="bibr" target="#b61">Muth et al., 2019;</ref><ref type="bibr" target="#b91">Yano and Sakai, 2016)</ref>. Another practice discussed in several studies refers to shelf life and how this information is shown to consumers; it should be standardized and clear <ref type="bibr" target="#b37">(Hamilton et al., 2015;</ref><ref type="bibr" target="#b61">Muth et al., 2019;</ref><ref type="bibr">de Moraes et al., 2020)</ref>. Selling is an important field because it directly influences consumers' behavior and choices. Hence, form, size and packaging materials, as well as the information shown on the product, and the price, can have a crucial impact on the final amount of FWL.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Coverage of case studies</head><p>This section presents a coverage analysis of all articles in the SLR that belong to the case study methodology. Depending on their coverage, the authors of this study allocated the articles in the specific, sectorized, or extensive category in order to understand the scope of application of the empirical studies found in the scientific literature. This data was crosschecked with the type of food studied and analyzed in each article.</p><p>This allows food chain stakeholders to understand the gaps in current empirical studies, identify where efforts are needed, and understand how research can better contribute to FWL prevention and minimization. Thus, the case study method sample consists of 52 articles, considering that not all studies selected in the SLR are empirical, i.e., they consist in applied research studies. Fig. <ref type="figure" target="#fig_1">2</ref> shows how the articles were distributed in the three coverage classifications, according to the type of food analyzed.</p><p>The three levels developed by the authors were found to be the best way to aggregate the case studies according to their similarities. Specific represents case studies that were applied in one or more establishments from the same sector (i.e., hotels, university dining halls, school canteens or catering businesses, restaurants). This category includes case studies applied in small and controlled environments, making it easier to analyze the different types and amounts of food wasted. Case studies classified in the specific category include the following types of food: food in general, meals, fruits and vegetables, pasta, and coffee shops.</p><p>Sectorized is the classification of case studies belonging to one sector of the food chain and is applied in the scope of municipalities (farms, hospitality, food companies, restaurants, retailers, households). Sectorized case studies were usually applied in several units of the same sector or in all the outlets of a company in one city, analyzing food in general, fruits and vegetables, and meat.</p><p>Extensive case studies are those applied in a larger territory, such as a state or a country and which, in most papers, covered all food chain steps. This category gathers most case studies that analyzed the FWL of the 'food in general' type. That is because that is a less complex food type to analyze in a study covering a larger territory. However, we did find case-study papers focusing specifically on bread and fruit and vegetable waste.</p><p>Fig. <ref type="figure" target="#fig_1">2</ref> shows how empirical studies are being applied, but it is essential to consider that specific, sectorized, and extensive case studies can be strategically used to understand food chain waste and loss. For example, the specific category can be used to test a prevention or minimization method before applying it in a bigger group. This category can also simulate how waste and loss statistics behave for a many different types of food.</p><p>We suggest the extensive category should be explored further. Although it is complex to analyze large territories and multi-sectoral and multi-stakeholder groups, the categories below, i.e., the specific and sectorized categories, could be used to provide information for more comprehensive studies. Therefore, case studies should better explore prevention and minimization methods for many types of food and emphasize the early phases of the food chain, such as production and logistics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Trends and data agenda in food waste and loss</head><p>Several tendencies were evaluated in the content analysis process of the SLR sample articles. Regarding proposals to quantify the economic, social, and environmental impacts of FWL, the application of LCA <ref type="bibr" target="#b33">(Gentil et al., 2011;</ref><ref type="bibr" target="#b15">Corrado and Sala, 2018;</ref><ref type="bibr" target="#b83">Svanes et al., 2018)</ref> was suggested, as was the evaluation and prioritization of these impacts on different regions and ecosystems <ref type="bibr" target="#b7">(Beretta et al., 2013;</ref><ref type="bibr" target="#b21">Dhokhikah et al., 2015)</ref> are suggested. Thus, it is necessary to develop product systems and map life cycle inventories to collect information on transport, energy, and raw material to model in software such as GaBi, OpenLCA, and SimaPro.</p><p>Moreover, the authors of the studies in the sample prove there is a need to develop review studies to collect a large amount of information. <ref type="bibr" target="#b80">Stangherlin and Barcellos (2018)</ref> and <ref type="bibr" target="#b45">Kibler et al. (2018)</ref> suggest a literature review on FWL prevention and minimization methods. <ref type="bibr" target="#b34">Girotto et al. (2015)</ref> propose a systematic review of the literature on the industrial sector and <ref type="bibr" target="#b44">Kasavan et al. (2019)</ref> propose a literature review of research focused on identifying FWL drivers and the barriers to address it. We suggest that both proposals should apply SLR following the same protocols as this study, evaluating, in different data bases, the relevant information for each case. In addition, <ref type="bibr" target="#b34">Girotto et al. (2015)</ref> highlight the importance of including grey literature, by assessing industry reports, for example.</p><p>Other authors underline the need for implementing FWL reduction methods with the participation of all food chain stakeholders <ref type="bibr">(Thyberg and Tonges, 2015;</ref><ref type="bibr" target="#b82">Strotmann et al., 2017)</ref>. <ref type="bibr" target="#b10">Campoy-Muñoz et al., 2017 and</ref><ref type="bibr" target="#b38">Heikkilä et al. (2016)</ref> highlight that this must be done in developing countries, and that post-implementation evaluation needs should be ongoing. In order to do that, we suggest the development of longitudinal case studies, where the implementers responsible control the processes through time, evaluating the quality for future replications.</p><p>Although several studies take into consideration stakeholders perception at the household level, the authors of the articles cited argue for the need also to address the perception of the other stakeholders in the food supply chain <ref type="bibr" target="#b75">(Schmidt, 2016;</ref><ref type="bibr" target="#b84">Tatàno et al., 2017;</ref><ref type="bibr" target="#b52">Mabaso and Hewson, 2018)</ref>. Another suggestion elicited from the papers reviewed was to evaluate the reduction level of the methods implemented <ref type="bibr" target="#b1">(Abeliotis et al., 2016;</ref><ref type="bibr" target="#b53">Martin-Rios et al., 2018)</ref>. Moreover, those authors highlight the need to interview all food chain stakeholders to assess new prevention and minimization methods <ref type="bibr" target="#b92">(Young et al., 2016;</ref><ref type="bibr" target="#b9">Buisman et al., 2017;</ref><ref type="bibr" target="#b71">Principato et al., 2019)</ref>. Therefore, we suggest using structured interviews as surveys, especially with society in general, food services, and governments.</p><p>The articles reviewed also stress the need to apply concepts and practices to reduce FWL on a global level <ref type="bibr" target="#b46">(Kostecka et al., 2018)</ref>, in restaurants <ref type="bibr" target="#b66">(Painter et al., 2016)</ref> and in the industrial sector <ref type="bibr" target="#b49">(Lebersorger and Schneider, 2014)</ref>. Moreover, Ryan-Fogarty et al., 2017, suggest that in order to raise awareness among food chain stakeholders, it is crucial to develop campaigns, while <ref type="bibr" target="#b93">Zhang et al. (2018)</ref>, argue for the creation of public policies. Hence, to suggest new research questions from these trends, we have created a research agenda based on the four clusters developed for this SLR.</p><p>Concerning the first cluster-education and awareness-the research questions are: How to develop a guide with the best attributes a campaign should have to inform and change stakeholder mindset and behavior on FWL reduction? And: What would be the best approaches, and information training should have to change human behavior?</p><p>For the second cluster-Policies, donations, and reuse-the questions are: What are the most effective policies already applied in different countries to reduce FWL in each step of the food chain? How important are donations for those in need, and how much do they contribute to FWL reduction? Additionally, for the research and support cluster, the research question is: What are the behaviors and mindsets that characterize consumers worried about the amount of FWL they generate? Finally, for the last cluster-Storage, demand control, logistics and selling-the questions are: What is the best way to transport farm products to reduce food losses as much as possible? How can an LCA be applied in order to improve understanding of the current environmental, social, and economic impacts of FWL in order to address the gaps in the food chain in the Global South?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>This study presents a compilation and categorization of prevention and minimization methods found in 84 articles in the scientific literature. Its aim is to make it easier for decision-makers and other stakeholders to consult existing practices and methods to reduce food waste and losses (FWL). A Systematic Literature Review (SLR) was employed, and the methods found were divided into ten fields and gathered in four clusters. In addition, a content analysis of empirical studies was carried out to understand the information extracted from the article sample; this data was cross-checked with the type of food analyzed. Future research suggested in the articles was compiled in a research agenda to support all stakeholders, academics, and practitioners involved in the food chain to implement methods to minimize and prevent food waste.</p><p>The main contribution of this paper is a survey of theoretical and practical FWL prevention and minimization methods, grouping them according to their similarities, to support decision-makers and practitioners to improve actions to reduce food waste and loss in cities, farms, retail, and other sustainable ecosystems. This study answers the research questions (i) methods studied and proposed in the scientific literature were compiled from a sample of 84 articles, (ii) these methods were gathered in four clusters and categorized into ten fields to facilitate their implementation and support decision-makers, and (iii) research questions to carry out a scientific investigation on FWL prevention and minimization were suggested for each of the clusters developed.</p><p>It must also be said that this review study presents limitations, as the databases chosen for the selection of the papers are but a few among many available databases. Nonetheless, this study presents theoretical, practical and managerial implications, providing academics, practitioners, and decision-makers with a guide of methods and practices to reduce and minimize food waste and losses. Finally, as future research, the authors of this paper recommend a survey assessing different stakeholders' perceptions through the employment of specific, sectorized, and extensive applications.</p><p>Fernando Henrique Lermen is Ph.D. by the Graduate Program in Industrial Engineering from the Federal University of Rio Grande do Sul (UFRGS). He holds a Master's Degree in Industrial Engineering from the Graduate Program in Industrial Engineering from the UFRGS, Brazil. He also holds a bachelor's degree in Agroindustrial Engineering. His research mainly spans the topics of agriculture, post-harvest, product-service system, food waste, sustainability, and agroindustry.</p><p>Márcia Elisa Echeveste holds a B.S. in Statistics and a Ph.D. in Industrial Engineering from the UFRGS. She is a Full Professor in the Statistics Department and in the Industrial Engineering Graduate Program at UFRGS. Her current research interests include the study of new product development methods, quality engineering, statistics analysis, and innovation methods.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Bibliometric analysis of the sample studied.</figDesc><graphic coords="4,70.24,55.42,454.75,251.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Food type by classification.</figDesc><graphic coords="9,112.76,55.41,369.79,236.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Practices summary on FWL prevention and minimization.</figDesc><table><row><cell>Field</cell><cell>Method</cell><cell>Categ.</cell><cell>Practice</cell><cell>Authors</cell></row><row><cell>Education</cell><cell>Prevention</cell><cell>(i)</cell><cell>Implementing</cell><cell>Thyberg and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>prevention</cell><cell>Tonges (2015)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>campaigns.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Developing food</cell><cell>Jereme et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>waste management</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>programs.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Conferences</cell><cell>Halloran et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>connecting public</cell><cell>(2014)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and private</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>stakeholders.</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(ii)</cell><cell>Communication</cell><cell>de Moraes et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>with supply chain</cell><cell>(2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>members.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Social media and e-</cell><cell>Young et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>newsletter</cell><cell>(2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>interventions.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Communication</cell><cell>Derqui and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>between school and</cell><cell>Fernandez (2017)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>kitchen.</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(iii)</cell><cell>Increasing training</cell><cell>Lagori et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>of catering staff.</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Training the staff on</cell><cell>Okumus (2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>proper handling and</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>preparation.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Proper training for</cell><cell>Chen and Chen</cell></row><row><cell></cell><cell></cell><cell></cell><cell>handling and</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>storage.</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(iv)</cell><cell>Reducing</cell><cell>Johansson and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>consumption.</cell><cell>Corvellec (2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Consumer</cell><cell>Salhofer et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>education.</cell><cell>(2008)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Allowing/</cell><cell>Okumus (2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>encouraging</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>customers to take</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>leftovers home.</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(v)</cell><cell>Educating customers</cell><cell>Okumus (2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>about proper food</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>portions to</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>consume.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Providing action</cell><cell>Schmidt and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>knowledge about</cell><cell>Matthies (2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>appropriate storing</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>techniques.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Providing</cell><cell>Salhofer et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>information about</cell><cell>(2008)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>appropriate storage.</cell><cell></cell></row><row><cell>Policy</cell><cell>Prevention</cell><cell>-</cell><cell>Economic</cell><cell>Salhofer et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>incentives.</cell><cell>(2008)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Inventory policy.</cell><cell>de Moraes et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Government needs</cell><cell>Bharucha (2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>to amend and</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>strictly enforce the</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>laws.</cell><cell></cell></row><row><cell></cell><cell>Minimization</cell><cell>-</cell><cell>Flexibility in quality</cell><cell>Muth et al. (2019)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>standards</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Looking over</cell><cell>Derqui et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>contractual</cell><cell>(2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>obligations with FW</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>in mind.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Price reduction</cell><cell>dos Santos et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>practices.</cell><cell>(2020)</cell></row><row><cell>Donations</cell><cell>Minimization</cell><cell>-</cell><cell>Unsold food</cell><cell>Filimonau et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>donations.</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Donating surplus</cell><cell>Chen and Chen</cell></row><row><cell></cell><cell></cell><cell></cell><cell>food to recovery</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>programs.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Initiatives like the</cell><cell>Bharucha (2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>"public fridge".</cell><cell></cell></row><row><cell>Reuse</cell><cell>Minimization</cell><cell>-</cell><cell>Reuse of leftovers.</cell><cell>Lefadola et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Promot ingfood</cell><cell>Thyberg and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>redistribution to</cell><cell>Tonges (2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>animal feed.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>(continued )    </figDesc><table><row><cell>Field</cell><cell>Method</cell><cell>Categ.</cell><cell>Practice</cell><cell>Authors</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Energy and nutrient</cell><cell>Hamilton et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>recovery.</cell><cell>(2015)</cell></row><row><cell>Research</cell><cell>Prevention</cell><cell>(vi)</cell><cell>Understanding</cell><cell>Stangherlin and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>behaviors that can</cell><cell>Barcellos (2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>indeed prevent the</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>final wastage.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Implementing</cell><cell>Abduli and Azimi</cell></row><row><cell></cell><cell></cell><cell></cell><cell>scientific research</cell><cell>(2010)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and technologies.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Increasing research</cell><cell>Thyberg and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and development.</cell><cell>Tonges (2016)</cell></row><row><cell></cell><cell>Minimization</cell><cell>(vi)</cell><cell>Waste composition</cell><cell>Schott and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>analysis (avoidable</cell><cell>Andersson (2014)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and unavoidable).</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Working with</cell><cell>Baig et al. (2019)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>researchers to</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>collect data,</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>providing training to</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>farmers, businesses.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Investigation of the</cell><cell>Bernstad et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>amount of avoidable</cell><cell>(2013)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>food waste currently</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>disposed of.</cell><cell></cell></row><row><cell></cell><cell>Prevention</cell><cell>(vii)</cell><cell>Ranking waste</cell><cell>Gentil et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>prevention measures</cell><cell>(2011)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>using waste</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>reduction indicators</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>and LCA indicators.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Conventional</cell><cell>Salemdeeb et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>process-based LCA.</cell><cell>(2017)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Mathematical model</cell><cell>Banasik et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>to optimize</cell><cell>(2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>production decisions</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>in food supply</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>chains.</cell><cell></cell></row><row><cell></cell><cell>Minimization</cell><cell>(vii)</cell><cell>Conducting</cell><cell>Thyberg and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>assessments, such as</cell><cell>Tonges (2015)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>LCA or cost-benefit</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>analyses.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>WAste Reduction</cell><cell>Gentil et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Model (WARM).</cell><cell>(2011)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Environmental</cell><cell>Schott and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>impact assessment.</cell><cell>Andersson (2014)</cell></row><row><cell>Support</cell><cell>Prevention</cell><cell>(viii)</cell><cell>Food Waste</cell><cell>Garcia-Garcia</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Management</cell><cell>et al. (2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Decision Tree.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Meal and menu</cell><cell>Derqui and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>planning process.</cell><cell>Fernandez (2017)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Using waste tracking</cell><cell>Baig et al. (2019)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and analytics tools.</cell><cell></cell></row><row><cell></cell><cell>Minimization</cell><cell>(viii)</cell><cell>Regular Waste</cell><cell>Derqui et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Audits.</cell><cell>(2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Food waste</cell><cell>Papargyropoulou</cell></row><row><cell></cell><cell></cell><cell></cell><cell>hierarchy as a</cell><cell>et al. (2014)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>framework.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Proper separation of</cell><cell>Tatàno et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>food waste in the</cell><cell>(2017)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>food sector.</cell><cell></cell></row><row><cell></cell><cell>Prevention</cell><cell>(ix)</cell><cell>Predictive analysis</cell><cell>Strotmann et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>used for machine</cell><cell>(2017)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>learning.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IoT based system</cell><cell>Minaam et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>customized for</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>kitchens.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Intelligent</cell><cell>Heising et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>packaging.</cell><cell>(2017)</cell></row><row><cell></cell><cell>Minimization</cell><cell>(ix)</cell><cell>Apps to promote</cell><cell>Cane and Parra</cell></row><row><cell></cell><cell></cell><cell></cell><cell>savings in food</cell><cell>(2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>consumption.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Connecting food</cell><cell>Muth et al. (2019)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>donors with</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>recipient.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Organizations</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>through technology</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>platform</cell><cell></cell></row></table><note><p>(continued on next page)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1</head><label>1</label><figDesc>(continued )    </figDesc><table><row><cell>Field</cell><cell>Method</cell><cell>Categ.</cell><cell>Practice</cell><cell>Authors</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Improve</cell><cell>Diaz-Ruiz et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>manufacturing</cell><cell>(2019)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>processes to</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>reintegrate products</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>within the</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>production line.</cell><cell></cell></row><row><cell>Storage</cell><cell>Prevention</cell><cell>-</cell><cell>Stock monitoring</cell><cell>Lefadola et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and rotation</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>policies.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>Time-temperature</cell><cell>Rossaint and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>indicator.</cell><cell>Kreyenschmidt</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2015)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Storage in</cell><cell>Abeliotis et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>appropriate</cell><cell>(2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>packaging.</cell><cell></cell></row><row><cell>Demand</cell><cell>Prevention</cell><cell>-</cell><cell>Cooking the right</cell><cell>Abeliotis et al.</cell></row><row><cell>control</cell><cell></cell><cell></cell><cell>amount.</cell><cell>(2016)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Monitoring surplus</cell><cell>Messner et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>food.</cell><cell>(2021)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>More precise</cell><cell>de Moraes et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>demand forecast.</cell><cell>(2020)</cell></row><row><cell>Logistics</cell><cell>Prevention</cell><cell>-</cell><cell>Intelligent food</cell><cell>Strotmann et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>logistics.</cell><cell>(2017)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Food waste tracking</cell><cell>Lefadola et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and analytics.</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Reducing food</cell><cell>Kibler et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>distance transport.</cell><cell>(2018)</cell></row><row><cell>Selling</cell><cell>Prevention</cell><cell>-</cell><cell>Minimizing buffet</cell><cell>Lagori et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>service.</cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Smaller packages.</cell><cell>Langen et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2015)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Smaller portion</cell><cell>Okumus (2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>sizes.</cell><cell></cell></row><row><cell></cell><cell>Minimization</cell><cell>-</cell><cell>Flexibility in quality</cell><cell>de Moraes et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>standards.</cell><cell>(2020)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>End of day sales.</cell><cell>Martin-Rios et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2018)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Dynamic shelf life.</cell><cell>Buisman et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2017)</cell></row></table><note><p>Note: Categories are (i) Campaigns; (ii) Communication; (iii) Training; (iv) Conscious consumption; (v) Information; (vi) Investigation/innovation; (vii) LCA/modeling; (viii) Techniques and know-how; (ix) Technological Tools.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to acknowledge the financial support of <rs type="funder">CAPES -Coordination of Improvement of Higher Education Personnel</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.jenvman.2021.112268">https://doi.  org/10.1016/j.jenvman.2021.112268</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Municipal waste reduction potential and related strategies in Tehran</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Abduli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Azimi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Environ. Res</title>
+		<idno type="ISSN">1735-6865</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="901" to="912" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Food waste prevention in Athens, Greece: the effect of family characteristics</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Abeliotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lasaridi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chroni</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0734242X16672318</idno>
+		<ptr target="https://doi.org/10.1177/0734242X16672318" />
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag. Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1210" to="1216" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Variability in commercial and institutional food waste generation and implications for sustainable management systems</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Armington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Babbitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page">104622</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Understanding and addressing waste of food in the Kingdom of Saudi Arabia</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Baig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gorski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Neff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Saudi J. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1633" to="1648" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Assessing alternative production options for eco-efficient food supply chains using multi-objective optimization</title>
+		<author>
+			<persName><forename type="first">Aleksander</forename><surname>Banasik</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kanellopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Argyris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D H</forename><surname>Claassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacqueline</forename><forename type="middle">M</forename><surname>Bloemhof-Ruwaard</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Der Vorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Jack</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10479-016-2199-z</idno>
+		<ptr target="https://doi.org/10.1007/s10479-016-2199-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainable Supply Chain Design and Management</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="341" to="362" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Food waste and losses in primary production: qualitative insights from horticulture</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beausang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Toma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2017.07.042</idno>
+		<ptr target="https://doi.org/10.1016/j.resconrec.2017.07.042" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="177" to="185" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Integrating community perspectives into domestic food waste prevention and diversion policies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Benyam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kinnear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rolfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="174" to="183" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Quantifying food losses and the potential for reduction in Switzerland</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stoessel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Baier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hellweg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="764" to="773" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Tackling the challenges of reducing and managing food waste in Mumbai restaurants</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bharucha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="639" to="649" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Discounting and dynamic shelf life to reduce fresh food waste at retailers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Buisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haijema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bloemhof-Ruwaard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpe.2017.07.016</idno>
+		<ptr target="https://doi.org/10.1016/j.ijpe.2017.07.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Econ</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="274" to="284" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Economic impact assessment of food waste reduction on European countries through social accounting matrices</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Campoy-Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Cardenete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Delgado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="202" to="209" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Digital platforms: mapping the territory of new technologies to fight food waste</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parra</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/BFJ-06-2019-0391</idno>
+		<ptr target="https://doi.org/10.1108/BFJ-06-2019-0391" />
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1647" to="1669" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Using two government food waste recognition programs to understand current reducing food loss and waste activities in the</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J C</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su10082760</idno>
+		<ptr target="https://doi.org/10.3390/su10082760" />
+	</analytic>
+	<monogr>
+		<title level="j">U.S. Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2760</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Implementing the circular economy paradigm in the agri-food supply chain: the role of food waste prevention technologies</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciccullo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cagliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bartezzaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page">105114</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Measuring the sustainable development goals (SDGs) in mining host communities: a South African case study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Broadhurst</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<publisher>Extrac. Ind.Soc. (in press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Food waste accounting along global and European food supply chains: state of the art and outlook</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="120" to="131" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Prioritizing and optimizing sustainable measures for food waste prevention and management</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cristóbal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castellani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="3" to="16" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Retail food waste: mapping causes and reduction practices</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>De Moraes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Delai</surname></persName>
+		</author>
+		<idno type="DOI">.org/10.1016/j.jclepro.2020.120124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The Sage Handbook of Organizational Research Methods</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Denyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tranfield</surname></persName>
+		</author>
+		<editor>Buchanan, D., Bryman, A.</editor>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Sage Publications</publisher>
+			<biblScope unit="page" from="671" to="689" />
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Producing a systematic review</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The opportunity of tracking food waste in school canteens: guidelines for self-assessment</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Derqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fernandez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="431" to="444" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Towards a more sustainable food supply chain: opening up invisible Waste in food service</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Derqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fayos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su8070693</idno>
+		<ptr target="https://doi.org/10.3390/su8070693" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">693</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Community participation in household solid waste reduction in Surabaya</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dhokhikah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Trihadiningrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sunaryo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indonesia. Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="153" to="162" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Food waste prevention along the food supply chain: a multi-actor approach to identify effective solutions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Diaz-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Costa-Font</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>López-I-Gelats</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Post-harvest losses of fruits and vegetables in supply centers in Salvador, Brazil: analysis of determinants, volumes and reduction strategies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dos Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M P</forename><surname>Borges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Costal E Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">O</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ramos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="161" to="170" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Every plate counts: evaluation of a food waste reduction campaign in a university dining hall</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ellison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Savchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Nikolaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R L</forename><surname>Duff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2019.01.046</idno>
+		<ptr target="https://doi.org/10.1016/j.resconrec.2019.01.046" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="276" to="284" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The qualitative content analysis process</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Elo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kyngas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Adv. Nurs</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="115" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Sustainable management of food</title>
+		<author>
+			<persName><surname>Epa</surname></persName>
+		</author>
+		<ptr target="s://www.epa.gov/sustainable-management-food/wasted-food-programs-and-resources-across-united-states" />
+		<imprint>
+			<date type="published" when="2020-11-17">2020. 17 November 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">EU actions against food waste. accesses in 17</title>
+		<ptr target="https://ec.europa.eu/food/safety/food_waste/eu_actions_en" />
+		<imprint>
+			<date type="published" when="2019-11">2019. November 2020</date>
+			<publisher>European Commission</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">A European green deal</title>
+		<author>
+			<orgName type="collaboration">European Commission</orgName>
+		</author>
+		<ptr target="https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en" />
+		<imprint>
+			<date type="published" when="2020-11-17">2020. 17 November 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Farm to fork strategy: for a fair, healthy and environmentally-friendly food system</title>
+		<author>
+			<orgName type="collaboration">European Commission</orgName>
+		</author>
+		<ptr target="http://www.fao.org/hunger/en/" />
+	</analytic>
+	<monogr>
+		<title level="m">Global Food Losses and Food Waste -Extent, Causes and Prevention</title>
+		<imprint>
+			<date type="published" when="2011">2020. 17 November 2020. 2011. 2014. 2019. August 2019</date>
+		</imprint>
+	</monogr>
+	<note>FAO FAO FAO</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Moving forward on food loss and waste reduction. Licence: CC BY-NC-SA 3.0 IGO</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note>The State of Food and Agriculture</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An exploratory study of managerial approaches to food waste mitigation in coffee shops</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Filimonau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krivcova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pettit</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhm.2018.04.010</idno>
+		<ptr target="https://doi.org/10.1016/j.ijhm.2018.04.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hospit. Manag</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="48" to="57" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garcia-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Woolley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahimifard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Colwill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Needham</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12649-016-9720-0</idno>
+		<ptr target="https://doi.org/10.1007/s12649-016-9720-0" />
+		<title level="m">A Methodology for Sustainable Management of Food Waste. Waste Biomass Value</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Environmental evaluation of municipal waste prevention</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Gentil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniele</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2011.07.030</idno>
+		<ptr target="https://doi.org/10.1016/j.wasman.2011.07.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2371" to="2379" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Food waste generation and industrial uses: a review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Girotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alibardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Raffaello Cossu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="32" to="41" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Cutting food waste through cooperation along the food supply chain</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Langen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Teitscheid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ritter</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0734242X10361507</idno>
+		<ptr target="https://doi.org/10.1177/0734242X10361507" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="256" to="268" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Addressing food waste reduction in Denmark</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Halloran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kornum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bucatariu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Magid</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodpol.2014.09.005</idno>
+		<ptr target="https://doi.org/10.1016/j.foodpol.2014.09.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Food Pol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="294" to="301" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Assessment of food waste prevention and recycling strategies using a multilayer systems approach</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Peverill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brattebø</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.5b03781</idno>
+		<ptr target="https://doi.org/10.1021/acs.est.5b03781" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="13937" to="13945" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Elements affecting food waste in the food service sector</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Heikkilä</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reinikainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Katajajuuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Silvennoinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartikainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="446" to="453" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Options for reducing food waste by quality-controlled logistics using intelligent packaging along the supply chain</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Heising</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D H</forename><surname>Claassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dekker</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/19440049.2017.1315776</idno>
+		<ptr target="https://doi.org/10.1080/19440049.2017.1315776" />
+	</analytic>
+	<monogr>
+		<title level="j">Food Addit. Contam</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1672" to="1680" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Food Losses and Waste in the Context of Sustainable Food Systems</title>
+		<author>
+			<persName><surname>Hlpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A Report by the High-Level Panel of Experts on Food Security and Nutrition of the Committee on</title>
+		<meeting><address><addrLine>Rome</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Food Security</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Analysis of household food waste reduction towards sustainable food waste management in Malaysia</title>
+		<author>
+			<persName><forename type="first">Innocent</forename><forename type="middle">A</forename><surname>Jereme</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Siwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ara</forename><surname>Chamhuri</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Begum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdul</forename><surname>Rawshan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Talib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ah</forename><surname>Basri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Er</forename><surname>Choy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Solid Waste Technol. Manag</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Waste policies gone soft: an analysis of European and Swedish waste prevention plans</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Corvellec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="322" to="332" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Sustainable management practices of food waste in Asia: technological and policy drivers</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visvanathan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jenvman.2019.06.079</idno>
+		<ptr target="https://doi.org/10.1016/j.jenvman.2019.06.079" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page" from="538" to="550" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Drivers of food waste generation: case study of island-based hotels in Langkawi</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kasavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Halim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="72" to="79" />
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Malaysia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Food waste and the food-energy-water nexus: a review of food waste management alternatives</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reinhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Motlagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="52" to="62" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Food waste in the organic recycling system and sustainable development</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kostecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garczyńska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pączka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Problemy Ekorozwoju -PROBLEMS OF SUSTAINABLE DEVELOPMENT</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="157" to="164" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Food waste reduction in school canteens: evidence from an Italian case</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lagori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Golini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="77" to="84" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The effectiveness of advice and actions in reducing food waste</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Langen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Waskow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste and Resource Management</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="72" to="86" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Food loss rates at the food retail, influencing factors and reasons as a basis for waste prevention measures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lebersorger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1911" to="1919" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A systems approach to food waste prevention in food service operations: an integrative review</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Lefadola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Viljoen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Du Rand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">African Journal of Hospitality, Tourism and Leisure</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Reducing food loss and waste</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lipinski</surname></persName>
+		</author>
+		<ptr target="http://www.worldresourcesreport.org" />
+	</analytic>
+	<monogr>
+		<title level="m">Working Paper, Installment 2 of Creating a Sustainable Food Future</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Resources Institute</publisher>
+			<date type="published" when="2013-04">2013. April 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Employees&apos; perceptions of food waste management in hotels</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Mabaso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Hewson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">African Journal of Hospitality, Tourism and Leisure</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Food waste management innovations in the foodservice industry</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Demen-Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gössling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cornuz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="196" to="206" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">From surplus-to-waste: a study of systemic overproduction, surplus and food waste in horticultural supply chains</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Messner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">123952</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Design of an Internet of Things (IoT) network system for Kitchen food waste management</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S A</forename><surname>Minaam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abd-Elfattah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Ali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Science and Network Security</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tetzlaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pmed.1000097</idno>
+		<ptr target="https://doi.org/10.1371/journal.pmed.1000097" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Preferred reporting items for systematic review and metaanalysis protocols (PRISMA-P) 2015 statement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shamseer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghersi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petticrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shekelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Rev</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2015">2015</date>
+			<pubPlace>Stewart, L.A.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Systematic reviews: rationale for systematic reviews</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Mulrow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="597" to="599" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Towards circular and more sustainable buildings: a systematic literature review on the circular economy in the built environment</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Munaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Tavares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brangança</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A focus on the state of the art of food waste/losses issue and suggestions for future researches</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Muriana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="557" to="570" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A systems approach to assessing environmental and economic effects of food loss and waste interventions in the United States</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Birney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cuéllar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Galloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gephart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Weitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zoubek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">685</biblScope>
+			<biblScope unit="page" from="1240" to="1254" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">An overview of the recent trends on the waste valorization techniques for food wastes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bhushan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jenvman.2018.12.041</idno>
+		<ptr target="https://doi.org/10.1016/j.jenvman.2018.12.041" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="352" to="370" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Wasted: How America Is Losing up to 40 Percent of its Food from Farm to Fork to Landfill</title>
+		<author>
+			<persName><surname>Nrdc</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Food waste</title>
+		<author>
+			<persName><surname>Nrdc</surname></persName>
+		</author>
+		<ptr target="https://www.nrdc.org/food-waste" />
+		<imprint>
+			<date type="published" when="2020-11-17">2020. 17 November 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">How do hotels manage food waste? evidence from hotels in Orlando</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Okumus</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/19368623.2019.1618775</idno>
+		<ptr target="https://doi.org/10.1080/19368623" />
+	</analytic>
+	<monogr>
+		<title level="j">Florida. J. Hospit. Market. Manag</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="291" to="309" />
+			<date type="published" when="2019">2020. 2019.1618775</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Food waste generation and potential interventions at Rhodes University, South Africa</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Painter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thondhlana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Kua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="491" to="497" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The food waste hierarchy as a framework for the management of surplus and food waste</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papargyropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Steinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ujang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="106" to="115" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Conceptual framework for the study of food waste generation and prevention in the hospitality sector</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papargyropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Steinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Padfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="326" to="336" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Systematic Reviews in the Social Sciences: A Practical Guide</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petticrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Roberts</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A simple awareness campaign to promote food waste reduction in a University canteen</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Dos Santos Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F S</forename><surname>Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marques-Dos-Santos Cordovil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="28" to="38" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Adopting the circular economy approach on food loss and waste: the case of Italian pasta production</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Principato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ruini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="82" to="89" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Intelligent label -a new way to support food waste reduction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rossaint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kreyenschmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste and Resource Management</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">A holistic approach to the environmental evaluation of food waste prevention</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salemdeeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Vivanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Tabbaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K H J</forename><surname>Zu Ermgassen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="442" to="450" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Potentials for the prevention of municipal solid waste</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Obersteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lebersorger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2007.02.026</idno>
+		<ptr target="https://doi.org/10.1016/j.wasman.2007.02.026" />
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="245" to="259" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Explaining and promoting household food waste-prevention by an environmental psychological based intervention study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schmidt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2016.04.006</idno>
+		<ptr target="https://doi.org/10.1016/j.resconrec.2016.04.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="53" to="66" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Where to start fighting the food waste problem? Identifying most promising entry points for intervention programs to reduce household food waste and overconsumption of food</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Matthies</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2018.07.023</idno>
+		<ptr target="https://doi.org/10.1016/j.resconrec.2018.07.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Review of food waste prevention on an international level</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste and Resource Management</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="187" to="203" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Food waste minimization from a life-cycle perspective</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Andersson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jenvman.2014.07.048</idno>
+		<ptr target="https://doi.org/10.1016/j.jenvman.2014.07.048" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="219" to="226" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Delivery and impact of household waste prevention intervention campaigns (at the local level)</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giorgi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0734242X10361507</idno>
+		<ptr target="https://doi.org/10.1177/0734242X10361507" />
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag. Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="256" to="268" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Drivers and barriers to food waste reduction</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Stangherlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>De Barcellos</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/BFJ-12-2017-0726</idno>
+		<ptr target="https://doi.org/10.1108/BFJ-12-2017-0726" />
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Identification and modelling of risk factors for food waste generation in school and pre-school catering units</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Malefors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elin Röös</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="172" to="184" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">A participatory approach to minimizing food waste in the food industry: a manual for managers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strotmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Friedrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kreyenschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Teitscheid</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su9010066</idno>
+		<ptr target="https://doi.org/10.3390/su9010066" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">66</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Effects of packaging and food waste prevention by consumers on the environmental impact of production and consumption of bread in Norway</title>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Svanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sofie</forename><surname>Oestergaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ole</forename><surname>Joergen Hanssen</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su11010043</idno>
+		<ptr target="https://doi.org/10.3390/su11010043" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Generation and collection of restaurant waste: characterization and evaluation at a case study in Italy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tatàno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caramiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tripolone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="423" to="442" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">A management framework for municipal solid waste systems and its application to food waste prevention</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tonjes</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/systems3030133</idno>
+		<ptr target="https://doi.org/10.3390/systems3030133" />
+	</analytic>
+	<monogr>
+		<title level="j">Systems</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="133" to="151" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Drivers of food waste and their implications for sustainable policy development</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tonjes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="110" to="123" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Towards a methodology for developing evidence-informed management knowledge by means of systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tranfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Denyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Manag</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="207" to="222" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">The devolution of urban food waste governance: case study of food rescue in Los Angeles</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Warshawsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cities.2015.06.006</idno>
+		<ptr target="https://doi.org/10.1016/j.cities.2015.06.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Cities</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="26" to="34" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<author>
+			<persName><forename type="first">Fao</forename><surname>Who</surname></persName>
+		</author>
+		<title level="m">Codex Alimentarius Commission -Procedural Manual. Twenty-First edition</title>
+		<meeting><address><addrLine>Rome</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">How the SDGs are implemented in China: a comparative study based on the perspective of policy instruments</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Prod. 125937 (in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Waste prevention indicators and their implications from a life cycle perspective: a review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sakai</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10163-015-0406-7</idno>
+		<ptr target="https://doi.org/10.1007/s10163-015-0406-7" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Cycles Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="38" to="56" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Can social media be a tool for reducing consumers&apos; food waste? A behaviour change experiment by a UK retailer</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barkemeyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="195" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Characterization of household food waste and strategies for its reduction: a Shenzhen City case study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Andric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag. 78. Further reading</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Meeting the food waste challenge in higher education</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Shanks</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Byker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spencer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hess</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/IJSHE-08-2017-0127</idno>
+		<ptr target="https://doi.org/10.1108/IJSHE-08-2017-0127" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Sustain. High Educ</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<title level="m" type="main">World Agriculture towards 2030/2050: the 2012 Revision</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alexandratos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bruinsma</surname></persName>
+		</author>
+		<idno>No. 12-03. FAO</idno>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Rome</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">ESA Working Paper</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Food waste management with technological platforms: evidence from Indian food supply chains</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chauhan</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su12198162</idno>
+		<ptr target="https://doi.org/10.3390/su12198162" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">8162</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Disclosure and assessment of unrecorded food waste at retail stores</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cicatielloa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Franco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Retailing Consum. Serv</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">101932</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Moving ahead from food-related behaviours: an alternative approach to understand household food waste generation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Diaz-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Costa-Font</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="1140" to="1151" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Food waste in school catering: an Italian case study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Falasconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vittuari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Politano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Segrè</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su71114745</idno>
+		<ptr target="https://doi.org/10.3390/su71114745" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="14745" to="14760" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Opening the black box of food waste reduction</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Melacini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Pol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="129" to="139" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Identifying motivations and barriers to minimising household food waste</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Graham-Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Jessop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sparks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">An ethnographic study exploring factors that minimize lunch waste in Tokyo elementary schools</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Izumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akamatsu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Carmen Byker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Shanks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fujisaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S136898001900380X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Publ. Health Nutr</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1142" to="1151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Waste reduction and recycling strategies for the in-flight services in the airline industry</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Luk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="87" to="99" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">A social innovation model for reducing food waste: the case study of an Italian non-profit organization</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Costantino</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/admsci10030045</idno>
+		<ptr target="https://doi.org/10.3390/admsci10030045" />
+	</analytic>
+	<monogr>
+		<title level="j">Adm. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Consumer&apos;s food waste in different restaurants configuration: a comparison between different levels of incentive and interaction</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Matzembacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brancoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Maia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="263" to="273" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Reducing waste and ecological impacts through a sustainable and efficient management of perishable food based on the Monte Carlo simulation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scalia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Micale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Miglietta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Toma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Indicat</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="363" to="371" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title level="m" type="main">She holds a Bachelor Degree in Environmental Engineering at UFRGS. Her current research mainly spans in food waste, environmental impacts, and public policies to reduce waste</title>
+		<imprint/>
+	</monogr>
+	<note>Natália Valmorbida Moraes is currently a Master Degree candidate for the Graduate Program in Industrial Engineering from the Federal University of Rio Grande do Sul (UFRGS)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

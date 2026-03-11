@@ -1,0 +1,2289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Digital agricultural technologies for food loss and waste prevention and reduction: Global trends, adoption opportunities and barriers</title>
+				<funder ref="#_ZKKV7Cf">
+					<orgName type="full">Social Sciences and Humanities Research Council of Canada Insight</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-09-29">29 September 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Addis</forename><surname>Benyam</surname></persName>
+							<email>abenyam@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Food Systems Lab</orgName>
+								<orgName type="institution" key="instit1">Research Fellow</orgName>
+								<orgName type="institution" key="instit2">Simon Fraser University</orgName>
+								<address>
+									<addrLine>8888 University Dr</addrLine>
+									<postCode>V5A 1S6</postCode>
+									<settlement>Burnaby</settlement>
+									<region>British Columbia</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tammara</forename><surname>Soma</surname></persName>
+							<email>tammara_soma@sfu.ca</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Food Systems Lab</orgName>
+								<orgName type="department" key="dep2">School of Resource and Environmental Management (Planning)</orgName>
+								<orgName type="institution">Simon Fraser University</orgName>
+								<address>
+									<addrLine>8888 University Dr</addrLine>
+									<postCode>V5A 1S6</postCode>
+									<settlement>Burnaby</settlement>
+									<region>British Columbia</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evan</forename><surname>Fraser</surname></persName>
+							<email>frasere@uoguelph.ca</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Director</orgName>
+								<orgName type="department" key="dep2">Department of Geography</orgName>
+								<orgName type="department" key="dep3">Environment &amp; Geomatics</orgName>
+								<orgName type="institution" key="instit1">Arrell Food Institute</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<addrLine>50 Stone Road East</addrLine>
+									<postCode>N1G 2W1</postCode>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Digital agricultural technologies for food loss and waste prevention and reduction: Global trends, adoption opportunities and barriers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-09-29">29 September 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5D0E4DCF3B0E7265F575114B3E653888</idno>
+					<idno type="DOI">10.1016/j.jclepro.2021.129099</idno>
+					<note type="submission">Received 27 April 2021; Received in revised form 14 September 2021; Accepted 17 September 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Food loss and waste Digital agricultural technologies Food production Adoption Farmers Food supply chains</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Agricultural digitization is revolutionizing food production with promises to increase both yield and environmental sustainability through the reduction of chemical inputs. However, it is unclear whether the adoption of digital agricultural technologies can also play a role in preventing or reducing food loss and waste. Examples of technologies used in food loss and waste reduction include 'smart packaging' that changes colour as food spoils, or Blockchain and radio-frequency identification tags that track information to identify potential sources of contamination along the food supply chain. Here, a systematic literature review was conducted to investigate the role of digital agricultural technologies in enabling food loss and waste prevention/reduction or lack thereof from a global perspective. To explore the digital agricultural technologies-food loss and waste dynamics, this review employed four conceptual frameworks relevant to the United Nations' Sustainable Development Goal 12 and Target 12.3 to foster responsible consumption and production patterns and to halve per capita food waste respectively by 2030. The four frameworks include (i) environmental sustainability, (ii) economic efficiency, (iii) social equity, and (iv) substantive governance and policies. The review findings demonstrate that prohibitive investment costs and the digital divide between technology adaptors limit the wide uptake of digital agricultural technologies. Where adoptions were evident, the rationale to do so was centered on boosting economic gains, reducing food production costs, and/or alleviating food insecurity. Food loss and waste prevention was rarely the principal technology adoption driver. The dynamics between digital agricultural technologies and food loss and waste prevention deserve rigorous examination to support practical policy options that invigorate sustainable food systems.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Advancement in agricultural practices is critical in light of the projected need to produce 60% more food by 2050, particularly in avoiding what Beddington termed as the "perfect storm" <ref type="bibr" target="#b8">(Beddington, 2009;</ref><ref type="bibr">Food and Agricultural Organization (FAO)</ref> &amp; The International Telecommunication Union (ITU), 2017). As Beddington argues, the 'perfect storm' scenario implies food shortages occurring amidst water and energy scarcity, climate change crisis, and growing population, subsequently leading to public unrest and international conflict. Trends in population growth are further marked by a projected demographic increase of the middle-class segment, parallel demand for growing meat consumption <ref type="bibr">(OECD, 2012)</ref>, and global population reaching a peak at 10.9 billion in 2100 (United Nations Department of Economic and Social Affairs (UNDESA), 2019). And recently, the United Nations Intergovernmental Panel on Climate Change has cautioned that the current global warming of 1.09 • C could exceed 1.5 • C and 2 • C during the 21st century unless greenhouse gas emissions are substantially reduced and decline to 'net-zero' around or after 2050 <ref type="bibr">(IPCC, 2021)</ref>. Detrimental consequences in the intervening years are inevitable in the absence of practical options aimed at adaptive and preventative actions.</p><p>Considering these challenges, the digital agricultural revolution is looming large by drawing on technology-driven farm data to increase food production and supply efficiency <ref type="bibr">(Rotz et al., 2019b)</ref>. However, in the quest to feed a growing population, the FAO estimated that a third of food produced for human consumption globally is wasted to the tune of $1 trillion, with enormous environmental impacts on already scarce water, energy, and other natural resources <ref type="bibr">(FAO, 2015b)</ref>. In connection with increasing food production, scholars have identified the quandary of pushing systemic surplus production, which leads to food loss <ref type="bibr" target="#b60">(Messner et al., 2020)</ref>. As noted by the FAO (2019) Food Loss Index, around 14% of the world's food is lost from post-harvest up tobut not including-the retail level. Therefore, increasing food production via digital agriculture to meet the needs of a growing population would be futile if food loss and waste (FLW) prevention and reduction are not addressed in parallel.</p><p>Digital agriculture is a complex processand management system that develops and timely delivers digital information to agricultural users <ref type="bibr" target="#b80">(Tebaldi and Gobjila, 2018)</ref>. There are diverse digital technologies designed fundamentally to serve the agricultural sector (e.g., farming robotics) but there are also digital solutions that are not principally designed for the agricultural sector but widely utilized in this economic domain (e.g., drones). Owing to the terminologies 'agricultural technologies', 'digital agriculture', 'digital technologies', or 'digital solutions', here digital agricultural technology (DAT) is mostly used as an umbrella term unless it was necessary to use those individual terms in their specific application for the potential prevention or reduction of FLW.</p><p>Digital agricultural technologies use novel and integrated technologies designed to enable farmers and food processors to enhance food production, improve food safety, reduce waste, and maintain economic gains <ref type="bibr" target="#b71">(Sarker et al., 2020;</ref><ref type="bibr">United Nations Global Impact, 2017)</ref>. Some examples of digital solutions in agriculture include but are not limited to: technologies identified as big data and internet-of-things (IoT) <ref type="bibr" target="#b34">(Garrett, 2017;</ref><ref type="bibr" target="#b71">Sarker et al., 2020)</ref>; food traceability technology <ref type="bibr" target="#b3">(Astill et al., 2019;</ref><ref type="bibr" target="#b11">Bosona and Gebresenbet, 2013;</ref><ref type="bibr">World Economic Forum (WEF)</ref>, 2019; and Information and Communication Technology (ICT) tools that may help food operations deliver efficiency in resource use <ref type="bibr" target="#b0">(Aker, 2011;</ref><ref type="bibr" target="#b20">El Bilali and Allahyari, 2018;</ref><ref type="bibr" target="#b88">Walter et al., 2017)</ref>. Digital technologies in food production have also been used to address efficient use of water <ref type="bibr" target="#b43">(Hunt and Daughtry, 2018;</ref><ref type="bibr" target="#b64">Nhamo et al., 2020)</ref>, and variable or precise inputs applications <ref type="bibr" target="#b23">(Finger et al., 2019;</ref><ref type="bibr" target="#b45">Iost Filho et al., 2019;</ref><ref type="bibr" target="#b54">Koutsos and Menexes, 2019)</ref> among others. There are also many claims around the socio-economic benefits of the digitization of agriculture in terms of enhancing the job profiles of farmers and farming-related professions <ref type="bibr" target="#b80">(Tebaldi and Gobjila, 2018;</ref><ref type="bibr" target="#b88">Walter et al., 2017)</ref>. Of course, there are also concerns, particularly around the social impact of DATs. For example, <ref type="bibr">Rotz et al. (2019b)</ref> indicate that the current trajectories of agricultural technology can intensify inequities for marginalized food system actors, especially between smaller farmers and agri-food corporations.</p><p>While much has been written on DAT's potential to support more sustainable farming practices <ref type="bibr" target="#b43">(Hunt and Daughtry, 2018;</ref><ref type="bibr" target="#b45">Iost Filho et al., 2019;</ref><ref type="bibr" target="#b54">Koutsos and Menexes, 2019)</ref>, and particularly on increasing yields <ref type="bibr" target="#b5">(Ayaz et al., 2019;</ref><ref type="bibr" target="#b7">Balafoutis et al., 2017)</ref>, the role of DAT on FLW reduction and prevention have not been fully explored. Except for a recent study by <ref type="bibr" target="#b16">Ciccullo et al. (2021)</ref> to identify food waste prevention technologies (broad technologies) in the agri-food supply chain that promotes a circular economy, adequate systematic review focusing particularly on the potential role of DAT in preventing and reducing FLW does not exist. This gap is problematic as the push to increase yield through DAT may result in competing priorities if not coupled with considerations around preventing and reducing waste as well as post-harvest losses. Furthermore, a range of digital technologies such as crop pest infestation monitoring, using aerial imaging technology <ref type="bibr" target="#b45">(Iost Filho et al., 2019)</ref>; wireless sensors that warn crop-damaging weather conditions <ref type="bibr" target="#b43">(Hunt and Daughtry, 2018)</ref>; or blockchain and quick response (QR) systems that trace potential contamination of food along the food supply chain <ref type="bibr" target="#b5">(Ayaz et al., 2019;</ref><ref type="bibr" target="#b18">Deichmann et al., 2016;</ref><ref type="bibr" target="#b50">Kamilaris et al., 2019;</ref><ref type="bibr">Rotz et al., 2019a;</ref><ref type="bibr" target="#b81">Tian, 2016)</ref>, have been identified in separate studies as technologies that can potentially support FLW prevention and reduction efforts. Even so, a more comprehensive accounting of diverse DAT tools and their use globally (whether directly or indirectly) to prevent and reduce FLW is lacking.</p><p>By systematically identifying DATs that can address FLW, as well as exploring the potential opportunities and barriers/externalities from these technologies, this paper can support and inform efforts toward achieving SDG's Target 12.3 of halving FLW in agriculture by 2030. This paper will also fill the gap in both FLW and DAT academic literature that have thus far not systematically explored digital technologies and their uses in the context of FLW prevention and reduction in agriculture. This review focuses on the wastage of food occurring along the food supply chain from the point of harvest/slaughter/catch up to, but not including the retail level <ref type="bibr">(FAO, 2019)</ref>. A systems framework is used to map out the potential opportunities and barriers of DATs and their adoption. The system framework applied is based on the three pillars of sustainability (environment, economy, and social considerations) <ref type="bibr" target="#b68">(Purvis et al., 2019)</ref>. The systems framework also considers the people, infrastructures, and institutions involved in activities that are relevant to FLW. Given that, a fourth pillar 'governance', is added to account for policy implications of DATs and earlier concerns raised by scholars on DAT privacy, data ownership, and more <ref type="bibr" target="#b12">(Bronson and Knezevic, 2016)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">A systems perspective to digital agricultural technology and FLW</head><p>In this review, a food system will refer to "all the elements (environment, people, inputs, processes, infrastructures, institutions, etc.) and activities that relate to the production, processing, distribution, preparation and consumption of food, and the outputs of these activities, including socio-economic and environmental outcomes" (High Level Panel of Experts on Food Security and Nutrition (HLPE), 2017, p. 11). A sustainable food system is an integral component of well-functioning socio-ecological and socio-economic systems. This conforms to Goal 12 of the United Nations '2030-Agenda: Sustainable Development Goals (SDG)' (United Nations General Assembly, 2015), which carries a compelling sustainability framework that calls for Sustainable (Responsible) Consumption and Production (SCP) across the globe. The fundamental targets of this goal underscore the need for sustainable management and use of natural resources; responsible management of chemicals and waste; halving global per capita FLW; reducing waste generation; and scientific and technological capacity building in developing economies. These premises reasonably reflect fundamental trajectories through which food systems could attain sustainability.</p><p>Food loss and waste is a symptom of inefficiency, unfairness, and unsustainability in food systems, and its prevention or reduction is crucial to attaining sustainability <ref type="bibr">(HLPE, 2014)</ref>. In a food system, the concepts and contexts underlying DAT and FLW scenarios are inextricable and multidimensional. This is due in part to the diversity of actors and factors involved in the challenges as well as opportunities to using novel technologies. On that account, a systems approach is necessary to address the "wicked problem" of FLW because FLW is multifaceted, cross-cutting, and its exact causes and effects are difficult to readily identify <ref type="bibr" target="#b63">(Närvänen et al., 2019)</ref>. As <ref type="bibr" target="#b9">Béné et al. (2019)</ref> emphasized, most conceptualizations of food systems carry a relatively linear perspective that spreads from production to consumption; however, a sustainable food system must recognize a multitude of complex and heterogeneous factors that embed both linear and non-linear feedback across food supply chains. Preventing FLW and its ensuing negative environmental impacts is therefore, an integral component of achieving cleaner food production and more sustainable and equitable food systems.</p><p>Given these premises, this review seeks to better understand the potential role of DAT in FLW prevention and reduction by conceptually applying the three-pillar of sustainability, namely the environmental, economic, and social dimensions <ref type="bibr" target="#b68">(Purvis et al., 2019)</ref>, and the lens of governance. The sections below discuss current understandings governing the DAT-FLW scenarios in light of these four dimensions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Digital agricultural technologies and environmental sustainability</head><p>Adopting digital technologies should lead to a range of agricultural and environmental benefits. The FAO's e-agriculture initiative reported several exemplary enterprises such as the 'SmartFish' program (in the global South) where mobile devices that collect and analyze data were used to identify where, why and how large post-harvest fish losses occur, and use these for future planning to avoid potential losses <ref type="bibr">(FAO, 2015a)</ref>. Technologies such as GPS, RFID, and digital simulations were used to design optimal distribution routes for food refrigeration trucks thus reducing spoilage <ref type="bibr" target="#b67">(Padilla et al., 2018;</ref><ref type="bibr" target="#b77">Springael et al., 2018;</ref><ref type="bibr" target="#b81">Tian, 2016)</ref>. The use of digital information tracking systems (e.g., blockchain) in agriculture may improve consumer awareness about the environmental characteristics and sustainability (or lack thereof) of the food produced <ref type="bibr" target="#b50">(Kamilaris et al., 2019)</ref>. For example, <ref type="bibr" target="#b37">Handford et al. (2014)</ref> reported that digital designs such as nanotechnology may contribute to precision agriculture, and therefore, more efficient use of feed additives and agrochemicals that lead to reduced agricultural waste.</p><p>Despite the potentials of these technologies to prevent or reduce FLW, the intricate design of automated and mechanized technologies may directly or indirectly drive inefficiency or even damage food products unless used carefully (Waste and Resources Action Program (WRAP) &amp; French-Brooks, 2012). For instance, in cold chain technologies, a higher storage temperature and a longer storage time (long food milage) can contribute to quality loss, leading to colour and odour deterioration as well as microbial spoilage in fresh meat products <ref type="bibr" target="#b1">(Antoniewski and Barringer, 2010)</ref>. An important aspect of using DATs for FLW prevention and reduction is also understanding the potential externalities, tensions, and competing narratives arising from their use. Digital technologies aimed at curbing food spoilage such as those that use nanotechnology-based precision farming, are less understood in the sectors (food production) outside of their original commercial or industrial domains (biomedicine) <ref type="bibr" target="#b61">(Mukhopadhyay, 2014)</ref> and also raise concerns on public perceptions of safety <ref type="bibr" target="#b38">(Handford et al., 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Digital agricultural technologies and economic efficiency</head><p>Technological advancements such as cellular or vertical agriculture have been hailed as opportunities to increase resource use efficiencies <ref type="bibr" target="#b40">(Helliwell and Burton, 2021)</ref>. Though cost-prohibitive, vertical agriculture, especially in urban settings, has the potential to maximize economic efficiency and prevent or reduce FLW by shortening harvesting and delivery time to the market <ref type="bibr" target="#b4">(Avgoustaki and Xydis, 2020;</ref><ref type="bibr" target="#b6">Babbitt et al., 2019)</ref>. However, this practice may pose threats to land-based food production systems and livelihoods that medium and small-scale farmers rely on, and who may not be able (willing) to adopt or invest in such technologies in the long run. A related hesitancy to the adoption of the technology may be due to commitments to long-standing sociocultural concepts or practices such as sense of place i.e., place attachment and place identity <ref type="bibr" target="#b39">(Harrington, 2018;</ref><ref type="bibr" target="#b78">Storie et al., 2019)</ref> that farmers develop in connection to food production and their agroecological surroundings.</p><p>Agroecological-oriented farming has long-standing potentials to improve food production efficiency and reduce waste and pollution at the landscape level <ref type="bibr">(FAO, 2017a)</ref>. Thus, new technologies may drive fear of losing identity from potential abandonment of local cultures or traditional ecological knowledge that is deeply embedded in farming practices of agrarian communities.</p><p>Underscoring other economic efficiency roles, digital systems like unmanned aerial vehicles (UAVs) are widely used to devise loss prevention plans through timely and scientifically reliable information of hazard impacts in flood-prone areas <ref type="bibr">(FAO &amp; ITU, 2018)</ref>. Nevertheless, aerial imaging systems have been criticized for lacking granularity in detecting, for instance, individual pieces of fruit left in the field post-disaster, which is commonly evident with manually picked fruit and vegetable crops <ref type="bibr" target="#b21">(Ellison et al., 2019)</ref>. Very little is also known as to what extent DATs can address market conditions that lead farmers to dispose of edible food and/or leave their crops un-harvested, especially when the market price of food is lower than the cost of production <ref type="bibr" target="#b30">(FoodPrint, 2020;</ref><ref type="bibr" target="#b76">Soma et al., 2021)</ref>. Food loss in farms also occurs due to long-standing systems in which consumers demand consistent volumes of perfect produce, but growers bear the risk by absorbing fluctuations in yield and quality in the form of unsold food <ref type="bibr" target="#b36">(Gillman et al., 2019)</ref>. Past interventions tended to focus on automated and technical solutions to farm issues, whilst largely ignoring diverse market factors that shape the agricultural system (World Wide Fund for Nature-United Kingdom (WWF-UK), 2021).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Digital agricultural technologies and social equity</head><p>With regards to the social aspects, there are diverse routes to deliver food products to the market or market intermediaries. With the advent of technologies such as digital platforms, farmers have the potential to bypass intermediaries and connect directly to restaurants, retailers, and consumers, thus mitigating potential food losses occurring post-harvest (FAO, 2017b). <ref type="bibr" target="#b18">Deichmann et al. (2016)</ref> have similarly reported that in countries like Indonesia, information exchanged via social networks can serve as early warning tools of emerging disasters that can impact farmers; however, extracting these early signs requires expert knowledge and processing large amounts of data that entail sophisticated analytic tools (e.g., Big Data analysis). Another factor that has contributed to FLW for farmers is the labour shortage. For instance, in the USA, due to national immigration policies, farmers who lack mechanical methods and depend on seasonal hand labour to harvest their crops, continue to see labour shortages and risk crop losses as a result <ref type="bibr">(California Farm Bureau Federation, 2017)</ref>. Moreover, recently in Canada, the Covid-19 related travel restrictions have caused farm labour shortages, forcing farmers to discard harvests and incur increased expenditures to keep products on farms <ref type="bibr" target="#b49">(Jones, 2020;</ref><ref type="bibr" target="#b53">Killawee, 2020;</ref><ref type="bibr" target="#b74">Sheldon, 2020)</ref>.</p><p>The digitalization of food production is fast becoming a consideration to avoid issues around labour instability. However, while automation may lead to a reduction in losses and less reliance on migrant workers, it does not address the deep-rooted issues that advance the exploitation of migrant workers' labour or the economic regimes that have resulted in the push for migration <ref type="bibr" target="#b89">(Weiler et al., 2016)</ref>. As such, understanding both the political economy of farm work, along with farmers' perspectives on this issue, is important before selecting and implementing specific technologies for sustainable food production systems <ref type="bibr" target="#b58">(McNamara and Tata, 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Digital agricultural technologies and governance</head><p>There are also limits to how far DATs can be utilized to address potential FLW prevention or reduction in agriculture and rural economies. Trade relations, customs, and governance issues in food production (i.e., political economy) are some factors that limit the extent to which digitalization can support farmers' and food growers' interests, especially marginalized peoples in the developing economies <ref type="bibr">(Rotz et al., 2019b)</ref>. Inadequate legislative frameworks, price incentives, and subsidies also promote excess food products that contribute to FLW <ref type="bibr">(FAO, 2017a;</ref><ref type="bibr">HLPE, 2014)</ref>. There is also strong evidence suggesting that the globalization of food production has contributed to high prospects of worldwide incidents involving contamination and subsequent wastage <ref type="bibr" target="#b86">(van Gogh et al., 2017)</ref>. In that regard, sourcing agricultural staples from less-developed countries i.e., long-distance trade, has been reported to contribute to FLW <ref type="bibr" target="#b31">(FUSIONS, 2014)</ref>. Governments face various challenges with regulatory and administrative matters concerning DATs. Some of these challenges are attributable to the lack of financial resources; data ownership and control issues; technology design and development; and data privacy and confidentiality <ref type="bibr">(OECD, 2012;</ref><ref type="bibr">Rotz et al., 2019b)</ref>.</p><p>Notwithstanding the promises (and perhaps practical contributions),</p><p>investigating FLW prevention and reduction mechanisms is a continuing challenge in a world where, planned (command), free, and mixed market economies co-exist. The challenge is compounded when digital technologies are developed to push an increase in food production when largely sufficient food (but not necessarily fully accessible) is already produced to feed more than 9.3 billion people <ref type="bibr" target="#b56">(Lipinski et al., 2013)</ref>. As such, it is important to consider if certain solutions potentially create more problems or unintended consequences. Several questions remain unanswered at present and there is abundant room for further review in determining whether DATs could make significant and equitable contributions in curbing the FLW crisis in agriculture across the globe.</p><p>Table <ref type="table" target="#tab_0">1</ref> below provides a summary of FLW prevention and reduction potentials of DATs relevant to the four dimensions discussed above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Review methodologies</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Scope of the review</head><p>In this systematic literature review, the agricultural sector is the main food supply chain of interest. Agriculture embodies a considerable level of footprint in terms of resource consumption (e.g., land, water, energy, fertilizers) for food production. As agriculture is a very broad concept, the review has narrowed down its focus by adopting and expanding on the DAT-FLW concepts and circumstances identified in the four dimensions presented from sub-section 2.1 to 2.4, Table <ref type="table" target="#tab_1">2</ref>, and Table <ref type="table" target="#tab_2">3</ref>. As discussed at the beginning of Section 2, these dimensions are environmental sustainability, economic efficiency, social equity, and governance/policy frameworks. These dimensions fundamentally resonate with a whole systems approach to sustainability. A proper account of the complex relationships inherent in a whole system is indispensable in helping uncover the opportunities and challenges underlying the DAT-FLW scenarios. To further inform the structure of the review, Fig. <ref type="figure" target="#fig_0">1</ref> below illustrates the key concepts utilized from each of the four dimensions.</p><p>Subsequently, the review was carried out by incorporating the most commonly recognized agricultural operation components through which food is produced or farmed and supplied. These are the production, harvesting (collection), storage, transportation, and marketing segments, excluding the retail stage. The use of DATs for FLW prevention and reduction, as they apply to each of these agricultural segments, are presented in Table <ref type="table" target="#tab_6">4</ref> in the results section. Premising the review on the four dimensions was relevant to demonstrate the unique, as well as interrelated potential opportunities and barriers DATs manifest in FLW prevention or reduction under each of the segments. In all five stages, both direct and indirect FLW contributors and prevention/ reductions factors were considered. Both pre-and post-harvest FLW inherent to the agricultural sector were also reviewed.</p><p>It is noteworthy that a complete elimination (prevention) of FLW is less likely across all agricultural practices; therefore, in this review, reduction is a vital aspect of the FLW-DAT scenario. The review also excludes food recycling (e.g., composting, animal feed, waste-to-energy) or other diversion aspects of FLW. Also imperative is that the components of drivers and definitions of FLW were not consistent across the materials reviewed, and there were several instances where 'food loss' and 'food waste' were used interchangeably. For this review, therefore, FLW refers to both loss and waste as they occur in the agricultural food supply chain.</p><p>Furthermore, the scope did not principally centre on FLW that occurs at food processing, retail, and/or consumption stages. Comparison of DAT applications in the conventional versus sustainable agriculture also falls outside the scope of this review. Most importantly, this paper is not intended to make a comparative synthesis of DAT-FLW scenarios in the global North and global South. It is rather focused on providing a diversity of insights and factors influencing the potential opportunities and barriers to DAT use for FLW prevention and/or reduction from various global accounts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Literature coding and analyses</head><p>The search for appropriate literature begun by using keywords contained in the topic of this review. Words and phrases used include 'digital agricultural technology (ies) and food loss prevention'; 'digital technologies and post-harvest loss reduction'; 'agricultural technologies and food loss or waste reduction'. Other search attempts also include The main database and search engine tools used for literature gathering were Scopus, Web of Science, ScienceDirect, Connected Papers, Google Scholar, and Google. Contents in the abstracts, keywords, subject matters, literature reviews, main findings, and conclusions were scanned thoroughly. A wide array of resources was screened constituting original case studies and literature reviews from a global perspective. A decision on a 'sufficient' number of resources gathered for the review was determined when similar DATs and their uses appeared to be the focus of the studies repeatedly and as new concepts and implications on FLW prevention became less evident. A total of 45 papers were reviewed in the current review and includes those where DATs contribute either directly or indirectly to FLW prevention and/or reduction. For illustration purposes, Table <ref type="table" target="#tab_1">2</ref> provides a list of studies (n = 24) where DATs were determined to show potentially direct contribution to FLW prevention and/or reduction. Additional papers (n = 21) were also included for their indirect and/or implied contributions to FLW prevention and reduction (Table <ref type="table" target="#tab_2">3</ref>). The largest proportion of the literature in Table <ref type="table" target="#tab_1">2</ref> comprised empirical studies, followed by grey literature (reports, government documents, white/working papers, independent studies, industry periodicals, etc.), online books, and book chapters. It is worth mentioning that most of the studies were internationally focused and even so, the largest proportion represent case studies in African and Southeast Asian countries. This could be attributed to the prevalence of FLW research in the agricultural sector in developing economies compared with their developed counterparts <ref type="bibr" target="#b48">(Johnson et al., 2018)</ref>.</p><p>Next, as shown in Table <ref type="table" target="#tab_2">3</ref>, the studies were assessed and then manually coded based on the whole systems conceptual framework i.e., coding linked to more potential meanings that are inductive and reflective <ref type="bibr" target="#b52">(Kiger and Varpio, 2020;</ref><ref type="bibr" target="#b65">Nowell et al., 2017)</ref> of the DAT-FLW dynamics. The materials were then organized in terms of the following: 1) a range of purposes the DATs were applied for, 2) their potential direct and or indirect contributions and implications to FLW prevention or reduction, and 3) the umbrella themes of sustainability (systems dimensions) the studies potentially signify. The types of DATs discussed in the papers are also identified. Manual coding was selected by the authors due to the relatively small sample of relevant articles (N = 45) tackling this issue. Similarly, Fig. <ref type="figure" target="#fig_2">2</ref> provides an illustrative example of some DATs, their potential contributions to FLW reduction or prevention, and how this may apply to the five food production segments. This approach was employed mainly to demonstrate the extent to which existing literature on DATs potentially address FLW prevention/reduction topics as important issues in agricultural practices.</p><p>Subsequently, the use of DATs was explored and analyzed in the context of their potential benefits (opportunities) of and barriers/challenges to FLW prevention and/or reduction, as well as their applicability to each of the four dimensions of a whole system corresponding to the five farming segments outlined in section 3 (i.e., production, harvesting, storage, transportation, and marketing). The review results demonstrating this process are provided in Table <ref type="table" target="#tab_6">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Review limitations</head><p>A few caveats need to be noted regarding the present paper. First, because of the limited number of extensive research previously done on DATs that are explicitly designed for FLW prevention or reduction, the potential opportunities, and challenges presented in this review are corollary to the purpose for which those technologies were principally designed. As this paper is a review-based investigation of the DAT-FLW scenarios, the authors acknowledge the need for a comprehensive empirical study on the topic. Having considered the current benefits and limitations of the DATs however, it was reasonable to review how their direct or indirect roles manifest in FLW prevention and reduction.</p><p>Secondly, the number of materials reviewed (N = 45), might have appeared minimal. This is attributable to the selective approach the authors employed to find literature about DATs that are directly related to DAT and FLW, particularly in the upstream i.e., food production supply chain. This is not, however, an uncommon constraint related to topics of similar nature. A recent study by <ref type="bibr" target="#b21">Ellison et al. (2019)</ref> also revealed that technological solutions to collect data and document information on FLW were difficult to find at the production supply chain.</p><p>Lastly, a significant number of the reviewed materials concentrate on digital technologies (and FLW reduction) in the domains of crop productions, but not so in livestock production or fishery. Due to this limitation, the review did not evaluate the use of DATs for FLW prevention across those food production sectors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head><p>The types of food and the causes of their loss and/or waste on farms vary substantially across the different stages of food production and/or farming systems. Numerous and yet distinct DATs were seen as applicable to each of the agricultural stages. Accordingly, Table <ref type="table" target="#tab_6">4</ref> provides a summary of the findings from the literature reviewed as outlined in Tables <ref type="table" target="#tab_1">2</ref> and <ref type="table" target="#tab_2">3</ref>. The findings are mapped into the four conceptual dimensions of environmental sustainability, economic efficiency, social equity, and substantive governance and policies.</p><p>As demonstrated in Table <ref type="table" target="#tab_6">4</ref> above, the potential opportunities and barriers identified under each dimension of the agricultural segments, are interrelated and at times distinct, depending on the scope of the studies reviewed and DATs utilized (e.g., digital platforms facilitate market information in food sales transactions hence economic efficiency and contributions to environmental sustainability). These scenarios signify the complexity of factors involved in the DAT-FLW dynamics. Overall, the review findings reveal the following potential opportunities and barriers (gaps) to DAT uses for FLW prevention and/or reduction in agriculture, as well as some research discrepancies:  <ref type="bibr" target="#b82">Trendov et al., 2019)</ref>; (World Bank Group, 2019); <ref type="bibr" target="#b10">(Berti and Mulligan, 2015)</ref>; <ref type="bibr" target="#b67">(Padilla et al., 2018</ref>) <ref type="bibr" target="#b3">(Astill et al., 2019)</ref>; <ref type="bibr" target="#b5">(Ayaz et al., 2019)</ref>; <ref type="bibr" target="#b7">(Balafoutis et al., 2017)</ref>; <ref type="bibr" target="#b11">(Bosona and Gebresenbet, 2013)</ref>; <ref type="bibr" target="#b23">(Finger et al., 2019)</ref>; <ref type="bibr" target="#b35">(Gebbers and Adamchuk, 2010)</ref> 12 Total 15 9 24</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">DAT and spillover effect</head><p>The multifaceted drivers of FLW mean that a one-size-fits-all solution does not exist. As evidenced in Table <ref type="table" target="#tab_6">4</ref>, a diversity of DATs can tackle various aspects of FLW prevention and reduction through indirect means. A DAT may principally be used to tackle a separate issue but also have a positive spillover effect on FLW. For example, DATs in the communications sector that can connect farmers with consumers may, therefore, reduce the need for a long-distance food supply chain and multiple intermediaries. These types of DATs may support a key FLW driver around the issue of food price being too low in comparison to the cost of production, and therefore strengthen farmers' autonomy to better determine prices. The spillover effect is that less food would then be left on the field to rot <ref type="bibr" target="#b76">(Soma et al., 2021)</ref>. Another spillover effect may be driven by the contribution of precision technologies that seek to improve the quality of crops. Better quality crops or food have higher potentials of being accepted by buyers and may also fare better in storage. The use of DAT for FLW prevention and reduction also has a spillover effect on pollution prevention as it reduces not only the wastage of food but also excessive uses of agricultural inputs such as chemical pesticides and fertilizers. In developing economies if DATs were to have wider adoption by medium and small-scale farmers, there are promising potentials to reduce post-harvest losses that are mostly chronic to resource-intensive practices across all the segments of agriculture. Despite some challenges related to technology access, ICT-based platforms (IoTs, mobile phones) and UAVs (drones) <ref type="bibr" target="#b18">(Deichmann et al., 2016;</ref><ref type="bibr">FAO and ITU, 2018;</ref><ref type="bibr" target="#b32">Garcha, 2017;</ref><ref type="bibr" target="#b83">Tsan et al., 2019)</ref> have shown to be the most popular and practical tools to preventing post-harvest losses and getting agricultural products to the market, thus reducing potential FLW. In most developed economies, real-time and sensor-based technologies (e.g., precision technologies, RFID) <ref type="bibr" target="#b3">(Astill et al., 2019;</ref><ref type="bibr" target="#b11">Bosona and Gebresenbet, 2013;</ref><ref type="bibr" target="#b23">Finger et al., 2019;</ref><ref type="bibr" target="#b35">Gebbers and Adamchuk, 2010)</ref>, were the most widely used DATs that boost yield productivity and marketability, preventing FLW on farms and beyond. However, as with any positive spillover effect in FLW prevention and reduction, it is also critical to recognize and explore the potential  <ref type="bibr" target="#b3">(Astill et al., 2019)</ref>, <ref type="bibr" target="#b11">(Bosona and Gebresenbet, 2013)</ref>, (World Bank Group, 2019), (Environment and Climate Change Canada (ECCC), 2019), (World Economic Forum (WEF), 2018), <ref type="bibr" target="#b81">(Tian, 2016)</ref>, <ref type="bibr" target="#b79">( Suprem et al., 2013)</ref>, <ref type="bibr" target="#b71">(Sarker et al., 2020)</ref>, <ref type="bibr" target="#b50">(Kamilaris et al., 2019</ref>) The use of real-time and up-to-date digital information on crop growth, safety, and nutrition to enhance productivity, cultivation equipment efficiency, and prevent crop loss e.g., UAVs/drones, Cloud-computing, GIS Environmental sustainability; economic efficiency <ref type="bibr" target="#b5">(Ayaz et al., 2019)</ref>, <ref type="bibr" target="#b43">(Hunt and Daughtry, 2018)</ref>, (Garcia Millan and Sanchez-Azofeifa, 2020); (FAO &amp; ITU, 2018) Statistical modelling of supply chains to reduce post-harvest loss by preventing respiration from crops during logistics e.g., genetic algorithm (MATLAB optimization toolbox), gas sensors Environmental sustainability; economic efficiency Chandrasekaran &amp; Ranganathan (2017) Statistical modelling of agricultural technology investment options to eliminate food loss by factoring in the volume of losses and socioeconomic determinants of losses e.g., GIS, Information and Communications Technology (ICT) Environmental sustainability; economic efficiency; social equity; substantive governance Kc et al. (2016) Transport route simulation to avoid routes that cause intense vibration of load helps prevent post-harvest loss of perishable food e.g., Accelerometer sensor, GoPro video camera, MATLAB Environmental sustainability; economic efficiency (Springael et al., 2018), (Padilla et al., 2018) The use of digital devices and platforms in rural agriculture as enablers of market price information exchange; supply chain coordination and transparency; and early warning system communication on extreme weather conditions, disease outbreaks, forest fire detection, &amp; flood alerts to help reduce post-harvest loss and waste elimination from lost sales e.g., ICT, RFID tags, remote sensors, drones, artificial intelligence Environmental sustainability; economic efficiency; social equity; substantive governance <ref type="bibr" target="#b18">(Deichmann et al., 2016)</ref>, <ref type="bibr" target="#b47">(Jensen, 2007)</ref>, <ref type="bibr" target="#b10">(Berti and Mulligan, 2015)</ref>, <ref type="bibr" target="#b2">(Asad, 2016)</ref>, <ref type="bibr" target="#b62">(Murray and Koehring, 2018)</ref>, <ref type="bibr" target="#b83">(Tsan et al., 2019)</ref>, <ref type="bibr" target="#b80">(Tebaldi and Gobjila, 2018)</ref>, <ref type="bibr" target="#b45">(Iost Filho et al., 2019)</ref> The use of precision agriculture to reduce GHG emissions, yield loss (FLW), and agricultural waste, by using real-time sensor-based technologies, and thereby improve food security, farm management, and environmental benefits e.g., Variable rate nutrient application, drones, Blockchains Environmental sustainability; economic efficiency; social equity; substantive governance <ref type="bibr" target="#b7">(Balafoutis et al., 2017)</ref>, <ref type="bibr" target="#b23">(Finger et al., 2019)</ref>, <ref type="bibr" target="#b35">(Gebbers and Adamchuk, 2010)</ref>, <ref type="bibr" target="#b82">(Trendov et al., 2019)</ref>, <ref type="bibr" target="#b55">(Krishnan et al., 2020)</ref>, <ref type="bibr">( Rotz et al., 2019b)</ref>, <ref type="bibr" target="#b19">(Eastwood et al., 2012)</ref> Technology-enabled farming transformations to increase efficiency in supply chains, reduce food spoilage, eliminates pesticide use, and better treatment of plant disease e.g.</p><p>, Vertical/urban farming, nanotechnology, artificial intelligence, 3D food printing Environmental sustainability; economic efficiency; social equity; substantive governance (De Clercq et al., 2018), (FAO &amp; ITU, 2017), Technology-based produce coating to reduce respiration and food spoilage and the use of digital platforms to enable the fast sale of short-dated, surplus, and time-sensitive food items e.g., Nanotechnology, mobile apps, web-based portals Environmental sustainability; economic efficiency; substantive governance (Garcha, 2017), (Handford et al., 2015) Collaborations between technology providers and adopters to advance the circular economy for effective use of FLW prevention technologies and sustainable agri-food supply chain management e.g., Remote sensors, weather forecasting systems, bio-stimulants Environmental sustainability; economic efficiency; social equity; substantive governance Ciccullo et al. (2021) The potentials of agricultural extension programs to enable harmonization of innovative agricultural technologies with farmers' traditional knowledge for effective post-harvest FLW reduction e.g., ICT, drones Environmental sustainability; economic efficiency; social equity; substantive governance (McNamara and Tata, 2015), (Aker, 2011), (Nhamo et al., 2020), (El Bilali and Allahyari, 2018) Technology-enabled siting of post-harvest cold storage space that considers essential features of production (e.g., distance) to reduce post-harvest losses e.g., Cold chain, Remote sensing, GIS mapping Environmental sustainability; economic efficiency; social equity; substantive governance (Vijjapu et al., 2019), (FAO, 2019), (FAO, 2015a)</p><p>negative spillover effect and externalities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Barriers in adoption for FLW prevention and reduction</head><p>The factors influencing FLW on farms are inherently diverse and variable. This makes post-harvest loss or waste reduction efforts considerably complex. That is, very little is explored about how the different DAT adoption opportunities, as well as barriers, could be accounted for in FLW reduction achievements. As noted above, the review found that DATs were not principally used and adopted predominantly for FLW reduction purposes. Rather, the potential opportunities around FLW prevention/reduction are mainly indirect and have positive ripple effects. The review revealed that poor or underdeveloped infrastructure was the most notable hurdle for DATs' adoption <ref type="bibr" target="#b23">(Finger et al., 2019;</ref><ref type="bibr" target="#b51">Kc et al., 2016;</ref><ref type="bibr" target="#b62">Murray and Koehring, 2018;</ref><ref type="bibr" target="#b83">Tsan et al., 2019)</ref>, especially in developing economies. It also appears that the rationale for farmers' (farms') adoption of DATs was mainly for economic reasons i. e., minimizing costs and maximizing return on agricultural investment and competitiveness above and beyond what they would normally do under less digitized farming systems <ref type="bibr" target="#b2">(Asad, 2016;</ref><ref type="bibr" target="#b18">Deichmann et al., 2016;</ref><ref type="bibr" target="#b47">Jensen, 2007;</ref><ref type="bibr" target="#b62">Murray and Koehring, 2018;</ref><ref type="bibr" target="#b77">Springael et al., 2018;</ref><ref type="bibr" target="#b87">Vijjapu et al., 2019)</ref>. As such, targeting FLW prevention and reduction is not necessarily considered a priority, although it may indirectly assist in improving economic returns for farmers and contribute to positive environmental outcomes.</p><p>From a social perspective, despite DATs' potential role in postharvest loss reduction, farmers', especially smallholders' willingness to adopt them could be contentious. This would be a key concern unless positive returns on the farm economy, social equity, and agroecological preservation are warranted. In particular, the social equity and cultural dimension of FLW in agriculture and how these can be integrated into DAT designs are not comprehensively explored. Much of the technology designed are yet to meet the specific needs and competencies of the technology adopters, particularly smaller farmers in developing economies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Gap in empirical (qualitative or quantitative) studies on DAT's impact on FLW prevention and reduction</head><p>The majority of relevant studies/reports on digital technologies focus on post-harvest loss reduction <ref type="bibr" target="#b2">(Asad, 2016;</ref><ref type="bibr">FAO, 2019;</ref><ref type="bibr" target="#b62">Murray and Koehring, 2018;</ref><ref type="bibr">World Bank Group, 2019)</ref>. Among the academic literature reviewed, a recent empirical study by <ref type="bibr" target="#b16">Ciccullo et al. (2021)</ref> explored the role of technologies (broadly) with 34 technological providers in agriculture and other food supply chains, in the context of supporting a circular economy. More often than not, however, studies focused on FLW and digital technologies in agriculture are by and large review works. There appears to be a dearth of empirical academic research and in-depth quantitative estimates and qualitative assessment on the role of DAT on FLW reduction. This gap is contrasted by numerous DAT studies that provide quantitative measurement on water use, input use, or measured yields pre-and post-DAT adoption <ref type="bibr" target="#b7">(Balafoutis et al., 2017)</ref>.</p><p>Due to such research gaps, the present paper categorized the opportunities as "potential opportunities" barring further research. Also insufficient are evidence-informed policy measures and/or implications of DAT in contributing toward the SDGs 12 Target 12.3. Views on the technologies' usefulness in agricultural FLW prevention are mostly broad-brush and ancillary. A rather strong emphasis on DAT and FLW was eminent in the grey literature <ref type="bibr" target="#b10">(Berti and Mulligan, 2015;</ref><ref type="bibr" target="#b17">De Clercq et al., 2018;</ref><ref type="bibr" target="#b82">Trendov et al., 2019)</ref>. Even so, most of these publications focus largely on countries with developing economies, where climate change-induced post-harvest losses, food insecurity, and underdeveloped infrastructure drive the push to introduce or adopt DATs. Regulatory uncertainties or policy efficiency concerns are the less explored aspects of the adoption issues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Environmental sustainability</head><p>Strategies to attain sustainable farming may consider the integration of technologies for FLW prevention or reduction. In an Indian study, <ref type="bibr" target="#b47">Jensen (2007)</ref> reported that waste averaging 5%-8% was eliminated with the introduction of ICT devices (mobile phones) in fishing markets. Fishermen's profit also increased on average by 8% and consumer price declined by 4% <ref type="bibr" target="#b47">(Jensen, 2007)</ref>. <ref type="bibr" target="#b67">Padilla et al. (2018)</ref> reviewed food transportation scenarios and simulated optimum transport route, distance, and road conditions for fruits and vegetables. Their assessment showed a potential decrease in crop damage and perishability between 2.2% and 4.2%. Similarly, <ref type="bibr" target="#b77">Springael et al. (2018)</ref> performed a transport route simulation for Belgian apple growers and showed an estimated industry profit of €250 to €1500 thousand from a potential reduction in vibration damage during postharvest transportation.</p><p>Profit generation by avoiding FLW is critical for improving economic outcomes in agriculture and allowing farmers to produce enough food to meet increasing food demands. However, the findings from the review suggest that research on adopting FLW prevention technologies have tended to focus more on cost minimizations and economic gains rather than actual FLW prevention/reduction and other sound environmental outcomes. A comprehensive review on food loss conducted by <ref type="bibr" target="#b66">Paam et al. (2016)</ref>, has shown trends where profit maximization objectives transcend loss and waste minimizations in business modelling for agri-fresh food supply chains. It is noteworthy that profit is not a proxy Table 4 Potential Opportunities and Barriers in Applying DAT for FLW Reduction/Prevention at each Agricultural Segment.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Potential opportunities Potential barriers Production (cropping/farming):</head><p>• Growing interests in governments to integrate information communication technologies into agriculture strategies, potentially reduces FLW • Technology-aided government subsidies and tax reductions on climate resilient crop diversity contribute to pre-and post-harvest loss reduction and enhance food security</p><p>• Regulatory uncertainties related to data inputs, storage, privacy, cybersecurity, and access to pooled data, mostly favouring big agri-businesses • Social acceptance uncertainties toward new food production technologies, considering them harmful to humans and the environment Harvest:</p><p>• Real-time information and historical data on disease, climate-related harvest damage help future planning and mitigation strategies to prevent losses</p><p>• Historic data could be less useable during unprecedented weather condition and farmspecific incidents</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Storage and Transportation:</head><p>• Regulatory standards on food safety and quality during storage and transportation prompt food producers to reduce potential FLW • Government investment on basic infrastructure (road, cold chains) protects crop damage during storage and transportation for sustainable food production. Gaining economic returns to the detriment of the environment is counterintuitive to sustainable food systems.</p><formula xml:id="formula_0">•</formula><p>Concerns of competing priorities are inevitable, namely that digitally-driven productivity could incite substantial interest to venture into the agricultural economy, potentially leading to further resource overexploitation and pollution, especially in financially strapped economies in developing nations. Automated and controlled application of chemical fertilizers, notably precision farming, limits the amount of chemical fertilizer conventional agriculture heavily relies on <ref type="bibr" target="#b62">(Murray and Koehring, 2018;</ref><ref type="bibr" target="#b82">Trendov et al., 2019;</ref><ref type="bibr">World Bank Group, 2019)</ref>. Yields can grow enough to increase profit margins despite high operating costs related to the technology <ref type="bibr" target="#b82">(Trendov et al., 2019)</ref>. Even so, the insidious aspects of variable rate (precise) application such as chemicals runoff (despite slow releases), generate agrochemical residues in the event of a flood, crop failure, or loss. Meaning, precision farming could thwart progress towards cleaner food production in a closed-loop system i.e., sustainable agriculture or food system that produces its inputs like fertilizer from livestock and manages its outputs such as crop waste and manure, making waste less prevalent <ref type="bibr" target="#b30">(FoodPrint, 2020)</ref>. All these scenarios seem to suggest that technological innovations could play crucial roles in FLW prevention or reduction. However, digitizing food production without the corresponding FLW prevention or reduction considerations may, therefore, be viewed as a competing priority.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Economic efficiency across food supply chains</head><p>Efficiency and coordination in food supply chain systems essentially play a pivotal role in preventing FLW. For instance, industrialized nations have high penetration rates of cold chain technology and integrated systems between farmers and food supply chains, servicing highend markets with strict food quality and food safety standards <ref type="bibr" target="#b86">(van Gogh et al., 2017)</ref>. Trackability of information such as food safety (e.g., using Blockchain technology) throughout the food supply chains is an integral part of food production. The relatively more accessible digital technologies such as mobile phones and the internet have also allowed smaller supply chains to enter the agroindustry <ref type="bibr" target="#b10">(Berti and Mulligan, 2015;</ref><ref type="bibr" target="#b14">Cane and Parra, 2020;</ref><ref type="bibr" target="#b51">Kc et al., 2016)</ref> and also shortened the distance between food chain actors across the supply chain <ref type="bibr" target="#b20">(El Bilali and Allahyari, 2018)</ref>. World Economic Forum (2018) has done some estimation of DATs and their contribution towards FLW reduction. Examples include the potentials of food sensing technologies to reduce waste by 5%-7%, IoT and blockchain-enabled traceability to reduce food loss by up to 35 million tonnes and 30 million tonnes respectively, and mobile service delivery to farmers in developing countries to reduce food loss by 2%-5%. However, more peer-reviewed empirical studies are needed, particularly randomized controlled trials and qualitative evidence from farmers. Moreover, both positive and negative spillover effects, distinctive to a diversity of farming processes, should also be considered.</p><p>Evidently, the use of DATs in food production (i.e., upstream) as well as processing, retail, and consumption (downstream) supply chains, does not come without its risks. <ref type="bibr" target="#b72">Sethi et al. (2020)</ref> reported that cutting FLW at the farm level increases production; however, a cascading waste generation effect was observed in the rest of the downstream supply chains. This paradoxical result was also noted by <ref type="bibr" target="#b51">Kc et al. (2016)</ref> such that as low-income countries experience growth and address on-farm food loss, the same countries may experience more food waste at the consumer and retail levels, probably due to an abundance of supply. The functionality of some digital technologies is not short of drawbacks. <ref type="bibr" target="#b90">Wen et al. (2018)</ref> reported some negative and positive results from the use of IoT systems (RFID tags) in Chinese restaurants' food waste management study. Notable limitations were increased operating costs due to frequent needs to renew RFID tags, higher errors from weight sensors than from manual measurement methods, and disagreement between local government departments on data interpretation from the system itself.</p><p>Technology investment decisions are also issues that present complex challenges for all actors across the food supply chain. For instance, farmers will not invest in technology to reduce loss if the resulting benefits do not accrue to them but rather to actors further down the supply chain <ref type="bibr">(FAO, 2019)</ref>. Downstream stages of the food supply chain are well-positioned to potentially exploit the greater benefits (e.g., on-farm refrigeration to extend the shelf-life of fruits, vegetables, meat) as well as better inventory planning to respond to market demands <ref type="bibr" target="#b16">(Ciccullo et al., 2021)</ref>. For instance, in livestock production, the shelf-life of meat is affected by aspects that are present before cattle slaughter like breed, diet, and the stresses the animal may have been be exposed to <ref type="bibr" target="#b1">(Antoniewski and Barringer, 2010)</ref>. This in turn affects (or accelerates) perishability at the retail level. The issue, in this case, has to do more with improving animal welfare. What appears critical is therefore, how efficiently and effectively actors along the food value chain coordinate themselves to utilize digital technologies without compromising their individual interests, as well as collective contributions to curb agricultural FLW.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Social equity and viability of technology adoption</head><p>Numerous opportunities and practical applications that encourage wider adoption of DATs have been evident, both in developed and growing economies. Digital agricultural technologies can be integrated and tailor-made to effectively target the goals connected to FLW reduction <ref type="bibr" target="#b16">(Ciccullo et al., 2021)</ref>. Interactive voice response technology, for instance, allows farmers to use local languages to update the system with specific (e.g., crop or weather-related) information <ref type="bibr">(FAO &amp; ITU, 2017)</ref>. <ref type="bibr" target="#b10">Berti and Mulligan (2015)</ref> claimed that agricultural data analytics is becoming economically viable where tailor-made interventions such as those related to sowing, watering, or harvesting could be integrated and mapped. They added that the reduced cost of tailor-made sensor solutions and cheaper cost of storage and processing in cloud infrastructures permit dataset transmission across global fields. Even so, <ref type="bibr">Rotz et al. (2019a)</ref> reported farmers' concerns of technology investment costs with unrestricted access to big data. Also, farmers bear the brunt of continually advancing equipment-related costs when technology developers require them to adopt the newest, latest, or greatest versions. According to <ref type="bibr" target="#b82">Trendov et al. (2019)</ref>, precision agriculture, for instance, requires expensive equipment such as a drone that costs at least US $1000 and an internet-enabled tractor around US$350,000, prohibitively high for a farmer who may live on less than US$2 per day. Limited rural credits (High Level Panel of Experts on Food Security and Nutrition (HLPE), 2014; <ref type="bibr" target="#b80">Tebaldi and Gobjila, 2018)</ref> and lengthy benefit realization periods <ref type="bibr" target="#b57">(Masotti et al., 2019)</ref> also make investments in FLW prevention cost prohibitive <ref type="bibr" target="#b16">(Ciccullo et al., 2021)</ref>. Cost i.e., affordability is and will most certainly remain a critical factor for DATs' efficient adoption in food supply chains, notably in agriculture <ref type="bibr" target="#b31">(FUSIONS, 2014;</ref><ref type="bibr" target="#b57">Masotti et al., 2019)</ref>.</p><p>Another major concern in DAT adoption is also non-technological issues <ref type="bibr">(Rotz et al., 2019a;</ref><ref type="bibr" target="#b86">van Gogh et al., 2017)</ref>, mainly the digital divide (i.e., access gap) between developed and growing economies, the latter facing more likelihoods of limiting prospects to alleviate agricultural FLW. The FAO (2015b) has reported that illiterate and older male farmers, and even more so female farmers, often have less-developed digital skills and are less likely to adopt ICTs, limiting their engagement capacity. They could also be overwhelmed to learn new skills that come with digital farming technologies <ref type="bibr" target="#b20">(El Bilali and Allahyari, 2018)</ref>. In contrast, larger scale, literate, and financially better-off farmers are well-positioned to take advantage of digital technologies <ref type="bibr">(World Bank Group, 2019)</ref>. A related concern is the less regard given for knowledge transmission and integration of what farmers value the most. A case in point could be the lack of considerations to the social acceptance or ethical perspectives related to the use of external inputs (or digital manipulations) such as fruits or meat coating to prevent perishability <ref type="bibr" target="#b37">(Handford et al., 2014;</ref><ref type="bibr" target="#b75">Shoffstall and Gille, 2015)</ref>. There are also risks when agricultural technologies are created without integrating local, ecological, indigenous, or implicit knowledge, and related values into the process <ref type="bibr" target="#b55">(Krishnan et al., 2020)</ref>. This may lead to disproportionate socio-economic outcomes and ambivalence towards the potential benefits of the technology itself. The understanding evident from all these complex and interdependent circumstances is that the opportunities DATs present are not ends in and of themselves but rather markers that may bring about sustainable solutions to FLW prevention or reduction for agricultural practitioners.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Substantive governance and policies</head><p>Digital technologies may enable better yield in food production; however, agricultural policies geared toward increased yield may potentially encourage wastefulness. As noted by numerous studies, sufficient food and calories are already grown to feed over 9 billion people but are not fully consumed by humans for a multitude of reasons <ref type="bibr" target="#b42">(Holt-Giménez et al., 2012;</ref><ref type="bibr" target="#b56">Lipinski et al., 2013)</ref>. Conventional practice is often inclined to tailoring crops of high yields to meet the pressures of increasing populations; nevertheless, it is unlikely that future food demands will be met through increasing yields alone <ref type="bibr" target="#b10">(Berti and Mulligan, 2015)</ref>.</p><p>With regards to technology or the digital divide, policy measures (or lack thereof) could impact the expediency and/or obscure the drawbacks of DATs. Despite DATs' potentials to transform local or global trade and enhance capacities, unregulated practices that lack government interventions can exacerbate inequity <ref type="bibr" target="#b55">(Krishnan et al., 2020)</ref>. As <ref type="bibr" target="#b10">Berti and Mulligan (2015)</ref> contend, larger and profit-oriented agri-business companies (that may not necessarily prioritize FLW prevention) are better positioned to use data-driven technologies, and their greater control over food supply chains is indisputable; this, however, leaves small and some medium-scale farmers with no choice but to comply, limiting their access to advanced agricultural practices and use of local ecological knowledge.</p><p>The effects of market failure such as unregulated markets, oversupply due to inaccurate market price information, or market price dispersion, are also key drivers of FLW. These cause food producers to make decisions leading to levels of FLW that are optimal from their perspectives, but not from that of society; this, in turn, may prevent economic actors from adopting technologies to reduce FLW <ref type="bibr">(FAO, 2019)</ref>. There are also prospects that technological solutions constitute part of the FLW problem because they can be developed to benefit corporate food actors (i.e., further driving down food prices) rather than individual farmers and their agroecological systems <ref type="bibr">(Rotz et al., 2019b)</ref>. Evidently, farming requires more efficient use of natural resources that vary according to local conditions and needs <ref type="bibr">(FAO, 2017a)</ref>. As such, it is important to consider if certain policy measures may in actuality create more problems than solutions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusion and implications</head><p>This systematic review demonstrated that much of the literature on digital technologies in agriculture shows generic and/or peripheral bearing on FLW prevention i.e., digital technologies that principally aim at FLW preventions in agriculture have not been dealt with in-depth. There appears to be a limited emphasis on DATs, especially in the context of the SDG's Sustainable Consumption and Production Goal and its Target 12.3. Nonetheless, it was apparent that digitized food production and related FLW prevention efforts entail promising potentials. This debate is further compounded with the apparent co-existence of the adoption benefits with corresponding as well as distinct barriers, making DATs desirable and yet contentious solutions in agricultural economies and food systems.</p><p>The understandings generated from this review reinforce the view that agriculture is interwoven in the environmental, socio-economic, and institutional systems of farming communities. To that end, the review offers compelling evidence that several interrelated barriers limit the adoption of DATs in agriculture. The key aspects include the cost of the technologies and accessibility, especially in small-scale farms; limitations in embedding local ecological knowledge (values); design complexities and challenges in the application; and technology adoption driving labour displacement. One of the most obvious findings to emerge from this review was also the gap in empirical research in exploring DATs' role to address agricultural FLW as a core focus. It appears uncommon to have FLW reduction as a primary goal of introducing DATs because economic justifications principally overshadow environmental and socioecological priorities. The results of this review echo the findings of <ref type="bibr" target="#b66">Paam et al. (2016)</ref> that most studies in agri-business planning models were oriented towards profit maximization and cost reduction goals and not FLW minimization.</p><p>Current literature posited diverse and yet similar emphases on DATs and their potential (direct and/or indirect) impacts on FLW prevention. Given the findings, it appears reasonable to suggest that the potential opportunities and barriers related to DAT uptake would have been different if: i) the technologies were developed for the specific purpose of reducing or prevention FLW instead of advancing agricultural practices in terms of maximizing food production and supply; and ii) DAT adoption was principally driven by the dire need to prevent/ reduce FLW on-farms instead of a primary emphasis on maximizing agri-business profits and reductions in food production costs.</p><p>Whilst bearing the above conceptions and the objectives of the present review in mind, it is worth investigating the following specific policy options that might enable DATs to reach their potential in terms of FLW prevention: a) Whether or not farmers would be willing to adopt DATs to reduce/ prevent FLW alone unless doing so makes economic sense to them. This would be a case of comparing economically smart vs environmentally sound (sustainable) options. b) Whether or not DAT-aided economic gains and FLW prevention are mutually inclusive or correlated (negatively or positively). This would be holding a policy premise that the rationale for adopting DAT does not matter as adoption for economic gains will inevitably contribute to FLW reductions. c) The short-and long-term implications of choosing one adoption option (economic) over another (environmental/FLW prevention) in bringing measurable and significant reduction in FLW, and thereby make realistic contributions to sustainable patterns of consumption and production goals. This would potentially provide a prospect to evaluate global FLW prevention efforts like the SGD 12 (Target 12.3) and see how far it has delivered transformative results, in light of the near-term achievement of the goals.</p><p>This review endorses the view that policy options and actions should fundamentally consider FLW reduction as a way to achieve improved environmental sustainability, food systems efficiency, and social equity objectives <ref type="bibr">(FAO, 2019)</ref>. Short and diversified food supply chains and inclusive policy dialogue amongst actors are crucial if broad-based uptake of DATs for FLW prevention is desired. This is especially imperative to smallholder farmers that are often disproportionately challenged in accessing DATs. Effective measures in policy, science and innovation are the practical foundations on which affordable, socially equitable, and sustainable technologies could be developed for agriculture <ref type="bibr" target="#b20">(El Bilali and Allahyari, 2018)</ref>. These can only be achieved through increased investments and public-private partnerships (High Level Panel of Experts on Food Security and Nutrition (HLPE), 2014) that can exploit the opportunities for maintaining sustainable yields whilst building long-term resiliencies <ref type="bibr">(FAO, 2017a)</ref>. These endeavours must also embrace amongst others, resource conservation; food security; farm welfare improvement <ref type="bibr" target="#b47">(Jensen, 2007)</ref>; the increased value of trade <ref type="bibr" target="#b72">(Sethi et al., 2020)</ref>; shorter value chains; local knowledge integration; and reduced corporate concentration in the agri-food sector <ref type="bibr" target="#b9">(Béné et al., 2019</ref>; International Panel of Experts on Sustainable Food Systsems (IPES), 2017). It is also vital to implement substantive policies that support market systems that recognize existing and emerging ethical issues involving technology adopters <ref type="bibr" target="#b88">(Walter et al., 2017)</ref>.</p><p>The authors conclude that unprecedented and unpredictable challenges in FLW are inevitable, despite technological advancements that aim to digitize agriculture. So, FLW issues are not mendable through technocratic remedies but rather systematic, adaptive, and integrative technologies that principally recognize the key drivers. This lends support to the view that vertical collaboration between the technology adopters (farmers) and those in the agri-food supply chain is a good strategy that would allow FLW prevention at its roots <ref type="bibr" target="#b16">(Ciccullo et al., 2021)</ref>. Effective collaboration and dialogue between the different actors would also mean acknowledging trade-offs and complex interactions that are inherent within sustainable food systems <ref type="bibr" target="#b9">(Béné et al., 2019)</ref>. The approaches also call for effective data collection and decision support tools that can keep up with future demands in food supply chains <ref type="bibr" target="#b46">(Jagtap et al., 2021)</ref>. As the OECD (2019) proposed, a practical policy would also consider recognizing the evolving limitations of data, models, and algorithms as governments and farmers increase their reliance upon digital technologies. In this context, the need for transparency in DAT use policies or regulations is vital. Governments must also encourage integrity in data use and management and ensure that they are regulated for their efficient, effective, and equitable uses and adoption.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Conceptual Illustration of the Review Process on the DAT-FLW Scenarios (source: authors' own).</figDesc><graphic coords="7,99.21,55.40,396.86,163.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>••••</head><figDesc>Real-time, sensor-based, faster, tailored, and variable rate input application technologies prevent excessive applications and yield losses • Loss prevention potentials through production of disease and extreme climate resistant crops • Slow release of chemical nutrients to soil/crop, reduces the environmental costs from agrochemical residuals • Technology interference leads to biodiversity loss and crops natural ability to resist pests and extreme climate conditions • Competitive advantage to bigger farms to grow food in extreme climatic conditions further exploits scarce resources • Dependence on technology-enabled chemical use undermines the use of naturally derived crop nutrients (compost) Harvest, Storage: • Application of additives and preservatives reduces spoilage and extend shelf-life of oversupplied and perishable food items • Higher prospects of economic returns undermine cleaner food production without the use of chemical inputs Transportation: Simulated transport route selection reduces the risk of post-harvest loss from intense vibration of load • Tailored simulation of food transport condition is a costly technology for small scale producers Marketing/Supply: • Improved crop quality increases sales, lowering rejections and crop loss at local or international markets • Digital information platforms aid in reducing market price dispersion and potential FLW from lost sales • Benefit realization from technology uptake may drive overproduction and oversupply of certain food items in the market, driving potential wastage • Small scale farmers are often disproportionately affected by the difficulty of accessing market information and fail to sell their crops Food quality sensors and cross-industry tracking technologies reduce the adverse effects of contamination and food spoilage across the supply chains • Improved productivity and efficiency through access to real-time and up-to-date information on growth, safety, and nutrient needs help prevent potential losses • Frequent interruption of internet access weakness small scale farmers' potential to adopt digital-network dependent DATs • Regulatory constraints, consumers' lack of awareness and resistance to new or alternative food production technologies strain producers' broad-based uptake of some DATs Storage and Transportation: • Digital modelling of food production lands and storage locations contribute to postharvest losses reduction • Digitally tailored crop-specific transportation and distance alternatives reduce crop spoilage and FLW • Complexity in the efficiency of the technique when various variables (cropping season, local resources, skills) are considered in digital simulation models • Technology cost limits socio-economic benefits for small-scale farmers and reduces their participation in FLW prevention efforts Marketing/Supply: • Digitalized access to price and market regulations influence FLW reduction that would have occurred from lost sales • Digitally networked marketing enables farmers to align crop variety that meet retail and consumers' demands • Supply of diverse crops and profitability potentially drives waste at the retail and/or consumption level • Demand driven DAT adoption encourage market concentration on certain food items, driving waste in already saturated markets and sabotage late adopters Automated and remote operations ease labour-intensive food productions and reduce potential contamination of produce • Digital technology-driven benefits realized from industrial-scale farming bring spillover advantages to late adopters, small-scale farmers • DAT designs that accommodate traditional practices enhances post-harvest FLW reduction efforts • Automation may result in difficulty of keeping up with rapid technological advancements of DATs and their cost • Small-scale farmers often lack expertise in operating sophisticated digital technologies, reducing adoption and participation in FLW prevention • Extensive adoption of the DATs and high profit margins may endanger or undervalue traditional/local and natural crop production and harvesting skills Storage, Transportation: • FLW from underdeveloped and labour-intensive crop storage and transportation systems are reduced • Prohibitive investment costs of digital storage and transportation technologies put small-scale farmers in competitive disadvantage Marketing/Supply: • Access to digital communication networks fosters short supply chains, allowing shorter days between harvest and sale of perishable crops, reducing the risk of post-harvest losses • Digital communication platforms allow farmers to sell their products directly to consumers, helping reduce FLW • Internet network coverage, affordability, cyber security, and skills and knowledge transfer issues limit farmers' (small and medium scale) uptake of technologies • Extensive adoption of the technologies drive unemployment and displacement of middlemen and market intermediaries (continued on next page)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Illustrative examples of potential contributions offered by DATs to FLW prevention and reduction (source: authors' own).</figDesc><graphic coords="9,124.10,380.35,347.04,345.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Digital Agricultural Technologies and Potentials for FLW Preventions and Reductions (a broad perspective).disruptive technologies and food waste and/or loss'. To expand literature gathering in the topic area, searches were made on specific digital technologies, in combination with their uses in the agricultural sector. A few examples include 'blockchain and harvest loss prevention'; and 'drones and food waste prevention on farms.'</figDesc><table><row><cell>Key Dimensions of a Systems</cell><cell>Example of how DAT may lead to FLW Prevention</cell><cell>References</cell></row><row><cell>Perspective</cell><cell></cell><cell></cell></row><row><cell>1. DAT as a tool to support</cell><cell></cell><cell></cell></row><row><cell>environmental sustainability</cell><cell></cell><cell></cell></row><row><cell>2. DAT as a way to achieve</cell><cell>-Accountability in food supply chains: food traceability technologies</cell><cell>(El Bilali and Allahyari, 2018); (High Level Panel of Experts on</cell></row><row><cell>greater economic efficiency</cell><cell>encourage producers to minimize FLW</cell><cell>Food Security and Nutrition (HLPE), 2017); (Nhamo et al., 2020)</cell></row><row><cell></cell><cell>-Digital information access: price and market information improve the</cell><cell></cell></row><row><cell></cell><cell>saleability of crops</cell><cell></cell></row><row><cell></cell><cell>-Fair return on investment: technology-driven production efficiencies</cell><cell></cell></row><row><cell></cell><cell>increase competitiveness and profitability</cell><cell></cell></row><row><cell>3. DAT may change social</cell><cell>-Value chain improvement enables farmers to produce high-quality</cell><cell>(Cane and Parra, 2020); (Rotz et al., 2019a); (Tsan et al., 2019)</cell></row><row><cell>dynamics to reduce FLW</cell><cell>agricultural outputs</cell><cell></cell></row><row><cell></cell><cell>-Local capacity building: enables resistance to climate-related disasters</cell><cell></cell></row><row><cell></cell><cell>and protect local food systems</cell><cell></cell></row><row><cell></cell><cell>-Inclusive food systems: potential integration of local knowledge fosters</cell><cell></cell></row><row><cell></cell><cell>FLW reduction</cell><cell></cell></row><row><cell>4. DAT-improved governance</cell><cell></cell><cell></cell></row><row><cell>and policies</cell><cell></cell><cell></cell></row></table><note><p>-Food preservation: digital cold-storage technologies help extend food shelf-life and reduce spoilage -Reduced agricultural waste: precise agricultural inputs application prevents crop failure from nutrient overload and related contaminations from stormwater runoff -Crop health protection: digital microbiome technologies enhance crop resilience and reduce harvest losses (Kamilaris et al., 2019); (World Economic Forum (WEF), 2018); (WWF-UK, 2021); (Messner et al., 2019) -Food security: technology-supported food production policies enhance rural livelihoods and food availability -Equity in trade and commerce: regulated access to farm technology builds smallholders' competitiveness in food markets -Policy coherence in technology use: policy frameworks on climate technologies and climate-smart practices provide opportunities to tackle FLW challenges (FAO, 2017b); (FAO, 2019); (High Level Panel of Experts on Food Security and Nutrition (HLPE), 2014) (Sethi et al., 2020); ( Shafiee-Jood and Cai, 2016) '</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Literature reviewed on DAT uses for potential FLW prevention and reduction in agriculture.</figDesc><table><row><cell>Study Location</cell><cell>Publication</cell><cell>Type of Reviewed Materials</cell></row><row><cell></cell><cell>Year</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Literature coding and organizing based on DAT Purpose and Potential Contributions to FLW Prevention and/or Reduction.Improving transparency and safety in food supply chains to prevent disposal of edible products or loss through contamination tracing, market information, and efficient food production system e.g., IoT, Blockchain, Big Data, RFID tags, GIS, DNA tests, machine learning</figDesc><table><row><cell>Existing Research Scopes Related to DAT Purposes and FLW</cell><cell>Sustainability/systems Dimensions</cell><cell>Review Source</cell></row><row><cell>Prevention/Reduction Potentials (directly and/or indirectly)</cell><cell>Addressed</cell><cell></cell></row><row><cell></cell><cell>Environmental sustainability;</cell><cell></cell></row><row><cell></cell><cell>economic efficiency; social equity;</cell><cell></cell></row><row><cell></cell><cell>substantive governance</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4</head><label>4</label><figDesc>(continued )    </figDesc><table><row><cell>Potential opportunities</cell><cell>Potential barriers</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The work from this research received funding from the <rs type="funder">Social Sciences and Humanities Research Council of Canada Insight</rs> Grant <rs type="grantNumber">435-2019-0155</rs>. The authors are grateful for the Co-Editor-in-Chief and four anonymous reviewers who provided their professional support in reviewing this paper.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_ZKKV7Cf">
+					<idno type="grant-number">435-2019-0155</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A&quot; for agriculture: a review of information and communication technologies for agricultural extension in developing countries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Aker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Econ</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="631" to="647" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Meat shelf-life and extension using collagen/ gelatin coatings: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Antoniewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barringer</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10408390802606691</idno>
+		<ptr target="https://doi.org/10.1080/10408390802606691" />
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Food Sci. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">644</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Crop Connection: Impact of Cell Phone Access on Crop Choice in Rural Pakistan</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Asad</surname></persName>
+		</author>
+		<ptr target="http://pubdocs.worldbank.org/en/368061466183263192/Saher-Asad.pdf" />
+		<imprint>
+			<date type="published" when="2016-10-02">2016. 2 October 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Transparency in food supply chains: a review of enabling technology solutions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Astill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Dara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Farber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Yada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Food Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="240" to="247" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">How energy innovation in indoor vertical farming can improve food security, sustainability, and food safety?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Avgoustaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xydis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Food Secu. Sustain</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Internetof-Things (IoT)-based smart agriculture: toward making the fields talk</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ayaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ammad-Uddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sharif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mansour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E.-H</forename><forename type="middle">M</forename><surname>Aggoune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="129551" to="129583" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Urban Food Waste Solutions from Farm-To-Fork</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Babbitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Trabold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Breunig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nicewonger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Romeiko</surname></persName>
+		</author>
+		<ptr target="https://www.rit.edu/sustainabilityinstitute/public/academic/Urban_Food_Waste_Workshop_Report.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Paper Presented at the Conference for Advancing Sustainable Urban Systems (SUS) Research Networks</title>
+		<imprint>
+			<date type="published" when="2019-08">2019. August 2021</date>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Precision agriculture technologies positively contributing to GHG emissions mitigation, farm productivity and economics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balafoutis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fountas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vangeyte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Soto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gómez-Barbero</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su9081339</idno>
+		<ptr target="https://doi.org/10.3390/su9081339" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1339</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Food, Energy, Water, and the Climate: A Perfect Storm of Global Events?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beddington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Paper Presented at the Sustainable Development UK Annual Conference , QEII Conference Centre</title>
+		<meeting><address><addrLine>London; London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Government Office for Science</publisher>
+			<date type="published" when="2009-03-19">2009. 19 March 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">When food systems meet sustainabilitycurrent narratives and implications for actions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Béné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Oosterveer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lamotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Brouwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>De Haan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Prager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Khoury</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.worlddev.2018.08.011</idno>
+		<ptr target="https://doi.org/10.1016/j.worlddev.2018.08.011" />
+	</analytic>
+	<monogr>
+		<title level="j">World Dev</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="116" to="130" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">ICT &amp; the Future of Food and Agriculture</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Berti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mulligan</surname></persName>
+		</author>
+		<ptr target="https://www.academia.edu/11341377/ICT_and_the_future_of_food_and_Agriculture" />
+		<imprint>
+			<date type="published" when="2015-11-19">2015. 19 November 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Food traceability as an integral part of logistics management in food and agricultural supply chain</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bosona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gebresenbet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2013.02.004</idno>
+		<ptr target="https://doi.org/10.1016/j.foodcont.2013.02.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Food Contr</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="48" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Big Data in food and agriculture</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bronson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Knezevic</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2053951716648174</idno>
+		<ptr target="https://doi.org/10.1177/2053951716648174" />
+	</analytic>
+	<monogr>
+		<title level="j">Big Data Soc</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2053951716648174</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Searching for Solutions: California Farmers Continue to Struggle with Employee Shortages Agricultural Labor Availability Survey Results-2017</title>
+		<author>
+			<orgName type="collaboration">California Farm Bureau Federation</orgName>
+		</author>
+		<ptr target="http://www.cfbf.us/wp-content/uploads/2017/10/CFBF-Ag-Labor-Availability-Report-2017.pdf" />
+		<imprint>
+			<date type="published" when="2017-01">2017. January 2021</date>
+			<biblScope unit="volume">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Digital platforms: mapping the territory of new technologies to fight food waste</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parra</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/BFJ-06-2019-0391</idno>
+		<ptr target="https://doi.org/10.1108/BFJ-06-2019-0391" />
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1647" to="1669" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Modelling and optimisation of Indian traditional agriculture supply chain to reduce post-harvest loss and CO2 emission</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chandrasekaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/IMDS-09-2016-0383</idno>
+		<ptr target="https://doi.org/10.1108/IMDS-09-2016-0383" />
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Manag. Data Syst</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1817" to="1841" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Implementing the circular economy paradigm in the agri-food supply chain: the role of food waste prevention technologies</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciccullo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cagliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bartezzaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perego</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2020.105114</idno>
+		<ptr target="https://doi.org/10.1016/j.resconrec.2020.105114" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Agriculture 4.0 -The Future of Farming Technology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Clercq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vats</surname></persName>
+		</author>
+		<ptr target="https://www.mmc.com/content/dam/mmc-web/insights/publications/2018/november/agriculture-4-0/Oliver-Wyman-Agriculture-4.0.pdf" />
+		<imprint>
+			<date type="published" when="2018-10-06">2018. 6 October 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Will digital technologies transform agriculture in developing countries?</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Deichmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mishra</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/agec.12300</idno>
+		<ptr target="https://doi.org/10.1111/agec.12300" />
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Econ</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">S1</biblScope>
+			<biblScope unit="page" from="21" to="33" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Networks of practice for coconstruction of agricultural decision support systems: case studies of precision dairy farms in Australia</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Eastwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Paine</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.agsy.2011.12.005</idno>
+		<ptr target="https://doi.org/10.1016/j.agsy.2011.12.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Syst</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Transition towards sustainability in agriculture and food systems: role of information and communication technologies</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>El Bilali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Allahyari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Process. Agric</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="456" to="464" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Opportunities and challenges in conducting economic research on food loss and waste</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ellison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Muth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Golan</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/aepp/ppy035</idno>
+		<ptr target="https://doi.org/10.1093/aepp/ppy035" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Econ. Perspect. Pol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Taking Stock: Reducing Food Loss and Waste in Canada</title>
+		<ptr target="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/food-loss-waste/taking-stock.html" />
+		<imprint>
+			<date type="published" when="2019-10-06">2019. 6 October 2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>Environment and Climate Change Canada (ECCC)</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Precision farming at the nexus of agricultural production and the environment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Finger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Swinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>El Benni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Resour. Econ</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="313" to="335" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Food and Agricultural Organization (FAO), 2015b. Global Initiative on Food Loss and Waste Reduction</title>
+		<ptr target="http://www.fao.org/3/i4068e/i4068e.pdf" />
+		<imprint>
+			<date type="published" when="2016-02">February 2016</date>
+			<biblScope unit="page">25</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">2017a. The Future of Food and Agriculture-Trends and Challenges</title>
+		<ptr target="http://www.fao.org/3/i6583e/i6583e.pdf" />
+		<imprint>
+			<date type="published" when="2020-11">November 2020</date>
+			<publisher>Food and Agricultural Organization</publisher>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<ptr target="http://www.fao.org/save-food/news-and-multimedia/news/news-details/en/c/1062697/" />
+		<title level="m">Save Food for a Better Climate: Converting the Food Loss and Waste Challenge into Climate Action</title>
+		<imprint>
+			<publisher>Food and Agricultural Organization</publisher>
+			<date type="published" when="2017-10-06">2017. 6 October 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Mooving Forward on Food Loss and Waste Reduction</title>
+		<ptr target="www.fao.org/3/ca6030en/ca6030en.pdf" />
+		<imprint>
+			<date type="published" when="2019-11">2019. 2019. November 2020</date>
+			<biblScope unit="volume">22</biblScope>
+		</imprint>
+	</monogr>
+	<note>The State of Food and Agriculture Food and Agricultural Organization (FAO)</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Food and Agriculture Organization (FAO) &amp; The International Telecommunication Union (ITU)</title>
+		<ptr target="http://www.fao.org/3/a-i6972e.pdf" />
+		<imprint>
+			<date type="published" when="2017-10-13">2017. 13 October 2020</date>
+		</imprint>
+	</monogr>
+	<note>E-agriculture in Action</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Food and Agriculture Organization (FAO) &amp; The International Telecommunication Union (ITU)</title>
+		<ptr target="http://www.fao.org/3/I8494EN/i8494en.pdf" />
+		<imprint>
+			<date type="published" when="2018-01">2018. January 2021</date>
+		</imprint>
+	</monogr>
+	<note>E-agriculture in Action: Drones for Agriculture</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Sustainable Agriculture vs. Industrial Agriculture</title>
+		<author>
+			<persName><surname>Foodprint</surname></persName>
+		</author>
+		<ptr target="ps://foodprint.org/issues/sustainable-agriculture-vs-industrial-agriculture/#easy-footnote-bottom-3-1820" />
+		<imprint>
+			<date type="published" when="2020-01">2020. January 2021</date>
+			<biblScope unit="volume">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Drivers of Current Food Waste Generation, Threats of Future Increase and Opportunities for Reduction (9462573549)</title>
+		<author>
+			<persName><surname>Fusions</surname></persName>
+		</author>
+		<ptr target="https://www.researchgate.net/publication/297001052_Drivers_of_current_food_waste_generation_threats_of_future_increase_and_opportunities_for_reduction" />
+		<imprint>
+			<date type="published" when="2014-09">2014. September 2015</date>
+		</imprint>
+	</monogr>
+	<note>Retrieved from</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Food Loss and Waste Solutions Innovative Technologies and Best Practices</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Garcha</surname></persName>
+		</author>
+		<ptr target="https://provisioncoalition.com/Assets/ProvisionCoalition/Documents/Library%20Content/" />
+		<imprint>
+			<date type="published" when="2017-10">2017. October 2020</date>
+			<biblScope unit="volume">22</biblScope>
+		</imprint>
+	</monogr>
+	<note>Food%20Waste%20Management/Food%20Loss% 20and%20Waste%20Solutions%20Innovative%20Technologies%20and%20Best% 20Practices.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Crop loss evaluation using digital surface models from unmanned aerial vehicles data</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Garcia Millan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanchez-Azofeifa</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/rs12060981</idno>
+		<ptr target="https://doi.org/10.3390/rs12060981" />
+	</analytic>
+	<monogr>
+		<title level="j">Rem. Sens</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">981</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Plug in to future food connections: the Internet of Things (IoT) will better connect the food and beverage industry to reduce food loss and make food safer to eat.(Cover story)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Logist</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Precision agriculture and food security</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gebbers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Adamchuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="issue">5967</biblScope>
+			<biblScope unit="page" from="828" to="831" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Does on-farm food loss prevent waste? Insights from California produce growers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Spang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2019.104408</idno>
+		<ptr target="https://doi.org/10.1016/j.resconrec.2019.104408" />
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<date type="published" when="2019">2019. 104408</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Handford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Henchion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Campbell</surname></persName>
+		</author>
+		<ptr target="https://www.safefood.net/research-reports/nanotechnology-agri-food" />
+		<title level="m">Nanotechnology in the Agri-Food Industry on the Island of Ireland: Applications, Opportunities and Challenges</title>
+		<imprint>
+			<date type="published" when="2014-01">2014. January 2021</date>
+			<biblScope unit="volume">13</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Awareness and attitudes towards the emerging use of nanotechnology in the agrifood sector</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Handford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Henchion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Campbell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2015.03.033</idno>
+		<ptr target="https://doi.org/10.1016/j.foodcont.2015.03.033" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Alternative and virtual rurality: agriculture and the countryside as embodied in American imagination</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M B</forename><surname>Harrington</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gere.12245</idno>
+		<ptr target="https://doi.org/10.1111/gere.12245" />
+	</analytic>
+	<monogr>
+		<title level="j">Geogr. Rev</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="250" to="273" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The promised land? Exploring the future visions and narrative silences of cellular agriculture in news and industry media</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Helliwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Burton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Rural Stud</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="180" to="191" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Food Losses and Waste in the Context of Sustainable Food Systems</title>
+		<ptr target="http://www.fao.org/3/i7846e/i7846e.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">High Level Panel of Experts on Food Security and Nutrition (HLPE), 2017. Nutrition and Food Systems. A Report by the High Level Panel of Experts on Food Security and Nutrition of the Committee on World Food Security</title>
+		<meeting><address><addrLine>Rome</addrLine></address></meeting>
+		<imprint>
+			<publisher>High Level Panel of Experts on Food Security and Nutrition</publisher>
+			<date type="published" when="2014-10-13">2014. 2014. 13 October 2020. April 2021</date>
+		</imprint>
+	</monogr>
+	<note>A Report by the High Level Panel of Experts on Food Security and Nutrition of the Committee on World Food Security</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">We already grow enough food for 10 billion people … and still can&apos;t end hunger</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Holt-Giménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shattuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Altieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Herren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gliessman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10440046.2012.695331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sustain. Agric</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="595" to="598" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Intergovernmental Panel on Climate Change (IPCC), 2021. Climate Change 2021: the Physical Science Basis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S T</forename><surname>Daughtry</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01431161.2017.1410300</idno>
+		<ptr target="ps://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Full_Report.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+		<imprint>
+			<date type="published" when="2018-08">2018. August 2021</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="5345" to="5376" />
+		</imprint>
+	</monogr>
+	<note>What good are unmanned aircraft systems for agricultural remote sensing and precision agriculture?</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Too Big to Feed: Exploring the Impacts of Mega-Mergers, Consolidation, and Concentration of Power in the Agri-Food Sector</title>
+		<ptr target="http://www.ipes-food.org/_img/upload/files/Concentration_ExecSummary.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">International Panel of Experts on Sustainable Food Systsems (IPES)</title>
+		<imprint>
+			<date type="published" when="2017-07">2017. July 2021</date>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Drones: innovative technology for use in precision pest management</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Iost Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Heldens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>De Lange</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jee/toz268</idno>
+		<ptr target="https://doi.org/10.1093/jee/toz268" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Econ. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Optimisation of the resource efficiency of food manufacturing via the Internet of Things</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jagtap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garcia-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahimifard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compind.2021.103397</idno>
+		<ptr target="https://doi.org/10.1016/j.compind.2021.103397" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Ind</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page">103397</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">market performance, and welfare in the South Indian fisheries sector</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/qjec.122.3.879</idno>
+		<ptr target="https://doi.org/10.1162/qjec.122.3.879" />
+	</analytic>
+	<monogr>
+		<title level="m">The digital provide: information (technology)</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="879" to="924" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Field measurement in vegetable crops indicates need for reevaluation of onfarm food loss estimates in North America</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Dunning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Gunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dara</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boyette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Creamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.agsy.2018.09.008</idno>
+		<ptr target="https://doi.org/10.1016/j.agsy.2018.09.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Syst</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="136" to="142" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Making More of Less: How COVID-19 Is Impacting Food Production in Canada</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<ptr target="https://www.ctvnews.ca/canada/making-more-of-less-how-covid-19-is-impacting-food-production-in-canada-1.4886097" />
+		<imprint>
+			<date type="published" when="2020-04-19">2020. 19 April 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The rise of blockchain technology in agriculture and food supply chains</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kamilaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fonts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Prenafeta-Boldύ</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Food Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="640" to="652" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Strategies to reduce food loss in the global South</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Haque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Legwegoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">595</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Thematic analysis of qualitative data: AMEE Guide No. 131</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Kiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Varpio</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0142159X.2020.1755030</idno>
+		<ptr target="https://doi.org/10.1080/0142159X.2020.1755030" />
+	</analytic>
+	<monogr>
+		<title level="j">Med. Teach</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="846" to="854" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Feeding a Nation under Lockdown. How the Pandemic Forces a Closer Look at Canada&apos;s Food Supply System</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Killawee</surname></persName>
+		</author>
+		<ptr target="https://www.thechronicleherald.ca/news/provincial/feeding-a-nation-under-lockdown-481259/" />
+		<imprint>
+			<date type="published" when="2020-08">2020. August 2020</date>
+			<biblScope unit="volume">17</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Economic, agronomic, and environmental benefits from the adoption of precision agriculture technologies: a systematic review</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koutsos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Menexes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Agric. Environ. Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="40" to="56" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Disruptive Technologies in Agricultural Value Chains: Insights from East Africa</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Banga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mendez-Parra</surname></persName>
+		</author>
+		<ptr target="https://www.odi.org/sites/odi.org.uk/files/resource-documents/disruptive_agritech_-_5_mar_2020_-_final_draft.pdf" />
+		<imprint>
+			<date type="published" when="2020-10">2020. October 2020</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Creating a Sustainable Food Future-Reducing Food Loss and Waste</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lipinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lomax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitinoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Waite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Searchinger</surname></persName>
+		</author>
+		<ptr target="http://pdf.wri.org/reducing_food_loss_and_waste.pdf" />
+		<imprint>
+			<date type="published" when="2013-10-13">2013. 13 October 2020</date>
+			<publisher>World Resources Institute</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Masotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aramyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Logatcheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Righi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vittuari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Setti</surname></persName>
+		</author>
+		<ptr target="https://library.wur.nl/WebQuery/wurpubs/fulltext/478168" />
+		<title level="m">Behavioural Economics: Assessing Food Waste Innovations Diffusion through ABM Models-Insights from Italy and the Netherlands. Retrieved from</title>
+		<imprint>
+			<date type="published" when="2019-11">2019. November 2020</date>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Principles of designing and implementing agricultural extension programs for reducing post-harvest loss</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Mcnamara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agriculture</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1035" to="1046" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Messner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nakicenovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rockström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Aguiar</surname></persName>
+		</author>
+		<ptr target="https://www.semanticscholar.org/paper/The-Digital-Revolution-an" />
+		<title level="m">The Digital Revolution and Sustainable Development: Opportunities and Challenges-Report Prepared by The World in 2050 Initiative</title>
+		<imprint>
+			<date type="published" when="2019">2019. 3704501557. July 2021</date>
+		</imprint>
+	</monogr>
+	<note>dd1f64b8868 4968243e72b39192</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The &quot;Prevention Paradox&quot;: food waste prevention and the quandary of systemic surplus production</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Messner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10460-019-10014-7</idno>
+		<ptr target="https://doi.org/10.1007/s10460-019-10014-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Agric. Hum. Val</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="805" to="817" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Nanotechnology in agriculture: prospects and constraints</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/NSA.S39409</idno>
+		<ptr target="https://doi.org/10.2147/NSA.S39409" />
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnol. Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Fixing Food 2018: Best Practices towards the Sustainable Development Goals</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koehring</surname></persName>
+		</author>
+		<ptr target="https://foodsustainability.eiu.com/wp-content/uploads/sites/34/2018/12/FixingFood2018-2.pdf" />
+		<imprint>
+			<date type="published" when="2018-10">2018. October 2020</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Food Waste Management: Solving the Wicked Problem</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Närvänen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mesiranta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mattila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heikkinen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Springer Nature</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Prospects of improving agricultural and water productivity through unmanned aerial vehicles</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nhamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Magidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nyamugama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Clulow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sibanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Chimonyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mabhaudhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agriculture</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">256</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Thematic analysis: striving to meet the trustworthiness criteria</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Nowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Moules</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1609406917733847</idno>
+		<ptr target="s://www.oecd-ilibrary.org/agriculture-and-food/digital-opportunities-for-better-agricultural-policies_571a0812-en" />
+	</analytic>
+	<monogr>
+		<title level="m">Digital Opportunities for Better Agricultural Policies</title>
+		<imprint>
+			<publisher>OECD Publishing</publisher>
+			<date type="published" when="2012-10-12">2017. 2012. 12 October 2020. 2019. October 2020</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">160940691773384</biblScope>
+		</imprint>
+	</monogr>
+	<note>OECD Yearbook 2012: Better Policies for Better Lives pdf?expires=1612372582&amp;id=id&amp;accname=guest&amp;checksum=E7 5AC89DBAE0D9A80BEA5214B3B3AEE3</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Planning models to optimize the agri-fresh food supply chain for loss minimization: a review</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Berretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heydar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Middleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>García-Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Juliano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ref. Modul. Food Sci</title>
+		<imprint>
+			<biblScope unit="page" from="19" to="54" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Vehicle routing problem for the minimization of perishable food damage considering road conditions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P B</forename><surname>Padilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A N</forename><surname>Canabal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E H</forename><surname>Riaño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Logist. Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Three pillars of sustainability: in search of conceptual origins</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Purvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11625-018-0627-5</idno>
+		<ptr target="https://doi.org/10.1007/s11625-018-0627-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustain. Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="681" to="695" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The politics of digital agricultural technologies: a preliminary review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Botschner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociol. Rural</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="203" to="229" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Automated pastures and the digital divide: how agricultural technologies are shaping labour and rural communities</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gravely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Finnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Horgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jrurstud.2019.01.023</idno>
+		<ptr target="https://doi.org/10.1016/j.jrurstud.2019.01.023" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Rural Stud</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="112" to="122" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Role of big data on digital farming</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N I</forename><surname>Sarker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murmu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rozario</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Sci. Technol. Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Addressing Food Loss and Waste: A Global Problem with Local Solutions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sethi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P A</forename><surname>Bedregal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cassou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Constantino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jain</surname></persName>
+		</author>
+		<ptr target="https://openaccess.city.ac.uk/id/eprint/24990/" />
+		<imprint>
+			<date type="published" when="2020-10-06">2020. 6 October 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Reducing food loss and waste to enhance food security and environmental sustainability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shafiee-Jood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.6b01993</idno>
+		<ptr target="https://doi.org/10.1021/acs.est.6b01993" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="8432" to="8432" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">We Need All Hands on Deck&apos;: Canadian Farmers Struggle with Labour Shortfall Due to COVID-19</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sheldon</surname></persName>
+		</author>
+		<ptr target="https://www.cbc.ca/news/canada/farm-labour-foreign-workers-covid-19-1.5535727" />
+		<imprint>
+			<date type="published" when="2020-05-19">2020. 19 May 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">From the Nano to the Global Scale: New Utopian Solutions to Food Waste</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shoffstall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Food Utopias: Reimagining Citizenship, Ethics and Community</title>
+		<imprint>
+			<publisher>Taylor and Francis Inc</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="35" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Tilling food under: barriers and opportunities to address the loss of edible food at the farm-level in British Columbia</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Soma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kozhikode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Krishnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canada. Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page">105571</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Reducing postharvest losses of apples: optimal transport routing (while minimizing total costs)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Springael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paternoster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Braet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Electron. Agric</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Place attachment and its consequence for landscape-scale management and readiness to participate: social network complexity in the post-Soviet rural context of Latvia and Estonia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Storie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Uusna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Eglāja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Laur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Külvik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suškevičs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">125</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">A review on application of technology systems, standards and interfaces for agriculture and food sector</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suprem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mahalik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.csi.2012.09.002</idno>
+		<ptr target="https://doi.org/10.1016/j.csi.2012.09.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Stand. Interfac</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="355" to="364" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Romania: systematic country diagnostic. Background Note -Agriculture</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tebaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gobjila</surname></persName>
+		</author>
+		<ptr target="http://documents1.worldbank.org/curated/en/698251530897736576/pdf/128044-SCD-PUBLIC-P160439-RomaniaSCDBackgroundNoteAgriculture.pdf" />
+		<imprint>
+			<date type="published" when="2018-01">2018. January 2021</date>
+			<biblScope unit="volume">30</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">An Agri-Food Supply Chain Traceability System for China Based on RFID &amp; Blockchain Technology</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Paper Presented at the 2016 13th International Conference on Service Systems and Service Management (ICSSSM)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Trendov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Varas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zeng</surname></persName>
+		</author>
+		<ptr target="http://www.fao.org/3/ca4985en/ca4985en.pdf" />
+		<title level="m">Digital Technologies in Agriculture and Rural Areas -Status Report</title>
+		<imprint>
+			<date type="published" when="2019-10-13">2019. 13 October 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Totapally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hailu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Addom</surname></persName>
+		</author>
+		<ptr target="https://www.cta.int/en/digitalisation-agriculture-africa" />
+		<title level="m">The Digitalisation of African Agriculture Report</title>
+		<imprint>
+			<date type="published" when="2018">2019. 2018-2019. 6 October 2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>CTA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">World Population Prospects</title>
+		<ptr target="https://population.un.org/wpp/Publications/Files/WPP2019_Highlights.pdf" />
+		<imprint>
+			<date type="published" when="2019-07">2019. 2019. July 2021</date>
+			<publisher>UNDESA</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">United Nations Global Impact</title>
+		<ptr target="http://breakthrough.unglobalcompact.org/disruptive-technologies/digital-agriculture/" />
+	</analytic>
+	<monogr>
+		<title level="m">Resolution Adopted by the General Assembly on 25 September 2015. United Nations, Washington. Retrieved from</title>
+		<imprint>
+			<publisher>United Nations General Assembly</publisher>
+			<date type="published" when="2015-01-27">2015. 27 January 2016. 2017. September 2020</date>
+		</imprint>
+	</monogr>
+	<note>Digital Agriculture: Feeding the Future</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title level="m" type="main">Postharvest Loss Reduction: a Value Chain Perspective on the Role of Post-harvest Management in Attaining Economically and Environmentally Sustainable Food Chains</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Gogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boerrigter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Noordam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ruben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Timmermans</surname></persName>
+		</author>
+		<ptr target="https://library.wur.nl/WebQuery/wurpubs/523026" />
+		<imprint>
+			<date type="published" when="2017-11">2017. November 2020</date>
+			<biblScope unit="volume">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Geospatial perspective for post-harvest infrastructure management: positioning of new cold storage</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vijjapu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kimothi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mamatha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISPRS</title>
+		<imprint>
+			<biblScope unit="volume">423</biblScope>
+			<biblScope unit="page" from="339" to="344" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Opinion: smart farming is key to developing sustainable agriculture</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Finger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Buchmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1707462114</idno>
+		<ptr target="https://wrap.org.uk/sites/default/files/2020-10/" />
+	</analytic>
+	<monogr>
+		<title level="m">WRAP-Amcor%20project%20report%20final%2C%2003%20Jan %202012.pdf</title>
+		<imprint>
+			<date type="published" when="2012-07">2017. 2012. July 2021</date>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="6148" to="6150" />
+		</imprint>
+	</monogr>
+	<note>Waste and Resources Action Program (WRAP) &amp; French-Brooks Reducing Supply Chain and Consumer Potato Waste Proc. Natl. Acad. Sci. Unit. States Am</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Rock stars and bad apples: moral economies of alternative food networks and precarious farm work regimes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Weiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Otero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wittman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antipode</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1140" to="1162" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Design, implementation, and evaluation of an Internet of Things (IoT) network system for restaurant food waste management</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Clercq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2017.11.054</idno>
+		<ptr target="https://doi.org/10.1016/j.wasman.2017.11.054" />
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="26" to="38" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Future of Food. Harnessing Digital Technologies to Improve Food System Outcomes</title>
+		<ptr target="https://openknowledge.worldbank.org/bitstream/handle/10986/31565/" />
+	</analytic>
+	<monogr>
+		<title level="m">Future-of-Food-Harnessing-Digital-Technologies-to-Improve-Food-System-Outcomes.pdf?sequence=1&amp;isAllowed=y</title>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-10">2019. October 2020</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>World Bank Group</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Innovation with a Purpose: the Role of Technology Innovation in Accelerating Food Systems Transformation</title>
+		<ptr target="http://www3.weforum.org/docs/WEF_Innovation_with_a_Purpose_VF-reduced.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">World Economic Forum</title>
+		<imprint>
+			<date type="published" when="2018-02-01">2018. 1 February 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Innovation with a Purpose: Improving Traceability in Food Value Chains through Technology Innovations</title>
+		<ptr target="http://www" />
+	</analytic>
+	<monogr>
+		<title level="j">World Economic Forum</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Driven to Waste: the Global Impact of Food Loss and Waste on Farms</title>
+		<ptr target="https://wwfint.awsassets.panda.org/downloads/wwf_uk__driven_to_waste___the_global_impact_of_food_loss_and_waste_on_farms.pdf" />
+		<imprint>
+			<date type="published" when="2021-07">2021. July 2021</date>
+			<publisher>World Wide Fund for Nature-United Kingdom (WWF-UK</publisher>
+			<biblScope unit="volume">21</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

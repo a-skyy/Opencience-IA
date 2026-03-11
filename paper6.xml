@@ -1,0 +1,3076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reducing Food Loss and Waste to Enhance Food Security and Environmental Sustainability</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-07-18">July 18, 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Majid</forename><surname>Shafiee-Jood</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Civil and Environmental Engineering</orgName>
+								<orgName type="laboratory">Ven Te Chow Hydrosystems Laboratory</orgName>
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>Illinois</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Ximing</forename><surname>Cai</surname></persName>
+							<email>xmcai@illinois.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Civil and Environmental Engineering</orgName>
+								<orgName type="laboratory">Ven Te Chow Hydrosystems Laboratory</orgName>
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>Illinois</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">S Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reducing Food Loss and Waste to Enhance Food Security and Environmental Sustainability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-07-18">July 18, 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A2F3D1CEF1AC39644C3893C2913BB0B4</idno>
+					<idno type="DOI">10.1021/acs.est.6b01993</idno>
+					<note type="submission">Received: April 21, 2016 Revised: July 16, 2016 Accepted: July 18, 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>While food shortage remains a big concern in many regions around the world, almost one-third of the total food production is discarded as food loss and waste (FLW). This is associated with about one-quarter of land, water, and fertilizer used for crop production, even though resources and environmental constraints are expected to limit food production around the world. FLW reduction represents a potential opportunity to enhance both food security and environmental sustainability and therefore has received considerable attention recently. By reviewing the recent progress and new developments in the literature, this paper highlights the importance of FLW prevention as a complementary solution to address the Grand Challenge of global food security and environmental sustainability. However, raising awareness only is not enough to realize the expected FLW reduction. We identify the knowledge gaps and opportunities for research by synthesizing the strategies of FLW reduction and the barriers, including (1) filling the data gaps, (2) quantifying the socioeconomic and environmental impacts of FLW reduction strategies, (3) understanding the scale effects, and (4) exploring the impacts of global transitions. It is urgent to take more aggressive yet scientifically based actions to reduce FLW, which require everyone's involvement along the food supply chain, including policy makers, food producers and suppliers, and food consumers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ INTRODUCTION</head><p>Significant increase in global food production over the past four decades <ref type="bibr" target="#b0">1</ref> was achieved at a great expense to the environment. It is widely accepted that agricultural practices in many cases have not been sustainable; the agriculture sector is recognized as one of the major causes of environmental degradation, and has pushed the earth system beyond its safe operating boundaries. <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> Despite the marked increase in food production, however, roughly one in nine people in the world are foodinsecure. <ref type="bibr" target="#b4">5</ref> Food security requires that people have adequate physical, social or economic access to sufficient, safe and nutritious food. <ref type="bibr" target="#b5">6</ref> Besides, the trade-off between food security and environmental sustainability is likely to be aggravated in the near future as a result of several major global transitions: larger and wealthier population, dietary changes, increasing interdependence of food and energy and the competition between food and bioenergy over resources, and climate change. <ref type="bibr" target="#b3">4,</ref><ref type="bibr">[7]</ref><ref type="bibr" target="#b6">[8]</ref><ref type="bibr" target="#b7">[9]</ref><ref type="bibr" target="#b8">[10]</ref> It is in this prospect that meeting the world's growing agricultural demand in an environmentally sustainable way has been recognized as a pressing challenge among scientific communities in recent years, which is referred to as the "Grand Challenge" of food security. <ref type="bibr" target="#b3">4</ref> The Grand Challenge recognizes that sustainability, especially its environmental aspect, should be considered as an explicit fifth dimension of the food security to ensure the other four dimensions, that is, availability, accessibility, utilization, and stability <ref type="bibr" target="#b9">11,</ref><ref type="bibr" target="#b10">12</ref> (see Berry et al. <ref type="bibr" target="#b10">12</ref> for detailed discussion on evolution of definitions of food security and environmental sustainability).</p><p>Different perspectives (or paradigms) have emerged to face the Grand Challenge of balancing growing food and nutrition requirements and environmental impacts. <ref type="bibr" target="#b11">13</ref> The current dominant paradigm mainly assumes that this challenge is a supply side problem and more food should be produced through technological innovations and improvements, <ref type="bibr" target="#b11">13</ref> and various solutions have been proposed to increase food production, <ref type="bibr" target="#b3">4</ref> including yield increase (e.g., agricultural intensification, increasing production limits), 7,14 improvement of resource efficiency, <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b13">15,</ref><ref type="bibr" target="#b14">16</ref> and agricultural land expansion. <ref type="bibr" target="#b15">17</ref> As regards to the food demand side, diet shift is gaining more attention recently by promoting sustainable diet and consumption patterns. <ref type="bibr" target="#b10">12,</ref><ref type="bibr" target="#b16">[18]</ref><ref type="bibr" target="#b17">[19]</ref><ref type="bibr" target="#b18">[20]</ref> Besides these solutions, recently the world is paying a growing attention to the extent of food loss and waste (FLW) in the entire food supply chain (FSC). While food shortages and resources limitations remain big concerns in many regions around the world, almost one-third of the total food production globally is discarded as FLW, in the form of either food loss (i.e., spoilage and losses at the producer level before the market) or waste (losses at retailers' and consumers' levels). <ref type="bibr" target="#b19">21</ref> Although not all of the FLW are avoidable, <ref type="bibr" target="#b20">[22]</ref><ref type="bibr" target="#b21">[23]</ref><ref type="bibr" target="#b22">[24]</ref> this situation suggests that addressing multifaceted challenge of food security requires a paradigm shift from narrow productionfocused strategies of improving food availability to a broader perspective that considers the efficiency of the entire FSC. <ref type="bibr" target="#b23">[25]</ref><ref type="bibr" target="#b24">[26]</ref><ref type="bibr" target="#b25">[27]</ref><ref type="bibr" target="#b26">[28]</ref> The interest in the issue of FLW is not new. In the foreword of the book Hidden Harvest: A systems approach to postharvest technology, <ref type="bibr" target="#b27">29</ref> Joseph Hulse, the late Vice President of the International Development Research Center, criticized the singular focus on increasing agricultural production. He wrote, "For reasons that may be more evident to the psychologist than to food and agricultural scientists, investment in increased agricultural production appears an infinitely more attractive venture than a rigorous effort to reduce the wastage of crops after they are harvested." After the food crisis in the early 1970s, food loss prevention gained greater attention at the 1974 World Food Conference and the seventh Special Session of the UN General Assembly. <ref type="bibr" target="#b28">30</ref> But, during the 1980s, when food prices started declining, attention was directed toward food trade as a means of realizing food security. <ref type="bibr" target="#b30">31</ref> Consequently, the food loss issue was more or less ignored by national and international communities, <ref type="bibr" target="#b31">32</ref> and there was no evidence of progress toward the targets set to reduce losses. <ref type="bibr" target="#b32">33</ref> However, the 2007-08 food price crisis that led to food shortage and hunger and contributed to major social and political crises once again put food insecurity in the forefront of attention, <ref type="bibr" target="#b33">34</ref> and encouraged national and international organizations and scientific communities to reemphasize the significance of FLW reduction. Furthermore, in the context of the Grand Challenge of food security, FLW reduction has been discussed from not only food availability but also the environment perspectives. <ref type="bibr" target="#b20">22,</ref><ref type="bibr">[35]</ref><ref type="bibr" target="#b34">[36]</ref><ref type="bibr" target="#b35">[37]</ref><ref type="bibr" target="#b37">[38]</ref> The overarching goal of this review is to highlight the importance of FLW reduction as a necessary and complementary solution within the sustainable food system framework to address the Grand Challenge of food security. We have reviewed the recent progress and new developments in the literature using multiple major databases (e.g., Web of Science, PubMed, Google Scholar) to access both peer-reviewed articles and national and international reports. We categorized and analyzed the literature based on the following structure. We first assess the recent estimates of FLW and highlight the major mechanisms causing FLW in both developed and developing countries. Then, we discuss the implications of FLW reduction for improving both environmental sustainability and food security. Subsequently, we demonstrate the main strategies proposed to reduce FLW followed by the barriers to their adoption and present FLW reduction as complementary solution to address the Grand Challenge. Then, we identify the main knowledge gaps and opportunities for new research directions. Finally, we summarize and articulate the main findings of the review.</p><p>■ UNDERLYING CAUSES OF FOOD LOSS AND WASTE Food loss and waste, which is also referred to as postharvest losses <ref type="bibr" target="#b38">39</ref> or food wastage, <ref type="bibr" target="#b20">22,</ref><ref type="bibr">35</ref> is defined as the decrease in the quantity or quality of the edible part of the food produced for human consumption at any point along the FSC. <ref type="bibr" target="#b39">40</ref> Food supply chain, or postharvest system, <ref type="bibr" target="#b20">22,</ref><ref type="bibr" target="#b27">29</ref> consists of a series of activities that together describe how food is delivered for human consumption from farms, including multiple stages: production, handling and storage, processing, distribution, and consumption. <ref type="bibr" target="#b19">21,</ref><ref type="bibr" target="#b40">41</ref> A report by United Nations Food and Agriculture Organization (FAO) conducted by Gustavsson et al. estimated that roughly one-third (almost 1.3 billion tonnes) of the edible part of food is discarded as FLW annually. <ref type="bibr" target="#b19">21</ref> Industrialized Asia and South &amp; Southeast Asia contribute the most to the global FLW (see Figure <ref type="figure" target="#fig_0">1</ref>). The percentages of FLW out of total food produced in developed and developing regions are almost equal (ranges between 28% and 36%; see Figure <ref type="figure" target="#fig_1">2</ref>); however, there is a significant difference between per capita FLW values: 257 kg/ year for countries in developed regions compared to 157 kg/ year in developing regions (see Figure <ref type="figure" target="#fig_0">1</ref> for regional estimates). <ref type="bibr" target="#b19">21</ref> Using a similar methodology, Braütigam et al. estimated that FLW accounted for around 142 million tonnes of edible food in European Union countries (EU), with Italy and Germany being on top of the list. <ref type="bibr" target="#b41">42</ref> Food loss and waste can occur at any point along the FSC; however, the loss mechanisms vary in different stages. Therefore, the literature has differentiated between food loss, which occurs in early stages of the FSC before the food enters the market, and food waste, which occurs in retail markets or at the consumer level (see Table <ref type="table" target="#tab_0">1</ref>). <ref type="bibr" target="#b19">21,</ref><ref type="bibr" target="#b20">22</ref> In general, food loss is larger in developing regions mainly due to the losses occurring during handling and storage, whereas food waste is significantly higher in developed countries. Figure <ref type="figure" target="#fig_0">1c</ref> shows the breakdown of FLW by FCS stage in two regions which represent extreme cases: while the losses during production stage are almost equal in North America &amp; Oceania (NAO) and sub-Saharan Africa (SSA), the food loss during handling and storage accounts for nearly 35% of FLW in SSA, compared to only 10% in NAO (which is the smallest across all regions). On the other hand, food waste at the consumption stage in NAO is almost 40% of FLW in the region, whereas SSA has the smallest food waste at consumption among all regions by less 5%. Gustavsson et al.  found that per capita food wasted at the consumption stage was around 85 and 14 kg/year for developed and developing regions, respectively. <ref type="bibr" target="#b19">21</ref> A United States Department of Agriculture (USDA) study conducted by Buzby et al. found that 60 million tonnes (or 31%) of the total available food supply at the retail level were discarded as food waste in 2010. <ref type="bibr" target="#b42">43</ref> In the EU, food waste at consumption accounts for almost 40% of the total FLW, while 55% of the FLW occurs as food loss. <ref type="bibr" target="#b41">42</ref> As shown in Table <ref type="table" target="#tab_0">1</ref>, FLW can be attributed to different factors. These factors are either related to the processes and operations taking place within the FSC (e.g., harvesting, drying, storage, transportation) or external parameters which induce losses (e.g., environmental and socioeconomic factors). The major causes, however, are different in developed and developing countries (see Table <ref type="table" target="#tab_0">1</ref>). <ref type="bibr" target="#b38">39</ref> In developing and fast growing countries, FLW occurs primarily before the food enters the market, <ref type="bibr" target="#b19">21,</ref><ref type="bibr" target="#b38">39</ref> which is mainly due to poor harvest techniques, lack of modern and appropriate rural infrastructure (e.g., storage and transportation), inadequate marketing network, and humid climate conditions. <ref type="bibr" target="#b31">32,</ref><ref type="bibr">35,</ref><ref type="bibr" target="#b43">44</ref> Lack of appropriate rural infrastructure in sub-Saharan Africa, Latin America, India, and China, where considerable food shortage exists, <ref type="bibr" target="#b4">5</ref> decreases overall agricultural productivity, increases the cost of marketing and limits farmers' access to fair markets. <ref type="bibr" target="#b19">21,</ref><ref type="bibr" target="#b23">25,</ref><ref type="bibr">35,</ref><ref type="bibr" target="#b43">44</ref> In developed and industrialized countries, food waste in retail and consumption stages significantly contributes to FLW mainly because of consumers' and retailors' behavior and lack of communication in the FSC. <ref type="bibr" target="#b19">21,</ref><ref type="bibr" target="#b34">36,</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref> Studies in Australia, Europe, and the United States have extensively investigated the impact of socio-demographic factors on food waste generation and have found household size, <ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref> level of education, <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b50">51</ref> type of employment, <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> and age <ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref> as important indicators of the amount of waste in the household. Moreover, household storage practices, <ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b53">54</ref> shopping routines, <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b52">53,</ref><ref type="bibr">55,</ref><ref type="bibr" target="#b54">56</ref> and miscommunication between household members <ref type="bibr" target="#b53">54</ref> have emerged as significant underlying themes linking household behavior with waste generation (for more details on the impact of consumer-related factors on food waste, readers are referred to Aschemann-Witzel et al. <ref type="bibr" target="#b52">53</ref> ). Food waste can also occur because of inappropriate packaging, damage from excessive and insufficient temperature, and incorrect demand forecasting. <ref type="bibr" target="#b55">57,</ref><ref type="bibr" target="#b56">58</ref> The underlying causes of FLW are also considerably different between nonperishable (cereal grains) and perishable (fresh fruit and vegetables) crops. <ref type="bibr" target="#b20">22</ref> Given the lack of appropriate harvest and postharvest technologies in developing countries, grains are highly vulnerable to unfavorable weather conditions (e.g., rainfall during harvest, and drying), particularly in humid climate; <ref type="bibr" target="#b20">22,</ref><ref type="bibr" target="#b57">59</ref> whereas, grains usually have very small loss rates in developed countries. <ref type="bibr" target="#b20">22</ref> The loss of perishable crops is common in both developed and developing countries and occurs due to both natural and management causes. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b58">60</ref> In developed countries, the main causes include disease and insect infestation, weather variations and seasonal factors, demand uncertainty, and lack of information sharing. <ref type="bibr" target="#b10">12,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b56">58</ref> In contrast, poor temperature management, mechanical injury, microbial action, poor packaging, and lack of cold storage facilities lead to huge amount of losses in fresh fruit and vegetables in developing regions. <ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b58">60</ref> ■ NEGATIVE IMPLICATIONS OF FLW FOR THE</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ENVIRONMENT AND RESOURCES</head><p>Given the considerable amount of food loss and waste along the FSC, FLW represents a missed opportunity to tackle the Grand Challenge, and can be discussed from socioeconomic and environmental perspectives (see HLPE <ref type="bibr" target="#b59">61</ref> for detailed discussion). Recently, the negative implications of FLW from environment perspective (or environmental externalities) have received wide attention. The food that is produced but never consumed represents an inefficient use of valuable agricultural input resources and causes partially avoidable environmental degradation. <ref type="bibr" target="#b59">[61]</ref><ref type="bibr">[62]</ref><ref type="bibr" target="#b60">[63]</ref> Thus, it is argued that reducing FLW, especially food waste in developed countries, is crucially important to remove unnecessary burden on the environment and natural resources. Reducing FLW can contribute to higher efficiency and productivity of resources, particularly water, land, and nutrients <ref type="bibr" target="#b25">27,</ref><ref type="bibr" target="#b34">36,</ref><ref type="bibr" target="#b61">64</ref> and lead to a more environmentally sustainable agricultural production and consumption system. This is particularly important in regions where (1) water scarcity is pervasive (see SI Figure <ref type="figure" target="#fig_1">S2</ref>); (2) irrigated agriculture contributes significantly to total food production (see SI Figure <ref type="figure">S3</ref>); and (3) yield potential is not reached due to scarcity of water or nutrients (see Neumann et al. <ref type="bibr">65</ref> and SI Figure <ref type="figure">S4</ref>). Resources liberated by reducing FLW can "facilitate the achievement of multiple development objectives", <ref type="bibr" target="#b26">28</ref> be "allocated to other high-efficient beneficial uses", <ref type="bibr" target="#b25">27</ref> and/or "be offset by the need for additional resources to feed the growing world population and meet new demands". <ref type="bibr">62,</ref><ref type="bibr" target="#b62">66,</ref><ref type="bibr" target="#b63">67</ref> For instance, the growing competition between land allocated for  Environmental Science &amp; Technology Critical Review DOI: 10.1021/acs.est.6b01993 Environ. Sci. Technol. 2016, 50, 8432-8443</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Environmental Science &amp; Technology</head><p>food and bioenergy <ref type="bibr" target="#b64">68</ref> can be partially neutralized by using land made available as a result of food waste reduction. <ref type="bibr" target="#b65">69</ref> Different studies have quantified the amount of resources or environmental impacts associated with FLW at local, regional and global scales. Kummu et al. estimated that almost onequarter of water resources, cropland, and fertilizers used globally for food crop production is associated with FLW (see Figure <ref type="figure" target="#fig_1">2</ref>). <ref type="bibr" target="#b34">36</ref> One striking point from their results is that North Africa, West, and Central Asia, the region with the most limited amount of water availability per capita, has the third highest fraction of water use associated with loss and waste rate (33%), closely behind North America and Oceania (35%), and Latin America (34%). This region heavily depends on irrigation and has a high amount of water use per unit of food production (see SI Figure <ref type="figure">S3</ref>). In China, another area that faces land and water stress, Liu et al. estimated that over 20% of the total water (i.e., 135.0 ± 59.7 billion m 3 ) and land footprints (i.e., 25.7 ± 10.9 million ha) of Chinese food crop production was ascribed to FLW in 2010. <ref type="bibr" target="#b25">27</ref> In addition, based on survey data in 2004, 2006, and 2009, Song et al. estimated that 2.7% (18 m 3 per capita) of the annual total water footprint (WF) of the food consumption in China is attributed to household food waste. This study also highlighted that although only 13% of the animal derived foods were discarded as food waste, it accounted for 44% of the water embedded in total food waste. <ref type="bibr" target="#b66">70</ref> In the UK, the annual WF of avoidable household food waste was 7.5% (89 m 3 per capita) of the total agricultural WF in 2008. <ref type="bibr" target="#b67">71</ref> In addition to the input resources, greenhouse gas (GHG) emissions, air and water pollution, and biodiversity loss can be considered as other important negative externalities of FLW. <ref type="bibr">35,</ref><ref type="bibr">62</ref> In particular, GHG emission associated with FLW has garnered much attention. FLW contribution to GHG emissions is related to different processes and procedures along the FSC as well as those of food waste management (e.g., landfilling and composting; see Bernstad Saraiva Schott et al. <ref type="bibr" target="#b68">72</ref> for a review on GHG emissions from food waste management alternatives). <ref type="bibr" target="#b69">73,</ref><ref type="bibr" target="#b71">74</ref> At the global scale, a FAO study estimated that the carbon footprint of FLW in 2007 corresponded to 3.3 Gtonnes of CO 2 equiv, which is almost half of the total GHG emissions of the United States. <ref type="bibr">35</ref> This study also estimated that almost 20% of the FLW carbon footprint was from waste disposal all along the FSC. <ref type="bibr">35</ref> The issue of FLW carbon footprint has also been addressed by several studies at the national level (e.g., see Abeliotis et al. <ref type="bibr" target="#b72">75</ref> for Greece, Gruber et al. <ref type="bibr" target="#b73">76</ref> for Germany, Bernstad Saraiva Schott and Anderson <ref type="bibr" target="#b21">23</ref> for Sweden, Song et al. for China, among the others). For instance, in the UK, the GHG emissions associated with avoidable and possibly avoidable food and drink waste at the household in 2007 accounted for nearly 25.7 Mtonnes of CO 2 equiv (i.e., 428 kg CO 2 equiv per person), <ref type="bibr" target="#b22">24,</ref><ref type="bibr" target="#b67">71</ref> which is around 3% of the UK total GHG emissions; <ref type="bibr" target="#b74">77</ref> this value is 1 order of magnitude larger than that of Chinese households (i.e., 40 kg CO 2 equiv per year per person). <ref type="bibr" target="#b66">70</ref> In the United States, GHG emissions due to avoidable food waste amounted to 2% (i.e., 368 kg CO 2 equiv per person) of the country net GHG emissions in 2009. <ref type="bibr" target="#b75">78</ref> Other relevant, unnecessary environmental burdens caused by FLW, such as water quality or eutrophication, have received less attention. <ref type="bibr" target="#b21">23,</ref><ref type="bibr" target="#b73">76</ref> Using a life cycle assessment approach and data from 2007, Grizetti et al. estimated that the virtual nitrogen (i.e., any nitrogen that was used in food production process, such as in fertilizers, and is not in the food product consumed) associated with food waste was 6.3 TgN/yr (i.e., 6-9% of the total virtual nitrogen associated with total food production). <ref type="bibr" target="#b76">79</ref> This amount is in addition to the 2.7 TgN/yr that are directly lost in food waste at consumption stage. More importantly, they reported that food waste in EU represented about 12% of the total nitrogen loss to the environment due to food production out of which 65% are emitted to water bodies. <ref type="bibr" target="#b76">79</ref> Food production, storage, processing, delivery, and cooking are highly dependent on fossil fuels and other energy sources. <ref type="bibr" target="#b8">10,</ref><ref type="bibr" target="#b77">80</ref> It is evident that an increase in food demand would increase food-related energy use in the future. Moreover, per capita energy use for food is also expected to increase as a result of changing diets globally, <ref type="bibr" target="#b77">80</ref> particularly toward more perishable food that requires cold storages facilities. Canning et al. found that per capita food-related energy use in the United States during 1997-2002 increased by 16.4% whereas overall per capita energy use dropped by 1.8% during the same period. <ref type="bibr" target="#b78">81</ref> Therefore, reducing FLW can lead to not only resource conservation (e.g., water and fertilizer), but also a reduction in the food systems energy requirements (e.g., energy used to pump groundwater, energy used in the production of chemical fertilizers). Food waste is much more energy intensive than food loss since it requires energy inputs along additional stages of the FSC after production and preliminary storage. Dobbs et al. estimated that energy associated with food waste is eight times more than food loss. <ref type="bibr" target="#b61">64</ref> Cueĺlar and Webber, <ref type="bibr" target="#b79">82</ref> one of the few studies that discuss the embedded energy within FLW, reported that FLW in the United States in 2007 corresponded to 25% of the energy use in the agricultural sector and 2% of total energy consumption in that year.</p><p>Finally, FLW can have considerable socioeconomic consequences. In developing countries, especially where agriculture is the primary source of income for the majority of the population, FLW reduces the income of small farmers, resulting in higher food prices, and consequently aggravates poverty. <ref type="bibr" target="#b23">25,</ref><ref type="bibr" target="#b27">29,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b43">44</ref> Even in developed countries, food insecurity is still a concern. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b42">43</ref> For instance, in 2013, 49.1 million people in the United States lived in food-insecure households and 19.5% of the households with children were food-insecure. <ref type="bibr" target="#b80">83</ref> In these countries, considerable amount of food waste at the retail and consumer levels increases the selling prices of the food, thereby declining food access for low-income households. 62,84 Moreover, several studies have quantified the monetary value associated with FLW (e.g., see Venkat, <ref type="bibr" target="#b75">78</ref> Buzby, and Hyman, 62 and Buzby et al. <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b55">57,</ref><ref type="bibr" target="#b82">85</ref> for the United States, and Nahman et al., <ref type="bibr" target="#b83">86</ref> Nahman and de Lange 87 and de Lange and Nahman <ref type="bibr" target="#b85">88</ref> for South Africa), which raise awareness and might provide financial incentive for both consumers and policy makers to reduce FLW. <ref type="bibr">62,</ref><ref type="bibr" target="#b83">86</ref> For instance, the monetary value of food waste in the United States in 2008 and 2009 was estimated at $165.6 billion (i.e., $544.6 per person) 62 and $197.7 billion (i.e., $643.9 per person), <ref type="bibr" target="#b75">78</ref> respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ STRATEGIES AND BARRIERS FOR FOOD LOOS AND WASTE REDUCTION</head><p>With growing attention to FLW since 2008, numerous technological and institutional strategies have been proposed to reduce FLW at local, regional, and global levels (see report by HLPE <ref type="bibr" target="#b59">61</ref> and FAO <ref type="bibr" target="#b86">89,</ref><ref type="bibr">90</ref> for comprehensive lists). It is critical to understand that FLW reduction strategies are region-specific; they should be adapted to local situations (e.g., energy limitation, infrastructure limitation), and target food loss (mainly in developing countries) and food waste (mainly in developed countries) differently in order to properly cope with</p><p>Environmental Science &amp; Technology Critical Review DOI: 10.1021/acs.est.6b01993 Environ. Sci. Technol. 2016, 50, 8432-8443</p><p>the various barriers. Barriers also vary by region, FCS stage, and supply chain actors, including institutional regulations, limited financial sources, constraining resources (e.g., energy), information gaps (e.g., with retailers), and consumers' behaviors, which are associated with the underlying causes of FLW discussed in the previous section. In the rest of this section, we identify the barriers confronting appropriate actions to realize FLW reduction strategies (both institutional intervention and technology innovation).</p><p>Food Loss Reduction Strategies and Barriers. Food loss can be mitigated by introducing new technologies, expanding or upgrading infrastructure, and more effective markets. <ref type="bibr" target="#b23">25,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b43">44</ref> Sufficient access to efficient storage at farm, village, and district levels (via more effective transportation) plays an important role. <ref type="bibr" target="#b23">25</ref> Appropriate storage infrastructure not only reduces the rate of spoilage and decreases losses due to unfavorable weather conditions, it is also essential to maintain household food supplies and increase farmers' livelihoods by lessening their dependencies on food markets in postharvest seasons. <ref type="bibr" target="#b23">25</ref> Moreover, proper drying facilities for grains and temperature controls within the supply chain (i.e., cold chain) for perishable products improve the performance of higher-quality storage facilities and decrease food quality degradation. Monitoring tools, including physical and biochemical sensors that are affordable to farmers are needed for medium-to-large storage facilities to provide timely alerts of food quality. <ref type="bibr" target="#b59">61</ref> The cost is usually a barrier for infrastructure expansion and technology adoption, especially in developing countries. Affognon et al. found that high initial costs and a lack of rewarding markets led to failure in adoption of grain storage technologies in sub-Saharan Africa. <ref type="bibr" target="#b32">33</ref> Cost effectiveness is the key to enable farmers to (1) build sufficient storage using cheap and locally available materials, and (2) ship food between field and home and between home and market via inexpensive transport facilities. Cost-effectiveness is also the key to enable storage and market managers to use affordable physical and biochemical sensors for monitoring the conditions affecting food quality. Energy is also an important component of many food loss reduction methods. Energy is used for grain drying before and during storage, for temperature control in perishable products' cold chains, and for shipment of products. <ref type="bibr" target="#b59">61</ref> Since in many regions energy limitations and energy costs are barriers for running necessary facilities to reduce food loss, <ref type="bibr" target="#b87">91,</ref><ref type="bibr" target="#b88">92</ref> energysaving technologies are more likely to be adopted by farmers. Novel technology development is expected to break these barriers and provide promise for realistic postharvest food loss prevention. For example, evaporative cool storage systems do not require energy for maintenance and therefore are effective and cheaper alternatives in rural areas with extensive storage needs and high risk of energy shortage. <ref type="bibr" target="#b59">61</ref> Food Waste Reduction Strategies and Barriers. Compared to food loss reduction strategies, food waste reduction strategies are even more complex and sometimes controversial. These strategies mainly encourage better communication along FSC and target consumers' behavior. For example, the USDA and Environment Protection Agency (EPA) launched the Food Waste Challenge in 2013, through which a comprehensive set of USDA programs have been initiated, ranging from those supporting market and distributional efficiencies to those educating consumers. <ref type="bibr">93</ref> Identifying consumers' behavior and attributes that lead to household food waste generation is critical to suggest better strategies and therefore has become a popular research topic recently in developed countries (e.g., see Questad et al., <ref type="bibr" target="#b48">49</ref> Stefan et al., <ref type="bibr" target="#b54">56</ref> Aschemann-Witzel et al., <ref type="bibr" target="#b52">53</ref> Secondi et al., <ref type="bibr" target="#b50">51</ref> and Stancu et al., <ref type="bibr" target="#b49">50</ref> among the others). Results of a recent survey in the United States suggest that respondents tend to underestimate the amount of food they waste. <ref type="bibr" target="#b89">94</ref> The survey also found that only 10% of the respondents reported environmental concerns as motivations to reduce waste. Moreover, some studies have found little evidence between food waste reduction behavior and environmental issues, given lower consumers' awareness of environmental consequences than the economic consequences at present, <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b54">56</ref> and it is not yet clear if only raising environmental awareness would lead to food waste reduction. <ref type="bibr">95</ref> Therefore, providing knowledge and information to consumers and educating them about the monetary value of environmental externalities of food waste are important to change their behavior and habits. <ref type="bibr" target="#b82">85,</ref><ref type="bibr" target="#b90">96</ref> Moreover, educating individuals should be followed by community-based interventions to ensure cascade training. <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b50">51</ref> A complicating factor however is that targeting consumers' behavior to reduce food waste entails some trade-offs between conflicting goals that may rise because of safety concerns, convenience orientation, and the desire to be a good host or food provider. <ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b91">97,</ref><ref type="bibr" target="#b92">98</ref> Although consumers are generally blamed for the vast amount of food waste in developed countries, retailers should also take part in food waste reduction campaigns. In addition to more accurate demand prediction and better labeling and packaging, more advanced technologies such as nanotechnologies and nanosensors can be utilized to remotely monitor the quality and increase the shelf life of the food products. <ref type="bibr" target="#b55">57,</ref><ref type="bibr" target="#b93">99</ref> Information Tools to Reduce FLW. Information technology is also playing a growing role in agriculture and can be used for reducing both food loss and food waste. Startups in India provide mobile tools allowing thousands of farmers in rural regions to access market price information, weather alerts, and advice on crop management, which are all related to postharvest food loss prevention. One particular case is using weather forecasts to determine harvest days. In many developing countries where sun-drying is utilized, unfavorable wet weather conditions during crop harvesting would significantly increase food losses and degrade food quality. Hodges reported that rain at harvest increased losses during harvesting and drying by almost 8% in Swaziland. <ref type="bibr" target="#b94">100</ref> Short-term weather forecast information can provide useful information for farmers to better schedule their harvesting and drying. However, potential barriers may limit the use of forecasts by farmers, including forecast uncertainty, limited information delivering channels, and farmers' behavior and capability to use the forecasts. Encouraging information exchange between suppliers and retailers in order to achieve more accurate and timely automated demand forecasting is considered as a potential strategy to reduce food waste at the retail stage. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b93">99</ref> Moreover, information technology can help suppliers avoid the pressure of overplanting to meet buyers' demand by providing timely and relevant market forecast. <ref type="bibr" target="#b59">61</ref> ■ LOOKING FORWARD: KNOWLEDGE GAPS AND OPPORTUNITIES Following reviewing the strategies for and the barriers of FLW reduction, the knowledge gaps and research opportunities are discussed in this section.</p><p>Addressing FLW Reduction As a Complementary Solution. Emphasizing any measures to increase global food production while ignoring the significant amount of FLW along</p><p>Environmental Science &amp; Technology Critical Review DOI: 10.1021/acs.est.6b01993 Environ. Sci. Technol. 2016, 50, 8432-8443</p><p>the FSC would do little to overcome the Grand Challenge. <ref type="bibr" target="#b23">25,</ref><ref type="bibr" target="#b95">101</ref> This is because those measures may not be sufficient to achieve the goals underlying the Grand Challenge. First, there has been a strong voice that refuses any strategies involving extending agricultural land and suggests aiming at attaining higher agricultural productivity within the same area of land and with relatively less environmental footprints. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b12">14</ref> Second, yield increase alone may not match the expected increasing demand. <ref type="bibr" target="#b96">102</ref> It is projected that a 60% increase in food production globally (almost 100% in developing countries) is required by 2050. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b97">103</ref> However, according to the estimate of Foley et al., achieving 75% of the potential yields for 16 major crops would increase food production by only 28% (1.1 billion tons), while an increase of 58% in global food supply requires achieving 95% of the potential yields. <ref type="bibr" target="#b3">4</ref> Realizing global yield increase by 75 to 95% of their potential is questionable given water and nutrient constraints, as well as potential environmental problems associated with the measures for crop yield increase (e.g., increased fertilizer use). <ref type="bibr" target="#b12">14,</ref><ref type="bibr" target="#b98">104</ref> Finally, diet shift toward less animal products, as suggested by many studies, is in general beneficial to the environment, but its realization primarily relies on consumers' attitude and behavior, <ref type="bibr" target="#b99">105</ref> which is subject to high uncertainty.</p><p>Nevertheless, it is not realistic to expect that FLW reduction alone can entirely resolve the Grand Challenge; nor is it yet clear if FLW reduction can outperform other strategies. As discussed Rosegrant et al. although FLW reduction will overall help improve food security (e.g., with lower crop prices and lower number of population at risk of hunger), agricultural intensification as a result of investment in agricultural research and development can outperform the various FLW reduction scenarios due to significant cost of implementing FLW reduction solutions. <ref type="bibr" target="#b100">106</ref> Rutten et al. compared food waste reduction (without including cost of implementation) with a healthy diet scenario based on World Health Organization guidelines, and found that adoption of the healthy diet outperforms food waste reduction in European Union both in terms of GDP and land use save. <ref type="bibr" target="#b65">69</ref> Therefore, reducing FLW should be taken as a necessary complementary solution in the agenda of sustainable food system, along with other solutions (e.g., yield increase, diet shift). This school of thought helps create a portfolio of diverse and synergistic approaches to replace the current perspective, which is largely based upon increasing production. For example, Jalava et al. <ref type="bibr" target="#b60">63</ref> found that the impacts of diet reduction on water saving are not independent from the impacts of FLW reduction, and thus there appears to be a synergistic effect between the two strategies.</p><p>Quantifying the Impacts of FLW Reduction Strategies. It is often argued that the proposed strategies to reduce FLW have rarely been implemented in real world practices. <ref type="bibr" target="#b88">92</ref> This can be in part due to the lack of enough understanding of the socioeconomic and environmental "impacts" of FLW reduction strategies. Therefore, one major gap includes quantifying the impacts of FLW reduction on (a) price dynamics and supply demand interactions, (b) producers' and consumers' behaviors in the market, (c) resources use and the environment, (d) food self-sufficiency, <ref type="bibr" target="#b96">102</ref> availability and accessibility, and (e) food security and hunger, at the regional and global scales. Food loss and waste reduction possibly results in more food supply followed by lower food prices, which generates benefit to consumers but not necessarily to producers. <ref type="bibr" target="#b100">106,</ref><ref type="bibr" target="#b101">107</ref> Paradoxically, this situation (i.e., with a low price), without necessary financial incentives, might deter FLW reduction, and/or lead to less production and eventually bring up food prices in the long term at the global scale. Rutten showed that economic impacts of FLW reduction depend on different factors, such as size of the market, cost of reducing FLW, and actors' interactions with other actors and the markets. <ref type="bibr" target="#b101">107</ref> Quantifying socioeconomic impacts is necessary to assess the extent to which the recommended FLW reduction strategies can improve food security. Despite the seemingly positive impact of FLW reduction on the environment (e.g., saving resources and less negative impact) at the local scale, there are two complicating factors. First, it is not clear whether (and to what extent) the local savings will contribute to environmental sustainability at regional and global scales. The second factor is related to the indirect effect of FLW reduction, which is also known as rebound effect. <ref type="bibr" target="#b102">108</ref> The lower price of foods, economic benefits or resources savings resulting from FLW reduction may encourage additional production or purchase of food or other goods, which may lead to additional waste and environmental impacts. <ref type="bibr" target="#b21">23,</ref><ref type="bibr" target="#b25">27,</ref><ref type="bibr" target="#b103">109,</ref><ref type="bibr" target="#b104">110</ref> Considering these indirect effects would make the assessment of FLW reduction impacts more realistic. <ref type="bibr" target="#b104">110</ref> Moreover, FLW prevention strategies, including infrastructure and technology investment, at the local and regional scale are costly and may require financial incentive provision to be implemented. Therefore, comprehensive economic analysis is needed to identify the benefits (and necessary incentives) before introducing any new infrastructure and technologies. <ref type="bibr" target="#b23">25,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b101">107</ref> Recently, a few efforts have shed light on the economic impacts of FLW reduction. <ref type="bibr" target="#b65">69,</ref><ref type="bibr" target="#b100">106</ref> They showed that reducing FLW would generally result in lower food prices, higher food availability, improved food security, significant household savings, and increased social welfare (though the producer surplus can be negative). Meanwhile, they also showed that investment in FLW reduction can be outperformed by investment in agricultural research <ref type="bibr" target="#b100">106</ref> or shifting diets <ref type="bibr" target="#b65">69</ref> although these studies do not comprehensively account for the environmental and social impacts and externalities. <ref type="bibr" target="#b90">96</ref> Understanding the Scale Effects. Scale (e.g., local, regional and national) does matter for the implementation of policies and regulations for FLW reduction. Different strategies impact on different participants involved at the different scales in the FSC (e.g., under some regulations, producers might worse off and consumers better off). One important FLW reduction policy challenge is to ensure that the majority of participants benefit from one or more of the combined reduction strategies. <ref type="bibr" target="#b31">32</ref> Thus, to better evaluate FLW reduction and better support the recommended policies, integrated social, economic, and environmental impacts of FLW reduction should be considered at different scales. Specifically, there are certain critical questions that should be addressed: (1) How does a given strategy affect the entire food supply chain at different stages and scales? (2) How does FLW reduction impact market prices? (3) What is the opportunity cost of resources saved due to more efficient postharvest systems? (4) How would reduction policies affect different actors and the social welfare? (5) What is the trade-off between food security and environmental sustainability under different FLW reduction scenarios? In order to address these questions, it is important to go beyond the local level and apply a systems approach (i.e., value chain) at the regional level, and integrated impact assessment at the global level. <ref type="bibr" target="#b37">38</ref>,107 Environmental Science &amp; Technology Critical Review DOI: 10.1021/acs.est.6b01993 Environ. Sci. Technol. 2016, 50, 8432-8443</p><p>Filling the Data Gaps. Insufficient and inconsistent data, especially on the magnitudes of losses and cost of FLW reduction strategies, make it difficult to properly formulate a benefit-cost analysis. <ref type="bibr" target="#b88">92,</ref><ref type="bibr" target="#b101">107,</ref><ref type="bibr" target="#b105">111</ref> Recently, more studies have paid attention to FLW measurement data gaps (e.g., see World Bank <ref type="bibr" target="#b31">32</ref> for sub-Saharan Africa; Buzby et al. <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b55">57</ref> and Hall et al. <ref type="bibr" target="#b106">112</ref> for the United States; Liu <ref type="bibr" target="#b107">113</ref> and Song et al. <ref type="bibr" target="#b66">70</ref> for China; Eriksson et al., <ref type="bibr" target="#b108">114</ref> Bernstad Saraiva Schott et al., <ref type="bibr" target="#b109">115</ref> and Bernstad Saraiva Schott and Anderson <ref type="bibr" target="#b21">23</ref> for Sweden; Nahman et al. <ref type="bibr" target="#b83">86</ref> and Oelofse and Nahman <ref type="bibr" target="#b110">116</ref> for South Africa; WRAP <ref type="bibr" target="#b112">117</ref> for UK; Beretta et al. <ref type="bibr" target="#b81">84</ref> and Betz et al. <ref type="bibr" target="#b113">118</ref> for Switzerland; Braütigam et al. <ref type="bibr" target="#b41">42</ref> (and references therein) for European Union countries; Lebersorger and Schneider <ref type="bibr" target="#b114">119</ref> for Austria; and Loke and Seung <ref type="bibr" target="#b115">120</ref> for Hawaii, among the others). Parfitt et al., for example, collected and reported the existing knowledge of FLW rates in different countries, and concluded that more data are needed to better understand the current situation of FLW. <ref type="bibr" target="#b20">22</ref> In 2011, Gustavsson et al. estimated the losses occurring along the FSC for different food commodities and in different regions using loss factors based on multiple sources. <ref type="bibr" target="#b19">21</ref> Recently, Hiçet al. <ref type="bibr" target="#b105">111</ref> estimated the country-level food waste across the globe by using an alternative approach based on the difference between required and available calories (also see <ref type="bibr">Hall et al. 112</ref> ). One of the challenges with FLW estimates which makes their comparison difficult is using different terminologies and methods to estimate the loss rates. <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b55">57,</ref><ref type="bibr">62,</ref><ref type="bibr" target="#b105">111</ref> Harmonizing the definitions and the methodologies of FLW estimation <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b116">121,</ref><ref type="bibr" target="#b117">122</ref> and conducting more studies in developing countries <ref type="bibr" target="#b32">33</ref> are crucial to better understand the current extent of FLW in different countries, identify hot spots, and perform more reasonable integrated impact assessment analysis. Estimating the cost of FLW reduction strategies, on the other hand, has received far less attention. <ref type="bibr" target="#b88">92</ref> The high costs associated with investment on food loss reduction strategies could probably make them less economically favorable comparing to other solutions such as agricultural research and development. <ref type="bibr" target="#b100">106</ref> Understanding the Impacts of Major Global Transitions on FLW. Rapid urbanization, nutrition and diet transition, climate change, and globalization, the major forms of global transitions, affect FLW magnitudes and mechanisms in different regions. <ref type="bibr" target="#b7">9,</ref><ref type="bibr" target="#b20">22</ref> By 2030, nearly 60% of the world's population, that is, 5 billion people, will be urban dwellers, with the most rapid growth rates coming from the developing world. Besides population growth and urban population transition, these countries also face major changes in the food supply systems (e.g., expansion of supermarkets) and nutrition transition due to income growth. With more people living in urban areas, FSCs need to be extended to feed the urban population. <ref type="bibr" target="#b20">22</ref> On the other hand, shifting diets toward more animal based products (which are also more resource and energy intensive) and fresh fruit and vegetables (which have higher rates of FLW) necessitates greater dependence on cold chains than before. <ref type="bibr" target="#b20">22,</ref><ref type="bibr" target="#b25">27,</ref><ref type="bibr">62,</ref><ref type="bibr" target="#b91">97,</ref><ref type="bibr" target="#b93">99</ref> As a result, food waste is likely to emerge as a more pressing issue in those countries while they might not have adequate and efficient infrastructure to deal with the changes.</p><p>Especially, climate change can impose some constraints for FLW prevention. Climate and weather conditions not only affect crop yield, they are also an important determinant of food losses. <ref type="bibr" target="#b94">100</ref> More unfavorable weather conditions (such as heavy precipitation and high temperature) due to climate change will aggravate food losses, particularly in developing countries. Heavy precipitations (with increased intensity and/or duration) reduce the available time for harvesting and drying and increase the moisture content in the crop which can make drying procedures more difficult and result in faster reproduction of pests and high disease incidents. <ref type="bibr" target="#b57">59,</ref><ref type="bibr" target="#b59">61</ref> Moreover, more frequent floods caused by heavier precipitations would increase the rate of road deterioration and damage storage facilities. <ref type="bibr" target="#b57">59</ref> High temperature and frequent dry spells may facilitate and accelerate drying; however, higher temperature also hastens reproduction of insect pests and increases the rate of fungal rot in stored products. Moreover, changes in temperature, precipitation and humidity also affect postharvest processes and activities, thereby reducing both food quality and quantity. <ref type="bibr" target="#b57">59</ref> Thus, changing climate may lead to FLW increase or decrease in particular regions, which will imply different strategies for FLW reduction around the world.</p><p>The role of globalization and food aid in FLW reduction is complex. Despite all the advantages of both trade globalization and food aid, they might as well directly or indirectly contribute to FLW augmentation. <ref type="bibr" target="#b20">22,</ref><ref type="bibr">123</ref> In fact, trade and food aid would create unfair competitions in the destination markets, which are in many cases in developing countries, rendering local agricultural land unharvested and surprisingly lead to food loss even in poor countries. <ref type="bibr">123</ref> For example, Thurow and Kilman found that Ethiopian farmers cannot sell their surplus produce because of United States food aid. <ref type="bibr" target="#b118">124</ref> Moreover, globalization also leads to rapid growth of supermarkets in developing and transitional economies and highlights the need for better and more efficient packaging technologies to increase the shelf life of the products. <ref type="bibr" target="#b20">22,</ref><ref type="bibr" target="#b93">99</ref> ■ CONCLUSIONS Agricultural intensification, or any other strategy targeting increased production, will be economically feasible and/or environmentally beneficial only if it is accompanied by efficient postharvest systems given that one-third of the food produced is lost or wasted, associated with about one-quarter of land, water, and fertilizer used for crop production. Implementing a portfolio of diverse and synergistic approaches seems to be the best way to deal with the Grand Challenge of global food security. Reducing FLW holds great potential for enhancing food security, conserving resources, and promoting environmental sustainability.</p><p>To reduce FLW, it is crucial to raise awareness among consumers, especially those in developed countries, among farmers and producers in developing countries who need to adopt more efficient postharvest technologies and among policy makers. Raising awareness only however is not enough to realize expected FLW reduction unless the barriers impeding the implementation of FLW reduction technologies and policies are recognized and properly eliminated. Scientific communities need to address the underlying causes of FLW, and fill the knowledge gaps. Specifically, integrated impact assessment should be utilized to (1) understand the socioeconomic and environmental impacts and indirect effects of FLW reduction, (2) explore the impacts of FLW reduction strategies across scales and FSC stages, and (3) identify the synergies and trade-offs between FLW reduction strategies and other solutions (e.g., diet change and sustainable intensification). Further emphasis should be put on harmonizing FLW definitions and measurements, estimating the cost of implementing FLW reduction strategies, developing costeffective infrastructure and technology, and establishing longterm education and surveillance programs. Moreover, the research communities should also address how the magnitudes and mechanisms of FLW might change under rapid urbanization, globalization, and climate change to avoid even larger FLW rates. It is time for the global community to take more aggressivebut scientifically basedactions to reduce FLW, which require everyone's involvement along the FSC, including policy makers, food producers and suppliers, and food consumers.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Regional estimates of FLW. (a) Contribution of each region to the global FLW, (b) per capita FLW (in kg/year) in each region, and (c) FLW breakdown by FCS stage in sub-Saharan Africa and North America &amp; Oceania. Note that the percentages may not add up to 100 due to rounding. Refer to SI Figure S1 to see the countries in each region [Data Sources: FAO, 35 Gustavsson et al., 21 HLPE, 61 Lipniski et al. 41 ].</figDesc><graphic coords="2,324.45,190.72,239.98,293.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Percentage of water, cropland, and fertilizers associated with food crop which produced but either lost or wasted during the various stages of FSC in each region averaged over years 2005-2007. Ranges are 18-35% of water, 18-31% of land, and 18-30% of fertilizers (Data Source: Kummu et al. 36 )]. The figure also shows the percentage of FLW of food produced for human consumption in each region (Data source: FAO 35 ).</figDesc><graphic coords="3,60.49,69.17,239.98,197.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Food loss and waste along the food supply chain: Description, causes and estimates (Based on Gustavsson et al.,<ref type="bibr" target="#b19">21</ref> FLW rates are extracted from Gustavsson et al.<ref type="bibr" target="#b19">21</ref> b Food commodity groups are abbreviated: C stands for Cereals, F&amp;V stands for Fruits and Vegetables, M stands for Milk, O&amp;P stands for Oilseeds and Pulses, R&amp;T stands for Roots and Tubers, and ME stands for Meat. Refer to Gustavsson et al.<ref type="bibr" target="#b19">21</ref> for detailed classification food commodity groups. c Developed regions include Europe, North America and Oceania, and Industrialized Asia. Developing regions include North Africa, West and Central Asia, South and Southeast Asia, Latin America, and sub-Saharan Africa. Refer to SI FigureS1and Gustavsson et al.<ref type="bibr" target="#b19">21</ref> for detailed information on countries classification.</figDesc><table><row><cell>Critical Review</cell></row></table><note><p>DOI: 10.1021/acs.est.6b01993 Environ. Sci. Technol. 2016, 50, 8432-8443 a DOI: 10.1021/acs.est.6b01993 Environ. Sci. Technol. 2016, 50, 8432-8443</p></note></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>This study was supported by the <rs type="institution">ADM Institute for the Prevention of Postharvest Loss at University of Illinois at Urbana-Champaign</rs>.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">FAO database for food and agriculture</title>
+		<author>
+			<persName><surname>Faostat</surname></persName>
+		</author>
+		<ptr target="http://faostat3.fao.org/home/E" />
+		<imprint>
+			<date type="published" when="2016-01">January, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Agricultural sustainability and intensive production practices</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tilman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Cassman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Matson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Naylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Polasky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">418</biblScope>
+			<biblScope unit="issue">6898</biblScope>
+			<biblScope unit="page" from="671" to="677" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A safe operating space for humanity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rockstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steffen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Noone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Persson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Chapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Lambin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Lenton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Folke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schellnhuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nykvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>De Wit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Leeuw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rodhe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sorlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Costanza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Svedin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Falkenmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Corell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liverman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Crutzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Foley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="issue">7263</biblScope>
+			<biblScope unit="page" from="472" to="475" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Solutions for a cultivated planet</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ramankutty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Brauman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O/'connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Balzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Monfreda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Polasky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rockstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tilman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Zaks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">478</biblScope>
+			<biblScope unit="issue">7369</biblScope>
+			<biblScope unit="page" from="337" to="342" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The State of Food Insecurity in the World</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015. 2015</date>
+			<biblScope unit="page">62</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C J</forename><surname>Godfray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Beddington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Crute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Muir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pretty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Food</forename><surname>Toulmin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Security</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Challenge of Feeding 9 Billion People</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<publisher>FAO. Trade Reforms and Food Security</publisher>
+			<date type="published" when="2003">2003. 2010</date>
+			<biblScope unit="page" from="812" to="818" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The role for scientists in tackling food insecurity and climate change. Agriculture &amp; Food Security</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Beddington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asaduzzaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Bremauntz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Guillou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Negra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nobre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Scholes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Bo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wakhungu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Daines</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Safe</surname></persName>
+		</author>
+		<title level="m">Space for Humanity: The Nexus of Food, Water, Energy, and Climate</title>
+		<imprint>
+			<publisher>Asian Development Bank</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The interconnected challenges for food security from a food regimes perspective: Energy, climate and malconsumption</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Rural Studies</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="71" to="80" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Avoiding Future Famines: Strengthening the Ecological Basis of Food Security through Sustainable Food Systems; United Nations Environment Programme</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>UNEP</publisher>
+			<biblScope unit="page">80</biblScope>
+			<pubPlace>Nairobi, Kenya</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Food security and sustainability: can one exist without the other? Public Health Nutrition</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dernini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Burlingame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meybeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Conforti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2293" to="2302" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Three perspectives on sustainable food security: efficiency, demand restraint, food system transformation. What role for life cycle assessment?</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Garnett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cleaner Prod</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Food security and sustainable intensification</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C J</forename><surname>Godfray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Garnett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc</title>
+		<imprint>
+			<biblScope unit="page">369</biblScope>
+			<date type="published" when="1639">2014. 1639. 20120273</date>
+			<pubPlace>B</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Food security and sustainable resource management</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kinzelbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Water Resour. Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="4966" to="4985" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Avenues to meet food security. The role of agronomy on solving complexity in food production and resource use</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Spiertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Agron</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Feeding 10 billion people under climate change: How large is the production gap of current agricultural systems?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sakschewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Von Bloh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bondeau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Modell</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="103" to="111" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">What Current Literature Tells Us about Sustainable Diets: Emerging Research Linking Dietary Patterns</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Auestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Fulgoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Sustainability, and Economics. Adv. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="36" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Diet changea solution to reduce water use?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jalava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kummu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porkka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Varis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">74016</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Food choices, health and environment: Effects of cutting Europe&apos;s meat and dairy intake</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westhoek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lesschen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Murphy-Bokern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Van Grinsven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Oenema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Environmental Change</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="196" to="205" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gustavsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cederberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Sonesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Otterdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meybeck</surname></persName>
+		</author>
+		<title level="m">Global Food Losses and Food Waste: Extent, Causes, and Prevention; Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Food waste within food supply chains: quantification and potential for change to 2050</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barthel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macnaughton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc</title>
+		<imprint>
+			<biblScope unit="page" from="3065" to="3081" />
+			<date type="published" when="1554">2010. 1554</date>
+			<pubPlace>B</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Food waste minimization from a life-cycle perspective</title>
+		<author>
+			<persName><forename type="first">Bernstad Saraiva</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manage</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="219" to="226" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Household Food and Drink Waste in the UK; The Waste and Resources Action Programme</title>
+		<author>
+			<persName><surname>Wrap</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Post-harvest food losses in a maize-based farming system of semi-arid savannah area of Tanzania</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Abass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ndunguru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mamiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alenkhe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mlingi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bekunda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Stored Prod. Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="49" to="57" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Food Spoilage, Storage, and Transport: Implications for a Sustainable Future</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Burger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Fristoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mercado-Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Nekola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Okie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioScience</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="758" to="768" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Food Losses and Waste in China and Their Implication for Water and Land</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lundqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gustafsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="10137" to="10144" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Saving Water: From Field to Fork-Curbing Losses and Wastage in the Food Chain</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lundqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Fraiture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Molden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Stockholm International Water Institute</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Hidden Harvest: A Systems Approach to Postharvest Technology</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Spurgeon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+		<respStmt>
+			<orgName>International Development Research Centre: Ottawa, Canada</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Prevention of post-harvest food losses fruits, vegetables and root crops a training manual. Food and Agricultural Organization</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.6b01993</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology Critical Review</title>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<pubPlace>Rome, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="8432" to="8443" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Reflections on the Global Food Crisis: How Did It Happen? How Has It Hurt? And How Can We Prevent the Next one?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Heady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>International Food Policy Research Institute</publisher>
+			<biblScope unit="page">142</biblScope>
+			<pubPlace>Washington, D.C.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Missing Food: The Case of Postharvest Grain Losses in Sub-Saharan Africa</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>World Bank</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Unpacking Postharvest Losses in Sub-Saharan Africa: A Meta-Analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Affognon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mutungi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sanginga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Borgemeister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="49" to="68" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+	</analytic>
+	<monogr>
+		<title level="m">Food Wastage Footprint: Impacts on Natural Resources; Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<publisher>United Nations, Department of Economic and Social Affairs: New York</publisher>
+			<date type="published" when="2011">2011. 2011. 2013</date>
+			<biblScope unit="page">63</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Lost food, wasted resources: Global food supply chain losses and their impacts on freshwater, cropland, and fertiliser use</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kummu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>De Moel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porkka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Varis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">438</biblScope>
+			<biblScope unit="page" from="477" to="489" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Review of food waste on an international level</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Inst. Civ. Eng.: Waste Resour. Manage</title>
+		<imprint>
+			<biblScope unit="issue">166</biblScope>
+			<biblScope unit="page" from="187" to="203" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Reducing Food Wastage</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tielens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Candel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Improving Food Security?; Food &amp; Business Knowledge Platform: The Hague</title>
+		<meeting><address><addrLine>The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>p 37</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Postharvest losses and waste in developed and less developed countries: opportunities to improve resource use</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agric. Sci</title>
+		<imprint>
+			<biblScope unit="page" from="37" to="45" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Supplement S1</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">Definitional</forename><surname>Fao</surname></persName>
+		</author>
+		<title level="m">Framework of Food Loss; Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>p 18</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Reducing Food Loss and Waste</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lipniski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Waite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Searchinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lomax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitinoja</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>World Resources Institute</publisher>
+			<biblScope unit="volume">40</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The extent of food waste generation across EU-27: Different calculation methods and the reliability of their results</title>
+		<author>
+			<persName><forename type="first">K.-R</forename><surname>Braütigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jorissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Priefer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="683" to="694" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">The Estimated Amount, Value, and Calories of Postharvest Food Losses at the Retail and Consumer Levels in the United States</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hyman</surname></persName>
+		</author>
+		<idno>EIB-121</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Achieving zero hunger through zero wastage: An overview of present scenario and future reflections</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bhardwaj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J. Agric. Sci</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1127" to="1133" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Creating sustainable fresh food supply chains through waste reduction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaipia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dukovska-Popovska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Loikkanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Physical Distribution &amp; Logistics Management</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="262" to="276" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Household-level dynamics of food waste production and related beliefs, attitudes, and behaviours in Guelph, Ontario. Waste Manage</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Parizeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Von Massow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="207" to="217" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Cutting Food Waste through Cooperation along the Food Supply Chain. Sustainability</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Langen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Teitscheid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ritter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1429" to="1445" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Influence of socio-demographical, behavioural and attitudinal factors on the amount of avoidable food waste generated in Finnish households</title>
+		<author>
+			<persName><forename type="first">H.-K</forename><surname>Koivupuro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartikainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Silvennoinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Katajajuuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Heikintalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reinikainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jalkanen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Consumer Studies</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="183" to="191" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Spaghetti soup: The complex world of food waste behaviours. Resources, Conservation and Recycling</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Quested</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stunell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Parry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="43" to="51" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Determinants of consumer food waste behaviour: Two routes to food waste</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stancu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haugaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Laḧteenmaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appetite</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="7" to="17" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Household food waste behaviour in EU-27 countries: A multilevel analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Principato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Laureti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Policy</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="25" to="40" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wassermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+		<title level="m">Edibles in Household Waste, 10th International Waste Management and Landfill Symposium</title>
+		<meeting><address><addrLine>Sardinia, Italy, CISA Sardinia, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="913" to="914" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Consumer-Related Food Waste: Causes and Potential for Action</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aschemann-Witzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Hooge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Amani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bech-Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oostindjer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">6457</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Food Waste Generation at Household Level: Results of a Survey among Employees of Two European Research Centers in Italy and Germany</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Farr-Wharton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Foth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>-J ; Jorissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Priefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-R</forename><surname>Braütigam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2695" to="2715" />
+			<date type="published" when="2014">2014. 2015</date>
+		</imprint>
+	</monogr>
+	<note>Identifying factors that promote consumer behaviours causing expired domestic food waste</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Avoiding food waste by Romanian consumers: The importance of planning and shopping routines</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stefan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Herpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Tudoran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Laḧteenmaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Quality and Preference</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="375" to="381" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Estimated Fresh Produce Shrink and Food Loss in U.S. Supermarkets. Agriculture</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Bentley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Padera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ammon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Campuzano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="626" to="648" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Fruit and Vegetable Resource Maps</title>
+		<author>
+			<persName><surname>Wrap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">RSC-008; The Waste and Resources Action Programme</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Postharvest agriculture in changing climates: its importance to African smallholder farmers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stathers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lamboll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Mvumi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="361" to="392" />
+		</imprint>
+	</monogr>
+	<note>Food Security</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Extent, Causes and Reduction Strategies of Postharvest Losses of Fresh Fruits and Vegetables -A Review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hailu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Derbew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bio. Agric. Healthcare</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Food Losses and Waste in the Context of Sustainable Food Systems</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hlpe ; Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hyman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">High Level Panel of Experts on Food Security and Nutrition of the Committee on World Food Security</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2014. 2012</date>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="561" to="570" />
+		</imprint>
+	</monogr>
+	<note>Total and per capita value of food loss in the United States</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Diet change and food loss reduction: What is their combined impact on global water use and scarcity? Earth&apos;s</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jalava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H A</forename><surname>Guillaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kummu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porkka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Varis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future</title>
+		<imprint>
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="62" to="78" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">The yield gap of global grain production: A spatial analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oppenheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zornes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Verburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stehfest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Muller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Resource Revolution: Meeting the World&apos;S Energy, Materials, Food, And Water Needs; McKinsey Global Institute: 2011. (65)</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="316" to="326" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Firm size and sustainable performance in food supply chains: Insights from Greek SMEs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bourlakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maglaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aktas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gallear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fotopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Production Economics</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="112" to="130" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J A</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Van Dijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><forename type="middle">S</forename><surname>Neset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nesme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Oenema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Rubaek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Schoumans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Smit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pellerin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Stewardship to tackle global phosphorus inefficiency: The case of Europe</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="193" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Land Availability for Biofuel Production</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="334" to="339" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Reducing Food Waste by Households and in Retail in the EU: A Prioritisation Using Economic, Land Use and Food Security Impacts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rutten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nowicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bogaardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aramyan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>The Hague</publisher>
+			<pubPlace>Wageningen UR</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Food consumption and waste and the embedded carbon, water and ecological footprints of households in China</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Semakula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">The Water and Carbon Footprint of Household Food and Drink Waste in the UK; The Waste and Resources Action Programme</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wrap</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>World Wildlife Fund</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Identification of decisive factors for greenhouse gas emissions in comparative life cycle assessments of food waste managementan analytical review</title>
+		<author>
+			<persName><forename type="first">Bernstad Saraiva</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wenzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>La Cour Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cleaner Prod</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Current practice, challenges and potential methodological improvements in environ-Environmental Science &amp; Technology Critical Review</title>
+		<author>
+			<persName><forename type="first">Bernstad Saraiva</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cańovas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.6b01993</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">mental evaluations of food waste prevention -A discussion paper. Resources, Conservation and Recycling</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="132" to="142" />
+			<date type="published" when="2015">2016. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Cooking up a Storm: Food, Greenhouse Gas Emissions and Our Changing Climate; Food Climate Research Network</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Garnett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Centre for Environmental Strategy</publisher>
+			<biblScope unit="volume">155</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">The implications of food waste generation on climate change: The case of Greece. Sustainable Production and Consumption</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Abeliotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lasaridi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Costarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chroni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="8" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">LCA study of unconsumed food and the influence of consumer behavior</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Brandstetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lindner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Life Cycle Assess</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="773" to="784" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">2014 UK Greenhouse Gas Emissions</title>
+	</analytic>
+	<monogr>
+		<title level="m">Provisional Figures; Department of Energy &amp; Climate Change</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Statistics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The climate change and economic impacts of food waste in the United States</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal on Food System Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="431" to="446" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The contribution of food waste to global and European nitrogen pollution</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grizzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pretato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lassaletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Billen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garnier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Policy</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="186" to="195" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Embodied Greenhouse Gas Emissions in Diets</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Reusser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kropp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">62228</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Canning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Polenske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Waters</surname></persName>
+		</author>
+		<title level="m">Energy Use in the U.S. Food System</title>
+		<imprint>
+			<biblScope unit="page">94</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Wasted Food, Wasted Energy: The Embedded Energy in Food Waste in the United States</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cueĺlar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Webber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="6464" to="6469" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Household Food Security in the United States in 2013</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Coleman-Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<idno>ERR-173</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m" type="main">Quantifying food losses and the potential for reduction in Switzerland. Waste Manage</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stoessel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Baier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hellweg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="764" to="773" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The Value of Retail-and Consumer-Level Fruit and Vegetable Losses in the United States</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Affairs</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="492" to="515" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">The costs of household food waste in South Africa. Waste Manage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>De Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oelofse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Godfrey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="2147" to="2153" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Costs of food waste along the value chain: Evidence from South Africa. Waste Manage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>De Lange</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="2493" to="2500" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title level="m" type="main">Costs of food waste in South Africa: Incorporating inedible food waste. Waste Manage</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>De Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nahman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="167" to="172" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Toolkit</surname></persName>
+		</author>
+		<title level="m">Mitigation of Food Wastage: Social Costs and Benefits; Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy; Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013. 2014</date>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">59</biblScope>
+		</imprint>
+	</monogr>
+	<note>Reducing food wastage footprint; Food and Agricultural Organization</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Two-Stage Grain Drying in the Phillipines</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chupungco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dumayas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mullen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Australian Center for International Agricultural Center</publisher>
+			<biblScope unit="volume">59</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Postharvest technology for developing countries: challenges and opportunities in research, outreach and advocacy</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitinoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Kader</surname></persName>
+		</author>
+		<ptr target="http://www.usda.gov/oce/foodwaste/usda_commitments.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Selected New and Ongoing USDA Food Loss and Waste Reduction Activities</title>
+		<imprint>
+			<date type="published" when="2011-03">2011. March, 2016</date>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="597" to="603" />
+		</imprint>
+	</monogr>
+	<note>USDA</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Wasted Food: U.S. Consumers&apos; Reported Awareness, Attitudes, and Behaviors</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Neff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Spiker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Truant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Principato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Pratesi</surname></persName>
+		</author>
+		<idno type="DOI">0127881.10.1371/journal.pone.0127881</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="731" to="748" />
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+	<note>Reducing food waste: an investigation on the behaviour of Italian youths PLoS One</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<title level="m">Food Wastage Footprint: Full Cost Accounting; Food and Agricultural Organization</title>
+		<meeting><address><addrLine>Rome, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page">98</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<title level="m" type="main">Consumer perception and trends about health and sustainability: trade-offs and synergies of two pivotal issues. Current Opinion in Food Science</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aschemann-Witzel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="6" to="10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title level="m" type="main">Identifying motivations and barriers to minimising household food waste. Resources</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Graham-Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Jessop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sparks</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Reducing food losses by intelligent food logistics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jedermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nicometo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Uysal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc., A</title>
+		<imprint>
+			<biblScope unit="page">372</biblScope>
+			<date type="published" when="2014">2014. 2017. 20130302</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Postharvest Weight Losses of Cereal Grains in Sub-Saharan Africa</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hodges</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Natural Resources Institute, University of Greenwich</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">The World Bank Group, Poverty Reduction and Equity Department</orgName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>World Bank. Food Price Watch</publisher>
+			<biblScope unit="volume">88390</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Food Self-Sufficiency across Scales: How Local Can We Go?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K B</forename><surname>Ludeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Reusser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kropp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="9463" to="9470" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">The State of the World&apos;s Land and Water Resources for Food and Agriculture; Food and Agriculture Organization</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>Rome, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title level="m" type="main">How much land-based greenhouse gas mitigation can be achieved without compromising food security and environmental goals? Global Change Biology</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haberl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Popp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>-H.; Lauk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N</forename><surname>Tubiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Siqueira Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jafari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sohi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Masera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boẗtcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Berndes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bustamante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ahammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Elsiddig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mbow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Ravindranath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Robledo Abad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Romanovskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sperling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>House</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rose</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2285" to="2302" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<monogr>
+		<title level="m" type="main">Strategies for Reducing the Climate Impacts of Red Meat/Dairy Consumption in the UK; World Wide Fund for Nature: London</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee-Woolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Higginson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Agathou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Rosegrant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Magalhaes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Valmonte-Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mason-D'croz</surname></persName>
+		</author>
+		<title level="m">Returns to Investment in Reducing Postharvest Food Losses and Increasing Agricultural Productivity Growth: Post-2015 Consensus; Copenhagen Consensus Center</title>
+		<imprint>
+			<publisher>Lowell, MA</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">What economic theory tells us about the impacts of reducing food losses and/or waste: implications for research, policy and practice</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Rutten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agriculture &amp; Food Security</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Energy efficiency and consumption  the rebound effect  a survey</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Greening</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Difiglio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6-7</biblScope>
+			<biblScope unit="page" from="389" to="401" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title level="m" type="main">Where are the best opportunities for reducing greenhouse gas emissions in the food system (including the food chain)? Food Policy</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Garnett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="23" to="S32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Life-Cycle Costing of Food Waste Management in Denmark: Importance of Indirect Effects</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Martinez-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tonini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Astrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4513" to="4523" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Food Surplus and Its Climate Burdens</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rybski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kropp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4269" to="4277" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Progressive Increase of Food Waste in America and Its Environmental Impact</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">7940</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title level="m" type="main">Food Losses and Food Waste in China</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>OECD</publisher>
+			<biblScope unit="volume">66</biblScope>
+		</imprint>
+	</monogr>
+	<note>p 30</note>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<monogr>
+		<title level="m" type="main">Food losses in six Swedish retail stores: Wastage of fruit and vegetables in relation to quantities delivered. Resources, Conservation and Recycling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Strid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-A</forename><surname>Hansson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="14" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Potentials for food waste minimization and effects on potential biogas production through anaerobic digestion</title>
+		<author>
+			<persName><forename type="first">Bernstad Saraiva</forename><surname>Schott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vukicevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="811" to="819" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Estimating the magnitude of food waste generated in South Africa</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H H</forename><surname>Oelofse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nahman</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.6b01993</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology Critical Review</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="80" to="86" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Waste Manage. Res.</note>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="8432" to="8443" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<monogr>
+		<title level="m" type="main">Estimates of Waste in the Food and Drink Supply Chain; The Waste and Resources Action Programme</title>
+		<author>
+			<persName><surname>Wrap</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<monogr>
+		<title level="m" type="main">Food waste in the Swiss food service industry -Magnitude and potential for reduction. Waste Manage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Betz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buchli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Muller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="218" to="226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Food loss rates at the food retail, influencing factors and reasons as a basis for waste prevention measures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lebersorger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1911" to="1919" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Quantifying food waste in Hawaii&apos;s food supply chain</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Loke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1076" to="1083" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Hanssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Research</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gustavsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>O ̈stergren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Å</forename><surname>Stenmarck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dekhtyar</surname></persName>
+		</author>
+		<title level="m">Report on Review of (Food) Waste Reporting Methdology and Practice</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">FUSIONS</biblScope>
+		</imprint>
+	</monogr>
+	<note>p 110</note>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Food Loss and Waste Accounting and Reporting Standard</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lipniski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gavilan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Greverath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Otterdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Timmermans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lomax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dawe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Swannell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Somogyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Quested</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">123</biblScope>
+			<biblScope unit="page" from="27" to="46" />
+			<date type="published" when="2012">2016. 2012</date>
+			<publisher>Gille</publisher>
+		</imprint>
+	</monogr>
+	<note>to waste: global food waste regimes Z. From risk</note>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thurow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kilman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Enough</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.6b01993</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Barilla. Food Waste: Causes, Impacts and Proposals. Barilla Center for Food &amp; Nutrition; Barilla Center for Food &amp; Nutrition</title>
+		<meeting><address><addrLine>Parma, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010. 2012</date>
+			<biblScope unit="volume">71</biblScope>
+		</imprint>
+	</monogr>
+	<note>p 304 Why the World&apos;s Poorest Starve in an Age of Plenty; Public Affairs: New York</note>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="8432" to="8443" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

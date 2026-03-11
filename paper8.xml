@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sustainability-Oriented Innovations in Food Waste Management Technology</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-12-28">28 December 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Carlos</forename><surname>Martin-Rios</surname></persName>
+							<email>carlos.martin-rios@ehl.ch</email>
+							<idno type="ORCID">0000-0002-4364-9753</idno>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Ecole Hôtelière de Lausanne</orgName>
+								<orgName type="institution" key="instit2">HES-SO</orgName>
+								<orgName type="institution" key="instit3">University of Applied Sciences and Arts Western Switzerland</orgName>
+								<address>
+									<postCode>1000</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anastasia</forename><surname>Hofmann</surname></persName>
+							<email>anastasia.hofmann@kitro.ch</email>
+							<idno type="ORCID">0000-0002-4364-9753</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Kitro SA</orgName>
+								<address>
+									<postCode>8047</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Naomi</forename><surname>Mackenzie</surname></persName>
+							<email>naomi.mackenzie@kitro.ch</email>
+							<affiliation key="aff1">
+								<orgName type="department">Kitro SA</orgName>
+								<address>
+									<postCode>8047</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sustainability-Oriented Innovations in Food Waste Management Technology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-12-28">28 December 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C0B35320F3ECC35D88E81FDDD4925542</idno>
+					<idno type="DOI">10.3390/su13010210</idno>
+					<note type="submission">Received: 6 November 2020 Accepted: 23 December 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-11T15:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0c5e0cf</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Martin-Rios, C.</term>
+					<term>Hofmann, A.</term>
+					<term>Mackenzie, N. Sustainability- food waste</term>
+					<term>sustainability-oriented innovation</term>
+					<term>technology</term>
+					<term>management</term>
+					<term>food value chain</term>
+					<term>foodservice</term>
+					<term>restaurant</term>
+					<term>hospitality</term>
+					<term>quantification</term>
+					<term>minimization</term>
+					<term>case study</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Food is essential to our survival, yet the Food and Agriculture Organization of the United Nations (FAO) estimates that about 820 million people were undernourished in 2018. In this context, food waste generation is a particularly salient issue. Wasting food means missing opportunities to feed the growing world population and consuming scarce resources, such as land, water and energy used in the production, processing, distribution and consumption of food. Firms in HORECA (hospitality, restaurant and catering) represent a considerable share of total food waste and, more importantly, are characterized by an overall low sense of awareness about the sustainability-oriented innovation opportunities and challenges of minimizing food waste. This article draws on an in-depth case study to explore the use of technological advancements in downstream value chain. This case study draws on a tech startup providing services for HORECA companies to address a new way for companies to solve the food waste challenge. Adopting technological innovations to quantify and minimize wastage via collaborations with third-party companies can be a strategic and cost-effective way to supplement a company's open innovation activities.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Food waste epitomizes an unsustainable system of food production and consumption. The Boston Consulting Group (BCG) calculates that the amount of food wasted each year will rise by one-third by 2030, "when 2.1 billion tons will either be lost or thrown away, equivalent to 66 tons per second" <ref type="bibr" target="#b0">[1]</ref>. Considering all people in the world affected by moderate levels of food insecurity together with those who suffer from hunger, over two billion people do not have regular access to safe, nutritious and sufficient food, including 8% of the population in Northern America and Europe <ref type="bibr" target="#b1">[2]</ref>. The Coronavirus pandemic has only deepened the hunger crisis and "by the end of the year, 12,000 people per day could die from hunger linked to COVID-19, potentially more than will die from the disease itself" <ref type="bibr" target="#b2">[3]</ref>. In contrast, food scarcity coexists with excessive consumption. Globally, two billion adults were overweight in 2016, with over one-third of them obese. The increasing global prevalence of this public health crisis has serious implications, including an increasing risk of type 2 diabetes, cardiovascular disease, stroke, and some types of cancer <ref type="bibr">[4]</ref>. Furthermore, rising population levels combined with shifting dietary patterns in emerging economies will put increasing pressure on global food supply; more food is necessary to feed people. The world population is predicted to reach 9.9 billion by 2050 <ref type="bibr" target="#b3">[5]</ref> and this growth will require at least a 60% increase in agricultural production to meet the demand for food and other uses <ref type="bibr" target="#b4">[6]</ref>.</p><p>Food waste represents a social distress, an economic malfunction and an environmental disaster. It is, moreover, an ethical issue: the estimated 129 million tons of food waste generated in Europe alone <ref type="bibr" target="#b5">[7]</ref> could ensure a fairer redistribution of resources and a reduction of environmental pressure to respond to food needs. This, in turn, would lead to enriched natural ecosystems and the services they provide <ref type="bibr" target="#b6">[8]</ref>. Alas, one-third of all edible food produced for human consumption is wasted or otherwise lost from the food chain per year, or about 1.3 billion tons. This significant quantity of waste generates substantial amounts of greenhouse gas emissions, promoting climate change.</p><p>Wastage emits harmful greenhouse gas emissions. In particular, the food industry is responsible for 26% of global greenhouse emissions, 6% of which is a result of food that is never eaten and ends as waste <ref type="bibr" target="#b7">[9]</ref>. Methane gas is produced when food waste decomposes under anaerobic conditions at food waste landfills, with methane presenting a global warming potential 25 times higher than that of CO 2 <ref type="bibr" target="#b8">[10]</ref>. Despite the utterly alarming statistics and although in certain regions like the EU there are clear indications of a shift away from landfilling towards preferred waste management approaches, it has been estimated that in the United States alone 88 million tons of food are wasted every year at the retail and consumer levels, equivalent to over 170 million tons of CO 2 and a total value of USD 165.6 billion <ref type="bibr" target="#b8">[10]</ref>.</p><p>Food waste occurs in every step of the food value chain. In developed countries, over 28% (24 million tons) of waste comes from food services, primary production and wholesale and retail <ref type="bibr" target="#b9">[11]</ref>. Commercial food service, which includes the hospitality sector, is third in the food value chain in terms of the amount of food waste produced, even though it has significant potential for waste prevention. Consumer foodservices include restaurants, fast food chains, cafés, cafeterias, canteens, and dining halls, as well as event catering. In spite of playing such a predominant role in food waste, there is a dearth of research pertaining to the quantification of food waste management by commercial food service. There is a gap of studies undertaking applied work in sustainable management solutions for foodservice organizations.</p><p>A strong commitment to sustainable development by adopting sustainability-oriented innovations (SOI) may have the potential to be beneficial to a wide range of companies in the foodservice. Adams et al. define SOI as a type of innovation that requires "making intentional changes to an organization's philosophy and values, as well as to its products, processes or practices to serve the specific purpose of creating and realizing social and environmental value in addition to economic returns" <ref type="bibr" target="#b10">[12]</ref>. SOI responds to the call for a new technological paradigm <ref type="bibr" target="#b10">[12,</ref><ref type="bibr" target="#b11">13]</ref>. As research shows, interaction with thirdparty technology providers can foster the innovative capacity of companies for SOI <ref type="bibr" target="#b11">[13]</ref>. Technological innovation is particularly salient to concerns expressed by scholars as a result of their work on quantification within food supply chains <ref type="bibr" target="#b12">[14]</ref><ref type="bibr" target="#b13">[15]</ref><ref type="bibr" target="#b14">[16]</ref>. Moreover, technology provides businesses with tools to increase food waste valorization options <ref type="bibr" target="#b15">[17]</ref>, assess the true value of waste <ref type="bibr" target="#b16">[18]</ref>, improve minimization and recovery strategies <ref type="bibr" target="#b17">[19]</ref>, and trigger awareness among professionals <ref type="bibr" target="#b18">[20]</ref>. Interestingly enough, the relative importance of technological sustainable solutions for commercial foodservice establishments is still not explored in many studies on food waste minimization.</p><p>This article sheds light on the opportunities and challenges tied to the implementation of sustainable technological innovations in commercial foodservice in an attempt to address the food waste challenge. The approaches of applying new technology to waste quantification, the characteristics and applications to minimize wastage are described in detail. Companies in foodservice contribute to a considerable share of total food waste and, more importantly, are characterized by an overall low sense of awareness about the challenge of minimizing food waste <ref type="bibr" target="#b18">[20,</ref><ref type="bibr" target="#b19">21]</ref>. Through in-depth case research, this paper investigates a startup offering automated technology-based artificial intelligence (AI) tools, designed for quantifying food waste versus long-established manual quantification practices. The research focuses on the advantages of minimizing food waste and improving the management of existing wastage provided by technological SOI. This research has several theoretical and practical implications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Background and Motivations</head><p>According to the Food and Agriculture Organization of the United Nations (FAO), food waste is defined as food which is fit for consumption but discarded by choice or because it has spoiled or expired, with 'food' referring to "processed, semi-processed or raw edible products going to human consumption" <ref type="bibr" target="#b1">[2]</ref>. The fact that food wastage is recognized as a mounting, yet avoidable, challenge has driven the United Nations to adopt target 12.3 as part of its 17 Sustainable Development Goals to: "by 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses."</p><p>Additionally, many member states of the European Union have started to put standards in place in order to incentivize food waste mitigation within certain industries or even penalize food wasters, for example, retailers in France <ref type="bibr" target="#b20">[22]</ref>. Countries adopt different strategies to address wastage of food <ref type="bibr" target="#b21">[23]</ref>. For example, Korea has established partnerships between the NGO KZWMN, different government authorities, local communities, and private enterprises to reduce food waste by 20% <ref type="bibr" target="#b22">[24]</ref>. In the U.S., emphasis is placed on educating customers to reduce food waste from excess ordering and consumption <ref type="bibr" target="#b23">[25]</ref>. Other countries primarily rely on private initiatives to promote food waste prevention <ref type="bibr" target="#b24">[26]</ref>.</p><p>Saving unnecessary costs by addressing food waste is not only a social and environmental priority, its quantification and minimization is profitable for the foodservice industry, considering that, across all industries, food waste costs a global annual average of EUR 2.4 trillion <ref type="bibr" target="#b25">[27]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SOI Technological Applications for Food Waste Quantification</head><p>SOI is more disruptive than other forms of innovation <ref type="bibr" target="#b26">[28,</ref><ref type="bibr" target="#b27">29]</ref>. Sustainability challenges many aspects of the service production and delivery, as it requires foodservices to develop longer term strategic planning as well as adopt new resource management processes and behaviors. With regard to food, SOI requires a multi-stakeholder approach to collaboration and business practices. Technology plays a central role in addressing the food waste challenge <ref type="bibr" target="#b28">[30]</ref>. Without wide-range collaboration between foodservice businesses and technology providers, the likelihood of success is limited <ref type="bibr" target="#b29">[31]</ref>. Despite acknowledging the importance of technological advancements in the upstream food chain phases, few studies have evaluated the viability of technologies for downstream activities with low technology readiness levels with respect to food waste quantification, minimization, valorization and overall sustainable management.</p><p>A recent literature review suggests several research propositions for reducing food loss and waste, including developing standardized and up-to-date data collection and concept definitions in food loss and waste and a reduction in greenhouse gas emissions <ref type="bibr" target="#b19">[21,</ref><ref type="bibr" target="#b30">32]</ref>. Technology providers can develop apps and data that provides foodservice companies with food waste information and advantages of digital solutions in food surplus management <ref type="bibr" target="#b31">[33]</ref>. Popular media has promoted the potential value of these new ventures <ref type="bibr" target="#b32">[34]</ref>. Beyond technology, a few companies have introduced new sustainable business models around the notion of zero waste <ref type="bibr" target="#b33">[35]</ref>. Another important aspect of the food waste challenge is the role of customers. Several studies explore the factors that predict consumer engagement and strategies for reducing food waste <ref type="bibr" target="#b31">[33,</ref><ref type="bibr" target="#b34">36,</ref><ref type="bibr" target="#b35">37]</ref>. Behavioral aspects, consumer awareness and pro-environmental attitudes are the main determinants of consumer engagement in restaurant food waste mitigation <ref type="bibr" target="#b21">[23,</ref><ref type="bibr" target="#b36">38]</ref>.</p><p>Despite the significance of this issue to the global foodservice industry, the link between technology, SOI practices and food waste management has received limited attention. An exception is <ref type="bibr" target="#b18">[20]</ref> recent research on the interrelationships of foodservice provisions and innovations in food waste management through the lenses of innovation theory. The study presents a range of waste management initiatives using the distinction between incremental innovations (those revolving around work processes and technologies) and radical innovations (innovations exploring opportunities to significantly change waste management approaches). This study also points out different approaches to food waste based on waste characterization, management practices and management's beliefs, knowledge and awareness. The aim is to identify practices that are innovative in one way or another <ref type="bibr" target="#b18">[20]</ref>. Standard waste management programs that do not take into account management readiness to adopt new technologies can be a barrier to the effective implementation of food waste innovations. This study also shows that interest in innovation as a systematic process to minimize waste and facilitate waste management is limited <ref type="bibr" target="#b18">[20]</ref>. The absence of friendly, automated, cost-effective technological innovations can be a barrier to improving the quantification and valorization of food waste.</p><p>Only recently and with the increasing technological advancements in the artificial intelligence (AI) sphere has a more automated approach in measuring food waste become available. Automating food waste quantification significantly reduces the hassle for restaurants and also opens doors for long-term measurements, benchmarking and new standards and regulations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Material and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case Study</head><p>This paper draws on a single case study. Empirical generalization from single case studies is difficult because statistical techniques often do not apply. Notwithstanding this, research method studies argue that case studies offer theoretical generalization and provide useful information for assessing the empirical generalizability of results <ref type="bibr" target="#b37">[39]</ref>. Food waste studies have extensively used case study and explorative research methods. A considerable amount of research has been conducted based on a business case to illustrate innovative approaches to minimize food waste <ref type="bibr" target="#b38">[40]</ref>, the introduction of emerging technologies <ref type="bibr" target="#b15">[17]</ref>, or generation and collection of waste practices <ref type="bibr" target="#b39">[41]</ref>. In order to analyze the role of technological innovations in quantification of food waste and its sustainable management in the commercial foodservice sector, this paper conducts an in-depth case study <ref type="bibr" target="#b40">[42]</ref>. The case study methodology is a method that helps articulate information from various sources as the basis for conceptualization and theory building <ref type="bibr" target="#b40">[42,</ref><ref type="bibr" target="#b41">43]</ref>. The case methodology is not driven by hypothesis testing. Similarly, theories are not set up at the beginning. The research question was as follows: how do tech startups provide technological SOI to quantify and measure food waste?</p><p>Food waste quantification is a novel phenomenon but difficult to study with a sample. Due to its characteristics, Kitro is a representative, prominent case <ref type="bibr" target="#b37">[39,</ref><ref type="bibr" target="#b42">44]</ref> that is deemed appropriate for this study. The collected material includes primary and secondary material both in interviews and data forms, and archival information about the background of the startup, its technological solutions, and its plans for future. Semi-structured interviews were carried out by the first author among employees of the case study company and senior-level corporate managers and executives from foodservice companies that have agreed to acquire quantification solutions and business which have decided not to invest in these technological devices. Interviews with senior managers allowed us to explore the factors influencing the decision of whether to invest in new technological devices. Data for this paper has been supplemented with informal communications with founders of other startups in the nascent market of quantifying wastage, as well as with experts in food waste management, including consultants, project development managers, and academics. The interview protocol was slightly adapted in content and vocabulary to the different respondent profiles, but in every case included questions about actual measurement practices, the use of technology and opportunities for new innovations, and the main challenges and contingency measures adopted by foodservice professionals.</p><p>In interviews with employees the history of how and why of the case study company was started were discussed as well how the company has developed its technology and partnered up with companies in the foodservice and hospitality industry to launch its technological innovation. The corporate journey of Kitro and the establishment of collaborative relationships with hospitality companies is discussed in detailed. With respect to the founders of the startup company, they were also interviewed but they agreed to discuss and consolidate their input in field of technology and the company case.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Food Waste Quantification</head><p>The first objective of this paper is to provide an account of how companies down the food value chain engage in actual food waste quantification. Quantification techniques are rarely discussed in articles on waste management, and no studies have reported about them, their occurrence or characteristics in the foodservice sector. Based on extensive fieldwork carried out in foodservice providers, including hotels, canteens, food chains and restaurants, a first account of the actual quantification methods used in the industry is offered.</p><p>Existing methods used for the capturing of food waste data in the hospitality industry are primarily manual. This is the main conclusion extracted from observational records on the different methods used by foodservice companies to quantify food waste. This data derives from hundreds of on-site visits and commercial interactions carried out by employees of the case study company with professionals in the hospitality and foodservice industry. Fieldwork reveals three major quantification mechanisms, as follows: a.</p><p>A staff member stands next to a trash bin and observes, writes down and sometimes even places the item on a scale before throwing it in the trash <ref type="bibr" target="#b43">[45]</ref>. b.</p><p>Food waste can also be measured short-term by having 4-7 different color containers where they separate the waste into different categories (e.g., starch, protein, etc.) and weigh it at the end of the day. The so-called Food Waste Bin Tracker Spreadsheet is a popular to measure waste c.</p><p>A more digital solution is a tablet attached to a counter-top scale. Staff members place an item on the scale and type into the tablet what it is before disposing of it.</p><p>Data collected by the Kitro team suggests that these methods are all time consuming, inaccurate, costly and do not provide a holistic overview of the food thrown away. Management must rely on their staff to type in what is thrown away, which often leads to inconsistent and erroneous results. For this reason, many companies do not know what fills their trash bin and allow unfathomable amounts of money and valuable resources to land in the trash day after day. Using technological innovations via collaborations with third-party companies can be a strategic and cost-effective way to supplement a company's open innovation activities.</p><p>Since 2010 technological competition for sustainable solutions in the global foodservice industry has included the development of new technology to improve quantification, minimization, and valorization of food waste. A number of technological startups collaborate and establish formal relationships with hotels and restaurants to introduce sustainability waste management practices. While in some industries and activities firms have more leverage to deal with sustainability, foodservices need to collaborate with oftentimes startups to put in practice sustainability. They cannot do it in isolation. Hence, the importance of developing fruitful relationships with external agents. Table <ref type="table" target="#tab_0">1</ref> provides an overview of the main characteristics of existing technological providers of food waste quantification solutions. Existing sustainability-oriented technological solutions on the market are Winnow Solution in the UK <ref type="bibr" target="#b44">[46,</ref><ref type="bibr" target="#b45">47]</ref>, LeanPath in the U.S., LightBlue in Singapore, Kitro in Switzerland, and Orbisk in Netherlands <ref type="bibr" target="#b46">[48]</ref>. These companies help foodservice businesses move away from manual measurements with paper and pen to digital, automated solutions including the application of AI technology. The technology offered by some of these companies currently requires employees to manually note the items being thrown away resulting in time invested on tracking items. More advanced solutions do not require any manual input from the user's side. Moreover, complimentary technology and offerings on the market are forecasting technology provided by players such as Delicious Data <ref type="bibr" target="#b47">[49]</ref> or more traditional food waste consultants, such as LightBlue Environmental Consulting and its PLEDGE on Food Waste, which, together with its FIT ("Food Intel Technology") food waste monitoring technology for commercial kitchens, also offers technical online workshops and audited certification on food waste prevention for establishments and professionals <ref type="bibr" target="#b48">[50]</ref>. There are clear opportunities to strengthen prevention advice by working with an automated food waste management device <ref type="bibr" target="#b49">[51]</ref>.</p><p>In general, startups provide foodservices access to waste metrics. Whilst there are certain differences across firms, their technological SOI can be summarized as follows:</p><p>-</p><p>A solution that integrates the data network connectivity with the waste disposal machine -A device that measures food waste volumes directly from the disposal unit. Waste data can be shared immediately via any network. -</p><p>The actual output offers reporting and data to help supervisors and employees identify ways to prevent waste.</p><p>Existing solutions to measure and analyze food waste vary in how to achieve this in a non-intrusive and fully automated way. Those that are not seamlessly integrated into existing workflows may create an extra step for the kitchen and service staff. Likewise, current tools for assessing food waste that are highly complex or lack accuracy <ref type="bibr" target="#b50">[52]</ref> are onerous for employees in terms of time, resources and work and are therefore mostly used for short-term measurements (food waste audits). However, they are sometimes still referred to as "automatic" as they provide the food waste analysis mostly via an online dashboard <ref type="bibr" target="#b12">[14]</ref>.</p><p>Food waste quantification service providers emphasize their technology helps find solutions to the waste problem and proves effective in identifying opportunities for more efficient methods of food purchasing, storing and handling, meal planning and preparation, and waste prevention in general. Technological devices attempt to overcome the lack of common standards for quantifying and reporting food waste <ref type="bibr" target="#b51">[53]</ref>. All providers acknowledge that setting a common methodology for quantifying food waste is a prerequisite to ensure monitoring progress toward reduction targets <ref type="bibr" target="#b5">[7,</ref><ref type="bibr" target="#b25">27]</ref>. The development of quantification methodologies is a central concern also in the academic literature <ref type="bibr" target="#b12">[14]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">A Technological SOI for Food Waste</head><p>Founded in 2017, Kitro is a startup embarking on a global challenge by harnessing the power of technology and using it for sustainable change. Created by hospitality insiders, the company strives to bring back the value of food, so it is appreciated and not wasted. The Swiss startup focuses on finding innovative solutions to manage food waste tailored to the hospitality and restaurant industry <ref type="bibr" target="#b52">[54]</ref>. The initial focus of the startup was on Switzerland because the country is among the most advanced in Europe in terms of waste management initiatives and public awareness <ref type="bibr" target="#b53">[55,</ref><ref type="bibr" target="#b54">56]</ref>. Given the innovativeness of their offering, the company plans to quickly expand to other countries.</p><p>Kitro is currently a team of 12, based in Switzerland. The company has been invited to speak at over 20 high-level events, such as "Sustainable Europe 2030: From Goals to Delivery" of the EU commission in Brussels or the Global Restaurant Investment Forum in Dubai. Awarded by multiple organizations, such as the World Tourism Forum Lucerne, the Milestone Premiere Award in 2018, or the HITECH Entrepreneur 20X Award, Kitro continues on its journey to bring a product to the market that can have a real impact on the way food waste is handled. Customers are mostly canteens such as universities, including the EPFL Campus (Swiss Federal Institute of Technology, Lausanne), or hotels like Hotel d'Angleterre (Geneva), Kursaal (Bern), and the Weisse Arena Gruppe (Laax). They have provided continuous measurements for the fourth year in a row. Having measured in more than 70 properties mostly in Switzerland, the company plans to expand into neighboring countries.</p><p>With AI as the foundation, Kitro offers an automated food waste data collection and analysis solution that can be adopted by food and beverage outlets worldwide (Figure <ref type="figure" target="#fig_0">1</ref>). Kitro is targeting the commercial foodservice industry by providing users with an automated solution to measure and mitigate food waste. The goal is to prevent unnecessary waste through long-term data collection and optimized operational practices. In addition to the detailed analysis, Kitro also offers a service to ensure customers are empowered to achieve the highest possible savings in terms of food waste and cost, resulting in a lower carbon footprint.</p><p>Kitro is currently a team of 12, based in Switzerland. The company has been invited to speak at over 20 high-level events, such as "Sustainable Europe 2030: From Goals to Delivery" of the EU commission in Brussels or the Global Restaurant Investment Forum in Dubai. Awarded by multiple organizations, such as the World Tourism Forum Lucerne, the Milestone Premiere Award in 2018, or the HITECH Entrepreneur 20X Award, Kitro continues on its journey to bring a product to the market that can have a real impact on the way food waste is handled. Customers are mostly canteens such as universities, including the EPFL Campus (Swiss Federal Institute of Technology, Lausanne), or hotels like Hotel d'Angleterre (Geneva), Kursaal (Bern), and the Weisse Arena Gruppe (Laax). They have provided continuous measurements for the fourth year in a row. Having measured in more than 70 properties mostly in Switzerland, the company plans to expand into neighboring countries.</p><p>With AI as the foundation, Kitro offers an automated food waste data collection and analysis solution that can be adopted by food and beverage outlets worldwide (Figure <ref type="figure" target="#fig_0">1</ref>). Kitro is targeting the commercial foodservice industry by providing users with an automated solution to measure and mitigate food waste. The goal is to prevent unnecessary waste through long-term data collection and optimized operational practices. In addition to the detailed analysis, Kitro also offers a service to ensure customers are empowered to achieve the highest possible savings in terms of food waste and cost, resulting in a lower carbon footprint. Kitro's quantification methodology is a premium IoT-solution for food waste management. It works with a combination of a hardware and a software system. The hardware consists of a camera positioned above the customer's existing waste bin and connected to a scale placed below it. Images of the waste bin's contents are collected whenever new waste is disposed in the bin (See Figure <ref type="figure" target="#fig_3">2</ref>). The recording is triggered by the scale located Kitro's quantification methodology is a premium IoT-solution for food waste management. It works with a combination of a hardware and a software system. The hardware consists of a camera positioned above the customer's existing waste bin and connected to a scale placed below it. Images of the waste bin's contents are collected whenever new waste is disposed in the bin (See Figure <ref type="figure" target="#fig_3">2</ref>). The recording is triggered by the scale located below the bin. The resulting images depict the changing content of the trash bin as food lands in the bin. The software recognizes both unavoidable waste (e.g., peelings) and avoidable food waste (e.g., dressed dishes). Technology allows to systematically analyze returned plates and undertake potential adjustments on the type of dishes served and the size of the portions. below the bin. The resulting images depict the changing content of the trash bin as food lands in the bin. The software recognizes both unavoidable waste (e.g., peelings) and avoidable food waste (e.g., dressed dishes). Technology allows to systematically analyze returned plates and undertake potential adjustments on the type of dishes served and the size of the portions. Kitro applies a novel approach for automatic food classification using machine learning. The input data for this estimation includes a sequence of images captured by the camera and physical weight changes from the scale sensor. Once the items on the images have been classified, the analysis is presented in an online dashboard. The detailed findings of the food waste situation allow restaurant owners and executive chefs to make data-driven decisions. The expectation is that optimizing their work practices will lead to more resource-efficient processes and a significant reduction in food waste and food cost. No matter the method used to measure food waste, there is a clear benefit to quantifying the waste and sharing its impact and cost with management and kitchen staff. This is particularly the case for catering businesses <ref type="bibr" target="#b46">[48]</ref>. Past measurements prove that the mere act of food waste quantification already increased awareness within the property to the point that there was a visible reduction in food waste. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">From Quantification to Minimization</head><p>The adoption of automated technology in foodservice not only facilitates wastage quantification but it also gives establishments with actionable measures. Restaurant own- Kitro applies a novel approach for automatic food classification using machine learning. The input data for this estimation includes a sequence of images captured by the camera and physical weight changes from the scale sensor. Once the items on the images have been classified, the analysis is presented in an online dashboard. The detailed findings of the food waste situation allow restaurant owners and executive chefs to make data-driven decisions. The expectation is that optimizing their work practices will lead to more resource-efficient processes and a significant reduction in food waste and food cost. No matter the method used to measure food waste, there is a clear benefit to quantifying the waste and sharing its impact and cost with management and kitchen staff. This is particularly the case for catering businesses <ref type="bibr" target="#b46">[48]</ref>. Past measurements prove that the mere act of food waste quantification already increased awareness within the property to the point that there was a visible reduction in food waste.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">From Quantification to Minimization</head><p>The adoption of automated technology in foodservice not only facilitates wastage quantification but it also gives establishments with actionable measures. Restaurant owners and executive chefs gain access to an online analytics dashboard, which gives them deep insights into their food waste components, quantities, cost and sources of waste. As a result, restaurant owners and executive chefs can take data-driven decisions to optimize work practices related to tracking progress on reduction targets and exploring mitigation strategies. At the managerial level, quantification enables new budgeting (inventory) tools for planning and control. Kitro's post-sale customer service further supports them by suggesting best practices and setting goals. Through external communication of their results foodservice establishments can increase their competitiveness not only through resource-efficient operations but also by portraying a positive image to their end consumers.</p><p>In past measurements with over 50 kitchens in Switzerland, Kitro achieved a maximum avoidable food waste reduction of 55% and food cost savings of 5%. Based on these historic results and external case studies by other food waste measurement solutions on the market by Food Loss+Waste <ref type="bibr" target="#b55">[57]</ref> and Winnows's cases studies <ref type="bibr" target="#b56">[58]</ref>, it is anticipated that avoidable food waste reductions of up to 70% are achievable. A case study conducted by Kitro employees in a luxury hotel in Switzerland showed that direct benefits of measuring food waste become apparent after only 5 weeks. In this study, the focus was the breakfast buffet where enormous amounts of eggs, sausage and bacon were thrown away. This was a previous blind spot for the chef as it went directly to the staff canteen and had never been measured. By changing the setup of the buffet, adjusting portion sizes and assigning one person responsible for refilling the buffet based on demand, they were able to significantly reduce their avoidable breakfast waste by more than 10kg per week resulting in cost savings of EUR 1500/USD 1800 in only 5 weeks.</p><p>Data-driven changes in kitchen operations that can drastically improve a restaurant's food margins are shown in another example. A staff canteen focused on serving local and seasonal food for sustainable reasons and had Brussel sprouts on offer multiple times a week. Every time these green vegetables went out for service, moments later they could be found in the trash bin. The recording of the returned food waste allowed the property to understand consumer preferences and change their menu offer.</p><p>Table <ref type="table" target="#tab_1">2</ref> outlines a summary of the case company's results per customer segment between 2017, 2018 and 2019. According to data collected by the case company, efforts invested in food waste mitigation can quickly pay off and lead to cost savings of CHF 25,000-150,000 per year (depending on outlet size, type, etc.).</p><p>The interviewed top executives emphasize that achieving sustainable operations is a holistic project that has to involve the whole team. They indicated that consistent communication within cross-departmental team members is key to success. The sustainability/marketing department should be just as involved in the process as the kitchen and service team to ensure that everyone plays their part. While the kitchen team focuses on analyzing the results and implementing changes in the kitchen, the service team will have to be briefed on what to tell customers in case portion sizes are smaller than before and if supplements can be requested. The marketing team can then create visibility by publishing the results in a concise manner in order to increase awareness. 25,000-150,000 1</p><p>1 Savings estimated for the three-year period.</p><p>Consistent with existing research, all interviewed experts pointed out that quantification of food waste to detect operational inefficiencies and improve operations has proven to be a valid method to produce quick results. Once initial waste reductions have been achieved, continuous measurement ensures that food waste levels are under control and do not fluctuate after changes in menus, seasons, or staff. Experts suggested that, like in most other aspects of business, relevant KPIs (key performance indictors) are key to performance improvements and therefore picking a KPI related to food efficiency/food waste should become a norm in F&amp;B outlets in the 21st century.</p><p>Interviews with senior executives from businesses that have decided not to invest in technological quantification solutions pointed out to potential resistance in market adoption as members of the kitchen team may be reluctant to take on waste control tasks. While the goal for food waste quantification is to support chefs in their work, it has also become apparent that some are worried about being criticized as a result of the waste measurements. Increased cost is another concern reported mainly from small-scale businesses. There seems to be a link between the organizational culture and the success of a food waste measurement system <ref type="bibr" target="#b57">[59]</ref>. Further studies would have to prove that assumption, but preliminary results based on past measurements show that in organizations where a "blaming culture" was practiced, staff members were scared of criticism, which ultimately led them to not use the system correctly. Therefore, it is crucial to shift the mindset of each individual and ensure that everyone in the company feels included in the project <ref type="bibr" target="#b14">[16,</ref><ref type="bibr" target="#b58">60]</ref>. This can be greatly facilitated by top management with an open communication and shared goal setting with involved parties <ref type="bibr" target="#b59">[61]</ref><ref type="bibr" target="#b60">[62]</ref><ref type="bibr" target="#b61">[63]</ref><ref type="bibr" target="#b62">[64]</ref><ref type="bibr" target="#b63">[65]</ref>.</p><p>Another reason slowing down rapid adoption is the fact that, in the first step potential, customers need to be educated on the impacts of food waste, not only on an environmental but also economical level. Food waste quantities are often underestimated by management, resulting in the food service industry missing out on this viable financial opportunity.</p><p>The substantial ROI of food waste reduction has been recognized only recently by the industry as long-term measurements become more accessible and feasible through enabling technology. For an industry that is constantly struggling with cost control, a trend for increasing market adoption of automated food waste management solutions can be expected.</p><p>Adopting technological SOI via collaborations with third-party tech companies can be a suitable, cost-effective way to supplement a foodservice company's standard operating activities, as the in-depth case study of a European startup providing innovative waste quantification technology suggests. The role of innovative solutions to lower costs and increase business sustainable development are of utmost importance in navigating through economic downturn and social uncertainty <ref type="bibr" target="#b64">[66]</ref><ref type="bibr" target="#b65">[67]</ref><ref type="bibr" target="#b66">[68]</ref><ref type="bibr" target="#b67">[69]</ref>. This is particularly the case in the current market conditions of extreme volatility by the COVID-19 virus pandemic <ref type="bibr" target="#b68">[70]</ref>.</p><p>This study contributes to recent research illustrating how wastage quantification SOI increases awareness. It helps assess environmental impacts, prompts change in behavior, improves management practice, enables establishments to track progress on reduction targets and explore mitigation strategies, and promotes new budgeting (inventory) for planning and control. Future research should address the precise nature of these managerial opportunities by means of cross-sectional, longitudinal studies. These are promising paths for future research on sustainability technological innovation, wastage quantification, and management <ref type="bibr" target="#b69">[71]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>This paper reports field data on food waste quantification methods and an in-depth case analysis of a startup company offering automatic technology for quantifying food waste. The topic of food waste has recently received increased media attention with an increasing number of initiatives being created in response to the problem. Consumers increasingly demand sustainable products and more regulations and standards. The tourism and food catering industries, including hotels and restaurants, must react to the increasing demands of their guests. From an applied perspective, SOI in the form of digital green solutions are potentially easy to implement and may have a big environmental impact without costing any additional money. It is surprising that technology-driven quantification, which is usually listed among the main innovations in sustainability articles on food waste management, has rarely been reported in applied research (for an exception <ref type="bibr" target="#b13">[15]</ref>). The importance of technology is particularly important for commercial foodservice activities because sophisticated food waste management is not often implemented in these establishments.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Kitro technology (from Kitro.ch).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Kitro technology (from Kitro.ch).</figDesc><graphic coords="7,164.19,285.50,108.63,175.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>Sustainability 2021, 13, x FOR PEER REVIEW 8 of 13</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Kitro technology (from Kitro.ch).</figDesc><graphic coords="7,169.98,615.50,219.00,149.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Kitro technology (from Kitro.ch).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Overview of the main food waste quantification service providers.</figDesc><table><row><cell>Company</cell><cell>Date of Establishment</cell><cell>Headquarters</cell><cell>Main Activity</cell><cell>Characteristics of the Technological SOI</cell></row><row><cell>LeanPath</cell><cell>2004</cell><cell>Portland, US</cell><cell>High volume kitchens (food not made-to-order)</cell><cell>A pool of tracking stations to measure food waste</cell></row><row><cell>LightBlue</cell><cell>2012</cell><cell>Singapore</cell><cell>Commercial kitchens</cell><cell>FIT Food Waste Monitoring Tech</cell></row><row><cell>Winnow Solution</cell><cell>2013</cell><cell>London, UK</cell><cell>High volume and commercial kitchens</cell><cell>Patented smart meter technology attached to food waste bin</cell></row><row><cell>Kitro</cell><cell>2017</cell><cell>Zurich, Switzerland</cell><cell>Commercial kitchens</cell><cell>Automatic food waste classification using machine learning</cell></row><row><cell>Orbisk</cell><cell>2019</cell><cell>Utrecht, Netherlands</cell><cell>Commercial kitchens (food made-to-order)</cell><cell>Computer vision and AI data recording terminal</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Kitro results with selected test customers (2017-2019).</figDesc><table><row><cell>Main Facts</cell><cell>Canteens</cell><cell>Hotels</cell><cell>Restaurants</cell></row><row><cell>% of total test customers</cell><cell>34%</cell><cell>34%</cell><cell>31%</cell></row><row><cell>Average size (seats)</cell><cell>275</cell><cell>150</cell><cell>340</cell></row><row><cell>Average reduction of avoidable food waste</cell><cell>20-50%</cell><cell>25-60%</cell><cell>15-40%</cell></row><row><cell>Average savings (CHF)</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Funding: This research received no external funding.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Institutional Review Board Statement: Not applicable.</head><p>Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Data sharing not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Tackling the 1.6-Billion-Ton Food Loss and Waste Crisis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hegnsholt</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Boston Consulting Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Unnikrishnan</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Boston Consulting Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pollmann-Larsen</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Boston Consulting Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Askelsdottir</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Boston Consulting Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gerard</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">The Boston Consulting Group</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Geneva, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The State of Food Insecurity in the World</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">FAO</biblScope>
+			<pubPlace>Rome, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">50 Years of Broken Promises: The $5.7 Trillion Debt Owed to the Poorest People</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Seery</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">1787486737. 2020</date>
+			<publisher>Oxfam: Oxford, UK</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">PRB Data Center Highlights Role of Youth in Combatting Noncommunicable Diseases</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kaneda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Greenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Ashford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jarosz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scommegna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Haub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Patierno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PRB Report</title>
+		<imprint>
+			<biblScope unit="volume">PRB</biblScope>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The Future of Food and Agriculture-Alternative Pathways to</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2050. 2018</date>
+			<biblScope unit="volume">FAO</biblScope>
+			<pubPlace>Rome, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Quantification of food waste per product group along the food supply chain in the European Union: A mass flow analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caldeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>De Laurentiis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Holsteijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sala</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2019.06.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="479" to="488" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Reducing Food Loss and Waste</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lipinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lomax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitinoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Waite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Searchinger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">WRI</biblScope>
+			<biblScope unit="page" from="1" to="40" />
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reducing food&apos;s environmental impacts through producers and consumers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Poore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nemecek</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaq0216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="987" to="992" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Total and per capita value of food loss in the United States</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Buzby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hyman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodpol.2012.06.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Food Policy</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="561" to="570" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Estimates of European Food Waste Levels</title>
+		<author>
+			<persName><forename type="first">Â</forename><surname>Stenmarck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Quested</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buksti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cseh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Juul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Politano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Redlingshofer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<pubPlace>Stockholm, Sweden</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>IVL Swedish Environmental Research Institute</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Sustainability-oriented innovation: A systematic review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeanrenaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bessant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Denyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Overy</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ijmr.12068</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Manag. Rev</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="180" to="205" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sustainability-oriented innovation of SMEs: A systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klewitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2013.07.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="57" to="75" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The tree structure-A general framework for food waste quantification in food services</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Osowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Björkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Malefors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2017.11.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="140" to="151" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Towards a baseline for food waste quantification in the hospitality sector-Quantities and data processing criteria</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Malefors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Callewaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-A</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartikainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pietiläinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Strid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strotmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su11133541</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">3541</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hospitality innovation strategies: An analysis of success factors and challenges</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martín-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ciobanu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tourman.2018.08.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tour. Manag</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="218" to="229" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Environmental sustainability assessment of food waste valorization options</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vandermeersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alvarenga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ragaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dewulf</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2014.03.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">What is the true value of food waste? A case study of technology integration in urban food waste treatment in Suzhou City</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Clercq</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2015.12.087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">China. J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="88" to="96" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Design, implementation, and evaluation of an Internet of Things (IoT) network system for restaurant food waste management</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Clercq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2017.11.054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="26" to="38" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Food waste management innovations in the foodservice industry</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Demen-Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gössling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cornuz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2018.07.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="196" to="206" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">How can food loss and waste management achieve sustainable development goals?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lemaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Limbourg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2019.06.226</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="1221" to="1234" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Recommendations and Guidelines for a Common European Food Waste Policy Framework</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vittuari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Azzurro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gheoldus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burgos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aramyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Östergren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Timmermans</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">FUSIONS</biblScope>
+			<pubPlace>Bologna, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Food waste management in hospitality operations: A critical review</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Filimonau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delysia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tourman.2018.10.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tour. Manag</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="234" to="245" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Korea Zero Waste Management Network</title>
+		<author>
+			<persName><surname>Kzwmn</surname></persName>
+		</author>
+		<ptr target="http://www.waste21.or.kr/html/eng.asp" />
+		<imprint>
+			<date type="published" when="2020-12-18">18 December 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">How do hotels manage food waste? evidence from hotels in Orlando</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Okumus</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/19368623.2019.1618775</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Florida. J. Hosp. Mark. Manag</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="291" to="309" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Patterns and Causes of Food Waste in the Hospitality and Food Service Sector: Food Waste Prevention Insights from Malaysia</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papargyropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Steinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Padfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ujang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su11216016</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">6016</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Food Wastage Footprint</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Full-Cost Accounting</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<pubPlace>Rome, Italy</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Collaborative open foresight-A new approach for inspiring discontinuous and sustainabilityoriented innovations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gattringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Strehl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.techfore.2018.07.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Technol. Forecast. Soc. Chang</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<date type="published" when="2020">2020. 119370</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Business models for sustainable innovation: State-of-the-art and steps towards a research agenda</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lüdeke-Freund</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2012.07.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="9" to="19" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Potential environmental benefits from food waste prevention in the food service sector</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hellweg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resconrec.2019.03.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Resour. Conserv. Recycl</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="169" to="178" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Fostering sustainability-oriented service innovation (SOSI) through business model renewal: The SOSI tool</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Calabrese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Forte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Ghiron</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2018.08.102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page" from="783" to="791" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Food waste case study and monitoring developing in Finnish food services</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Silvennoinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nisonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pietiläinen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2019.07.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="97" to="104" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Can digital solutions help in the minimization of out-of-home waste? An analysis from the client and business perspective</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Principato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mattia</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/BFJ-03-2019-0205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. Food J</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1341" to="1359" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Feed the World: How Two Startups Are Tackling Food Waste</title>
+		<author>
+			<persName><surname>Forbes</surname></persName>
+		</author>
+		<ptr target="https://www.forbes.com/sites/heatherfarmbrough/2018/12/20/feeding-the-world-how-two-startups-are-tackling-food-waste" />
+		<imprint>
+			<date type="published" when="2020-12-18">18 December 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Towards zero waste: An exploratory study on restaurant managers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Principato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Pratesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhm.2018.02.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hosp. Manag</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="130" to="137" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Passively concerned: Horeca managers&apos; recognition of the importance of food waste hardly leads to the adoption of more strategies to reduce it</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vizzoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tessitore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Iraldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Testa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2020.04.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="266" to="275" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Reduction of food waste generation in the hospitality industry</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Pirani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Arafat</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2015.07.146</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="129" to="145" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The determinants of consumer engagement in restaurant food waste mitigation in Poland: An exploratory study</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Filimonau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Matute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kubal-Czerwi Ńska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Krzesiwo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mika</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2019.119105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean</title>
+		<imprint/>
+	</monogr>
+	<note>Prod. 2020, 247, 119105. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Qualitative case studies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Stake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Sage Handbook of Qualitative Research</title>
+		<editor>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Denzin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lincoln</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Los Angeles, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage Publications</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="443" to="466" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Economic and environmental analysis of four different configurations of anaerobic digestion for food waste to energy conversion using LCA for: A food service provider case study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Franchetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jenvman.2013.03.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="42" to="48" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Generation and collection of restaurant waste: Characterization and evaluation at a case study in Italy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tatàno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caramiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tripolone</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2017.01.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="423" to="442" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Building theories from case study research</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Eisenhardt</surname></persName>
+		</author>
+		<idno type="DOI">10.5465/amr.1989.4308385</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acad. Manag. Rev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="532" to="550" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Theory building from cases: Opportunities and challenges</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Eisenhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Graebner</surname></persName>
+		</author>
+		<idno type="DOI">10.5465/amj.2007.24160888</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acad. Manag. J</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="25" to="32" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Case Study Research and Applications: Design and Methods</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Yin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Sage Publications</publisher>
+			<pubPlace>Thousand Oaks, CA, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The opportunity of tracking food waste in school canteens: Guidelines for self-assessment</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Derqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2017.07.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="431" to="444" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">System and Method for Monitoring Food Waste</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mekhsian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zornes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">U.S. Patent</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019-05-14">14 May 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Data-Backed Stories That Drive Change</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Foundation</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Winnow</surname></persName>
+		</author>
+		<ptr target="https://www.ellenmacarthurfoundation.org/case-studies/data-backed-stories-that-drive-change" />
+		<imprint>
+			<date type="published" when="2020-12-18">18 December 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Systems and Methods for Food Waste Monitoring</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Shakman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Leppo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">U.S. Patent</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2008-08-19">19 August 2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Demand Forecasts to Optimize Purchase Planning</title>
+		<author>
+			<persName><forename type="first">Delicious</forename><surname>Data</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gmbh</forename></persName>
+		</author>
+		<ptr target="https://www.delicious-data.com/en/home" />
+		<imprint>
+			<date type="published" when="2020-12-18">18 December 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">The Pledge on Food Waste</title>
+		<author>
+			<persName><surname>Lightblue</surname></persName>
+		</author>
+		<ptr target="https://www.thepledgeonfoodwaste.org/" />
+		<imprint>
+			<date type="published" when="2020-12-18">18 December 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Reducing food waste in hotel kitchens based on self-reported data</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leverenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moussawel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kranert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schmidt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.indmarman.2020.08.008</idno>
+		<imprint/>
+	</monogr>
+	<note>Ind. Mark. Manag. 2020, in press. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Tackling the issue of food waste in restaurants: Options for measurement method, reduction and behavioral change</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sakaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Potts</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2017.12.136</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clean. Prod</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="430" to="436" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Food waste accounting methodologies: Challenges, opportunities, and further advancements</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caldeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Hanssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-E</forename><surname>Hauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Holsteijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Östergren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Secondi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gfs.2019.01.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Food Secur</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="93" to="100" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Technology solutions to reduce food waste in Asia-Pacific hospitality and restaurants</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zizka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pasamar</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kitro</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10941665.2020.1773513</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Asia Pac. J. Tour. Res</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Food waste in the Swiss food service industry-Magnitude and potential for reduction</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Betz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buchli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2014.09.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="218" to="226" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Discourse coalitions in Swiss waste management: Gridlock or winds of change?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duygan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stauffacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meylan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2017.11.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Manag</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="25" to="44" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clowes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanson</surname></persName>
+		</author>
+		<title level="m">The Business Case for Reducing Food Loss and Waste: Hotels; A report on behalf of Champions; Champions 12.3: Amsterdam</title>
+		<meeting><address><addrLine>The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Videos and Case Studies</title>
+		<author>
+			<persName><surname>Winnow</surname></persName>
+		</author>
+		<ptr target="https://www.winnowsolutions.com/en/casestudies" />
+		<imprint>
+			<date type="published" when="2020-12-18">18 December 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Tackling food waste in all-inclusive resort hotels</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Okumus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Taheri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Giritlioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhm.2020.102543</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hosp. Manag</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<date type="published" when="2020">2020. 102543</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Am I doing the right thing? Unpacking workplace rituals as mechanisms for strong organizational culture</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Erhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Heckscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhm.2016.08.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hosp. Manag</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="31" to="41" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Value co-creation in sport entertainment between internal and external stakeholders</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Erhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/IJCHM-03-2018-0244</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Contemp. Hosp. Manag</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="4192" to="4210" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A cross-country comparison of accommodation manager perspectives on online review manipulation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gössling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zeiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I.-P</forename><surname>Grøtte</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13683500.2018.1455171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Issues Tour</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1744" to="1763" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">The social production of food waste at the retail-consumption interface</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Audet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">É</forename><surname>Brisebois</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su11143834</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Can sustainable restaurant practices enhance customer loyalty? The roles of value theory and environmental concerns</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jhtm.2020.03.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hosp. Tour. Manag</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="127" to="138" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Data Science Solutions for Retail Strategy to Reduce Waste Keeping High Profit</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sakoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takayasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takayasu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su11133589</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">3589</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Small business activity and knowledge exchange in informal interfirm networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Erhardt</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0266242616667540</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Small Bus. J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="285" to="305" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Service response to economic decline: Innovation actions for achieving strategic renewal</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Parga-Dans</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbusres.2015.12.058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bus. Res</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="2890" to="2900" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The early bird gets the worm, but the second mouse gets the cheese: Non-technological innovation in creative industries</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Parga-Dans</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/caim.12131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Creat. Innov. Manag</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="6" to="17" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Service innovation in times of economic crisis: The strategic adaptation activities of the top EU service firms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin-Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pasamar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R&amp;D Manag</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="195" to="209" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Pandemics, tourism and global change: A rapid assessment of COVID-19</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gössling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09669582.2020.1758708</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sustain. Tour</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Assessing the environmental impacts of halving food loss and waste along the food supply chain</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">D</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cuéllar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gephart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Marston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Muth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scitotenv.2019.136255</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<date type="published" when="2020">2020. 136255</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
